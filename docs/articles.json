@@ -6,12 +6,27 @@
     "source_url": "https://x.com",
     "source_domain": "x.com",
     "link": "https://x.com/JDVance",
-    "published": "2026-03-27T20:28:04.520300+00:00",
+    "published": "2026-03-27T20:33:53.605843+00:00",
     "published_display": "Mar 27, 2026",
     "query": "social",
     "image": "",
     "real_url": "https://x.com/JDVance",
     "bias": "?",
+    "topic": "General"
+  },
+  {
+    "id": "68593475106c",
+    "title": "Singham colludes with CCP to rewrite history of WWII to advance Xi Jinping\u2019s \u2018new world order\u2019",
+    "source": "Just The News - Not The Noise",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://justthenews.com/government/security/singham-colludes-ccp-undercut-us-victory-wwii-advance-xi-jinpings-new-world?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "published": "2026-03-27T20:33:49.497812+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "direct_feed",
+    "image": "https://justthenews.com/sites/default/files/styles/social_media_share/public/2026-03/GettyImages-2266099598.jpg?h=c317228e&itok=9cqdUDz5",
+    "real_url": "https://justthenews.com/government/security/singham-colludes-ccp-undercut-us-victory-wwii-advance-xi-jinpings-new-world?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "bias": "LR",
     "topic": "General"
   },
   {
@@ -24,11 +39,10 @@
     "published": "2026-03-27T20:05:15+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/d0131acd87e8.webp",
+    "image": "https://www.washingtonexaminer.com/wp-content/uploads/2025/05/AP25092832214232-scaled.webp?resize=1200,683",
     "real_url": "https://www.washingtonexaminer.com/opinion/4505451/rubio-should-not-run-2028-vance-will-win/",
     "bias": "LR",
-    "topic": "General",
-    "image_remote": "https://www.washingtonexaminer.com/wp-content/uploads/2025/05/AP25092832214232-scaled.webp?resize=1200,683"
+    "topic": "General"
   },
   {
     "id": "0455da6bc3fb",
@@ -40,11 +54,10 @@
     "published": "2026-03-27T19:42:04+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/0455da6bc3fb.jpg",
+    "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/vance-miller.jpeg",
     "real_url": "https://www.foxnews.com/politics/miller-pledges-new-vance-fraud-task-force-demolish-social-services-corruption",
     "bias": "R",
-    "topic": "Immigration",
-    "image_remote": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/vance-miller.jpeg"
+    "topic": "Immigration"
   },
   {
     "id": "49b3d9ad3a36",
@@ -56,15 +69,14 @@
     "published": "2026-03-27T19:39:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/49b3d9ad3a36.jpg",
+    "image": "https://www.nj.com/resizer/v2/CZE3G4VZJ5HTDFY2VQ4GF2NNJM.jpg?auth=cefc4af6c32c78a46fa4bc8d856b06245cbf32655ee3dbd95da7166578dc899f&width=1280&smart=true&quality=90",
     "real_url": "https://www.nj.com/politics/2026/03/white-house-hopeful-fears-a-more-damaging-republican-than-trump-may-emerge-in-2028.html",
     "bias": "?",
-    "topic": "2028 Race",
-    "image_remote": "https://www.nj.com/resizer/v2/CZE3G4VZJ5HTDFY2VQ4GF2NNJM.jpg?auth=cefc4af6c32c78a46fa4bc8d856b06245cbf32655ee3dbd95da7166578dc899f&width=1280&smart=true&quality=90"
+    "topic": "2028 Race"
   },
   {
-    "id": "ef1e82c2a4af",
-    "title": "\u2018We love our dorks\u2019: JD Vance responds to popular podcaster\u2019s MAGA insult - al.com",
+    "id": "51116d635f19",
+    "title": "\u2018We love our dorks\u2019: JD Vance responds to popular podcaster\u2019s MAGA insult - AL.com",
     "source": "AL.com",
     "source_url": "https://www.al.com",
     "source_domain": "www.al.com",
@@ -72,11 +84,10 @@
     "published": "2026-03-27T19:37:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/ef1e82c2a4af.jpg",
+    "image": "https://www.al.com/resizer/v2/FSG3H6VWAJAGLBHQ3MR5JIDLSU.jpg?auth=833593f108ea8df0f19395c272e94066e7c40e7250a20e04dc6305b5bac9516e&width=1280&smart=true&quality=90",
     "real_url": "https://www.al.com/politics/2026/03/we-love-our-dorks-jd-vance-responds-to-popular-podcasters-maga-insult.html",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://www.al.com/resizer/v2/FSG3H6VWAJAGLBHQ3MR5JIDLSU.jpg?auth=833593f108ea8df0f19395c272e94066e7c40e7250a20e04dc6305b5bac9516e&width=1280&smart=true&quality=90"
+    "topic": "General"
   },
   {
     "id": "aa079321d603",
@@ -88,11 +99,10 @@
     "published": "2026-03-27T19:33:08+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/aa079321d603.png",
+    "image": "https://wfin.com/wp-content/uploads/2018/03/WFIN-AM-FM-logo.png",
     "real_url": "https://wfin.com/fox-political-news/vance-says-biden-admin-turned-off-anti-fraud-protections-debuts-new-task-force-with-focus-on-somali-schemes/",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://wfin.com/wp-content/uploads/2018/03/WFIN-AM-FM-logo.png"
+    "topic": "General"
   },
   {
     "id": "fdba6129e9e8",
@@ -104,27 +114,10 @@
     "published": "2026-03-27T19:29:37+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vice President Vance",
-    "image": "img/fdba6129e9e8.jpg",
+    "image": "https://www.usmagazine.com/wp-content/uploads/2026/03/Promo-Tristan-Thompson-Pics-With-JD-Vance-and-RFK-Jr-.jpg?crop=0px%2C0px%2C2000px%2C1051px&resize=1200%2C630&quality=86&strip=all",
     "real_url": "https://www.usmagazine.com/celebrity-news/news/tristan-thompson-beams-while-meeting-vice-president-jd-vance/",
     "bias": "?",
-    "topic": "Immigration",
-    "image_remote": "https://www.usmagazine.com/wp-content/uploads/2026/03/Promo-Tristan-Thompson-Pics-With-JD-Vance-and-RFK-Jr-.jpg?crop=0px%2C0px%2C2000px%2C1051px&resize=1200%2C630&quality=86&strip=all"
-  },
-  {
-    "id": "ff51f08edee8",
-    "title": "JD Vance takes aim at Minnesota, Somalis ahead of anti-fraud task force meeting - Yahoo",
-    "source": "Yahoo",
-    "source_url": "https://www.yahoo.com",
-    "source_domain": "www.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMTBibUhMMVl6X1VDOWtDcjIxT0NjV0JCOGMxNlJxU1dXZGdyODR5VjJSdEx1dlVseU5TcEpxSEh6WW9KbmJMYnl0MzBqNmxESWYwaS1hcVkxWnpOREhPS0Q1VURJMGQ3WHhBUmJTSnVvYVE2NTNrYXFSc3YxUkU3ekxFQnBaQQ?oc=5",
-    "published": "2026-03-27T19:26:13+00:00",
-    "published_display": "Mar 27, 2026",
-    "query": "JD Vance",
-    "image": "img/ff51f08edee8.jpg",
-    "real_url": "https://www.yahoo.com/news/articles/jd-vance-takes-aim-minnesota-192613784.html",
-    "bias": "C",
-    "topic": "General",
-    "image_remote": "https://s.yimg.com/os/en/united_press_international_articles_356/c605b4d07a1434d238982cf293230c2f"
+    "topic": "Immigration"
   },
   {
     "id": "43d83d050c48",
@@ -135,12 +128,11 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMnBOMExKY0ZhZEZ2R1diOVpMQTN1M3ljaUg5M3FEM2hYeHlSY2NNbkhPQlNMQTkzVm4tUTV0bmhPZ0VSQnY2aHJkdUdvaUU0VXo2bVNVQ0ROSzZGam9pUWV5aHloYkl6bHFHZ3poQ3NHWWRBM1NoeFdxWTBYSzZjRHM3RjdzblkwNzNDWlNnemEtd9IBlwFBVV95cUxPRHhoSWY4Z3hjZF81b0FZS0Q1RmNYNVZ6OUZfcXRtYnMwYkJHRnBZQ2lTanBwNmlYcnFQQVo5LXJSQktsZzVFczJxVEJLZnZ4OXgwemVwNWdhZ2xlMmV6ZVBRNVdVQTJ2cW5UVEU5cS1DTGdDUjloSjNzR29ldkJWZG12dWpNYzRfQm9ZTUZnaGp5ZkxQTnVN?oc=5",
     "published": "2026-03-27T19:26:13+00:00",
     "published_display": "Mar 27, 2026",
-    "query": "Vice President Vance",
-    "image": "img/43d83d050c48.jpg",
+    "query": "JD Vance",
+    "image": "https://cdnph.upi.com/sv/ph/og/upi/9771774633054/2026/1/6ebedf913c00e5fca82a5327440079bc/v1.5/JD-Vance-targets-Minnesota-Somalis-ahead-of-anti-fraud-meeting.jpg",
     "real_url": "https://www.upi.com/Top_News/US/2026/03/27/JD-Vance-anti-fraud-task-force/9771774633054/",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://cdnph.upi.com/sv/ph/og/upi/9771774633054/2026/1/6ebedf913c00e5fca82a5327440079bc/v1.5/JD-Vance-targets-Minnesota-Somalis-ahead-of-anti-fraud-meeting.jpg"
+    "topic": "General"
   },
   {
     "id": "ac0d382ef2dd",
@@ -152,11 +144,10 @@
     "published": "2026-03-27T19:18:56+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance immigration",
-    "image": "img/ac0d382ef2dd.jpg",
+    "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/03/AP26029009093637.jpg?resize=1200,683",
     "real_url": "https://www.washingtonexaminer.com/news/white-house/4506963/vance-go-after-omar-immigration-fraud-allegations-married-brother/",
     "bias": "LR",
-    "topic": "Immigration",
-    "image_remote": "https://www.washingtonexaminer.com/wp-content/uploads/2026/03/AP26029009093637.jpg?resize=1200,683"
+    "topic": "Immigration"
   },
   {
     "id": "5a8e2ada4fcd",
@@ -198,11 +189,25 @@
     "published": "2026-03-27T19:00:32+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vice President Vance",
-    "image": "img/bed155c36151.jpg",
+    "image": "https://idahonews.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg",
     "real_url": "https://idahonews.com/news/nation-world/vance-holds-first-meeting-of-task-for-to-eliminate-fraud-amid-minnesota-medicaid-pause-vice-president-federal-trade-commission-andrew-ferguson-stephen-miller-dr-oz",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://idahonews.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg"
+    "topic": "General"
+  },
+  {
+    "id": "7920afa5041a",
+    "title": "Here\u2019s Vance\u2019s Plan To Attack $250 Billion In Annual Fraud Losses",
+    "source": "The Federalist",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://thefederalist.com/2026/03/27/heres-vances-plan-to-attack-250-billion-in-annual-fraud-losses/?utm_source=rss&utm_medium=rss&utm_campaign=heres-vances-plan-to-attack-250-billion-in-annual-fraud-losses",
+    "published": "2026-03-27T18:54:31+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "direct_feed",
+    "image": "https://thefederalist.com/wp-content/uploads/2026/03/IMG_6089-scaled.jpeg",
+    "real_url": "https://thefederalist.com/2026/03/27/heres-vances-plan-to-attack-250-billion-in-annual-fraud-losses/?utm_source=rss&utm_medium=rss&utm_campaign=heres-vances-plan-to-attack-250-billion-in-annual-fraud-losses",
+    "bias": "R",
+    "topic": "Domestic"
   },
   {
     "id": "ac67b23284ad",
@@ -211,7 +216,7 @@
     "source_url": "https://x.com",
     "source_domain": "x.com",
     "link": "https://x.com/VP",
-    "published": "2026-03-27T18:28:04.520300+00:00",
+    "published": "2026-03-27T18:33:53.605843+00:00",
     "published_display": "Mar 27, 2026",
     "query": "social",
     "image": "",
@@ -229,11 +234,10 @@
     "published": "2026-03-27T18:23:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/398a16b33a4a.jpg",
+    "image": "https://gray-kbjr-prod.gtv-cdn.com/resizer/v2/2DO5KYQIKNFSDM3AGAOBKINHAY.jpg?auth=219ea8f20a70f9dc425cb14d9c437bc04a14f8d348df0cf929497036173005a1&width=1200&height=600&smart=true",
     "real_url": "https://www.northernnewsnow.com/2026/03/27/vance-convenes-first-white-house-anti-fraud-task-force-meeting/",
     "bias": "C",
-    "topic": "Domestic",
-    "image_remote": "https://gray-kbjr-prod.gtv-cdn.com/resizer/v2/2DO5KYQIKNFSDM3AGAOBKINHAY.jpg?auth=219ea8f20a70f9dc425cb14d9c437bc04a14f8d348df0cf929497036173005a1&width=1200&height=600&smart=true"
+    "topic": "Domestic"
   },
   {
     "id": "5bbae28a0b49",
@@ -245,11 +249,10 @@
     "published": "2026-03-27T18:12:22+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/5bbae28a0b49.jpg",
+    "image": "https://news3lv.com/resources/media2/16x9/4892/1320/0x255/90/51872f7f-2b5d-4c5a-b56b-13adc63c0af8-GettyImages2268630622.jpg",
     "real_url": "https://news3lv.com/news/nation-world/jd-vance-rips-into-netanyahu-in-phone-call-over-iran-war-report-white-house-middle-east-fox-news-jesse-waters",
     "bias": "?",
-    "topic": "Iran",
-    "image_remote": "https://news3lv.com/resources/media2/16x9/4892/1320/0x255/90/51872f7f-2b5d-4c5a-b56b-13adc63c0af8-GettyImages2268630622.jpg"
+    "topic": "Iran"
   },
   {
     "id": "7d4e43a65f08",
@@ -276,11 +279,10 @@
     "published": "2026-03-27T18:09:15+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/9cf3df15d7f9.jpg",
+    "image": "https://www.audacy.com/media-library/vice-president-jd-vance-chair-of-the-newly-formed-task-force-to-eliminate-fraud-speaks-during-the-task-force-s-first-meeting-i.jpg?id=65416654&width=1200&height=600&coordinates=0%2C85%2C0%2C85",
     "real_url": "https://www.audacy.com/wccoradio/news/local/vance-holds-anti-fraud-meeting",
     "bias": "C",
-    "topic": "Immigration",
-    "image_remote": "https://www.audacy.com/media-library/vice-president-jd-vance-chair-of-the-newly-formed-task-force-to-eliminate-fraud-speaks-during-the-task-force-s-first-meeting-i.jpg?id=65416654&width=1200&height=600&coordinates=0%2C85%2C0%2C85"
+    "topic": "Immigration"
   },
   {
     "id": "1da372184d16",
@@ -292,11 +294,10 @@
     "published": "2026-03-27T17:53:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/1da372184d16.jpg",
+    "image": "https://www.themarysue.com/wp-content/uploads/2025/07/GettyImages-2225081794.jpg",
     "real_url": "https://www.themarysue.com/jd-vance-fearmongers-over-iranian-explosive-nuclear-vest-to-justify-the-war/",
     "bias": "L",
-    "topic": "Iran",
-    "image_remote": "https://www.themarysue.com/wp-content/uploads/2025/07/GettyImages-2225081794.jpg"
+    "topic": "Iran"
   },
   {
     "id": "281056a53abe",
@@ -308,11 +309,10 @@
     "published": "2026-03-27T17:46:58+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vice President Vance",
-    "image": "img/281056a53abe.jpg",
+    "image": "https://wach.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg",
     "real_url": "https://wach.com/news/nation-world/vance-holds-first-meeting-of-task-for-to-eliminate-fraud-amid-minnesota-medicaid-pause-vice-president-federal-trade-commission-andrew-ferguson-stephen-miller-dr-oz",
     "bias": "?",
-    "topic": "Healthcare",
-    "image_remote": "https://wach.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg"
+    "topic": "Healthcare"
   },
   {
     "id": "453957a46f89",
@@ -324,11 +324,10 @@
     "published": "2026-03-27T17:45:14+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vice President Vance",
-    "image": "img/453957a46f89.jpg",
+    "image": "https://foxbaltimore.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg",
     "real_url": "https://foxbaltimore.com/news/nation-world/vance-holds-first-meeting-of-task-for-to-eliminate-fraud-amid-minnesota-medicaid-pause-vice-president-federal-trade-commission-andrew-ferguson-stephen-miller-dr-oz",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://foxbaltimore.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg"
+    "topic": "General"
   },
   {
     "id": "bb638affbf28",
@@ -340,11 +339,10 @@
     "published": "2026-03-27T17:44:10+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/bb638affbf28.jpg",
+    "image": "https://foxsanantonio.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg",
     "real_url": "https://foxsanantonio.com/news/nation-world/vance-holds-first-meeting-of-task-for-to-eliminate-fraud-amid-minnesota-medicaid-pause-vice-president-federal-trade-commission-andrew-ferguson-stephen-miller-dr-oz",
     "bias": "C",
-    "topic": "General",
-    "image_remote": "https://foxsanantonio.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg"
+    "topic": "General"
   },
   {
     "id": "efcdef4bbfa5",
@@ -356,11 +354,10 @@
     "published": "2026-03-27T17:41:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/efcdef4bbfa5.jpg",
+    "image": "https://www.thedailybeast.com/resizer/v2/M3MLFSMB4RHOTFU6HI6L2MTF5Y.jpg?smart=true&auth=b722ed8edaf8541e207f19beb492267aed0911883e3b0ed75927343ba8223505&width=1200&height=630",
     "real_url": "https://www.thedailybeast.com/trump-goons-accuse-us-ally-of-conducting-jd-vance-smear-campaign/",
     "bias": "L",
-    "topic": "2028 Race",
-    "image_remote": "https://www.thedailybeast.com/resizer/v2/M3MLFSMB4RHOTFU6HI6L2MTF5Y.jpg?smart=true&auth=b722ed8edaf8541e207f19beb492267aed0911883e3b0ed75927343ba8223505&width=1200&height=630"
+    "topic": "2028 Race"
   },
   {
     "id": "604718887b5e",
@@ -402,11 +399,10 @@
     "published": "2026-03-27T17:28:43+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/a5c79d0f1cad.jpg",
+    "image": "https://cbsaustin.com/resources/media2/16x9/4892/1320/0x255/90/51872f7f-2b5d-4c5a-b56b-13adc63c0af8-GettyImages2268630622.jpg",
     "real_url": "https://cbsaustin.com/news/nation-world/jd-vance-rips-into-netanyahu-in-phone-call-over-iran-war-report-white-house-middle-east-fox-news-jesse-waters",
     "bias": "C",
-    "topic": "Iran",
-    "image_remote": "https://cbsaustin.com/resources/media2/16x9/4892/1320/0x255/90/51872f7f-2b5d-4c5a-b56b-13adc63c0af8-GettyImages2268630622.jpg"
+    "topic": "Iran"
   },
   {
     "id": "c88a0e4a6e75",
@@ -418,11 +414,10 @@
     "published": "2026-03-27T17:27:04+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/c88a0e4a6e75.jpg",
+    "image": "https://ca-times.brightspotcdn.com/dims4/default/01e564d/2147483647/strip/true/crop/5855x3074+0+415/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F74%2F11%2F67decf5a4b37bd4b15a2032e54db%2F3a120a5e91fd49ffbf6b5901ec3e0a7a.jpg",
     "real_url": "https://www.latimes.com/world-nation/story/2026-03-27/vance-holds-first-meeting-of-new-anti-fraud-task-force-targeting-benefit-programs",
     "bias": "LL",
-    "topic": "General",
-    "image_remote": "https://ca-times.brightspotcdn.com/dims4/default/01e564d/2147483647/strip/true/crop/5855x3074+0+415/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F74%2F11%2F67decf5a4b37bd4b15a2032e54db%2F3a120a5e91fd49ffbf6b5901ec3e0a7a.jpg"
+    "topic": "General"
   },
   {
     "id": "3a2ba3677e29",
@@ -440,20 +435,19 @@
     "topic": "Iran"
   },
   {
-    "id": "2228dda7e2c0",
-    "title": "JD Vance rips into Netanyahu in phone call over Iran war: report - WGXA",
-    "source": "WGXA",
-    "source_url": "https://wgxa.tv",
-    "source_domain": "wgxa.tv",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMjJRUlhicDFVOVB5UHdkY2kyaDc3RjhBOE14OTFvUDF1S1lRMWFWdkwtR0VweGdyRTc4ZmlMa1E4S2lKZllZYzYxTmZmdlNmUEJXUUVzNUtoeE5PWWZHYktkRXJPbGd5TmptV1MyTi1VZV9UNDNtZ0ZLbjhyZm8zTE1adDZzSWxmNDdCY0tpX3BqUEQxdmNiLWpvM1FzUTJTR0taY2VaRXh3ZWlfQ0RnZkc1a2lpY2xBaVB2QTItaVkwSGo0RTJWNUdLb2k1X0xTd1Z1RzY0bDZwemc?oc=5",
-    "published": "2026-03-27T17:26:15+00:00",
+    "id": "d2e1e76ea452",
+    "title": "Ex-Brookfield VP Claims Wrongful Firing Over Charlie Kirk Post",
+    "source": "Bloomberg Politics",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-03-27/ex-brookfield-vp-claims-wrongful-firing-over-charlie-kirk-post",
+    "published": "2026-03-27T17:24:26+00:00",
     "published_display": "Mar 27, 2026",
-    "query": "JD Vance",
-    "image": "img/2228dda7e2c0.jpg",
-    "real_url": "https://wgxa.tv/news/nation-world/jd-vance-rips-into-netanyahu-in-phone-call-over-iran-war-report-white-house-middle-east-fox-news-jesse-waters",
-    "bias": "C",
-    "topic": "Iran",
-    "image_remote": "https://wgxa.tv/resources/media2/16x9/4892/1320/0x255/90/51872f7f-2b5d-4c5a-b56b-13adc63c0af8-GettyImages2268630622.jpg"
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.bloomberg.com/news/articles/2026-03-27/ex-brookfield-vp-claims-wrongful-firing-over-charlie-kirk-post",
+    "bias": "LL",
+    "topic": "General"
   },
   {
     "id": "85a0dec707cd",
@@ -465,11 +459,25 @@
     "published": "2026-03-27T17:24:17+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vice President Vance",
-    "image": "img/85a0dec707cd.jpg",
+    "image": "https://newschannel9.com/resources/media2/16x9/4892/1320/0x255/90/51872f7f-2b5d-4c5a-b56b-13adc63c0af8-GettyImages2268630622.jpg",
     "real_url": "https://newschannel9.com/news/nation-world/jd-vance-rips-into-netanyahu-in-phone-call-over-iran-war-report-white-house-middle-east-fox-news-jesse-waters",
     "bias": "?",
-    "topic": "Iran",
-    "image_remote": "https://newschannel9.com/resources/media2/16x9/4892/1320/0x255/90/51872f7f-2b5d-4c5a-b56b-13adc63c0af8-GettyImages2268630622.jpg"
+    "topic": "Iran"
+  },
+  {
+    "id": "5ddd535610f2",
+    "title": "JD Vance rips into Netanyahu in phone call over Iran war: report - KOMO",
+    "source": "KOMO",
+    "source_url": "https://komonews.com",
+    "source_domain": "komonews.com",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUDdjakVMWWd2WURkRG5MVkRKS290WWxCOU1WR29qRnNHQUNJb3V3VXJLYWd4LVdwS255S0w0SFNoNGV6ekdHOFZvODF2ZUlqYmo3dWphVHdwXy1aeFdFaUJYNURGME1TUUtkb1FyTVpoM2l5ZXMta0tUdkV6RFNuSHhIOFU2WklET3Z5RWxfd2MwcWtCQ3hXYnJ2eTQ0T2xJVnJDaWVtWWg3WXlLd2RkS0xCd1gyck5SQ3FtQkRKZDg5N256RTNCckJha25RX3hXRjNiTXp4Z2Zac2JwSDZoVy1B?oc=5",
+    "published": "2026-03-27T17:23:43+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "JD Vance",
+    "image": "https://komonews.com/resources/media2/16x9/4892/1320/0x255/90/51872f7f-2b5d-4c5a-b56b-13adc63c0af8-GettyImages2268630622.jpg",
+    "real_url": "https://komonews.com/news/nation-world/jd-vance-rips-into-netanyahu-in-phone-call-over-iran-war-report-white-house-middle-east-fox-news-jesse-waters",
+    "bias": "C",
+    "topic": "Iran"
   },
   {
     "id": "a4f13f19295f",
@@ -481,11 +489,10 @@
     "published": "2026-03-27T17:22:40+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/a4f13f19295f.jpg",
+    "image": "https://thenationaldesk.com/resources/media2/36x25/4695/360/99x0/90/51872f7f-2b5d-4c5a-b56b-13adc63c0af8-GettyImages2268630622.jpg",
     "real_url": "https://thenationaldesk.com/news/americas-news-now/gallery/jd-vance-rips-into-netanyahu-in-phone-call-over-iran-war-report-white-house-middle-east-fox-news-jesse-waters",
     "bias": "?",
-    "topic": "Iran",
-    "image_remote": "https://thenationaldesk.com/resources/media2/36x25/4695/360/99x0/90/51872f7f-2b5d-4c5a-b56b-13adc63c0af8-GettyImages2268630622.jpg"
+    "topic": "Iran"
   },
   {
     "id": "f2b8d3ab25fc",
@@ -497,11 +504,10 @@
     "published": "2026-03-27T17:21:18+00:00",
     "published_display": "Mar 27, 2026",
     "query": "direct_feed",
-    "image": "img/f2b8d3ab25fc.png",
+    "image": "https://media.breitbart.com/media/2026/03/AP26086533209440-640x335.png",
     "real_url": "https://www.breitbart.com/politics/2026/03/27/jd-vance-hosts-first-anti-fraud-task-force-roundtable-with-top-cabinet-secretaries/",
     "bias": "R",
-    "topic": "General",
-    "image_remote": "https://media.breitbart.com/media/2026/03/AP26086533209440-640x335.png"
+    "topic": "General"
   },
   {
     "id": "4942db916fd1",
@@ -513,11 +519,10 @@
     "published": "2026-03-27T17:14:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/4942db916fd1.jpg",
+    "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/03/27/9ee1078c-e4d8-4c3f-b73e-ba632c693e93/thumbnail/1200x630/0c2897d4acd7a478a0fafd6fd7cf74f8/e4f736260982378ce9ba23db0529dc61.jpg",
     "real_url": "https://www.cbsnews.com/minnesota/video/vp-vance-takes-aim-at-minnesota-in-first-federal-anti-fraud-task-force-hearing/",
     "bias": "LL",
-    "topic": "General",
-    "image_remote": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/03/27/9ee1078c-e4d8-4c3f-b73e-ba632c693e93/thumbnail/1200x630/0c2897d4acd7a478a0fafd6fd7cf74f8/e4f736260982378ce9ba23db0529dc61.jpg"
+    "topic": "General"
   },
   {
     "id": "d319e3f462dc",
@@ -528,12 +533,11 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMk45T1BsQlBBblF6Rk9XeUtqSmVKRE5DWVc2Vk5uMW1tTEtWa3l3Rzdrenc3UlFSek9oTlhsZEt3X2psSWJXeUM1Z1lkV28yTGpDV0dOTzR2VzFJN0NvbzVRM3VXazFZV3NZRFhyd2lDdERZMnZUclBYeUVHVUZfUEVhU2FYUnpwdnJBMVgzQWM3dXFI0gGaAUFVX3lxTE5nc0NvQlZmY3FoQWRtdjczMUpMbWJFMVJKOVB1ejRjWEVLM0szZ2tnQ09uMmp3MVdRaDRnQk9HUlFRLXRqbkx5Qkg4cFVGNkMtZDhzSGdJUkVJckxZWUJ2M3E2aEVZNGYtMDh5YVhOYmpaOFlIeDR5OExZRFc0cW0tWlJXeFp3MVdXM2laRVhDUjZydnlwbVRzd3c?oc=5",
     "published": "2026-03-27T17:13:00+00:00",
     "published_display": "Mar 27, 2026",
-    "query": "JD Vance",
-    "image": "img/d319e3f462dc.jpg",
+    "query": "Vice President Vance",
+    "image": "https://bloximages.newyork1.vip.townnews.com/thecentersquare.com/content/tncms/assets/v3/editorial/6/0b/60bd1a44-44be-4ac4-8f6c-27ca9a2ca1f1/68d6ea9ead90b.image.jpg?crop=1200%2C630%2C0%2C22",
     "real_url": "https://www.thecentersquare.com/national/article_87e4e516-313d-40b3-9d54-7f16590ad6f0.html",
     "bias": "LR",
-    "topic": "General",
-    "image_remote": "https://bloximages.newyork1.vip.townnews.com/thecentersquare.com/content/tncms/assets/v3/editorial/6/0b/60bd1a44-44be-4ac4-8f6c-27ca9a2ca1f1/68d6ea9ead90b.image.jpg?crop=1200%2C630%2C0%2C22"
+    "topic": "General"
   },
   {
     "id": "90dc708db7f2",
@@ -545,11 +549,25 @@
     "published": "2026-03-27T17:09:31+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/90dc708db7f2.jpg",
+    "image": "https://s.yimg.com/os/en/aol_the_hill_articles_315/7ccd1bbe4d154320b25a45d9fa322e36",
     "real_url": "https://www.aol.com/articles/beshear-vance-could-more-damaging-150157988.html",
     "bias": "C",
-    "topic": "General",
-    "image_remote": "https://s.yimg.com/os/en/aol_the_hill_articles_315/7ccd1bbe4d154320b25a45d9fa322e36"
+    "topic": "General"
+  },
+  {
+    "id": "8ea2c8ce32aa",
+    "title": "The pork chop diet (and other secrets of cooking for one)",
+    "source": "Blaze Media",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/align/the-pork-chop-diet-and-other-secrets-of-cooking-for-one",
+    "published": "2026-03-27T17:00:00+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/align/the-pork-chop-diet-and-other-secrets-of-cooking-for-one",
+    "bias": "?",
+    "topic": "General"
   },
   {
     "id": "389d60839c34",
@@ -561,11 +579,10 @@
     "published": "2026-03-27T16:59:14+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/389d60839c34.jpg",
+    "image": "https://cdn.houstonpublicmedia.org/wp-content/uploads/2026/03/26135718/SHUTDOWN-SHOCKWAVES-1500x844.jpg",
     "real_url": "https://www.houstonpublicmedia.org/articles/shows/party-politics/2026/03/27/547175/partial-shutdown-chaos-hits-home/",
     "bias": "C",
-    "topic": "General",
-    "image_remote": "https://cdn.houstonpublicmedia.org/wp-content/uploads/2026/03/26135718/SHUTDOWN-SHOCKWAVES-1500x844.jpg"
+    "topic": "General"
   },
   {
     "id": "f0cde3af095c",
@@ -577,11 +594,10 @@
     "published": "2026-03-27T16:58:16+00:00",
     "published_display": "Mar 27, 2026",
     "query": "direct_feed",
-    "image": "img/f0cde3af095c.jpg",
+    "image": "https://images.axios.com/5Q6NN_Gy_G6V9X87kwHo6rqQW28=/0x126:7871x4553/1366x768/2026/03/27/1774630566280.jpeg",
     "real_url": "https://www.axios.com/2026/03/27/iran-war-timeline-rubio-2-4-weeks",
     "bias": "C",
-    "topic": "Iran",
-    "image_remote": "https://images.axios.com/5Q6NN_Gy_G6V9X87kwHo6rqQW28=/0x126:7871x4553/1366x768/2026/03/27/1774630566280.jpeg"
+    "topic": "Iran"
   },
   {
     "id": "2312ea9b30ff",
@@ -593,11 +609,10 @@
     "published": "2026-03-27T16:56:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/2312ea9b30ff.jpg",
+    "image": "https://media.tegna-media.com/assets/WQAD/images/9a31287c-6337-4dce-9129-da2145cadad6/20260327T165657/9a31287c-6337-4dce-9129-da2145cadad6_1080x1920.jpg",
     "real_url": "https://www.wqad.com/video/news/national/vice-president-jd-vance-hosts-first-meeting-of-task-force-to-eliminate-fraud/526-c95a659f-92b9-47b4-93c4-62946da02eb8",
     "bias": "C",
-    "topic": "Immigration",
-    "image_remote": "https://media.tegna-media.com/assets/WQAD/images/9a31287c-6337-4dce-9129-da2145cadad6/20260327T165657/9a31287c-6337-4dce-9129-da2145cadad6_1080x1920.jpg"
+    "topic": "Immigration"
   },
   {
     "id": "f0a89f19c5b4",
@@ -615,6 +630,21 @@
     "topic": "General"
   },
   {
+    "id": "53c348ecde01",
+    "title": "Al Gore\u2019s Rallying Cry Ahead of Saturday\u2019s No Kings Protests",
+    "source": "Mother Jones",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.motherjones.com/politics/2026/03/al-gores-rallying-cry-ahead-of-saturdays-no-kings-protests/",
+    "published": "2026-03-27T16:50:24+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "direct_feed",
+    "image": "https://www.motherjones.com/wp-content/uploads/2026/03/Al-Gore_final.jpg?w=1200&h=630&crop=1",
+    "real_url": "https://www.motherjones.com/politics/2026/03/al-gores-rallying-cry-ahead-of-saturdays-no-kings-protests/",
+    "bias": "L",
+    "topic": "General"
+  },
+  {
     "id": "1f02fd16d053",
     "title": "VP Vance Launches New Task Force to Combat Social Program Fraud - Fine Day 102.3",
     "source": "Fine Day 102.3",
@@ -624,11 +654,10 @@
     "published": "2026-03-27T16:46:42+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vice President Vance",
-    "image": "img/1f02fd16d053.jpg",
+    "image": "https://i0.wp.com/tvdelmarva.com/wp/wp-content/uploads/2026/03/news-1774629506502.jpg?resize=1000%2C666&ssl=1",
     "real_url": "https://www.finedayradio.com/news/tv-delmarva-channel-33/vp-vance-launches-new-task-force-to-combat-social-program-fraud/",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://i0.wp.com/tvdelmarva.com/wp/wp-content/uploads/2026/03/news-1774629506502.jpg?resize=1000%2C666&ssl=1"
+    "topic": "General"
   },
   {
     "id": "ea64eeec3f5a",
@@ -640,11 +669,25 @@
     "published": "2026-03-27T16:43:08+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/ea64eeec3f5a.jpg",
+    "image": "https://premierchristian.news//image_cache/a/f/a/7/0/afa705fc2f5614873ccb9e2cfe9f665ccfb61692.jpeg",
     "real_url": "https://premierchristian.news/us/news/article/jd-vance-references-jesus-christ-s-return-in-backing-us-forces-in-iran",
     "bias": "LR",
-    "topic": "Iran",
-    "image_remote": "https://premierchristian.news//image_cache/a/f/a/7/0/afa705fc2f5614873ccb9e2cfe9f665ccfb61692.jpeg"
+    "topic": "Iran"
+  },
+  {
+    "id": "5431d6de41e6",
+    "title": "We&#x27;re relaunching the VP&#x27;s TikTok page. I got a little lazy the last few months, I was focused on the job of being VP, not enough on TikToks. That&#x27;s about to change.",
+    "source": "Vance Social Media",
+    "source_url": "https://www.tiktok.com",
+    "source_domain": "www.tiktok.com",
+    "link": "https://www.tiktok.com/@jd",
+    "published": "2026-03-27T16:33:53.605843+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "social",
+    "image": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/fcd3e2b8bbbf028f224cbf93c6e7937c~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=7f8c4234&x-expires=1774814400&x-signature=h%2FjiEnphDqSHb%2FmwXYGYJ1gjKK4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
+    "real_url": "https://www.tiktok.com/@jd",
+    "bias": "?",
+    "topic": "General"
   },
   {
     "id": "6a91497ff654",
@@ -656,27 +699,10 @@
     "published": "2026-03-27T16:29:15+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/6a91497ff654.jpg",
+    "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/27/4bf6ac7d-6912-4896-b791-74793a4c71a7/thumbnail/1200x630/3465656e41679bb1a9c74aac9d66698b/fraud-task-force-meeting-subclip-h264-00-03-23-05-still001.jpg",
     "real_url": "https://www.cbsnews.com/minnesota/news/task-force-to-eliminate-fraud-jd-vance-minnesota-fraud-crisis/",
     "bias": "LL",
-    "topic": "General",
-    "image_remote": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/27/4bf6ac7d-6912-4896-b791-74793a4c71a7/thumbnail/1200x630/3465656e41679bb1a9c74aac9d66698b/fraud-task-force-meeting-subclip-h264-00-03-23-05-still001.jpg"
-  },
-  {
-    "id": "5431d6de41e6",
-    "title": "We&#x27;re relaunching the VP&#x27;s TikTok page. I got a little lazy the last few months, I was focused on the job of being VP, not enough on TikToks. That&#x27;s about to change.",
-    "source": "Vance Social Media",
-    "source_url": "https://www.tiktok.com",
-    "source_domain": "www.tiktok.com",
-    "link": "https://www.tiktok.com/@jd",
-    "published": "2026-03-27T16:28:04.520300+00:00",
-    "published_display": "Mar 27, 2026",
-    "query": "social",
-    "image": "img/5431d6de41e6.jpg",
-    "real_url": "https://www.tiktok.com/@jd",
-    "bias": "?",
-    "topic": "General",
-    "image_remote": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/fcd3e2b8bbbf028f224cbf93c6e7937c~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=7f8c4234&x-expires=1774814400&x-signature=h%2FjiEnphDqSHb%2FmwXYGYJ1gjKK4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5"
+    "topic": "General"
   },
   {
     "id": "8dc6611666c9",
@@ -687,12 +713,11 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT0s4NGxzM0hENUEzZVdRRG96RnJMYlpzWkRfR0JRQi1zMU9QZGlCclRidmRfMk1nLUdNN0kwamZhYkhlc0hOdEc5YXFINy01Qkl5SEx6dmxKYXp4VXdpYUJQQS1STkFBck9wRUE4cUVUQ3BVZlVGamx5M2VMM0ZobUlyeG02SnNwN1VjZC03d9IBowFBVV95cUxPanNGUm5hbWtjNUxVSHAzd0t2YUtCN3laeU9TbUxoR0ZWckNPR1k5V2FaczlBWllEOEdBM2NjQkgyMFJBYWRBMDBQNGwxWGdzZ0tUWHVERlNwZ05zcUVyUmNmMVlXZWlvVkZ5QUNqMHJYRTZqaTR2d3FwUTR0ai1KUGxHVWtZY3ZWdktxV1FJcUt3cHljdmUtQ1p1dGtleWVrbnE0?oc=5",
     "published": "2026-03-27T16:18:00+00:00",
     "published_display": "Mar 27, 2026",
-    "query": "Vance Republican",
-    "image": "img/8dc6611666c9.jpg",
+    "query": "Vance president 2028",
+    "image": "https://www.nj.com/resizer/v2/CI2T2HGGSNEYFCIJKFXH6PC6UA.jpg?auth=b65d5795d9aab8d244a8eacac6a8e151351fedd9e7b291576d40ab46a917d322&width=1280&smart=true&quality=90",
     "real_url": "https://www.nj.com/politics/2026/03/heres-who-trump-wants-to-be-president-in-2028.html",
     "bias": "?",
-    "topic": "2028 Race",
-    "image_remote": "https://www.nj.com/resizer/v2/CI2T2HGGSNEYFCIJKFXH6PC6UA.jpg?auth=b65d5795d9aab8d244a8eacac6a8e151351fedd9e7b291576d40ab46a917d322&width=1280&smart=true&quality=90"
+    "topic": "2028 Race"
   },
   {
     "id": "c400ba605342",
@@ -710,21 +735,6 @@
     "topic": "General"
   },
   {
-    "id": "cc84e6c2e936",
-    "title": "Vance holds first meeting of a new anti-fraud task force targeting benefit programs - Stamford Advocate",
-    "source": "Stamford Advocate",
-    "source_url": "https://www.stamfordadvocate.com",
-    "source_domain": "www.stamfordadvocate.com",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdE9qMVh0UG9rR0R0MHVIT2xkdHhUd3ZNR2ZqV094V2ZZTkxhcmxOM2hWeGxETkhSeGxzaGRNLW5yc3hTRzZtY25MaUIwSXhvS2JUZzZ5Y3RHeFh4ZVBIU0lBdmVxMUtMTWl6SXlROEQwUHFqTllNNXhUZmJ1QnN3eV9hbnFtYWlsUGpmUzVmbFA0T3dGM2xiTVBBbk5qRTdiaWk0SDliYlB3Y2ZJ?oc=5",
-    "published": "2026-03-27T16:08:42+00:00",
-    "published_display": "Mar 27, 2026",
-    "query": "Vice President Vance",
-    "image": "",
-    "real_url": "https://www.stamfordadvocate.com/business/article/vance-holds-first-meeting-of-a-new-anti-fraud-22155602.php",
-    "bias": "C",
-    "topic": "General"
-  },
-  {
     "id": "b663da8b9039",
     "title": "Vance holds first meeting of a new anti-fraud task force targeting benefit programs - WRAL",
     "source": "WRAL",
@@ -734,11 +744,10 @@
     "published": "2026-03-27T16:06:02+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/b663da8b9039.jpg",
+    "image": "https://images.wral.com/e6dc1db9-0567-5358-82a9-f922bad9e0bf?w=1200&h=630",
     "real_url": "https://www.wral.com/news/ap/45cc5-vance-holds-first-meeting-of-a-new-anti-fraud-task-force-targeting-benefit-programs/",
     "bias": "C",
-    "topic": "General",
-    "image_remote": "https://images.wral.com/e6dc1db9-0567-5358-82a9-f922bad9e0bf?w=1200&h=630"
+    "topic": "General"
   },
   {
     "id": "f7cf181a9e9f",
@@ -750,11 +759,10 @@
     "published": "2026-03-27T16:01:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/f7cf181a9e9f.jpg",
+    "image": "https://thehill.com/wp-content/uploads/sites/2/2025/12/Beshear_Parnes_AP_JonCherry.jpg?w=1280",
     "real_url": "https://thehill.com/homenews/campaign/5804154-beshear-attacks-vance-trump/",
     "bias": "C",
-    "topic": "General",
-    "image_remote": "https://thehill.com/wp-content/uploads/sites/2/2025/12/Beshear_Parnes_AP_JonCherry.jpg?w=1280"
+    "topic": "General"
   },
   {
     "id": "11ea0db87425",
@@ -766,11 +774,10 @@
     "published": "2026-03-27T15:59:45+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/11ea0db87425.jpg",
+    "image": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/URB5YWYKCVHTLFGHOG4LRLX6BU.jpg?_a=DATAg1fkZAA0",
     "real_url": "https://www.clickorlando.com/business/2026/03/27/vance-holds-first-meeting-of-a-new-anti-fraud-task-force-targeting-benefit-programs/",
     "bias": "C",
-    "topic": "General",
-    "image_remote": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/URB5YWYKCVHTLFGHOG4LRLX6BU.jpg?_a=DATAg1fkZAA0"
+    "topic": "General"
   },
   {
     "id": "e6e024edaf2a",
@@ -782,11 +789,55 @@
     "published": "2026-03-27T15:54:41+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/e6e024edaf2a.jpg",
+    "image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ZxRZa.img?w=1908&h=1146&m=4&q=79",
     "real_url": "https://www.msn.com/en-my/news/other/jd-vance-in-tense-call-with-netanyahu-as-he-rips-israel-s-pm-for-selling-easy-iran-war-to-trump/ar-AA1ZxAzW?cvid=69c6a7aae20c4f49bba6149e4844e273&ocid=hpmsn",
     "bias": "C",
-    "topic": "Iran",
-    "image_remote": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ZxRZa.img?w=1908&h=1146&m=4&q=79"
+    "topic": "Iran"
+  },
+  {
+    "id": "d3ee43068bde",
+    "title": "JD Vance Confirms Ilhan Omar Committed Immigration Fraud, Eyes Legal Action",
+    "source": "PJ Media",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://pjmedia.com/matt-margolis/2026/03/27/jd-vance-confirms-ilhan-omar-committed-immigration-fraud-eyes-legal-action-n4951152",
+    "published": "2026-03-27T15:52:00-04:00",
+    "published_display": "Mar 27, 2026",
+    "query": "direct_feed",
+    "image": "https://media.townhall.com/cdn/hodl/2025/338/c3abc4de-0d5a-4fd6-8ab3-0ac62b1d3326.jpg",
+    "real_url": "https://pjmedia.com/matt-margolis/2026/03/27/jd-vance-confirms-ilhan-omar-committed-immigration-fraud-eyes-legal-action-n4951152",
+    "bias": "R",
+    "topic": "Immigration"
+  },
+  {
+    "id": "d67e6ed5baa3",
+    "title": "Vance says Biden admin &#x27;turned off&#x27; anti-fraud protections, debuts new task force with focus on Somali schemes - Fox News",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMzQ5V0VnNElpWTF5a0lpU2RHbEs5M2VqQVBhaHd4UjlfM21WOF82aVBHQnFLNlF0MHU3ZmpscEdYOHg0NEl6SDBCUE1RN19fVGcxZS0tSnFJN1RGc2ZWbHBScUFoMXlSZHRLM3ppS29zc21GREJNcTdQU2Rhal9yRFBGM0JkYmNmVFg5MnIySEk5TmNTUlFrS0xYZ2VKOUcyUTh2Vk5xM1oyV1BXa1Nkdk9ReE85c09XOVd6bFB0ejhMTjdt0gHKAUFVX3lxTE5kR2YyUWwtS1U0R2JSS1dvaWx3eURzeG1pbWU2RWNyek5EZ3Y5U2ZvUHpOTXZtOUNyaFlTYlNtTkJmeG5CcWNwQ1JvNlphUnhyb3I1SklhTTExU0h3SE5IRGpzREE1UFJSdmctTmcwVkRockxJSTdZWjk5Rkp2OVdLSUExTmt4RkFmQTVQcXJJVkN0ZG5ZOVp6YUtNbVVhdkxPLVJjWmlsRVQxQXZHbHZwMXA2WTYzZ1k1MWc1cXpNU0E5aHlpakppMFE?oc=5",
+    "published": "2026-03-27T15:51:25+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "Vice President Vance",
+    "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/vance-task-force.jpg",
+    "real_url": "https://www.foxnews.com/politics/vance-says-biden-turned-off-anti-fraud-protections-debuts-new-task-force-focus-somali-schemes",
+    "bias": "R",
+    "topic": "General"
+  },
+  {
+    "id": "27a85fb5a9ee",
+    "title": "JD Vance unloads on Netanyahu for selling war in Iran to Trump in &#x27;furious phone call&#x27; - irishstar.com",
+    "source": "irishstar.com",
+    "source_url": "https://www.irishstar.com",
+    "source_domain": "www.irishstar.com",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR1gxdDEtOHZOU2tKM3NXLVFDQmdydEREWFdRV2JPV1FOVTJTTi1SdkFDbEl6TzkwZzF1b0NvclJxYkhQZDVSVDJ1YWtWdlJaVUt0U1JjRlVhYW1MMWFiYjQ4V2FTa3NlSDR5bEJhb3pnWldPMEtWZThtOTJvZFBsMjE4elh6eFpMOUZv0gGQAUFVX3lxTE0zaUdvbTBLVEdLMWVyejZyU292VHZSdTkzZTlqWEpsclA1RFJwLVhSYThJX1NYdzdfbG9GOVYtQ2dISlpWNkk4YUwxZVBCeFFwTkZETEhXUGJBZUdIYld0NS1Bb2VkWTdtc1VDdGE2Z0VReDRkYjdVbERBaDVsUW5nY1l5T29YdGhpZ19JQkFLMw?oc=5",
+    "published": "2026-03-27T15:44:39+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://www.irishstar.com/news/politics/jd-vance-unloads-netanyahu-selling-36934361",
+    "bias": "?",
+    "topic": "Iran"
   },
   {
     "id": "118b551c52f3",
@@ -798,11 +849,10 @@
     "published": "2026-03-27T15:42:04-04:00",
     "published_display": "Mar 27, 2026",
     "query": "direct_feed",
-    "image": "img/118b551c52f3.jpg",
+    "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/vance-miller.jpeg",
     "real_url": "https://www.foxnews.com/politics/miller-pledges-new-vance-fraud-task-force-demolish-social-services-corruption",
     "bias": "R",
-    "topic": "Immigration",
-    "image_remote": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/vance-miller.jpeg"
+    "topic": "Immigration"
   },
   {
     "id": "4222a287b918",
@@ -814,11 +864,10 @@
     "published": "2026-03-27T15:20:44+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vice President Vance",
-    "image": "img/4222a287b918.jpg",
+    "image": "https://twt-thumbs.washtimes.com/media/image/2026/03/27/AP26086530503986_c0-221-5316-3322_s1200x700.jpg?741cf88550dd486c0318781587e948a3b5d5e2d0",
     "real_url": "https://www.washingtontimes.com/news/2026/mar/27/vance-says-theft-federal-dollars-fraud-swamping-states-programs/",
     "bias": "LR",
-    "topic": "General",
-    "image_remote": "https://twt-thumbs.washtimes.com/media/image/2026/03/27/AP26086530503986_c0-221-5316-3322_s1200x700.jpg?741cf88550dd486c0318781587e948a3b5d5e2d0"
+    "topic": "General"
   },
   {
     "id": "b20cd5155fa3",
@@ -836,6 +885,21 @@
     "topic": "Immigration"
   },
   {
+    "id": "46855dbe6215",
+    "title": "JD Vance references &quot;return of Jesus Christ&quot; while affirming support for troops in the Gulf - malaysiasun.com",
+    "source": "Malaysia Sun",
+    "source_url": "http://www.malaysiasun.com",
+    "source_domain": "www.malaysiasun.com",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN1daOXNYcmpmb28waDE4dTN2RkY4Q1g1S055anNvM1gxY2M4MDBkUnh6aDVkUVNaT2k3MmpSWmE1OThlcFZtYUhsT3JtTFNnb3J4Szh5ZGp0SW5jYnRReHZLNG9fUzBURko3RF9QUi1ydEcwZ1Z5VmpHbW15bXJvSWpJeDB1dy13Wl9wTGpmeGwwRkFtalZGZHBaWE1aNzJSVTh2YjRFNlJxLXZvTFVwblJESktHUmRmUk5Odl9pcnlGamhwRzF4Umxkcw?oc=5",
+    "published": "2026-03-27T15:00:00+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "http://www.malaysiasun.com/news/278948565/jd-vance-references-return-of-jesus-christ-while-affirming-support-for-troops-in-the-gulf",
+    "bias": "?",
+    "topic": "Military"
+  },
+  {
     "id": "b220d7ecf57f",
     "title": "U.S. Vice President J.D. Vance convenes the first meeting of U.S. President Trump&#x27;s anti-fraud task force, in Washington - Reuters Connect",
     "source": "Reuters Connect",
@@ -845,11 +909,10 @@
     "published": "2026-03-27T14:55:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/b220d7ecf57f.jpg",
+    "image": "https://cdn1.agency.thomsonreuters.com/watermark/tag:reuters.com,2026:newsml_RC22DKAXV7OU:950652499/tag:reuters.com,2026:binary_RC22DKAXV7OU-VIEWIMAGE/800x800?partner=false&Expires=1774686850&Signature=Wbs0s04PPaqammWcLZGx5bBnZV3JV8N1HOmF2AMrLqtUsenDga7ZaAwzjfYTiv~nbBOh1P6vzFyWma4W3rAXgGfvGnc0qVBsJOOb7X~Ck9lwr93P-95QQau2ufOtwtqHPmFTmsSbK59dkZJJBXO91p0vQdT0Wr0nph9w4SKD4MWDDTkJO5rUvzF9Bxs30AvYECbhGAGSeZFSJ0plJcl5UQ4iBc2-cBpS8FKyx0ZYvvlhYiWoAYX4yi~WLEZ4H6XlGX0HY1rw-cKmkiQsSMSw1rBcNKbzhO~gSVBweI3ND6pl1BpnG~LN5pmfsWacfD8ti5t79rPrVDirGe-dMxl-nQ__&Key-Pair-Id=APKAJ7VIBMO3UCTTZSWQ",
     "real_url": "https://www.reutersconnect.com/item/us-vice-president-jd-vance-convenes-the-first-meeting-of-us-president-trumps-anti-fraud-task-force-in-washington/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMjJES0FYVjdPVQ",
     "bias": "C",
-    "topic": "Immigration",
-    "image_remote": "https://cdn1.agency.thomsonreuters.com/watermark/tag:reuters.com,2026:newsml_RC22DKAXV7OU:950652499/tag:reuters.com,2026:binary_RC22DKAXV7OU-VIEWIMAGE/800x800?partner=false&Expires=1774686408&Signature=SwTo6IxA5VcAiryG6VqdViKGAwNsiU-emz1IFKTSYDa-Xzk3pn~zf6lQX6uCgPAsZdceMFRohDrnLvGWzLiROc~hlMTN~dO-p0XkV0YJ2qa9tapGAC5LjiE~5NEnuHN48s-acer8rQAe8ADCXHGbIXvZbNKrlgfmssXbOb4EIzgTkFuCOFrr3ZmD6A21FFpl3G8YDyqK5HKwiIrTNPNWK3gOkzNfAPQw80g18G2O8wdqU5Jw5ksHfiUjOEMyB0nUntxXErXeRZk~3bnxyfMSuGhgY-27P9yHdpHZSxpzPSjfIn8r-IkmMnsAtGsvi9h5IO-CO5o5mkDOlQ1ZZYruvQ__&Key-Pair-Id=APKAJ7VIBMO3UCTTZSWQ"
+    "topic": "Immigration"
   },
   {
     "id": "aaffd2bd3d12",
@@ -861,11 +924,40 @@
     "published": "2026-03-27T14:53:50+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/aaffd2bd3d12.jpg",
+    "image": "https://s.yimg.com/os/en/aol_mandatory_813/af7fdb3687d87a0a7dd5223f1a656c98",
     "real_url": "https://www.aol.com/articles/jd-vance-warns-iran-could-135545879.html",
     "bias": "C",
-    "topic": "Iran",
-    "image_remote": "https://s.yimg.com/os/en/aol_mandatory_813/af7fdb3687d87a0a7dd5223f1a656c98"
+    "topic": "Iran"
+  },
+  {
+    "id": "360fafdc3e71",
+    "title": "Christian, husband, dad. Vice President of the United States. Proud to serve the American people with President Donald J. Trump.",
+    "source": "Vance Social Media",
+    "source_url": "https://www.facebook.com",
+    "source_domain": "www.facebook.com",
+    "link": "https://www.facebook.com/VicePresident/",
+    "published": "2026-03-27T14:33:53.605843+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "social",
+    "image": "",
+    "real_url": "https://www.facebook.com/VicePresident/",
+    "bias": "?",
+    "topic": "General"
+  },
+  {
+    "id": "dcc50c98ff8a",
+    "title": "Blinded by modern headlights? A new visor aims to cut the glare",
+    "source": "Blaze Media",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/align/blinded-by-modern-headlights-a-new-visor-aims-to-cut-the-glare",
+    "published": "2026-03-27T14:30:00+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/align/blinded-by-modern-headlights-a-new-visor-aims-to-cut-the-glare",
+    "bias": "?",
+    "topic": "General"
   },
   {
     "id": "598ef4a3ac16",
@@ -877,42 +969,10 @@
     "published": "2026-03-27T14:29:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/598ef4a3ac16.jpg",
+    "image": "https://thehill.com/wp-content/uploads/sites/2/2026/03/AP26077603837507-e1774615020561.jpg?w=1280",
     "real_url": "https://thehill.com/video-clips/5803864-vance-leads-anti-fraud-panel/",
     "bias": "C",
-    "topic": "General",
-    "image_remote": "https://thehill.com/wp-content/uploads/sites/2/2026/03/AP26077603837507-e1774615020561.jpg?w=1280"
-  },
-  {
-    "id": "360fafdc3e71",
-    "title": "Christian, husband, dad. Vice President of the United States. Proud to serve the American people with President Donald J. Trump.",
-    "source": "Vance Social Media",
-    "source_url": "https://www.facebook.com",
-    "source_domain": "www.facebook.com",
-    "link": "https://www.facebook.com/VicePresident/",
-    "published": "2026-03-27T14:28:04.520300+00:00",
-    "published_display": "Mar 27, 2026",
-    "query": "social",
-    "image": "",
-    "real_url": "https://www.facebook.com/VicePresident/",
-    "bias": "?",
     "topic": "General"
-  },
-  {
-    "id": "000ca2792c73",
-    "title": "VOTE: Do you think President Trump should reform government services to reduce fraud? - The National News Desk",
-    "source": "The National News Desk",
-    "source_url": "https://thenationaldesk.com",
-    "source_domain": "thenationaldesk.com",
-    "link": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxNeUR2T012blY1WXJ0Q1dZSHI1OVpMblh5WFZzOHN2RjJqU1llVU9CaVhIUlhtRVF4VUhFNGZHRzBfVnJTT3J3Zi15Yk5IRmZvWHZmTVBfOUVjZFBZSTV3VDZqLUotYWJqWk5Yd1VnUzBGbE9QY1QzWjZZdzhic3RQZzdTU1UzN0pCWXZoTzhBN2VJWkFRNjVOT3lBZFhVUy1pWVczdU1RdGlwWUx3VEk0NER2SVcydlBtNWdzSmU5U2pVTDBibWpCWU1LUHV5Unh2blJ1VU5raURBNllfcVZvM3R4NUtPN1llRE8xLXJKUFNYaDBjRHJWNXFZTlhxTE11cGpyMlk2ejlPNmVRMnFIN1JPa1l0eVpIRVFDRm55RWNRNmQyNVJ0S01waFY5QmFHdzBmbGR0c3o2am4zTFptZEU5WUdmaThCU0IyMHdfeHJQajhFTVBPellHN2lMR1p1bTQ3UjRmWjN1SFVUMkow?oc=5",
-    "published": "2026-03-27T14:07:28+00:00",
-    "published_display": "Mar 27, 2026",
-    "query": "Vice President Vance",
-    "image": "img/000ca2792c73.jpg",
-    "real_url": "https://thenationaldesk.com/news/americas-news-now/vote-do-you-believe-president-trump-needs-to-make-systematic-changes-to-government-services-to-crack-down-on-fraud-question-of-the-day-anti-fraud-task-force-vice-president-vance-social-services-minnesota",
-    "bias": "?",
-    "topic": "Immigration",
-    "image_remote": "https://thenationaldesk.com/resources/media2/16x9/5711/986/0x78/90/b8112158-5480-48e7-a605-5d16488f4f15-GettyImages2255278613.jpg"
   },
   {
     "id": "b62f261e295b",
@@ -939,11 +999,25 @@
     "published": "2026-03-27T14:02:50+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/d04f58a9f477.jpg",
+    "image": "https://bloximages.newyork1.vip.townnews.com/islandernews.com/content/tncms/assets/v3/editorial/0/27/027775b4-13b3-5da3-ac38-f75394384b13/69c5ebe2410c1.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize",
     "real_url": "https://www.islandernews.com/news/national/l-r-us-vice-president-jd-vance-and-us-secretary-of-state-marco-rubio-are/image_027775b4-13b3-5da3-ac38-f75394384b13.html",
     "bias": "?",
-    "topic": "Immigration",
-    "image_remote": "https://bloximages.newyork1.vip.townnews.com/islandernews.com/content/tncms/assets/v3/editorial/0/27/027775b4-13b3-5da3-ac38-f75394384b13/69c5ebe2410c1.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize"
+    "topic": "Immigration"
+  },
+  {
+    "id": "ac3eb8c4d1ac",
+    "title": "Vance highlights fraud task force efforts in first meeting packed with Cabinet members - KPIC",
+    "source": "KPIC",
+    "source_url": "https://kpic.com",
+    "source_domain": "kpic.com",
+    "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPeEtyMVFaRnlIRHJWUXdNS1l5X2lMb0R4VVBYd3djTFVxTVVJOWFLX2kySjhIVTNJMG9FcWRiTzVvdndHcVNjOWRqOWtrckRkMkpnM2p3dFdXamJGTXNtZWFzQWRDeWdYSEszNWRscjhtdUhjRWt6dTY0UmFIWFZHTDQ2a194SDF6bmM0dUd3RmtVYWFoT0FPdVkzWjhvUmdodkc5M21aQm13QktiaHI0cUU0Yk04Sk56bDBBRDIzVEpCd2hkaUl6eUV5QllxUE00NjJ1THRSSWV5eWxGTlk0RXh4MFg3c3NoZDYtVlJ6WHc0OHVOT2VaMmNINC1xWUdRR2lmXzNTWXBnbXB1Y3FfNkRTRGc4SUNCNnhTdlZZXzJuODdqZ3FYZlFNY1VEeHc?oc=5",
+    "published": "2026-03-27T13:51:31+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "Vice President Vance",
+    "image": "https://kpic.com/news/nation-world/vance-holds-first-meeting-of-task-for-to-eliminate-fraud-amid-minnesota-medicaid-pause-vice-president-federal-trade-commission-andrew-ferguson-stephen-miller-dr-oz/resources/assets/kpic/images/brand-icons/KPIC-16x9.jpg",
+    "real_url": "https://kpic.com/news/nation-world/gallery/vance-holds-first-meeting-of-task-for-to-eliminate-fraud-amid-minnesota-medicaid-pause-vice-president-federal-trade-commission-andrew-ferguson-stephen-miller-dr-oz",
+    "bias": "?",
+    "topic": "General"
   },
   {
     "id": "d73722753fcd",
@@ -955,11 +1029,10 @@
     "published": "2026-03-27T13:47:50+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/d73722753fcd.jpg",
+    "image": "https://komonews.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg",
     "real_url": "https://komonews.com/news/nation-world/vance-holds-first-meeting-of-task-for-to-eliminate-fraud-amid-minnesota-medicaid-pause-vice-president-federal-trade-commission-andrew-ferguson-stephen-miller-dr-oz",
     "bias": "C",
-    "topic": "Healthcare",
-    "image_remote": "https://komonews.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg"
+    "topic": "Healthcare"
   },
   {
     "id": "451bfd8a61ce",
@@ -971,11 +1044,10 @@
     "published": "2026-03-27T13:43:14+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/451bfd8a61ce.jpg",
+    "image": "https://i0.wp.com/www.nationalreview.com/wp-content/uploads/2026/03/vance-netanyahu.jpg?fit=2057%2C1200&ssl=1",
     "real_url": "https://www.nationalreview.com/corner/jd-vances-allies-drive-a-wedge-between-israel-and-america-in-wartime/",
     "bias": "R",
-    "topic": "Foreign Policy",
-    "image_remote": "https://i0.wp.com/www.nationalreview.com/wp-content/uploads/2026/03/vance-netanyahu.jpg?fit=2057%2C1200&ssl=1"
+    "topic": "Foreign Policy"
   },
   {
     "id": "2af9be748d15",
@@ -987,11 +1059,10 @@
     "published": "2026-03-27T13:28:08+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/2af9be748d15.png",
+    "image": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/blt8bbf16c2d7a209e5/blt6131bdbce052e123/69c67a1ff88d18b4f861564f/tristan-thompson.png",
     "real_url": "https://www.tyla.com/entertainment/celebrity/tristan-thompson-jd-vance-photo-backlash-643994-20260327",
     "bias": "C",
-    "topic": "General",
-    "image_remote": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/blt8bbf16c2d7a209e5/blt6131bdbce052e123/69c67a1ff88d18b4f861564f/tristan-thompson.png"
+    "topic": "General"
   },
   {
     "id": "c12855c6cbce",
@@ -1003,11 +1074,10 @@
     "published": "2026-03-27T13:20:42+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vice President Vance",
-    "image": "img/c12855c6cbce.png",
+    "image": "https://a57.foxnews.com/static.foxnews.com/static/orion/styles/img/fox-news/og/1024/512/og-fox-news.png?ve=1&tl=1",
     "real_url": "https://www.foxnews.com/video/6391842524112",
     "bias": "R",
-    "topic": "General",
-    "image_remote": "https://a57.foxnews.com/static.foxnews.com/static/orion/styles/img/fox-news/og/1024/512/og-fox-news.png?ve=1&tl=1"
+    "topic": "General"
   },
   {
     "id": "b08f9c95972f",
@@ -1019,11 +1089,10 @@
     "published": "2026-03-27T13:14:21+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/b08f9c95972f.jpg",
+    "image": "https://images.axios.com/TZsuMZ0sHkZbBzbb7jOIdC6YNB8=/0x0:1920x1080/1366x768/2026/03/25/1774458568496.jpeg",
     "real_url": "https://www.axios.com/2026/03/27/vance-iran-peace-talks",
     "bias": "C",
-    "topic": "Iran",
-    "image_remote": "https://images.axios.com/TZsuMZ0sHkZbBzbb7jOIdC6YNB8=/0x0:1920x1080/1366x768/2026/03/25/1774458568496.jpeg"
+    "topic": "Iran"
   },
   {
     "id": "937effac45c8",
@@ -1047,7 +1116,7 @@
     "source_url": "https://truthsocial.com",
     "source_domain": "truthsocial.com",
     "link": "https://truthsocial.com/@JDVance1",
-    "published": "2026-03-27T12:28:04.520300+00:00",
+    "published": "2026-03-27T12:33:53.605843+00:00",
     "published_display": "Mar 27, 2026",
     "query": "social",
     "image": "",
@@ -1065,11 +1134,25 @@
     "published": "2026-03-27T12:06:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/5839e800940e.jpg",
+    "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/03/27/0264aceb-75d5-4e13-9d65-38e568d30c4a/thumbnail/1200x630/fd04796cb6c561a6c5a8ad7f6fb13428/68de0ec08c4707a27232b8b0b45b4494.jpg",
     "real_url": "https://www.cbsnews.com/minnesota/video/task-force-to-eliminate-fraud-led-by-vp-vance-to-hold-first-meeting/",
     "bias": "LL",
-    "topic": "General",
-    "image_remote": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/03/27/0264aceb-75d5-4e13-9d65-38e568d30c4a/thumbnail/1200x630/fd04796cb6c561a6c5a8ad7f6fb13428/68de0ec08c4707a27232b8b0b45b4494.jpg"
+    "topic": "General"
+  },
+  {
+    "id": "731ba5b9af6b",
+    "title": "Red-state inaction is the soft underbelly of border politics",
+    "source": "Blaze Media",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/columns/opinion/red-state-inaction-is-the-soft-underbelly-of-border-politics",
+    "published": "2026-03-27T12:00:00+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/columns/opinion/red-state-inaction-is-the-soft-underbelly-of-border-politics",
+    "bias": "?",
+    "topic": "Immigration"
   },
   {
     "id": "b817bdf77368",
@@ -1081,11 +1164,10 @@
     "published": "2026-03-27T11:53:57+00:00",
     "published_display": "Mar 27, 2026",
     "query": "direct_feed",
-    "image": "img/b817bdf77368.jpg",
+    "image": "https://dw-wp-production.imgix.net/2026/03/MixCollage-27-Mar-2026-10-32-AM-6603.jpg?ar=16%3A9&auto=compress&crop=faces&cs=origin&fit=crop&w=1200&h=800&ixlib=react-9.11.0",
     "real_url": "https://www.dailywire.com/news/doj-demands-answers-after-women-housed-with-hulking-transgender-murderer",
     "bias": "R",
-    "topic": "Domestic",
-    "image_remote": "https://dw-wp-production.imgix.net/2026/03/MixCollage-27-Mar-2026-10-32-AM-6603.jpg?ar=16%3A9&auto=compress&crop=faces&cs=origin&fit=crop&w=1200&h=800&ixlib=react-9.11.0"
+    "topic": "Domestic"
   },
   {
     "id": "01e0658b08e3",
@@ -1097,11 +1179,10 @@
     "published": "2026-03-27T11:51:25-04:00",
     "published_display": "Mar 27, 2026",
     "query": "direct_feed",
-    "image": "img/01e0658b08e3.jpg",
+    "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/vance-task-force.jpg",
     "real_url": "https://www.foxnews.com/politics/vance-says-biden-turned-off-anti-fraud-protections-debuts-new-task-force-focus-somali-schemes",
     "bias": "R",
-    "topic": "General",
-    "image_remote": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/vance-task-force.jpg"
+    "topic": "General"
   },
   {
     "id": "0b196971be45",
@@ -1113,11 +1194,10 @@
     "published": "2026-03-27T11:39:05+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/0b196971be45.webp",
+    "image": "https://lavocedinewyork.com/wp-content/uploads/2025/03/Donald-Trump-e-J.D.-Vance-Ansa-webp.webp",
     "real_url": "https://lavocedinewyork.com/en/politics-en/2026/03/27/vances-lonely-assignment-to-end-the-war-he-warned-against-from-the-start/",
     "bias": "?",
-    "topic": "Military",
-    "image_remote": "https://lavocedinewyork.com/wp-content/uploads/2025/03/Donald-Trump-e-J.D.-Vance-Ansa-webp.webp"
+    "topic": "Military"
   },
   {
     "id": "3e6c11de0ebd",
@@ -1129,11 +1209,10 @@
     "published": "2026-03-27T11:20:44-04:00",
     "published_display": "Mar 27, 2026",
     "query": "direct_feed",
-    "image": "img/3e6c11de0ebd.jpg",
+    "image": "https://twt-thumbs.washtimes.com/media/image/2026/03/27/AP26086530503986_c0-221-5316-3322_s1200x700.jpg?741cf88550dd486c0318781587e948a3b5d5e2d0",
     "real_url": "https://www.washingtontimes.com/news/2026/mar/27/vance-says-theft-federal-dollars-fraud-swamping-states-programs/",
     "bias": "LL",
-    "topic": "General",
-    "image_remote": "https://twt-thumbs.washtimes.com/media/image/2026/03/27/AP26086530503986_c0-221-5316-3322_s1200x700.jpg?741cf88550dd486c0318781587e948a3b5d5e2d0"
+    "topic": "General"
   },
   {
     "id": "2a3b6f7ff4dd",
@@ -1145,11 +1224,10 @@
     "published": "2026-03-27T09:54:54+00:00",
     "published_display": "Mar 27, 2026",
     "query": "direct_feed",
-    "image": "img/2a3b6f7ff4dd.jpg",
+    "image": "https://images.axios.com/TZsuMZ0sHkZbBzbb7jOIdC6YNB8=/0x0:1920x1080/1366x768/2026/03/25/1774458568496.jpeg",
     "real_url": "https://www.axios.com/2026/03/27/vance-iran-peace-talks",
     "bias": "C",
-    "topic": "Iran",
-    "image_remote": "https://images.axios.com/TZsuMZ0sHkZbBzbb7jOIdC6YNB8=/0x0:1920x1080/1366x768/2026/03/25/1774458568496.jpeg"
+    "topic": "Iran"
   },
   {
     "id": "798633d3eff5",
@@ -1161,11 +1239,10 @@
     "published": "2026-03-27T09:35:11+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance economy",
-    "image": "img/798633d3eff5.jpg",
+    "image": "https://singjupost.com/wp-content/uploads/2026/03/President-Trump-Remarks-@Cabinet-Meeting-Mar.-26-2026.jpg",
     "real_url": "https://singjupost.com/transcript-president-trump-remarks-cabinet-meeting-mar-26-2026/",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://singjupost.com/wp-content/uploads/2026/03/President-Trump-Remarks-@Cabinet-Meeting-Mar.-26-2026.jpg"
+    "topic": "General"
   },
   {
     "id": "d937e6f33964",
@@ -1177,11 +1254,10 @@
     "published": "2026-03-27T09:12:47+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/d937e6f33964.jpg",
+    "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/03/Cover.040126.jpg?resize=1200,683",
     "real_url": "https://www.washingtonexaminer.com/premium/4502540/jd-vance-road-to-2028-republican-nomination/",
     "bias": "LR",
-    "topic": "2028 Race",
-    "image_remote": "https://www.washingtonexaminer.com/wp-content/uploads/2026/03/Cover.040126.jpg?resize=1200,683"
+    "topic": "2028 Race"
   },
   {
     "id": "76188dfb365b",
@@ -1193,11 +1269,25 @@
     "published": "2026-03-27T09:12:47+00:00",
     "published_display": "Mar 27, 2026",
     "query": "direct_feed",
-    "image": "img/76188dfb365b.jpg",
+    "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/03/Cover.040126.jpg?resize=1200,683",
     "real_url": "https://www.washingtonexaminer.com/premium/4502540/jd-vance-road-to-2028-republican-nomination/",
     "bias": "LR",
-    "topic": "2028 Race",
-    "image_remote": "https://www.washingtonexaminer.com/wp-content/uploads/2026/03/Cover.040126.jpg?resize=1200,683"
+    "topic": "2028 Race"
+  },
+  {
+    "id": "3c5789b1f82d",
+    "title": "DHS Funding Bill Advances in the Senate: Did Republicans Cave?",
+    "source": "RedState",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://redstate.com/jenniferoo/2026/03/27/dhs-funding-bill-advances-did-republicans-cave-n2200686",
+    "published": "2026-03-27T08:30:49-04:00",
+    "published_display": "Mar 27, 2026",
+    "query": "direct_feed",
+    "image": "https://media.townhall.com/cdn/hodl/2025/304/a87d1b8e-e8f5-443c-bc7d-9bb8f0400cd8.jpg",
+    "real_url": "https://redstate.com/jenniferoo/2026/03/27/dhs-funding-bill-advances-did-republicans-cave-n2200686",
+    "bias": "R",
+    "topic": "Domestic"
   },
   {
     "id": "8fceb932ff80",
@@ -1209,11 +1299,10 @@
     "published": "2026-03-27T08:17:02+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/8fceb932ff80.jpg",
+    "image": "https://bloximages.newyork1.vip.townnews.com/keybiscayneportal.com/content/tncms/assets/v3/editorial/a/43/a438b5ae-1909-5984-9368-85608d30ec78/69c5e832b4350.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize",
     "real_url": "https://www.keybiscayneportal.com/news/national/life-after-trump-republicans-eye-vance-rubio-for-leadership/article_f933e738-5408-54f7-afdb-4c8a06ac3f31.html",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://bloximages.newyork1.vip.townnews.com/keybiscayneportal.com/content/tncms/assets/v3/editorial/a/43/a438b5ae-1909-5984-9368-85608d30ec78/69c5e832b4350.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize"
+    "topic": "General"
   },
   {
     "id": "47a8c4eef971",
@@ -1225,11 +1314,10 @@
     "published": "2026-03-27T04:45:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/47a8c4eef971.jpg",
+    "image": "https://www.thedailybeast.com/resizer/v2/GJMS36YGLRCEPIWYHFMOE66XTA.JPG?smart=true&auth=17cbeeb81deb7ccda9c94f89a107e97df30f49411c0c92e1b8518d7f10378f82&width=1200&height=630",
     "real_url": "https://www.thedailybeast.com/donald-trump-refuses-to-endorse-marco-rubio-or-jd-vance-for-president/",
     "bias": "L",
-    "topic": "General",
-    "image_remote": "https://www.thedailybeast.com/resizer/v2/GJMS36YGLRCEPIWYHFMOE66XTA.JPG?smart=true&auth=17cbeeb81deb7ccda9c94f89a107e97df30f49411c0c92e1b8518d7f10378f82&width=1200&height=630"
+    "topic": "General"
   },
   {
     "id": "7d1626af9f15",
@@ -1247,36 +1335,34 @@
     "topic": "Immigration"
   },
   {
-    "id": "091e9e1d8d36",
-    "title": "Vice President J.D. Vance\u2019s mother keynotes drug prevention event in Rockcastle County - WKYT",
-    "source": "WKYT",
+    "id": "184b197edd90",
+    "title": "Vice President J.D. Vance\u2019s mother keynotes drug prevention event in Rockcastle County - wkyt.com",
+    "source": "wkyt.com",
     "source_url": "https://www.wkyt.com",
     "source_domain": "www.wkyt.com",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWkRyMENPTkVlMHBTeG1JTk1YMFpaV3VTT05henJlVWVlM3RiYk5aTVR3MjdkT1RCOHVMbUJiNUhaVTlfYlB0d3MxeExSMjRZOThSVndiN01OQW9uMWZQSXFVRzBrOGFRMVRWS1BERnhCZkRjd0VOVktVaXlBODh0M0FJbHlwYzdNMXRKZjR1cjFiNTJLRXNaQ29zTjd6bVoyMTJuN05VUk9haGk3YjIwOTJTb9IBxwFBVV95cUxPNm43ZS1LTEg3LWRYR21zVFlVTVlSYUxlN1RtWWRheFFqbFhkc2ptRUJMMURkY3dFbEJYSHpvVjF3YzhwWldEVzd2WWpFc2VDTUo3WldVTnNmRnhleWtaSzRfYl9CWk1vbURMTzNmRGFJOFI5LVpzdWhKeTJ3LTY3eU01dWFVLU9pVWh4dnhfOEZTVzBNUk1FSDB2LU1NZy01THUyY244aUMxYTdoeUdDQmhIMkwzUjYwcU1YM2REZEpUVWF6UFIw?oc=5",
     "published": "2026-03-27T03:12:00+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/091e9e1d8d36.jpg",
+    "image": "https://gray-wkyt-prod.gtv-cdn.com/resizer/v2/4SGC43ATVRHFFNMV6Y6ZS2TFEI.jpg?auth=16c1b65b90d9749f149646dffd56fd9a501e338f43982d2514e759eff98c1e85&width=1200&height=600&smart=true",
     "real_url": "https://www.wkyt.com/2026/03/27/vice-president-jd-vances-mother-keynotes-drug-prevention-event-rockcastle-county/",
     "bias": "C",
-    "topic": "Immigration",
-    "image_remote": "https://gray-wkyt-prod.gtv-cdn.com/resizer/v2/4SGC43ATVRHFFNMV6Y6ZS2TFEI.jpg?auth=16c1b65b90d9749f149646dffd56fd9a501e338f43982d2514e759eff98c1e85&width=1200&height=600&smart=true"
+    "topic": "Immigration"
   },
   {
-    "id": "f50488ebb362",
-    "title": "Vice President J.D. Vance&#x27;s mother keynotes drug prevention event in Rockcastle County - WKYT",
-    "source": "WKYT",
+    "id": "60efbc5dce97",
+    "title": "Vice President J.D. Vance&#x27;s mother keynotes drug prevention event in Rockcastle County - wkyt.com",
+    "source": "wkyt.com",
     "source_url": "https://www.wkyt.com",
     "source_domain": "www.wkyt.com",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTTh4cTZCSkJianNOcnJZTk9lbnJSTHhyMVAwVmRvcWZteHNGc3dzaG84TGhDQjBQWFVtVXpCdXEyR0QyV1l1ZlZHSXB2b1I3VXlERWZoZEpaR0lfaW1vZ3BUbmJNaFA3R2RqSC1FYUs5N3FMUFEwVU9VNlBqUGhJcVZzbVdfdnFGblktZkh5blpoMXRWZEt5VlVQZjdieXlzX3FXelZVdWExbEs2dUhLMFFpN2tPVV8wQkZZ?oc=5",
     "published": "2026-03-27T02:59:58+00:00",
     "published_display": "Mar 27, 2026",
     "query": "JD Vance",
-    "image": "img/f50488ebb362.jpg",
+    "image": "https://gray-wkyt-prod.gtv-cdn.com/resizer/v2/https%3A%2F%2Fdo0bihdskp9dy.cloudfront.net%2F03-27-2026%2Ft_99f52eae68ac46ba912d32b9183ad166_name_file_1280x720_2000_v3_1_.jpg?auth=9f216ddffde9226b56969968b9c06208217a4fc5efe8e201a49d2d4a26b339a8&width=1200&height=600&smart=true",
     "real_url": "https://www.wkyt.com/video/2026/03/27/vice-president-jd-vances-mother-keynotes-drug-prevention-event-rockcastle-county/",
     "bias": "C",
-    "topic": "Immigration",
-    "image_remote": "https://gray-wkyt-prod.gtv-cdn.com/resizer/v2/https%3A%2F%2Fdo0bihdskp9dy.cloudfront.net%2F03-27-2026%2Ft_99f52eae68ac46ba912d32b9183ad166_name_file_1280x720_2000_v3_1_.jpg?auth=9f216ddffde9226b56969968b9c06208217a4fc5efe8e201a49d2d4a26b339a8&width=1200&height=600&smart=true"
+    "topic": "Immigration"
   },
   {
     "id": "4c4b3c9557bd",
@@ -1288,11 +1374,10 @@
     "published": "2026-03-27T01:22:44+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/4c4b3c9557bd.jpg",
+    "image": "https://bloximages.newyork1.vip.townnews.com/djournal.com/content/tncms/assets/v3/editorial/0/b8/0b8d3c1f-6fe7-5ae4-92e0-196a2480ac5a/69c5e87dde0de.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize",
     "real_url": "https://www.djournal.com/news/national/life-after-trump-republicans-eye-vance-rubio-for-leadership/article_07596312-ba5e-5325-a0f7-9fcd44412a36.html",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://bloximages.newyork1.vip.townnews.com/djournal.com/content/tncms/assets/v3/editorial/0/b8/0b8d3c1f-6fe7-5ae4-92e0-196a2480ac5a/69c5e87dde0de.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize"
+    "topic": "General"
   },
   {
     "id": "6330bf28f4a4",
@@ -1304,11 +1389,10 @@
     "published": "2026-03-27T01:22:44+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/6330bf28f4a4.jpg",
+    "image": "https://bloximages.chicago2.vip.townnews.com/communitynewspapergroup.com/content/tncms/assets/v3/editorial/f/6d/f6d152f5-2a58-506b-ada4-8f890a0d4dc4/69c5e88279c31.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize",
     "real_url": "https://www.communitynewspapergroup.com/news/nation/life-after-trump-republicans-eye-vance-rubio-for-leadership/article_7465357b-3dd1-58cd-a13a-a34dd894f5f5.html",
     "bias": "C",
-    "topic": "General",
-    "image_remote": "https://bloximages.chicago2.vip.townnews.com/communitynewspapergroup.com/content/tncms/assets/v3/editorial/f/6d/f6d152f5-2a58-506b-ada4-8f890a0d4dc4/69c5e88279c31.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize"
+    "topic": "General"
   },
   {
     "id": "0ba7ef991ac2",
@@ -1320,11 +1404,10 @@
     "published": "2026-03-27T01:22:44+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/0ba7ef991ac2.jpg",
+    "image": "https://bloximages.newyork1.vip.townnews.com/caledonianrecord.com/content/tncms/assets/v3/editorial/2/32/23231175-0ad1-59eb-a329-64b377b7b64f/69c5e8c766ff6.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize",
     "real_url": "https://www.caledonianrecord.com/news/national/life-after-trump-republicans-eye-vance-rubio-for-leadership/article_b1e45128-7d6f-5e92-85cd-58a5e799028e.html",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://bloximages.newyork1.vip.townnews.com/caledonianrecord.com/content/tncms/assets/v3/editorial/2/32/23231175-0ad1-59eb-a329-64b377b7b64f/69c5e8c766ff6.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize"
+    "topic": "General"
   },
   {
     "id": "1ab133da8b87",
@@ -1336,11 +1419,10 @@
     "published": "2026-03-27T01:22:44+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/1ab133da8b87.jpg",
+    "image": "https://bloximages.newyork1.vip.townnews.com/kdhnews.com/content/tncms/assets/v3/editorial/1/dc/1dcd3d0e-2bcc-5b52-8a28-eabebb5afc73/69c5e859bebda.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize",
     "real_url": "https://kdhnews.com/news/nation/life-after-trump-republicans-eye-vance-rubio-for-leadership/article_b5d5019f-f599-5840-b40e-78e2464cbf7b.html",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://bloximages.newyork1.vip.townnews.com/kdhnews.com/content/tncms/assets/v3/editorial/1/dc/1dcd3d0e-2bcc-5b52-8a28-eabebb5afc73/69c5e859bebda.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize"
+    "topic": "General"
   },
   {
     "id": "7ef65b20d388",
@@ -1352,11 +1434,25 @@
     "published": "2026-03-27T01:22:44+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vance Republican",
-    "image": "img/7ef65b20d388.jpg",
+    "image": "https://bloximages.newyork1.vip.townnews.com/indianagazette.com/content/tncms/assets/v3/editorial/e/36/e36cdb5a-4888-57f9-90b8-119e192100dd/69c5e878a5839.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize",
     "real_url": "https://www.indianagazette.com/the_wire/life-after-trump-republicans-eye-vance-rubio-for-leadership/article_2b87ff25-3f39-5579-9e60-9cc9c57e8a94.html",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://bloximages.newyork1.vip.townnews.com/indianagazette.com/content/tncms/assets/v3/editorial/e/36/e36cdb5a-4888-57f9-90b8-119e192100dd/69c5e878a5839.image.jpg?crop=341%2C341%2C85%2C0&resize=200%2C200&order=crop%2Cresize"
+    "topic": "General"
+  },
+  {
+    "id": "818bcfa5e16f",
+    "title": "Chicago Democrat torches his own party, Gov. Pritzker \u2014 reveals why Democrats block Trump&#x27;s immigration enforcement",
+    "source": "Blaze Media",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/news/chicago-democrat-torches-his-own-party-gov-pritzker-reveals-why-democrats-block-trump-s-immigration-enforcement",
+    "published": "2026-03-26T21:50:00+00:00",
+    "published_display": "Mar 26, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/news/chicago-democrat-torches-his-own-party-gov-pritzker-reveals-why-democrats-block-trump-s-immigration-enforcement",
+    "bias": "?",
+    "topic": "Immigration"
   },
   {
     "id": "dac9be5dbcc8",
@@ -1368,11 +1464,10 @@
     "published": "2026-03-26T21:29:00+00:00",
     "published_display": "Mar 26, 2026",
     "query": "JD Vance",
-    "image": "img/dac9be5dbcc8.jpg",
+    "image": "https://www.thedailybeast.com/resizer/v2/M3MLFSMB4RHOTFU6HI6L2MTF5Y.jpg?smart=true&auth=b722ed8edaf8541e207f19beb492267aed0911883e3b0ed75927343ba8223505&width=1200&height=630",
     "real_url": "https://www.thedailybeast.com/trump-is-secretly-bad-mouthing-vance-for-saving-face-on-war/",
     "bias": "L",
-    "topic": "Military",
-    "image_remote": "https://www.thedailybeast.com/resizer/v2/M3MLFSMB4RHOTFU6HI6L2MTF5Y.jpg?smart=true&auth=b722ed8edaf8541e207f19beb492267aed0911883e3b0ed75927343ba8223505&width=1200&height=630"
+    "topic": "Military"
   },
   {
     "id": "c24e855a29d6",
@@ -1384,11 +1479,10 @@
     "published": "2026-03-26T21:15:11+00:00",
     "published_display": "Mar 26, 2026",
     "query": "direct_feed",
-    "image": "img/c24e855a29d6.jpg",
+    "image": "https://images.axios.com/pTiNlYMWtImtvVNnPLYhTZi1hyI=/1366x768/smart/2023/11/27/212449-1701120289689.jpg",
     "real_url": "https://www.axios.com/2026/03/26/energy-executives-ratepayers-anger-ceraweek",
     "bias": "C",
-    "topic": "Domestic",
-    "image_remote": "https://images.axios.com/pTiNlYMWtImtvVNnPLYhTZi1hyI=/1366x768/smart/2023/11/27/212449-1701120289689.jpg"
+    "topic": "Domestic"
   },
   {
     "id": "d740da1209e7",
@@ -1400,11 +1494,10 @@
     "published": "2026-03-26T20:22:15+00:00",
     "published_display": "Mar 26, 2026",
     "query": "JD Vance",
-    "image": "img/d740da1209e7.jpg",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-02/260225-jd-vance-vl-1224p-e646d6.jpg",
     "real_url": "https://www.nbcnews.com/politics/jd-vance/vance-convene-first-white-house-anti-fraud-task-force-meeting-friday-rcna265363",
     "bias": "LL",
-    "topic": "Domestic",
-    "image_remote": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-02/260225-jd-vance-vl-1224p-e646d6.jpg"
+    "topic": "Domestic"
   },
   {
     "id": "0080b5c6fb32",
@@ -1416,11 +1509,10 @@
     "published": "2026-03-26T20:22:15+00:00",
     "published_display": "Mar 26, 2026",
     "query": "direct_feed",
-    "image": "img/0080b5c6fb32.jpg",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-02/260225-jd-vance-vl-1224p-e646d6.jpg",
     "real_url": "https://www.nbcnews.com/politics/jd-vance/vance-convene-first-white-house-anti-fraud-task-force-meeting-friday-rcna265363",
     "bias": "LL",
-    "topic": "Domestic",
-    "image_remote": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-02/260225-jd-vance-vl-1224p-e646d6.jpg"
+    "topic": "Domestic"
   },
   {
     "id": "41c82f57f52d",
@@ -1432,11 +1524,10 @@
     "published": "2026-03-26T20:17:23+00:00",
     "published_display": "Mar 26, 2026",
     "query": "Vance economy",
-    "image": "img/41c82f57f52d.jpg",
+    "image": "https://images.newrepublic.com/e317fc23e2c03855d45065f5c492689b31d696ba.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg",
     "real_url": "https://newrepublic.com/post/208248/trump-iran-war-throttling-homes-jobs-economy",
     "bias": "L",
-    "topic": "Economy",
-    "image_remote": "https://images.newrepublic.com/e317fc23e2c03855d45065f5c492689b31d696ba.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg"
+    "topic": "Economy"
   },
   {
     "id": "078b417cd72b",
@@ -1448,11 +1539,25 @@
     "published": "2026-03-26T19:45:17+00:00",
     "published_display": "Mar 26, 2026",
     "query": "direct_feed",
-    "image": "img/078b417cd72b.jpg",
+    "image": "https://images.axios.com/IW2PnKKvYBd_CIM3Z2cGnDOg9Wo=/0x0:1920x1080/1366x768/2025/06/25/1750888609943.jpeg",
     "real_url": "https://www.axios.com/2026/03/26/trump-iran-war-semantics-congress-approval",
     "bias": "C",
-    "topic": "Iran",
-    "image_remote": "https://images.axios.com/IW2PnKKvYBd_CIM3Z2cGnDOg9Wo=/0x0:1920x1080/1366x768/2025/06/25/1750888609943.jpeg"
+    "topic": "Iran"
+  },
+  {
+    "id": "571636271993",
+    "title": "Glenn Beck: Trump\u2019s anti-corruption task force signals 2028 succession strategy",
+    "source": "Blaze Media",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/shows/the-glenn-beck-program/glenn-beck-trumps-anti-corruption-task-force-signals-2028-succession-strategy",
+    "published": "2026-03-26T19:30:00+00:00",
+    "published_display": "Mar 26, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/shows/the-glenn-beck-program/glenn-beck-trumps-anti-corruption-task-force-signals-2028-succession-strategy",
+    "bias": "?",
+    "topic": "2028 Race"
   },
   {
     "id": "6cd1f3a5195c",
@@ -1464,11 +1569,10 @@
     "published": "2026-03-26T19:04:10+00:00",
     "published_display": "Mar 26, 2026",
     "query": "Vance Republican",
-    "image": "img/6cd1f3a5195c.jpg",
+    "image": "https://www.jta.org/wp-content/uploads/2024/07/07-26-2024-Jacob-Reses.jpg",
     "real_url": "https://www.jta.org/2026/03/26/politics/vances-jewish-chief-of-staff-shares-his-approach-to-right-wing-antisemitism-new-profile-reveals",
     "bias": "C",
-    "topic": "General",
-    "image_remote": "https://www.jta.org/wp-content/uploads/2024/07/07-26-2024-Jacob-Reses.jpg"
+    "topic": "General"
   },
   {
     "id": "1394e3fad626",
@@ -1479,12 +1583,26 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQzEzczV1dVphN2RIYTRid3REdzZwbW45ZmQzeWpka3ZxQjlLV0o2ZVM4Sm9CdENsMkRZbVhBNXhCdzBtNFBTaTJublNwem03TUZBdC1Ed2ltbjI2Wk0yWl92SktJT2FoQkRhRGkzRVBqcnNQcjBVQWxXeDJMUVhueXloZTl0VTEyVGpNVURn?oc=5",
     "published": "2026-03-26T18:49:11+00:00",
     "published_display": "Mar 26, 2026",
-    "query": "Vance Republican",
-    "image": "img/1394e3fad626.jpg",
+    "query": "JD Vance",
+    "image": "https://images.newrepublic.com/f553606ef4ab4605bf76915ba8cf3451d041ca2c.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg",
     "real_url": "https://newrepublic.com/post/208230/trump-trash-talking-jd-vance-not-gung-ho-iran-war",
     "bias": "L",
-    "topic": "Iran",
-    "image_remote": "https://images.newrepublic.com/f553606ef4ab4605bf76915ba8cf3451d041ca2c.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg"
+    "topic": "Iran"
+  },
+  {
+    "id": "23b080e996a7",
+    "title": "Jimmy Kimmel Burns Trump Diplomats With Blistering Herpes Comparison After Iran Demands Vance",
+    "source": "Politics",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.huffpost.com/entry/jimmy-kimmel-vance-iran-negotiations-herpes_n_69c57aafe4b04183741fe432",
+    "published": "2026-03-26T17:54:46-04:00",
+    "published_display": "Mar 26, 2026",
+    "query": "direct_feed",
+    "image": "https://img.huffingtonpost.com/asset/69c59a87240000193c309d2b.jpeg?cache=3Hu6BEZAIV&ops=1200_630",
+    "real_url": "https://www.huffpost.com/entry/jimmy-kimmel-vance-iran-negotiations-herpes_n_69c57aafe4b04183741fe432",
+    "bias": "C",
+    "topic": "Iran"
   },
   {
     "id": "3b908b15d6ae",
@@ -1496,11 +1614,10 @@
     "published": "2026-03-26T14:30:00+00:00",
     "published_display": "Mar 26, 2026",
     "query": "Vance economy",
-    "image": "img/3b908b15d6ae.png",
+    "image": "https://bloximages.chicago2.vip.townnews.com/elkintribune.com/content/tncms/custom/image/b9e936e8-de1f-11ed-9099-07fc4daf8181.png?resize=600%2C315",
     "real_url": "https://www.elkintribune.com/opinion/vance-tries-to-push-back-against-economic-reality-in-nc-visit/article_adde6297-da99-5f61-8aa8-f0b350640ee3.html",
     "bias": "?",
-    "topic": "General",
-    "image_remote": "https://bloximages.chicago2.vip.townnews.com/elkintribune.com/content/tncms/custom/image/b9e936e8-de1f-11ed-9099-07fc4daf8181.png?resize=600%2C315"
+    "topic": "General"
   },
   {
     "id": "a3c21afcddb0",
@@ -1511,28 +1628,11 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSHVYdGIzV3FKV19NQ2Z0LVhYSVNvdm54V0RvWG8xbzlWdGxDSVp5andhWWd5RlI3NS1NbG1RSnc1REZ5aHFyOU5nZTJsNmtpNlBMSU1oY3BTaG1WOFJ6d0tnUVdTX1FwRTlxVmpHY2tvUU53clFvWl9mejBoWXhWMVk5YVBQOUQyT2theVRB?oc=5",
     "published": "2026-03-26T13:55:00+00:00",
     "published_display": "Mar 26, 2026",
-    "query": "Vance president 2028",
-    "image": "img/a3c21afcddb0.png",
+    "query": "JD Vance",
+    "image": "https://assets.newsweek.com/wp-content/uploads/2026/03/Copy-of-32-image-2026-03-26T130221.586.png?w=1200crop=1",
     "real_url": "https://www.newsweek.com/jd-vance-chances-winning-2028-presidential-election-11739504",
     "bias": "LL",
-    "topic": "2028 Race",
-    "image_remote": "https://assets.newsweek.com/wp-content/uploads/2026/03/Copy-of-32-image-2026-03-26T130221.586.png?w=1200crop=1"
-  },
-  {
-    "id": "b6f05345b84c",
-    "title": "Poll: Marco Rubio second, Ron DeSantis fourth in New Hampshire GOP 2028 Primary - The Miami Times",
-    "source": "The Miami Times",
-    "source_url": "https://www.miamitimesonline.com",
-    "source_domain": "www.miamitimesonline.com",
-    "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPd0NqMjkzcWozUmxqNDRGcDJWVkFodWJzTGJhQ0UzU1VCczhINkpfVkJ5ZDgxbUxHOXR0aEhxTnNfVmF6Y1hTcVVqa0pZSGZ1ZndNYkxfY05Qc01wRkRYOE9BYmxodC1LTG1PcC1BYWhWZWdJVWZYbmpPdzVTMHd2NHZCWnVzczdrN2dYaHdZQ0wyNDdQMUwtSzBOSmhzWjR3T1RrNEhqeWhvTzhXaXpJUkxWRHFuM1lwTG0yNWxUUWwwanNTdlRBLUE4M1Z6eFU3czVuaE1FbU9VMFpjZjMtOUdBdnp4M2huQzU3aWlEdEJKY3ZpaFdybGVDVlAyOUZyNHphOXdPWTdOZnFKOUlYc1Fn0gGSAkFVX3lxTE93Q2oyOTNxajNSbGo0NEZwMlZWQWh1YnNMYmFDRTNTVUJzOEg2Sl9WQnlkODFtTEc5dHRoSHFOc19WYXpjWFNxVWprSllIZnVmd01iTF9jTlBzTXBGRFg4T0FibGh0LUtMbU9wLUFhaFZlZ0lVZlhuak93NVMwd3Y0dkJadXNzN2s3Z1hod1lDTDI0N1AxTC1LME5KaHNaNHdPVGs0SGp5aG9POFdpeklSTFZEcW4zWXBMbTI1bFRRbDBqc1N2VEEtQTgzVnp4VTdzNW5oTUVtT1UwWmNmMy05R0F2engzaG5DNTdpaUR0QkpjdmloV3JsZUNWUDI5RnI0emE5d09ZN05mcUo5SVhzUWc?oc=5",
-    "published": "2026-03-26T13:44:00+00:00",
-    "published_display": "Mar 26, 2026",
-    "query": "Vance president 2028",
-    "image": "img/b6f05345b84c.jpg",
-    "real_url": "https://www.miamitimesonline.com/news/world_national/poll-marco-rubio-second-ron-desantis-fourth-in-new-hampshire-gop-2028-primary/article_3a3745f5-fdc4-4ddf-9cd1-30768bdc153e.amp.html",
-    "bias": "LL",
-    "topic": "2028 Race",
-    "image_remote": "https://bloximages.newyork1.vip.townnews.com/miamitimesonline.com/content/tncms/assets/v3/editorial/0/57/0579d106-00ea-4f8d-8afc-bb6b4ab491eb/69c53987649c5.image.jpg?crop=838%2C440%2C220%2C0"
+    "topic": "2028 Race"
   },
   {
     "id": "fc32b508f00b",
@@ -1544,11 +1644,10 @@
     "published": "2026-03-26T13:40:18-04:00",
     "published_display": "Mar 26, 2026",
     "query": "direct_feed",
-    "image": "img/fc32b508f00b.jpg",
+    "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/26/35f9b89c-3bf1-49a9-a344-7ef0c06bb53e/thumbnail/1200x630/b1c58aede717043c1b0a7a6b016088c4/gettyimages-2267732587.jpg",
     "real_url": "https://www.cbsnews.com/news/save-america-act-photo-id-amendment-senate-vote/",
     "bias": "?",
-    "topic": "Domestic",
-    "image_remote": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/26/35f9b89c-3bf1-49a9-a344-7ef0c06bb53e/thumbnail/1200x630/b1c58aede717043c1b0a7a6b016088c4/gettyimages-2267732587.jpg"
+    "topic": "Domestic"
   },
   {
     "id": "a17f0a53bdd0",
@@ -1560,11 +1659,25 @@
     "published": "2026-03-26T13:28:10+00:00",
     "published_display": "Mar 26, 2026",
     "query": "Vance Republican",
-    "image": "img/a17f0a53bdd0.jpg",
+    "image": "https://substackcdn.com/image/fetch/$s_!dYsT!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86f4f98a-3598-46b9-bb84-16b5a44d9523_4241x2372.jpeg",
     "real_url": "https://www.thebulwark.com/p/a-war-no-one-wants-to-defend-iran-oil-trump-vance-rubio-hegseth-democrats-republicans-congress",
     "bias": "LL",
-    "topic": "Military",
-    "image_remote": "https://substackcdn.com/image/fetch/$s_!dYsT!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86f4f98a-3598-46b9-bb84-16b5a44d9523_4241x2372.jpeg"
+    "topic": "Military"
+  },
+  {
+    "id": "bbceeddca732",
+    "title": "Exclusive: Al Gore Slams Trump\u2019s \u201cAstonishing Mistake\u201d on Iran",
+    "source": "Mother Jones",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.motherjones.com/politics/2026/03/video-exclusive-al-gore-slams-trump-astonishing-mistake-iran/",
+    "published": "2026-03-26T11:30:00+00:00",
+    "published_display": "Mar 26, 2026",
+    "query": "direct_feed",
+    "image": "https://www.motherjones.com/wp-content/uploads/2026/03/20250325-al-gore-davod_2000px.jpg?w=1200&h=630&crop=1",
+    "real_url": "https://www.motherjones.com/politics/2026/03/video-exclusive-al-gore-slams-trump-astonishing-mistake-iran/",
+    "bias": "L",
+    "topic": "Iran"
   },
   {
     "id": "26551a61d735",
@@ -1591,11 +1704,10 @@
     "published": "2026-03-26T09:49:48+00:00",
     "published_display": "Mar 26, 2026",
     "query": "direct_feed",
-    "image": "img/71367a6f1f9d.jpg",
+    "image": "https://images.axios.com/9GEeNf-dIJbMKjuP4MEJ1DczcBs=/0x0:1920x1080/1366x768/2026/03/25/1774461815800.jpeg",
     "real_url": "https://www.axios.com/2026/03/26/anthropic-pentagon-ai-deal",
     "bias": "C",
-    "topic": "Military",
-    "image_remote": "https://images.axios.com/9GEeNf-dIJbMKjuP4MEJ1DczcBs=/0x0:1920x1080/1366x768/2026/03/25/1774461815800.jpeg"
+    "topic": "Military"
   },
   {
     "id": "a9401a0b74f2",
@@ -1622,11 +1734,10 @@
     "published": "2026-03-25T21:15:38+00:00",
     "published_display": "Mar 25, 2026",
     "query": "Vance president 2028",
-    "image": "img/32630732d16b.jpg",
+    "image": "https://twt-thumbs.washtimes.com/media/image/2026/03/22/Vance_36877_c0-122-2930-1831_s1200x700.jpg?7c8190b2b8d33680b86611e51a8b05075c33602b",
     "real_url": "https://www.washingtontimes.com/news/2026/mar/25/sorry-maga-faithful-vances-2028-dreams-might-mirage/",
     "bias": "LR",
-    "topic": "2028 Race",
-    "image_remote": "https://twt-thumbs.washtimes.com/media/image/2026/03/22/Vance_36877_c0-122-2930-1831_s1200x700.jpg?7c8190b2b8d33680b86611e51a8b05075c33602b"
+    "topic": "2028 Race"
   },
   {
     "id": "e2e9b60357a1",
@@ -1638,11 +1749,10 @@
     "published": "2026-03-25T20:40:00+00:00",
     "published_display": "Mar 25, 2026",
     "query": "JD Vance",
-    "image": "img/e2e9b60357a1.jpg",
+    "image": "https://thehill.com/wp-content/uploads/sites/2/2025/03/cpac_022025gn14_w.jpg?w=1280",
     "real_url": "https://thehill.com/homenews/campaign/5800749-trump-cpac-absence-notable-names/",
     "bias": "C",
-    "topic": "General",
-    "image_remote": "https://thehill.com/wp-content/uploads/sites/2/2025/03/cpac_022025gn14_w.jpg?w=1280"
+    "topic": "General"
   },
   {
     "id": "a3a3f20cf171",
@@ -1654,11 +1764,10 @@
     "published": "2026-03-25T19:29:41+00:00",
     "published_display": "Mar 25, 2026",
     "query": "Vance economy",
-    "image": "img/a3a3f20cf171.jpg",
+    "image": "https://imagedelivery.net/MkQ8HKvpw9EqULcU_pSqWg/cloud-63b5c0a2-c840-4c59-a219-120400476943/w=1200,q=75,f=auto",
     "real_url": "https://www.globalbankingandfinance.com/vance-due-visit-hungary-april-7-8-ahead-key-election-say/",
     "bias": "?",
-    "topic": "2028 Race",
-    "image_remote": "https://imagedelivery.net/MkQ8HKvpw9EqULcU_pSqWg/cloud-63b5c0a2-c840-4c59-a219-120400476943/w=1200,q=75,f=auto"
+    "topic": "2028 Race"
   },
   {
     "id": "5d162a5400ea",
@@ -1670,11 +1779,10 @@
     "published": "2026-03-25T18:18:08+00:00",
     "published_display": "Mar 25, 2026",
     "query": "JD Vance",
-    "image": "img/5d162a5400ea.jpg",
+    "image": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2Fb6%2F60%2F08bdd08a401584889b92afffa92d%2Ftrump-61239.jpg",
     "real_url": "https://www.politico.com/news/2026/03/25/vance-will-visit-hungary-just-days-before-its-election-00844646",
     "bias": "LL",
-    "topic": "2028 Race",
-    "image_remote": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2Fb6%2F60%2F08bdd08a401584889b92afffa92d%2Ftrump-61239.jpg"
+    "topic": "2028 Race"
   },
   {
     "id": "d1852630a038",
@@ -1686,214 +1794,9 @@
     "published": "2026-03-25T14:39:42+00:00",
     "published_display": "Mar 25, 2026",
     "query": "Vance president 2028",
-    "image": "img/d1852630a038.png",
+    "image": "https://floridianpress.com/wp-content/uploads/2026/03/Screenshot-2026-03-25-at-10.33.10-AM-e1774449275326.png",
     "real_url": "https://floridianpress.com/2026/03/secretary-rubio-and-governor-desantis-could-be-headed-to-a-2028-presidential-showdown/",
     "bias": "?",
-    "topic": "2028 Race",
-    "image_remote": "https://floridianpress.com/wp-content/uploads/2026/03/Screenshot-2026-03-25-at-10.33.10-AM-e1774449275326.png"
-  },
-  {
-    "id": "b940f357ed0f",
-    "title": "Gavin Newsom Responds To JD Vance\u2019s Reported War Role With Mocking Meme - HuffPost",
-    "source": "HuffPost",
-    "source_url": "https://www.huffpost.com",
-    "source_domain": "www.huffpost.com",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbXJ6VENQNEJ5andkazdVa21INThfTWpZT2xOZlVhdGI0N2doWHd4bEZJX1VCbUZvMlFOWlhxUmtVcjZPODFwYnJIb09STkJCT01NcGJnVzZBSjh6SzNxcDMwU1cybDJGTzhLcGVpdzVNeTh4S1RNZHVnVi1zM1BMcUNCSDVWUGtkTmw0bktvUXlCV0Q2QktHZzVYSXdrTzk4RUpNTDhTOTR2Q1pJRjVoQWhoLU1HWW1hUEtR0gHAAUFVX3lxTFBnQzMxVVZqS1l3RlV3Z1h6TnJnTFNMYjRfeUhlMGI5VW4xbWRjbEZ1V0E4MjVnekJpUXdFTkllaUFFZk9rWHlkaGF1blEtV1hvYzBlY2ljTzdzSzVpRnZVYWJNc3dVSFc0bkdLY2VEMTZETFBmaGxybG1UeUk0S1E0eWV2WFh3d1RtQkFCdS1fWFNoemJqeF9kSHV1LUltTkdpVktjekx5N1pwLS1ldlV2YzlkdGc4VnpNZDhrallpMg?oc=5",
-    "published": "2026-03-25T13:15:57+00:00",
-    "published_display": "Mar 25, 2026",
-    "query": "JD Vance",
-    "image": "img/b940f357ed0f.jpg",
-    "real_url": "https://www.huffpost.com/entry/gavin-newsom-jd-vance-iran-war-negotiations-role-mocking-meme_n_69c3ac77e4b018d43a5959a3",
-    "bias": "L",
-    "topic": "Military",
-    "image_remote": "https://img.huffingtonpost.com/asset/69c3d2641500008a204ef036.jpeg?cache=dKpFz6MQZ6&ops=500_281%2Cscalefit_1200_630"
-  },
-  {
-    "id": "7854103f0aa0",
-    "title": "Gavin Newsom Responds To JD Vance\u2019s Reported War Role With Mocking Meme - Yahoo",
-    "source": "Yahoo",
-    "source_url": "https://www.yahoo.com",
-    "source_domain": "www.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ18tbHlwMzFCYkEyQjhrVk93RFlmTVdJQUI2OU0tclBKeUZkOE5GSXpvdVNrOGc0SHFlczVDQ0RmMEREcmxsSmtWSFduei15Z2pyRXR1OHlTclhkUTBXQmtmSmR1TkpkLXdubkNfa2E2VmRXa2RhQWo2VlNLbUhvQ3BkZDJkSlhL?oc=5",
-    "published": "2026-03-25T13:15:57+00:00",
-    "published_display": "Mar 25, 2026",
-    "query": "Vance president 2028",
-    "image": "img/7854103f0aa0.jpg",
-    "real_url": "https://www.yahoo.com/news/articles/gavin-newsom-responds-jd-vance-131557225.html",
-    "bias": "C",
-    "topic": "Military",
-    "image_remote": "https://s.yimg.com/os/en/the_huffington_post_584/a8a3d8b008ad8002ca0a9fc8754a0067"
-  },
-  {
-    "id": "2f384e811ec9",
-    "title": "Sky News Australia. . US President Donald Trump says Vice President JD Vance and Secretary of State Marco Rubio are leading negotiations with Iran. - facebook.com",
-    "source": "facebook.com",
-    "source_url": "https://www.facebook.com",
-    "source_domain": "www.facebook.com",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM1BJeU5SUGdxeFBDNmdodlV1REpxcWh2ZTYtU0t0Zks2Z25ZUnFEbTQ1SXdiMDhhSmlicElzWjhEUGxNSm1UZElYa3VEbWlxYVZnM1NNMFUwT0hnaUk5aDQ5MEN4R05LTmRmXzJOSnRxLVVZSE9hcGZWUm51WG5DUlMxS1NWYWdFU2Z6dUFLMkVWdWV2N2lXZmNKVE5QcTY5TWRlX0NiLVd4WjZ0Sks0RXV3WTc0OURuTGxv?oc=5",
-    "published": "2026-03-25T02:10:39+00:00",
-    "published_display": "Mar 25, 2026",
-    "query": "Vice President Vance",
-    "image": "",
-    "real_url": "https://www.facebook.com/SkyNewsAustralia/videos/vance-and-rubio-are-in-negotiations-with-iran-trump/25435314226141575/",
-    "bias": "?",
-    "topic": "Iran"
-  },
-  {
-    "id": "0dccb135d1af",
-    "title": "&#x27;Dangerous and arrogant&#x27;: Beshear takes aim at JD Vance amid 2028 presidential race discussions - whas11.com",
-    "source": "WHAS11",
-    "source_url": "https://www.whas11.com",
-    "source_domain": "www.whas11.com",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWQxR2R1dUlvcEtCT1AxckZQN0o0N1RCZG9XdnU2dERIQzdDSnJ6UEVaY2N4NmYwQUtISUJvMU9TeXM5SkN4bFNnS3hPYUNBeWp5dl9OakZMX1UtVG14eHF4TzhpeVV2VTcyd3ByYmdHTUlGWHUteG9qNVJqWlQxRl9tNGdfb1dJMU1NdFR1OEtFc0RhQUl0MU9YZlpfdHVnZm15WmRIX0dFWnllcjdNUU52NkdNa3liUjczcmdSWWcxalpy?oc=5",
-    "published": "2026-03-24T23:25:00+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance president 2028",
-    "image": "img/0dccb135d1af.jpg",
-    "real_url": "https://www.whas11.com/article/news/politics/andy-beshear-jd-vance-feud-2028-election/417-aac7904c-672b-4b8f-8a77-ffe76b02240f",
-    "bias": "?",
-    "topic": "2028 Race",
-    "image_remote": "https://media.whas11.com/assets/WHAS/images/d28b39a6-96d5-423c-8a60-b348d6a15980/d28b39a6-96d5-423c-8a60-b348d6a15980_1140x641.jpg"
-  },
-  {
-    "id": "0b8d5bd4cdaf",
-    "title": "Why JD Vance could be the key to a peace deal with Iran - The Times",
-    "source": "The Times",
-    "source_url": "https://www.thetimes.com",
-    "source_domain": "www.thetimes.com",
-    "link": "https://news.google.com/rss/articles/CBMiugNBVV95cUxOdWRpRGc1UkFBbkM2aHRfZDZ4QWNPRGN3TmE1U0c0akhsbDViNjdubHg0Qi1yMTRtQ0U3cXFrWHhsSzdGLTVSOXFGVVVLblZVYXRHV3dDTDkyakpuYklKbmZENk5QS3dESU1PQWJJSlp5dnpCMnp2RDYzbmhKcW16NThrSjhOeVhFM2ZuZnM4dUZ6a1YteTBqZWVOTGtlc3RZUTBqVUF5a25Zb29GeTlhdUxScGhhSi1iRjA3bDhkTWJUcXhnYnRwYVB1T1N4QU5HVWRxakttRHBUbUxITHhXOXhtODlmT2JsV2tXOXZFUFcteEZyOTVza3htMzkwUzVTNlJ2QS14ZUVqRVFHSjN1UUlVelJBRFpoUHZadmJ5Mmo4aGh6TjQxQ0RJUTZJOHFuclZJNXpIdmpYMVE2TThYRDVVblJWWnA3OS1rZ3hSazREZzV1ZHJOWjFTRlgya2hMN1FpMVg1dmtialp3bTJ5Tkd4TVZBWmhlRl9HM0VzYm1xUU5iS2N5N3I5a2F2MzF6cUJkUW1tMDhZWE11cDNIR3BWczVpMzNSeFlweWJDNXkwWVpXRDdNNkxn?oc=5",
-    "published": "2026-03-24T21:20:30+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance Republican",
-    "image": "",
-    "real_url": "https://www.thetimes.com/us/american-politics/article/why-iran-wants-negotiate-peace-plan-jd-vance-trump-gn3nj2n2c?gaa_at=eafs&gaa_n=AWEtsqf9SyFAwF1Xksy9gy-WkuKNWKS16MmMlXMpMYZLz8w69RgySYl56bug&gaa_ts=69c6ebbd&gaa_sig=AdBohdSV2KWsaJ40KAXa3ukuNVoa_Q_NLpi0t_8RGY7BaxD2gF3h2V_e6GOYA1hmA4xfukKRmNfU3Xf_xkhYPQ%3D%3D",
-    "bias": "C",
-    "topic": "Iran"
-  },
-  {
-    "id": "b7a2496816ad",
-    "title": "Of Course JD Vance Will Run in 2028 - National Review",
-    "source": "National Review",
-    "source_url": "https://www.nationalreview.com",
-    "source_domain": "www.nationalreview.com",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTWJNb2lxbThvTGRINmgzS0l0bThvWjc0ZDBUNHU0TnBHV2JKMDJrSFFMTjVscmtoZTdjLVNUd0RlMVBpQ1pGOWhQZUhzRVBRVng0NjNiN2VhNmgtMkdPOEZvVXk0WUIxQUdoam12Nzd0TEVjMVpJR24xbXh4OXJLZ9IBhgFBVV95cUxPQm11UWZXT1UtdmYyTm5wd1o1cThEMUtOTGNtYkZMSEN0MEZzaU5YZmREeEkwN0FFVG83UW5lSVlpMlh6bWtQWTdnSjZWdzdiS29aYzJDU1Ywcjl6bDAwUDR4Q0tkdk1wanRwc0ZSQUZra2RLNlJqR29VWi1nVlZaR2VpV0tkdw?oc=5",
-    "published": "2026-03-24T18:33:23+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance president 2028",
-    "image": "img/b7a2496816ad.jpg",
-    "real_url": "https://www.nationalreview.com/2026/03/of-course-jd-vance-will-run-in-2028/",
-    "bias": "R",
-    "topic": "2028 Race",
-    "image_remote": "https://i0.wp.com/www.nationalreview.com/wp-content/uploads/2026/03/jd-vance.jpg?fit=2057%2C1200&ssl=1"
-  },
-  {
-    "id": "6f9cc9f4390f",
-    "title": "New poll shows this Republican rising in 2028 GOP race as Vance\u2019s numbers dip - SILive.com",
-    "source": "SILive",
-    "source_url": "https://www.silive.com",
-    "source_domain": "www.silive.com",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVEFaWExFdHdISU9iQ21TY3R2VlFwUGRvc0l6TWt5UjVXUkFYc2FmajRTdFpzQ2FsUXpab3FfekFsVUNEaU5ncTY4d0paYzdRU09OdWdIQVlHNHUwTks3dDNHbXJqZ2JjaTZwWVlyaUNzZVhKSURKVm55SGRSemU1YTZkTFhPc2lvcGc4X2pMM3VYOURQWnlmRHR2NFVLdDNzU0phZk1Zb1ZPOEx3dktDRmxQUWZTVkM1TklCRm9n0gHSAUFVX3lxTE44Y09VN0RiT2k2ZFBvTU1zZ29KN0MtRHZ3UHhxQjR4SHZNckNOX3d4TlVtSEJxcVNkdHZmbHZ3Y3ZfY1RkY1d0S0I2NUh6OFZEMGpuczJ3eXM2ZzZ6X1J2ZVBKNXd3bVB6ZXdVS1NsLTMxTVF5UlhRMDZiM2JfYXdZc240Wk9ReFFQUXRBX3IxWnl6M3M3MThyNjJybS1YQjVDYng2cFViVkpoSnlKUVhkM3lwWHlYbnNfN2laOTZFYVozcXllYWFCYW9XVGZ2SU42Zw?oc=5",
-    "published": "2026-03-24T17:35:00+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance president 2028",
-    "image": "img/6f9cc9f4390f.jpg",
-    "real_url": "https://www.silive.com/politics/2026/03/new-poll-shows-this-republican-rising-in-2028-gop-race-as-vances-numbers-dip.html",
-    "bias": "?",
-    "topic": "2028 Race",
-    "image_remote": "https://www.silive.com/resizer/v2/3GVGTCG66RHNPPHGYF2L6REAA4.jpg?auth=294f0c6fcfe83e3f6cef2eb274a5faf30b415512485bc710b9f5ec2f8b21d79c&width=1280&smart=true&quality=90"
-  },
-  {
-    "id": "eca2af8aeefd",
-    "title": "Vance Leads 2028 GOP Presidential Contenders in Polling, but Rubio\u2019s Star Is Rising in First-in-the-Nation Primary State - The New York Sun",
-    "source": "The New York Sun",
-    "source_url": "https://www.nysun.com",
-    "source_domain": "www.nysun.com",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQktWQk03eUxFV1RfQjNhVzdIMzZ2TTVqQlN0NTJBTGNreFVNOFdOcEhIMXgyNDV5WGpyZkVxcmhkQy1kaXR0ckJPYWVKb3FETTdwRDZFU3pIRWhfMWItUW5vNS1nWkR0dUJpS2hWQkVQUmNFQXNsOGZEcUF3d201ZE9mX05wVV9USUhjeUE1cUtVaGdTTFV4ejd5VjhFYTJKVnItaDdhVFd5MlBfdHdKeE4zdnF2U0x6eWo1cGZtdnNrY01xOEVtRGZuQTM1YllFc2ZBNnI0eW4zMElhdC1mWUVn?oc=5",
-    "published": "2026-03-24T15:31:30+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance president 2028",
-    "image": "img/eca2af8aeefd.jpg",
-    "real_url": "https://www.nysun.com/article/vance-leads-2028-gop-presidential-contenders-in-polling-but-rubios-star-is-rising-in-first-in-the-nation-primary-state",
-    "bias": "?",
-    "topic": "2028 Race",
-    "image_remote": "https://wp.nysun.com/wp-content/uploads/2026/01/rubio-scaled.jpg"
-  },
-  {
-    "id": "4c1d060a7e76",
-    "title": "\u2018We\u2019ll see\u2019: This top Trump ally could challenge Vance and Rubio in 2028 - NJ.com",
-    "source": "NJ.com",
-    "source_url": "https://www.nj.com",
-    "source_domain": "www.nj.com",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRmlmTjg2ODN5bGhIdzk2cG43Tko2Y19zUXQwYUxfYnlTb0hZMU1xWThFSE9GdWZZM0dTOUU5NEVWS0J2SDE4NE9nRUR1YktKcGxUZEgzbmp6SENfaWFjZmtZZHpOMFM3LV9nVUd6MWs1YlU4dVViZVNBbTFOLXdjby1lX3JfQkVscDJyQ0d0NXgtOG9MaEFPeHE2aWJEOFBleWFDaDBfb1hOZ1pzZ3fSAcIBQVVfeXFMUHBqVXEtY3d1amhFRDBRai1wWU9NX245a2l3WTU3TGYyR1FOQVJyVjdfeWJ3NTlNUWd6WkpKLU1MQ3JlVFduUlpQLWUzR3RJSG9Ld25QVHczWEVUMWctcVBueXlNbExseUdKVHNadXZwZmJVSmhaODZUS09hazZwX3ZEcEdOU3VSR3h0N2h3UHJxVEZqQndEenJhM0ZPYUFtRV9qNzJBN0RGMkpFWkZpTC1pN05MZWdjMjA2TEc4VUJkMHc?oc=5",
-    "published": "2026-03-24T13:29:00+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance president 2028",
-    "image": "img/4c1d060a7e76.jpg",
-    "real_url": "https://www.nj.com/politics/2026/03/well-see-this-top-trump-ally-could-challenge-vance-and-rubio-in-2028.html",
-    "bias": "?",
-    "topic": "2028 Race",
-    "image_remote": "https://www.nj.com/resizer/v2/POY2VMAYMVBD3CCNYN24J4X7BY.jpg?auth=9d713048f06eb207e6c4fc4e4b9666f439dc60594fe6e93354066627cf4907ea&width=1280&smart=true&quality=90"
-  },
-  {
-    "id": "5ed7bf1dd066",
-    "title": "Kentucky\u2019s Andy Beshear takes aim at Vance as new rivalry intensifies - The Hill",
-    "source": "The Hill",
-    "source_url": "https://thehill.com",
-    "source_domain": "thehill.com",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VN1FzTzhYRmcyb1FRQkNSanVuekFyQ0ZVXzA3RWp4UXU3bXVTVHp3eVZiTnBwVzhLaGpfbGpyYTY0bk9TYUJzcC11aW9xUzJOLU56Rkx3cXdyNkV4N2Z5QkpHaGp0bnJtcHpLb3gxb3VTT1RHb2Nvc2RPa2pfdVHSAYQBQVVfeXFMUGhsTmNwaHZiZUxHZ1lfVXJYSkhNcWJjcWNSdkpqeXJhcEliUVo1YXRhNTBlbERaUmJVTzNwb0FDTGF6OGlaU0pPMXNrbGd2UUtfSl9OdXFnTnJZRDFEbFRLVV9zTzlDQjNjVFJ6MFJmajltVW1oUzlDVlkyQUQzUjdMMC1Z?oc=5",
-    "published": "2026-03-24T11:00:00+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance president 2028",
-    "image": "",
-    "real_url": "https://thehill.com/homenews/campaign/5796848-beshear-vance-rivalry-grows/",
-    "bias": "C",
-    "topic": "General"
-  },
-  {
-    "id": "ab949b98904d",
-    "title": "Meet Jacob Reses, the Vance Whisperer - New York Magazine",
-    "source": "New York Magazine",
-    "source_url": "https://nymag.com",
-    "source_domain": "nymag.com",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOWJjXzZEU2MzYWFyc3l6Q1I4MkgyWUM5S2NUQ0JzTi1lS1hpMEo3UE53WVVGbXlQMk1JS1dFZWhxaFNkMDctMEQ3UnctMkg0VEgtbmI4TkllQVFnT09vUS1JTUNFdERVLW80R09sTFRFV1Y1bXpaOC1sV05aemhtUFlMUmR3dG92UjE5SE9xV19KXzZGQ1E?oc=5",
-    "published": "2026-03-24T09:00:02+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance Republican",
-    "image": "img/ab949b98904d.png",
-    "real_url": "https://nymag.com/intelligencer/article/jacob-reses-jd-vance-trump-republican-reformer.html",
-    "bias": "?",
-    "topic": "General",
-    "image_remote": "https://pyxis.nymag.com/v1/imgs/08a/677/5e4774e003e96e3c7a457c80f80a52f530-0726FEA-VANCE-Opener.1x.rsocial.w1200.png"
-  },
-  {
-    "id": "6c1092c6c01b",
-    "title": "DeSantis doesn\u2019t rule out a 2028 presidential run: \u2018We\u2019ll see\u2019 - New York Post",
-    "source": "New York Post",
-    "source_url": "https://nypost.com",
-    "source_domain": "nypost.com",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTnE0Ry00ZDdESXpCUklDRFB4dFlEZ0hjMHFhMXpDSWp1SGFiU3BWQndzX1V2YUFBVzRGSFpUMzhkWnFPS1pFQVFVZWVGVzNMNUREX29nREhEYzEtOHRoM2VWMC1DdEtPRTFzQ292OHBjWHNqWUR1ZS1YTHZieFZUYWo0RndLR3dCeGtGODc2el9BUFBxS2oyYjltVkU?oc=5",
-    "published": "2026-03-24T06:20:00+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance president 2028",
-    "image": "",
-    "real_url": "https://nypost.com/2026/03/24/us-news/desantis-doesnt-rule-out-a-2028-presidential-run-well-see/",
-    "bias": "LR",
     "topic": "2028 Race"
-  },
-  {
-    "id": "a7f693502c8a",
-    "title": "Rubio Popularity Skyrockets, Vance Craters, As GOP Starts Handicapping 2028 Presidential Nominee - The Maine Wire",
-    "source": "The Maine Wire",
-    "source_url": "https://www.themainewire.com",
-    "source_domain": "www.themainewire.com",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOW5VWlRILW5EWnVySkMyakxZQjZMUVE0R3JHaHRoX3UyN1JlT3J5VGdxcmc5TmpEMDF3ejhJUkxCX2xBZFpKR0trRUdyZHRwR210bkNQWEFPOGdSdldocWI3dWdyMkFqZDhHcGw5eDV4N0V2WUpRZXR1dldad0k3VjFmX01FajdIN0lZRUNKM2JILWRCVmNZRjNzNkNwVTQ0OFo0NjBTN1J5WmVXVmRIbV82MVktaUlSNHU1QlpjN0VQSzAzSHpSYkw2R0XSAdQBQVVfeXFMTktZRlVHRlVWU3p6N0tYOHkzMVVqN0dxRVBNSHBnWnYtZmR6VGczMzktUVNOVGdfb0tacWp1ekNKV3RpRjFzYTNmLXZqZ3hObF9RMVJPQmdSR0lSemZWYkd5THBOc3pXTmF3c2wxUnBBakpOWTBxN0V3cS1Zb19hTWgxN2RWM0w5QVY2UFBWSGY4T0R3Nmd4MWt5Rjl4OHZGU0RkeWZvaElWZ0NZZG5lQXJWQ1gyeTAzd05YQk9CR0lQUmF6WFV4a2JhUW42cXU2aVl0UXA?oc=5",
-    "published": "2026-03-24T03:06:26+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance president 2028",
-    "image": "img/a7f693502c8a.png",
-    "real_url": "https://www.themainewire.com/2026/03/rubio-popularity-skyrockets-vance-craters-as-gop-starts-handicapping-2028-presidential-nominee/",
-    "bias": "?",
-    "topic": "2028 Race",
-    "image_remote": "https://www.themainewire.com/wp-content/uploads/2025/05/rubio-1024x576.png"
   }
 ]

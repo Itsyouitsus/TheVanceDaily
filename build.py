@@ -33,6 +33,7 @@ QUERIES = [
 
 # Direct RSS feeds from major US political outlets (for broader coverage)
 DIRECT_FEEDS = [
+    # === TOP TIER (by US traffic) ===
     # LEFT / LEAN LEFT
     "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
     "https://feeds.washingtonpost.com/rss/politics",
@@ -41,11 +42,37 @@ DIRECT_FEEDS = [
     "https://feeds.abcnews.com/abcnews/politicsheadlines",
     "https://www.cbsnews.com/latest/rss/politics",
     "https://feeds.politico.com/rss/politicopicks.xml",
+    "https://www.latimes.com/politics/feed",
+    "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
+    "https://www.huffpost.com/section/politics/feed",
+    "https://www.vox.com/rss/index.xml",
+    "https://www.thedailybeast.com/feed",
+    "https://www.msnbc.com/feeds/latest",
+    "https://www.salon.com/feed/",
+    "https://www.motherjones.com/feed/",
+    "https://www.theatlantic.com/feed/all/",
+    "https://feeds.newrepublic.com/feed/rss",
+    "https://www.vanityfair.com/feed/rss",
+    "https://www.rollingstone.com/politics/feed/",
+    "https://feeds.bloomberg.com/politics/news.rss",
+    
     # CENTER
     "https://feeds.reuters.com/reuters/politicsNews",
     "https://feeds.apnews.com/apnews/politics",
     "https://thehill.com/feed/",
     "https://www.axios.com/feeds/feed.rss",
+    "https://www.usatoday.com/rss/news/nation/",
+    "https://www.c-span.org/feeds/",
+    "https://news.yahoo.com/rss/politics",
+    "https://feeds.a]cnews.com/acnews/us",
+    "https://www.newsweek.com/rss",
+    "https://www.upi.com/rss/TopNews/",
+    "https://time.com/feed/",
+    "https://fortune.com/feed/",
+    "https://www.cnbc.com/id/10000113/device/rss/rss.html",  # CNBC Politics
+    "https://www.pbs.org/newshour/feeds/rss/headlines",
+    "https://www.csmonitor.com/rss/all",
+    
     # LEAN RIGHT / RIGHT
     "https://feeds.foxnews.com/foxnews/politics",
     "https://nypost.com/politics/feed/",
@@ -53,6 +80,20 @@ DIRECT_FEEDS = [
     "https://www.washingtonexaminer.com/section/politics/feed",
     "https://www.dailywire.com/feeds/rss.xml",
     "https://www.breitbart.com/politics/feed/",
+    "https://www.nationalreview.com/feed/",
+    "https://thefederalist.com/feed/",
+    "https://www.dailycaller.com/feed",
+    "https://www.newsmax.com/rss/Politics/16/",
+    "https://www.theblaze.com/feeds/feed.rss",
+    "https://townhall.com/feeds/all.xml",
+    "https://www.foxbusiness.com/feeds/rss/all",
+    "https://www.oann.com/feed/",
+    "https://justthenews.com/feed",
+    "https://freebeacon.com/feed/",
+    "https://www.redstate.com/feed/",
+    "https://pjmedia.com/feed",
+    "https://hotair.com/feed",
+    "https://reason.com/feed/",  # Libertarian
 ]
 
 MAX_ARTICLES = 120
@@ -383,39 +424,6 @@ def process_entry(entry, query):
     except: return None
 
 
-def download_image(url, article_id):
-    """Download an image and save it locally. Returns local path or empty string."""
-    img_dir = os.path.join(OUTPUT_DIR, "img")
-    os.makedirs(img_dir, exist_ok=True)
-    # Determine extension from URL
-    ext = ".jpg"
-    url_lower = url.lower().split("?")[0]
-    if url_lower.endswith(".png"): ext = ".png"
-    elif url_lower.endswith(".webp"): ext = ".webp"
-    elif url_lower.endswith(".gif"): ext = ".gif"
-    
-    local_path = os.path.join(img_dir, f"{article_id}{ext}")
-    relative_path = f"img/{article_id}{ext}"
-    
-    if os.path.exists(local_path):
-        return relative_path
-    
-    try:
-        req = urllib.request.Request(url, headers={
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-            'Referer': url,
-        })
-        resp = urllib.request.urlopen(req, timeout=10, context=SSL_CTX)
-        data = resp.read(500000)  # Max 500KB per image
-        if len(data) > 1000:  # Minimum size to be a real image
-            with open(local_path, 'wb') as f:
-                f.write(data)
-            return relative_path
-    except:
-        pass
-    return ""
-
-
 def enrich_article(article):
     try:
         real_url = resolve_url(article["link"])
@@ -423,13 +431,7 @@ def enrich_article(article):
             article["real_url"] = real_url
             image_url = fetch_og_image(real_url)
             if image_url and image_url.startswith('http'):
-                # Download image locally
-                local = download_image(image_url, article["id"])
-                if local:
-                    article["image"] = local
-                    article["image_remote"] = image_url
-                else:
-                    article["image"] = image_url  # Fallback to remote
+                article["image"] = image_url
     except: pass
     return article
 
@@ -524,7 +526,9 @@ def generate_html(articles, build_time):
         card_class = "card soc-card-item" if is_social else "card"
 
         if a.get("image"):
-            img_html = f'<div class="card-img card-img-lazy" data-bg="{a["image"]}"></div>'
+            fd = a.get("source_domain", "")
+            fallback_js = f"this.onerror=null;this.parentElement.innerHTML=\\'<img class=src-logo src=https://www.google.com/s2/favicons?domain={fd}&sz=64><span class=src-lbl>{a['source']}</span>\\';this.parentElement.className=\\'card-img card-img-source\\'" if fd else "this.onerror=null;this.parentElement.className='card-img card-img-empty';this.style.display='none'"
+            img_html = f'<div class="card-img"><img src="{a["image"]}" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover" onerror="{fallback_js}"></div>'
         else:
             fd = a.get("source_domain", "")
             if fd:
