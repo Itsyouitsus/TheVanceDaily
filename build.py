@@ -1544,15 +1544,18 @@ def main():
     else:
         print("\nNo new articles to enrich")
     
-    # Merge: combine new enriched articles with existing cached articles
+    # Merge: prefer existing cached articles (they have images), add new enriched ones
     merged_ids = set()
     merged = []
+    # First add all existing articles (they have images/enrichment from previous builds)
+    for a in existing_articles:
+        aid = a.get("id", "")
+        if aid and aid not in merged_ids:
+            merged_ids.add(aid)
+            merged.append(a)
+    # Then add newly enriched articles
     for a in all_articles:
         if a["id"] not in merged_ids:
-            merged_ids.add(a["id"])
-            merged.append(a)
-    for a in existing_articles:
-        if a.get("id", "") not in merged_ids:
             merged_ids.add(a["id"])
             merged.append(a)
     all_articles = sorted(merged, key=lambda a: a.get("published", ""), reverse=True)
