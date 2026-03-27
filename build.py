@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-OnlyVance28.com — v4
+OnlyVance28.com - v4
 Dark editorial design, social links, political bias indicators, source carousel.
 """
 
@@ -861,17 +861,17 @@ def generate_html(articles, build_time, social_posts=None):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OnlyVance28 — Every JD Vance Article, Every Day | News Aggregator</title>
+    <title>OnlyVance28 - Every JD Vance Article, Every Day | News Aggregator</title>
     <meta name="description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles from ''' + str(source_count) + ''' sources, updated daily. Filter by political bias, topic, source, or date. Left to Right coverage compared.">
     <meta name="keywords" content="JD Vance, Vance news, Vance 2028, VP Vance, Republican news, political news aggregator, media bias, Vance Iran, Vance immigration, Vance policy">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="OnlyVance28 — Every JD Vance Article, Every Day">
+    <meta property="og:title" content="OnlyVance28 - Every JD Vance Article, Every Day">
     <meta property="og:description" content="''' + total + ''' articles from ''' + str(source_count) + ''' sources. Filter by political bias, topic, or date. Updated daily.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://onlyvance28.com">
     <meta property="og:site_name" content="OnlyVance28">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="OnlyVance28 — Every JD Vance Article, Every Day">
+    <meta name="twitter:title" content="OnlyVance28 - Every JD Vance Article, Every Day">
     <meta name="twitter:description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles updated daily.">
     <link rel="canonical" href="https://onlyvance28.com">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
@@ -917,7 +917,7 @@ def generate_html(articles, build_time, social_posts=None):
         .logo-flag svg{width:100%;height:100%;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,.1)}
         .logo{font-family:'Playfair Display',Georgia,serif;font-weight:900;font-size:clamp(1.8rem,4.5vw,2.8rem);letter-spacing:-.02em;line-height:1.05;color:var(--text)}
         .logo .a{color:var(--accent)}
-        .tagline{font-size:.78rem;font-weight:300;color:var(--text2);letter-spacing:.06em;text-transform:uppercase;margin-top:.2rem}
+        .tagline{font-size:.65rem;font-weight:300;color:var(--text2);letter-spacing:.04em;text-transform:uppercase;margin-top:.2rem}
         .hdr-right{display:flex;flex-direction:column;align-items:flex-end;gap:.4rem}
         .cta-row{display:flex;gap:.5rem;align-items:center;width:100%}
         .cta-email{padding:.45rem .8rem;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:.82rem;outline:none;flex:1;min-width:0}
@@ -1108,7 +1108,7 @@ def generate_html(articles, build_time, social_posts=None):
                     <div class="logo-flag"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#fff"/><g fill="#B22234"><rect y="0" width="60" height="3.08"/><rect y="6.15" width="60" height="3.08"/><rect y="12.31" width="60" height="3.08"/><rect y="18.46" width="60" height="3.08"/><rect y="24.62" width="60" height="3.08"/><rect y="30.77" width="60" height="3.08"/><rect y="36.92" width="60" height="3.08"/></g><rect width="24" height="21.54" fill="#3C3B6E"/><g fill="#fff" font-size="2.8" font-family="sans-serif" text-anchor="middle"><text x="2.4" y="3.5">&#9733;</text><text x="7.2" y="3.5">&#9733;</text><text x="12" y="3.5">&#9733;</text><text x="16.8" y="3.5">&#9733;</text><text x="21.6" y="3.5">&#9733;</text><text x="4.8" y="7">&#9733;</text><text x="9.6" y="7">&#9733;</text><text x="14.4" y="7">&#9733;</text><text x="19.2" y="7">&#9733;</text><text x="2.4" y="10.5">&#9733;</text><text x="7.2" y="10.5">&#9733;</text><text x="12" y="10.5">&#9733;</text><text x="16.8" y="10.5">&#9733;</text><text x="21.6" y="10.5">&#9733;</text><text x="4.8" y="14">&#9733;</text><text x="9.6" y="14">&#9733;</text><text x="14.4" y="14">&#9733;</text><text x="19.2" y="14">&#9733;</text><text x="2.4" y="17.5">&#9733;</text><text x="7.2" y="17.5">&#9733;</text><text x="12" y="17.5">&#9733;</text><text x="16.8" y="17.5">&#9733;</text><text x="21.6" y="17.5">&#9733;</text><text x="4.8" y="21">&#9733;</text><text x="9.6" y="21">&#9733;</text><text x="14.4" y="21">&#9733;</text><text x="19.2" y="21">&#9733;</text></g></svg></div>
                     <h1 class="logo">Only<span class="a">Vance</span>28</h1>
                 </div>
-                <p class="tagline">Every article. Every day. Automatically collected.</p>
+                <p class="tagline">Every JD Vance article. Every day. Automatically collected.</p>
             </div>
             <div class="hdr-right">
                 <div class="cta-row">
@@ -1192,7 +1192,7 @@ def generate_html(articles, build_time, social_posts=None):
             </div>
         </div>
         <div class="ft-bottom">
-            <p>OnlyVance28.com &mdash; Automated news aggregation. Headlines link to original sources. Not affiliated with any political campaign, party, or government entity.</p>
+            <p>OnlyVance28.com - Automated news aggregation. Headlines link to original sources. Not affiliated with any political campaign, party, or government entity.</p>
             <p style="margin-top:.4rem"><a href="/disclaimer.html">Disclaimer &amp; Terms</a> &middot; <a href="mailto:contact@onlyvance28.com">Contact</a></p>
         </div>
     </div>
@@ -1611,7 +1611,7 @@ def main():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JD Vance &amp; {topic_name} — Latest News | OnlyVance28</title>
+    <title>JD Vance &amp; {topic_name} - Latest News | OnlyVance28</title>
     <meta name="description" content="{count} articles about JD Vance and {topic_name} from {len(sources_in_topic)} sources. See how Left, Center, and Right media cover Vance on {topic_name}.">
     <link rel="canonical" href="https://onlyvance28.com/topics/{slug}.html">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
@@ -1749,7 +1749,7 @@ Keep it under 250 words. Write like a sharp newsletter editor — conversational
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Vance Daily — {today_display} | OnlyVance28</title>
+    <title>The Vance Daily - {today_display} | OnlyVance28</title>
     <meta name="description" content="Your daily JD Vance briefing for {today_display}. Top stories, media bias analysis, and what Left and Right are saying about the Vice President.">
     <link rel="canonical" href="https://onlyvance28.com/daily/{today}.html">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
