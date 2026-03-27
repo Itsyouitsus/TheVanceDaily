@@ -750,6 +750,20 @@ def generate_html(articles, build_time):
         .sel option{font-size:.82rem}
         .sel:focus{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
         .sel option.soc-opt{color:var(--accent);font-weight:600}
+        /* Custom dropdown for Sources (opens downward) */
+        .custom-dd{position:relative;max-width:220px}
+        .custom-dd-btn{padding:.48rem 1.8rem .48rem .7rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.8rem;color:var(--text);outline:none;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%;text-align:left;background-image:url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%239e9790' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .6rem center}
+        .custom-dd-btn:focus,.custom-dd-btn.open{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
+        .custom-dd-list{display:none;position:absolute;top:calc(100% + 4px);left:0;min-width:100%;max-height:320px;overflow-y:auto;background:var(--bg2);border:1px solid var(--border);border-radius:7px;box-shadow:0 8px 24px rgba(0,0,0,.12);z-index:50;padding:.3rem 0}
+        .custom-dd-list.open{display:block}
+        .custom-dd-item{padding:.4rem .7rem;font-family:'DM Sans',sans-serif;font-size:.8rem;color:var(--text);cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+        .custom-dd-item:hover{background:var(--bg3)}
+        .custom-dd-item.active{color:var(--accent);font-weight:600}
+        .custom-dd-item.soc-opt{color:var(--accent);font-weight:600}
+        .custom-dd-search{width:calc(100% - .6rem);margin:.2rem .3rem .3rem;padding:.35rem .5rem;border-radius:5px;border:1px solid var(--border);background:var(--bg);font-family:'DM Sans',sans-serif;font-size:.78rem;color:var(--text);outline:none}
+        .custom-dd-search::placeholder{color:var(--text3)}
+        .custom-dd-search:focus{border-color:var(--blue)}
+        .src-count-row{font-size:.7rem;color:var(--text3);margin-top:.15rem;white-space:nowrap}
         .pills{display:flex;gap:.2rem}
         .pill{padding:.38rem .65rem;border-radius:100px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.74rem;font-weight:500;color:var(--text2);cursor:pointer;transition:all .2s}
         .pill:hover{background:var(--bg3)}
@@ -957,7 +971,18 @@ def generate_html(articles, build_time):
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
         <input type="text" class="si" placeholder="Search headlines..." id="si">
     </div>
-    <select class="sel" id="srcF"><option value="">All Sources</option><option value="Vance Social Media" class="soc-opt" style="color:#b8322a;font-weight:bold">&#9733; Vance's Social Media</option></select>
+    <select class="sel" id="srcF" style="display:none"><option value="">All Sources</option><option value="Vance Social Media" class="soc-opt" style="color:#b8322a;font-weight:bold">&#9733; Vance's Social Media</option></select>
+    <div style="display:flex;flex-direction:column;gap:0">
+        <div class="custom-dd" id="srcDD">
+            <button type="button" class="custom-dd-btn" id="srcDDBtn">All Sources</button>
+            <div class="custom-dd-list" id="srcDDList">
+                <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
+                <div class="custom-dd-item active" data-val="">All Sources</div>
+                <div class="custom-dd-item soc-opt" data-val="Vance Social Media">&#9733; Vance's Social Media</div>
+            </div>
+        </div>
+        <span class="src-count-row">''' + str(source_count) + ''' sources &middot; <a href="#" id="suggestBtn" style="color:var(--accent);text-decoration:none">Missing a source?</a></span>
+    </div>
     <select class="sel" id="topicF"><option value="">All Topics</option></select>
     <div class="pills">
         <button class="pill on" data-r="all">All</button>
@@ -972,7 +997,7 @@ def generate_html(articles, build_time):
         <button class="bpill" data-b="LR" style="color:#e09070;border-color:#e09070">Leans R ''' + str(bias_count_LR) + '''</button>
         <button class="bpill" data-b="R" style="color:#d94a4a;border-color:#d94a4a">Right ''' + str(bias_count_R) + '''</button>
     </div>
-    <span class="count" id="cnt">''' + total + ''' articles &middot; ''' + str(source_count) + ''' sources &middot; <a href="#" id="suggestBtn" style="color:var(--accent);text-decoration:none">Missing a source?</a></span>
+    <span class="count" id="cnt"></span>
 </div>
 
 <main class="main">
@@ -1100,6 +1125,23 @@ function imgFail(img){
     srcs.forEach(s=>{if(s==='Vance Social Media')return;const o=document.createElement('option');o.value=s;o.textContent=s+(srcCounts[s]?' ('+srcCounts[s]+')':'');srcF.appendChild(o)});
     topics.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t+(topicCounts[t]?' ('+topicCounts[t]+')':'');topicF.appendChild(o)});
 
+    // Custom dropdown for sources
+    const srcDDBtn=document.getElementById('srcDDBtn');
+    const srcDDList=document.getElementById('srcDDList');
+    const srcDDSearch=document.getElementById('srcDDSearch');
+    // Populate custom dropdown items
+    srcs.forEach(s=>{if(s==='Vance Social Media')return;const d=document.createElement('div');d.className='custom-dd-item';d.dataset.val=s;d.textContent=s+(srcCounts[s]?' ('+srcCounts[s]+')':'');srcDDList.appendChild(d)});
+    // Toggle open/close
+    srcDDBtn.addEventListener('click',(e)=>{e.stopPropagation();const isOpen=srcDDList.classList.contains('open');closeDD();if(!isOpen){srcDDList.classList.add('open');srcDDBtn.classList.add('open');srcDDSearch.value='';filterDDItems('');setTimeout(()=>srcDDSearch.focus(),50)}});
+    function closeDD(){srcDDList.classList.remove('open');srcDDBtn.classList.remove('open')}
+    document.addEventListener('click',(e)=>{if(!e.target.closest('#srcDD'))closeDD()});
+    // Search within dropdown
+    srcDDSearch.addEventListener('input',()=>filterDDItems(srcDDSearch.value.toLowerCase()));
+    srcDDSearch.addEventListener('click',(e)=>e.stopPropagation());
+    function filterDDItems(q){srcDDList.querySelectorAll('.custom-dd-item').forEach(it=>{const txt=it.textContent.toLowerCase();it.style.display=(!q||txt.includes(q))?'':'none'})}
+    // Select item
+    srcDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;srcF.value=val;srcDDBtn.textContent=val||'All Sources';srcDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeDD();filter()});
+
     let dateRange='all';
     let activeBias=new Set(); // empty = show all
 
@@ -1126,7 +1168,7 @@ function imgFail(img){
             c.style.display=ok?'':'none';
             if(ok)vis++;
         });
-        cnt.textContent=vis+' article'+(vis!==1?'s':'');
+        cnt.textContent='';
         let nr=g.querySelector('.no-res');
         if(!vis){
             if(!nr){nr=document.createElement('div');nr.className='no-res';nr.innerHTML='<p>No articles match your filters.</p>';g.appendChild(nr)}
