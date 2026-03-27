@@ -1,5 +1,20 @@
 [
   {
+    "id": "0e7fa24e1a4d",
+    "title": "JD Vance Reveals What He Thinks UFOs Are - Newsweek",
+    "source": "Newsweek",
+    "source_url": "https://www.newsweek.com",
+    "source_domain": "www.newsweek.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RTVJCcmtwcDNSeXNWZkFvS1doblU0Qk85SEZNR05pemtXWUI1bEQxRFpRVlpVeHgtXzl0S19ubUZRMExUT2phMmRCdDYxOE9sZ0x0ck01b0RqaEpRcWM3b2d5dVpMcTBtYWczTGZpRzhSdmVFM2pnV3VJSUN6czg?oc=5",
+    "published": "2026-03-27T22:16:00+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "JD Vance",
+    "image": "https://assets.newsweek.com/wp-content/uploads/2026/03/GettyImages-2268060366.jpg?w=1200crop=1",
+    "real_url": "https://www.newsweek.com/jd-vance-reveals-what-he-thinks-ufos-are-11750200",
+    "bias": "LL",
+    "topic": "General"
+  },
+  {
     "id": "d067317e822c",
     "title": "CPAC Considers Vance, Rubio and Life After Trump - The New York Times",
     "source": "The New York Times",
@@ -90,6 +105,21 @@
     "topic": "Domestic"
   },
   {
+    "id": "1e6029431209",
+    "title": "Republicans Panicking Over Trump Sending Ground Troops to Iran - The New Republic",
+    "source": "The New Republic",
+    "source_url": "https://newrepublic.com",
+    "source_domain": "newrepublic.com",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHo0VThfakNJMVF4aVlIbGktdzNwSHlvR3NidXBCbXVLRVlpV3JGVDdTVEJ1QWlGWXRGeFZlTEtMbkVITlVWblY0Wl9YRHJZSDhheTFMSWZjeG5XOGhrQ1IyVHVwZEtCcU5VT1RmdFkxcm5Id0Y0WElGemFuRV9TMXBtUHVPdjZVUXl1bjhJSlRoNkVLSkVMWF90dFZ5RWZXb0E?oc=5",
+    "published": "2026-03-27T21:05:23+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "Vance Republican",
+    "image": "https://images.newrepublic.com/c89402c28ba679b5573e64e311a21e6058b04c08.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg",
+    "real_url": "https://newrepublic.com/post/208312/republicans-panic-trump-ground-troops-iran-war-midterm-elections",
+    "bias": "L",
+    "topic": "Iran"
+  },
+  {
     "id": "b9214f7acb84",
     "title": "JD Vance Says White House Plans To \u2018Go After\u2019 Ilhan Omar For Alleged Immigration Fraud",
     "source": "The Daily Caller",
@@ -146,6 +176,21 @@
     "query": "JD Vance",
     "image": "https://wpde.com/resources/media2/16x9/5286/1320/0x1/90/97b3b2ff-27d3-485c-b2bc-6cea4c77efc6-GettyImages2266347145.jpg",
     "real_url": "https://wpde.com/news/nation-world/vice-president-jd-vance-claims-democrat-ilhan-omar-committed-immigration-fraud",
+    "bias": "C",
+    "topic": "Immigration"
+  },
+  {
+    "id": "ed714f3a3245",
+    "title": "Vance claims Ilhan Omar committed immigration fraud - KOMO",
+    "source": "KOMO",
+    "source_url": "https://komonews.com",
+    "source_domain": "komonews.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORG9uSGxUOWJlVkNCVjN0YS1ZOUVuU001T1Q4SmpBdmhWZmxzNU5FRDhaQkJHLWhxSEJpblRQak5vQ2gyWVVRM3EzbF8tblVLblRhQlpqcm55UHZSa1ZnS2NWai12Zlk2OHJ6TUNQeEdQZTRhUThIS2E1NW5IYTIwLVQwUk1WUkpuLWdCSkxFZnNJUjVWZEJycFhXZjJnQllIZ09xUG81Ti1WSmdGdU5WbDFoTk1PY0gy?oc=5",
+    "published": "2026-03-27T20:55:38+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "JD Vance",
+    "image": "https://komonews.com/resources/media2/16x9/5286/1320/0x1/90/97b3b2ff-27d3-485c-b2bc-6cea4c77efc6-GettyImages2266347145.jpg",
+    "real_url": "https://komonews.com/news/nation-world/vice-president-jd-vance-claims-democrat-ilhan-omar-committed-immigration-fraud",
     "bias": "C",
     "topic": "Immigration"
   },
@@ -390,6 +435,21 @@
     "topic": "Domestic"
   },
   {
+    "id": "54041fdf69c5",
+    "title": "House GOP\u2019s DHS funding measure survives critical hurdle but path uncertain in Senate",
+    "source": "Fox News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.foxnews.com/politics/house-gops-dhs-funding-measure-survives-critical-hurdle-path-uncertain-senate",
+    "published": "2026-03-27T18:15:34-04:00",
+    "published_display": "Mar 27, 2026",
+    "query": "direct_feed",
+    "image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/10/mike-johnson-shutdown-press-conference.jpg",
+    "real_url": "https://www.foxnews.com/politics/house-gops-dhs-funding-measure-survives-critical-hurdle-path-uncertain-senate",
+    "bias": "R",
+    "topic": "Domestic"
+  },
+  {
     "id": "7d4e43a65f08",
     "title": "Watch live: Johnson gives remarks amid DHS funding showdown",
     "source": "The Hill",
@@ -461,6 +521,21 @@
     "query": "Vice President Vance",
     "image": "",
     "real_url": "",
+    "bias": "?",
+    "topic": "Healthcare"
+  },
+  {
+    "id": "12cec5fd4017",
+    "title": "Vance holds first meeting of Task Force to Eliminate Fraud amid Minnesota Medicaid pause - wach.com",
+    "source": "wach.com",
+    "source_url": "https://wach.com",
+    "source_domain": "wach.com",
+    "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQcDJ1QWp3bFo3RXFZb0hMVnA1RFJIU2FfOGhaSVl5ZmFRUG90aEVwMjBCMlhmMzc2ZnU0VGRwNmhZTWxNN1Bqck9oMmxwY1RtNXQ2QzhGTDlPUkRENENoOFhtUkxfRkpIWnFTaHp2WTRCckxITW5NaVRCdnFpR2Jkc1UwdUFKMnZIOWVqc3M1ZU4zRzl0aVlycGJoblU5WElIN3A4YUppNmV0LUJoY2lwazBnbGdHQjN0cmtsVk8zclB1b0xnbGhfMTlacXB2VWU4dzFjNzZXcURJN2tjQ3JQQ2tHcWlNaFZrTVBQUkwxaGwyUFZrVnBPOTVHal9samhGeGFqcWQ4LWlMYjhvcEk1Y0dKUzY0OEF2dTJFQ2FfNXRDUmRW?oc=5",
+    "published": "2026-03-27T17:46:58+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "Vice President Vance",
+    "image": "https://wach.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg",
+    "real_url": "https://wach.com/news/nation-world/vance-holds-first-meeting-of-task-for-to-eliminate-fraud-amid-minnesota-medicaid-pause-vice-president-federal-trade-commission-andrew-ferguson-stephen-miller-dr-oz",
     "bias": "?",
     "topic": "Healthcare"
   },
@@ -2383,6 +2458,21 @@
     "real_url": "https://www.msn.com/en-us/news/insight/vance-weighs-skipping-2028-presidential-run/gm-GM5B04B1E7?gemSnapshotKey=GM5B04B1E7-snapshot-1&ocid=hpmsn",
     "bias": "C",
     "topic": "2028 Race"
+  },
+  {
+    "id": "5add4cb28161",
+    "title": "JD Vance and the defense of democracy - jns.org",
+    "source": "jns.org",
+    "source_url": "https://www.jns.org",
+    "source_domain": "www.jns.org",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNUFVNDhQZU1tMmUyTjJrRENDX0ttQlFObWR1UDJvY05PeXc3Z0pZWVptSkp2VEVPTjBFWVphM2RVbkt0T1hTdDVaNWdDOG1NZWwxWkpFdk5ramhpLTMyV3BmRkxXQ3l3cmloZTBxVDlWU25aU0xranpEbjlGVVFFWnZBYjBBZml3?oc=5",
+    "published": "2026-03-19T09:47:39+00:00",
+    "published_display": "Mar 19, 2026",
+    "query": "JD Vance speech",
+    "image": "https://static.jns.org/dims4/default/cce6b0f/2147483647/strip/true/crop/7930x4461+0+394/resize/1440x810!/format/webp/quality/90/?url=https%3A%2F%2Fk2-prod-jns-prod.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fuploads%2F2025%2F02%2FJD-Vance-Speaks-at-Munich-Security-Conference.jpg",
+    "real_url": "https://www.jns.org/column/jonathan-s-tobin/jd-vance-and-the-defense-of-democracy",
+    "bias": "?",
+    "topic": "Military"
   },
   {
     "id": "7e8c2ddd8c50",
@@ -4380,6 +4470,21 @@
     "topic": "Immigration"
   },
   {
+    "id": "640061f4d328",
+    "title": "WATCH HERE: Vice President Vance delivers remarks in Plover - waow.com",
+    "source": "waow.com",
+    "source_url": "https://www.waow.com",
+    "source_domain": "www.waow.com",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaTJrcFVsRzVqSjRiT2xLS2N2UldPVExoVko4dFc3NVFNX3lRS3hjZUw2SmVfQzFPZnkzcTNfNFRIUTVxM2d6UjRBblNxdG5nMWxaM2JCc29mVno2YkZIdEoyMmg5ZEYwRTF0NnZHbEZrWHRMWkZveWR1MFE5VlVyRzdlWFdmbXR3RFdxV2ZPaDR0QUNZU01TWUhJVlZqRE9uTGhvN2NWMWg0OTBzMkhLVm1TMWp6NFV3OUV0ZFE1dDg3NzdyZElpZExzcFU4cGlSbU1qX0V4WFdKNWxtME5oelUtanplX3YzaEkxSVFB?oc=5",
+    "published": "2026-02-26T18:31:38+00:00",
+    "published_display": "Feb 26, 2026",
+    "query": "Vice President Vance",
+    "image": "https://bloximages.newyork1.vip.townnews.com/waow.com/content/tncms/assets/v3/editorial/b/2d/b2d57cdf-eafa-5e64-90da-319d70be88b4/69a083b21f840.image.jpg?crop=1280%2C672%2C0%2C23&resize=1200%2C630&order=crop%2Cresize",
+    "real_url": "https://www.waow.com/livestream/wkow-livestream2/watch-here-vice-president-vance-delivers-remarks-in-plover/article_24437e55-ea07-509f-9df6-ac1bb67c551a.html",
+    "bias": "?",
+    "topic": "Immigration"
+  },
+  {
     "id": "5921bcbc64cb",
     "title": "Gavin Newsom says JD Vance is \u201cdangerous\u201d: He \u201cscares me almost more than Trump\u201d - MS NOW",
     "source": "MS NOW",
@@ -4620,6 +4725,21 @@
     "topic": "General"
   },
   {
+    "id": "6734831332c4",
+    "title": "In Wisconsin, Vance echoes State of the Union message, endorses Van Orden - fox11online.com",
+    "source": "fox11online.com",
+    "source_url": "https://fox11online.com",
+    "source_domain": "fox11online.com",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQU2tCRjZDd1ZmQXVHWmpRbUNYSkdYc1RfbVloNU5sUkpFdy1FNm9wdjh2UXBweE9oXzM1T3Fod0cxLUdKeFhHSTF6QmtPUlFOYzd5bF9hdnhkZWc5SVVPVXc1SDd3a3BfT3J2YWNUSlptZUgwM0VrNFdscndDN2ljeFdmaDZ0NGR6MXRjTFh0NWdJTnItUTJJMmpZQ201TUxJN2xTZGlvbjhTMzdXRHEzUTEzbThPRXAxLURsU3huZmh0bXRaZlBwU2lWcElzcUFrNzZmdFA5M05oTG9iT0lWTFBzMUtTaFVxMFVuQWpuLVJoWkRCUWIzZQ?oc=5",
+    "published": "2026-02-26T08:00:00+00:00",
+    "published_display": "Feb 26, 2026",
+    "query": "JD Vance speech",
+    "image": "https://fox11online.com/resources/media2/16x9/4854/1320/0x253/90/adf8939b-d6a1-447e-a96a-7eaf7e729280-GettyImages2263122930.jpg",
+    "real_url": "https://fox11online.com/news/political/vice-president-j-d-vance-plover-wisconsin-manufacturing-facility-donald-trump-state-union-speech-address-affordability-economy",
+    "bias": "?",
+    "topic": "General"
+  },
+  {
     "id": "2a0e53835b49",
     "title": "Vance says administration is pausing some Medicaid funding to Minnesota because of fraud concerns - AP News",
     "source": "AP News",
@@ -4693,6 +4813,21 @@
     "real_url": "https://www.thedailybeast.com/fox-news-host-hits-jd-vance-with-brutal-trump-economy-numbers/",
     "bias": "L",
     "topic": "Economy"
+  },
+  {
+    "id": "80bb02e73001",
+    "title": "VP Vance visits Pointe Precision in Plover following State of the Union - WSAW",
+    "source": "WSAW",
+    "source_url": "https://www.wsaw.com",
+    "source_domain": "www.wsaw.com",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObVBkMXROci04LVRPM2N1RDNhYlhNR2x4R210S0dIanJhcUdlWklhZVI2ZEZpTVFmSlZUNVFwZ2J6MGkwR1RHQXcyVzFUdVpYZnZlRnVydGxoQ0JYWFZsM2F4VXZkNzZlZXNZcG5hMVZBZkduVXlXTUNzM2tTbnJYSWZYZm9UN1E?oc=5",
+    "published": "2026-02-25T08:00:00+00:00",
+    "published_display": "Feb 25, 2026",
+    "query": "JD Vance speech",
+    "image": "https://gray-wsaw-prod.gtv-cdn.com/resizer/v2/V63RYGNCSRCJLMNKJPCXMKPDQM.jpg?auth=4720584fa884376e239af0ced79839aeaa2a9d6aa867537cb89b132635067681&width=1200&height=600&smart=true",
+    "real_url": "https://www.wsaw.com/2026/02/25/vice-president-jd-vance-visit-central-wisconsin/",
+    "bias": "?",
+    "topic": "General"
   },
   {
     "id": "85fa7c4406c2",
@@ -4873,6 +5008,21 @@
     "real_url": "https://www.seacoastonline.com/story/news/politics/2026/02/19/poll-buttigieg-early-leader-in-2028-democratic-presidential-primary/88755845007/",
     "bias": "?",
     "topic": "2028 Race"
+  },
+  {
+    "id": "7efd061ebba7",
+    "title": "JD Vance&#x27;s Bizarre &quot;Joke&quot; Left Everyone Cringing At The &quot;Board Of Peace&quot; Summit - BuzzFeed",
+    "source": "BuzzFeed",
+    "source_url": "https://www.buzzfeed.com",
+    "source_domain": "www.buzzfeed.com",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQTlkLWFFQXh1U3p0Nk15SGt6bUd0Wk5DOGxFZFZEelAwUi1rVnFSY3hvMnJ5WlJHWUY3c09EWUVpSkY2UFhMOUZiTFNYZTlycTh2czFDdk00Q1ZuY0IwWWJRUGpjcHFjdnRpSVRnTGlkNWItVHJIQXV4N1A0UmI0MXBERDltNWNYdGc?oc=5",
+    "published": "2026-02-19T08:00:00+00:00",
+    "published_display": "Feb 19, 2026",
+    "query": "JD Vance speech",
+    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-02/19/18/thumb/h2JrhfQTc.jpg?crop=1250:654;0,46%26downsize=1250:*",
+    "real_url": "https://www.buzzfeed.com/ravenishak/jd-vances-failed-joke-at-board-of-peace-summit",
+    "bias": "L",
+    "topic": "Foreign Policy"
   },
   {
     "id": "1c0aa75fc6a4",
@@ -6735,6 +6885,21 @@
     "topic": "Immigration"
   },
   {
+    "id": "3a7e131c7dde",
+    "title": "Vice President Vance Concedes &quot;Mistakes Made&quot; By ICE, Calls for Local Cooperation - C-SPAN",
+    "source": "C-SPAN",
+    "source_url": "https://www.c-span.org",
+    "source_domain": "www.c-span.org",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN05vVG8zaWpUcnhYcnNzcWRqemtET2hPSjhDbzFidEVEOVdJOGpGSlBZYUphdFNuZWlRUXVEWklTbmZ4Rk10QnpNei1hYkp1cWxZdk1WQTRrQi1PV0VsblZnaHUyZnhNWllEdFJmaEQ3eGNjbWpYT3lZQlBCYkxCZjZvZHl0SEc1eU43WXlCdjAzaTNpQV9zMmUzc3lCeUdla2E5bUkwVGFnS05PWXk1MW1BM1BLYlZyV0h4YTh5MnlLNFB6Z05xNmxxdF94alpa?oc=5",
+    "published": "2026-01-22T08:00:00+00:00",
+    "published_display": "Jan 22, 2026",
+    "query": "JD Vance speech",
+    "image": "https://ximage.c-spanvideo.org/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJoZWlnaHQiOjYzMCwid2lkdGgiOjEyMDB9fSwiYnVja2V0IjoicGljdHVyZXMuYy1zcGFudmlkZW8ub3JnIiwia2V5IjoiRmlsZXMvYWRiLzk4ODYxMTUuSlBHIn0=",
+    "real_url": "https://www.c-span.org/clip/public-affairs-event/vice-president-vance-concedes-mistakes-made-by-ice-calls-for-local-cooperation/5190430",
+    "bias": "C",
+    "topic": "Immigration"
+  },
+  {
     "id": "06da15166232",
     "title": "Vance to visit Minneapolis for &#x27;law and order&#x27; speech - KOMO",
     "source": "KOMO",
@@ -6945,6 +7110,21 @@
     "topic": "General"
   },
   {
+    "id": "a501038f114b",
+    "title": "A New SNL Cast Member Played JD Vance in the January 17 &quot;Cabinet Meeting Cold Open&quot; - NBC",
+    "source": "NBC",
+    "source_url": "https://www.nbc.com",
+    "source_domain": "www.nbc.com",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb2h6aTI1OVdUUURaQlVMSGJwdE5RNUMyWTVLdnBpQTdzek5hLUJ2S1lTUEF3RjFhY1dkRDdKS21jUWlPWGlWYktyTUsxU2loN1NWcFZhclZkRW5YS3lweWF5TnNzY1pvRGlmWnRYNkN1QlFVVGZBRmQwR09SWTVYTHN6a0EwSVhV?oc=5",
+    "published": "2026-01-18T08:00:00+00:00",
+    "published_display": "Jan 18, 2026",
+    "query": "JD Vance speech",
+    "image": "https://www.nbc.com/sites/nbcblog/files/2026/01/nup_209658_00003.jpg",
+    "real_url": "https://www.nbc.com/nbc-insider/snl-january-17-cold-open-cabinet-meeting-jd-vance",
+    "bias": "L",
+    "topic": "General"
+  },
+  {
     "id": "6f7796c66786",
     "title": "Marco Rubio eclipses Ron DeSantis in 2028 prediction markets, but JD Vance still far ahead - Florida Politics",
     "source": "Politics",
@@ -6988,6 +7168,21 @@
     "real_url": "",
     "bias": "?",
     "topic": "2028 Race"
+  },
+  {
+    "id": "e23dbb1cd1ba",
+    "title": "JD Vance to skip Munich summit after fiery 2025 clash with European leaders - Fox News",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcGg2MmFmNmZhaXdpaUN0QVlPLTVPR2c1OW04UURwbjVvSHdWZ2h0cUlvZUZXOUZ5U19MTzJHXzNsNXFrM2NDNXI2bUxfczdKSVNWZTJOWkh1aUdpWWMxbVZHcV8xaUl4UHRpUlJ2LWtKYlEwT0Jyb25LaTkwOGlGUmlZVjZQOXQyRklJWm5QMU9BVGFoLVgwdmZOeUZvaUVIaTh2bUZ1VdIBrAFBVV95cUxPSHJXVzI3MzZ1bXdUcHY2bHh2cjJBT1hyb0E0UWpad3Q5aWsxdlltWlZ0RHV4OFVOT0pKRlFGU0E2UVE0SjMxbTZ4VVVlWW83T29tMWpmS1R1M1BfXzg2Slh5Ymd3dnRmSGlwdlN4ZGgyZWF3Yko5RlRJcVRkenVDUTRkc2J2T2IxT2J5N0FQN2MxTG5uNlpNTnJxTGpQR3dkaDRzZ0YxV01oTjht?oc=5",
+    "published": "2026-01-16T08:00:00+00:00",
+    "published_display": "Jan 16, 2026",
+    "query": "JD Vance speech",
+    "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/01/jd-vance-white-house-briefing-fraud-task-force.jpg",
+    "real_url": "https://www.foxnews.com/politics/vance-miss-munich-security-conference-after-prior-speech-sparked-uproar",
+    "bias": "R",
+    "topic": "Foreign Policy"
   },
   {
     "id": "766e28973089",
@@ -7950,6 +8145,21 @@
     "topic": "General"
   },
   {
+    "id": "607f1c28dd99",
+    "title": "Crowd ERUPTS into \u2018Charlie\u2019 chant during Vance speech - Fox News",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIRkt3VnZwT0M1LTFvVlBobkRpZG5ZdjFNeHNtckh1UjNBS21rQW1mYzFPNjBDdGlib0VFVWRMUjIzbWJBc0cxTGFoczdzMmlYMnNkVGNR?oc=5",
+    "published": "2025-12-22T08:00:00+00:00",
+    "published_display": "Dec 22, 2025",
+    "query": "JD Vance speech",
+    "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/2fa41e8d-d4de-4d25-a847-ecb4be149e78/97a79cea-6995-4ba5-8ff6-842da3739e46/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+    "real_url": "https://www.foxnews.com/video/6386834606112",
+    "bias": "R",
+    "topic": "General"
+  },
+  {
     "id": "6abdc64de057",
     "title": "Already thinking about the 2028 election? You\u2019re not alone - CNN",
     "source": "CNN",
@@ -8128,6 +8338,66 @@
     "real_url": "https://www.azcentral.com/videos/news/politics/arizona/2025/12/21/vice-president-jd-vance-americafest/87874667007/",
     "bias": "?",
     "topic": "Immigration"
+  },
+  {
+    "id": "8eacaf9a43d2",
+    "title": "Vice President JD Vance Delivers Remarks at Turning Point USA\u2019s America Fest - The White House (.gov)",
+    "source": "The White House (.gov)",
+    "source_url": "https://www.whitehouse.gov",
+    "source_domain": "www.whitehouse.gov",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR09QQXZRTnpTaWJ0RjU4OVcwTERNZ2FYTHpkMkx1S1JjNE5heU04RnpuaWw4aEtzUkg5MXJyTUZfUWRpbzQxb0tjd19VSTEzcnVxZXQtb184OTdPQk5rREdlV1BtRVF5YzR4MU0zU2N2R2doQmlfaUszV1NFV2VqZDJsRWQ5SVdGbk1Qa3pwc0JBM0hjMklHUjJXcFdCUEhMbUVBQ0ZWQUdmM1NfamhV?oc=5",
+    "published": "2025-12-21T08:00:00+00:00",
+    "published_display": "Dec 21, 2025",
+    "query": "JD Vance speech",
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Social-Share-Card.jpg",
+    "real_url": "https://www.whitehouse.gov/videos/vice-president-jd-vance-delivers-remarks-at-turning-point-usas-america-fest/",
+    "bias": "?",
+    "topic": "Immigration"
+  },
+  {
+    "id": "ea0e9ec0e52f",
+    "title": "Vance tries to weather the MAGA storm at Turning Point - Politico",
+    "source": "Politico",
+    "source_url": "https://www.politico.com",
+    "source_domain": "www.politico.com",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOekJFeHlHeUlOUHVqNG5nWkR1TnVoV0ZGZno3UmkwcC0yeFZsS2ZleUJIYlB6ajdieW1LVjFTSFllNUl1Q2pTY3RXT3JNb2VpTWdVanFITjM1RXU4WjlsWGx0dnZPcm9DQVk4MmN3YmlwdFJIeVQyZGE1cjZlM2pUZmpGMUM1N1JGNEJXdEswSWhNNzg?oc=5",
+    "published": "2025-12-21T08:00:00+00:00",
+    "published_display": "Dec 21, 2025",
+    "query": "JD Vance speech",
+    "image": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2F0f%2F81%2F3144db084880a1e2031481a3a658%2Fturning-point-45168.jpg",
+    "real_url": "https://www.politico.com/news/2025/12/21/vance-maga-infighting-turning-point-usa-00702396",
+    "bias": "LL",
+    "topic": "General"
+  },
+  {
+    "id": "5d2c6cba9237",
+    "title": "\u2018You Don\u2019t Have to Apologize for Being White Anymore!\u2019 JD Vance Declares Trump Killed DEI - Yahoo",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaDJZRzlCX2hfSEp4UzVzU2pRazAtVUtWcFZLTEgyOFdkbGRDRHlaNktPa1YxbUI0bmMwSDlxUlU3N0plaG9ucnVVY2ZuQUwzeW5NOTUyQjJlT0F0NWhsenhJbHduWV83SDN3d0RhQmQ3RW5jbnNjWFJDcTdtcHBXV0Y3THA?oc=5",
+    "published": "2025-12-21T08:00:00+00:00",
+    "published_display": "Dec 21, 2025",
+    "query": "JD Vance speech",
+    "image": "https://s.yimg.com/ny/api/res/1.2/LSAsGIDdecG34EXM8w.urQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/mediaite_845/cbdeaf4c2b698e1250985c93e09094a8",
+    "real_url": "https://www.yahoo.com/news/articles/don-t-apologize-being-white-195033376.html",
+    "bias": "C",
+    "topic": "General"
+  },
+  {
+    "id": "b40adc9a14cb",
+    "title": "JD Vance wades into MAGA civil war at AmericaFest, criticizes conservatives for \u2018canceling each other\u2019 - New York Post",
+    "source": "New York Post",
+    "source_url": "https://nypost.com",
+    "source_domain": "nypost.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQU3U3akE0dUtnUEs0cGFRZlZsUXlSUWNqMGVQNEh6RXlsNVE0b3B6TEs0bXVoa0dUUXpOVy1NdWpRVUFIaFFJSEYtY0pnR290WmZQZmdzeVJpZThNSUhaQU9lT05RS3RiVE5MUVdyY3g4QUd1R2RUS21xanE1dnJMdl9wbGhja01KbEhKSTFqdEhMenpjNTNVVXdoMTQyWDMwNVRva192d1pqaENEMDRxdWQyenVGRXM?oc=5",
+    "published": "2025-12-21T08:00:00+00:00",
+    "published_display": "Dec 21, 2025",
+    "query": "JD Vance speech",
+    "image": "",
+    "real_url": "https://nypost.com/2025/12/21/us-news/jd-vance-wades-into-maga-civil-war-decries-conservatives-canceling-each-other/",
+    "bias": "LR",
+    "topic": "Military"
   },
   {
     "id": "6b22bc762dd1",
@@ -9240,6 +9510,51 @@
     "topic": "Immigration"
   },
   {
+    "id": "22d3d13d702e",
+    "title": "Vance: Anyone who says they like turkey is \u2018full of s\u2014\u2018 - The Hill",
+    "source": "The Hill",
+    "source_url": "https://thehill.com",
+    "source_domain": "thehill.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY19HTjhKSUljbFdqRXlXWm84MnhTeWFzRHgzdkFONU1yaVFzOVhLVHMxSlNOZFRFZWl1XzdaMFlTY0pWN2NVOVhiWklrVktROFktdEU2bmlkaXpmaU5RblVaSEs4SGdaUDhiRzVpeVBzcU5meGRkem9nVnlUbzI1T2lEMlBMbmNNVjdBdU9UNWVtVm9y0gGaAUFVX3lxTE4tSnp6dk1BR0xKSEkxZFR5aS1kaU1OX2x5VEFiMWNKb0JlZk52YWNNUHZsZXRmTW5Iay1Kdm1BZlVTQXZ3TlVoaV8wS0VWbk1nNG02LTAta2VZLVVLVVFDUUhmOUV5cUpXSGpwbG5JRURtNlNYRzZfVFMxSy1QYnUySXBlQi1hblBPLTZZNUhnSERQZWJCLXZTWVE?oc=5",
+    "published": "2025-11-27T08:00:00+00:00",
+    "published_display": "Nov 27, 2025",
+    "query": "JD Vance speech",
+    "image": "https://thehill.com/wp-content/uploads/sites/2/2025/11/AP25330820384482-e1764259718815.jpg?w=1280",
+    "real_url": "https://thehill.com/homenews/administration/5624833-jd-vance-thanksgiving-day-2025-turkey/",
+    "bias": "C",
+    "topic": "General"
+  },
+  {
+    "id": "0d560e249626",
+    "title": "Vice President JD Vance Celebrates Thanksgiving with Servicemembers and Delivers Remarks - The White House (.gov)",
+    "source": "The White House (.gov)",
+    "source_url": "https://www.whitehouse.gov",
+    "source_domain": "www.whitehouse.gov",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMjJ3SDJPSGYyZENTMlIyOUhwcnFqcjc5ZXFlX2Z1X3pLYlRfN3I5Tmh2V1NVMEc1WGdyTUpmREZ3UkJOY2ZyQ0xRYzA4V1gySThpSnZHSFFZUjRNeGpHOXBLN2tDcFZjRWF4UC1oUWhhMDFuVmxtS091el92UDNsc09fcWp3aDVrWnF2M1VHUFRYSnJRWlBEcS1DeVc0T2VrM2U3Q1o1MXN6ZkhkX3BBWVZpTlhTc3IwS0JBVXY0Y3M?oc=5",
+    "published": "2025-11-26T08:00:00+00:00",
+    "published_display": "Nov 26, 2025",
+    "query": "JD Vance speech",
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Social-Share-Card.jpg",
+    "real_url": "https://www.whitehouse.gov/videos/vice-president-jd-vance-celebrates-thanksgiving-with-servicemembers-and-delivers-remarks/",
+    "bias": "?",
+    "topic": "Immigration"
+  },
+  {
+    "id": "e170b10b0ad0",
+    "title": "Speech by JD Vance 2024 - M\u00fcnchner Sicherheitskonferenz",
+    "source": "M\u00fcnchner Sicherheitskonferenz",
+    "source_url": "https://securityconference.org",
+    "source_domain": "securityconference.org",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUnhOaVFzUThFVS1rMVpKS3dKWHdqYTZRYTd5cklPOVlGYW9iQXJFYi11WW5kQ3ZCcTdLdkpxLS1YcENMTThKSi1NT3pfdEM3bXlPblhnakNOeS1tVWthVFdTd2dsRFVwRldkQ1Iza0p1XzYxMVVad1VwckdlaktQTlJPaTdrejhyVE4yeGtYQThfbWIxZ0tCZTNETUh4ZjFVdnQzLXJKeFJadU0yeTdFeWpTRnF4Zw?oc=5",
+    "published": "2025-11-25T20:18:02+00:00",
+    "published_display": "Nov 25, 2025",
+    "query": "JD Vance speech",
+    "image": "https://securityconference.org/assets/media/f/a/csm_20240218_MSC2024_ms2380_15bc961b9e.jpg",
+    "real_url": "https://securityconference.org/en/publications/books/selected-key-speeches-volume-i/2020-2024/speech-jd-vance-2024/",
+    "bias": "?",
+    "topic": "General"
+  },
+  {
     "id": "c23c70a0e863",
     "title": "Steve Rattner: JD Vance can talk about inheriting a bad economy but it\u2019s still going the wrong way - MS NOW",
     "source": "MS NOW",
@@ -9570,6 +9885,21 @@
     "topic": "General"
   },
   {
+    "id": "06f9ccd3a7d1",
+    "title": "President Trump and Vice President JD Vance Deliver Remarks - The White House (.gov)",
+    "source": "The White House (.gov)",
+    "source_url": "https://www.whitehouse.gov",
+    "source_domain": "www.whitehouse.gov",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQlNZaWZsazQ1S2RVbm5HdFFGNE5GSWZhMHFoTHhiVU1wM19pNUJhNTdjdV9VZEY1RWRDS3pRWFJfbEFjemUzNTdtNk9Ha1FiZFJSanlOUmpTWE1BeXpuQ0tBOC1FZXpCcWFETnp4T3E2SUZSVzlmSnc3eXZfVTlHZVhoRTV1a0YyWWdKRGVCaEFXZkZnVld0WXV3?oc=5",
+    "published": "2025-11-11T08:00:00+00:00",
+    "published_display": "Nov 11, 2025",
+    "query": "JD Vance speech",
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Social-Share-Card.jpg",
+    "real_url": "https://www.whitehouse.gov/videos/president-trump-and-vice-president-jd-vance-deliver-remarks/",
+    "bias": "?",
+    "topic": "Immigration"
+  },
+  {
     "id": "d99fb8d6c6f4",
     "title": "Trump-Vance Administration Complicates Medical Care for Veterans Suffering from Breast Cancer - Democracy Forward",
     "source": "Democracy Forward",
@@ -9583,6 +9913,21 @@
     "real_url": "https://democracyforward.org/news/press-releases/trump-vance-administration-complicates-medical-care-for-veterans-suffering-from-breast-cancer/",
     "bias": "?",
     "topic": "Military"
+  },
+  {
+    "id": "6c83d243c1ad",
+    "title": "Why US Vice President JD Vance will not be coming to Kenya - Daily Nation",
+    "source": "Daily Nation",
+    "source_url": "https://nation.africa",
+    "source_domain": "nation.africa",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQem15TnI1c1VQLW4zbV8xeVNURmJ3VDNvcmM1c1lMeE4tVmtDU25IVkprSFE3Q1l4WWVsUGNUYWNCT2VqQXBZVlB4ZmlENTM4UENaMkctX01Fc2hHb0tIQ3hXTHc3MjJ5NU5ycUgxcDFXVXpHRlR0YmljZmZHTVJDVi1sUWRIZUtNOFh2bnp5ekpnd2JNTE9xU3RRU0JwMC16b2c?oc=5",
+    "published": "2025-11-10T08:00:00+00:00",
+    "published_display": "Nov 10, 2025",
+    "query": "JD Vance speech",
+    "image": "",
+    "real_url": "https://nation.africa/kenya/news/-why-us-vice-president-jd-vance-will-not-be-coming-to-kenya-5260178",
+    "bias": "?",
+    "topic": "Immigration"
   },
   {
     "id": "479460f374af",
@@ -9885,6 +10230,21 @@
     "topic": "Domestic"
   },
   {
+    "id": "e00097b40b68",
+    "title": "Vance and Kirk promote conservative, Christian values in speeches and Q&amp;A - The Daily Mississippian",
+    "source": "The Daily Mississippian",
+    "source_url": "https://thedmonline.com",
+    "source_domain": "thedmonline.com",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaU5UcW1TZnVJbnVfYWxfa1I4Z25ELUxYeXFIZkdQeGxmWmZLWXlvTkpTMnl6OGZWV2sxMnNJR1pwd3dyUjc4RUNDZmdoazFyQnRXSWVFQ2R1bkJ0TGJySVEyY1ZUbVRNYUxPVW5MQzRBLTlXVWJNOVZsSmw2RGFzbDFTTmEzZ3JhRmhtYWI1bw?oc=5",
+    "published": "2025-10-30T07:00:00+00:00",
+    "published_display": "Oct 30, 2025",
+    "query": "JD Vance speech",
+    "image": "https://thedmonline.com/wp-content/uploads/2025/10/5U1A9253-scaled.jpg",
+    "real_url": "https://thedmonline.com/vance-and-kirk-center-on-faith-immigration-in-speeches-and-qa/",
+    "bias": "?",
+    "topic": "General"
+  },
+  {
     "id": "3c5d08d0e37a",
     "title": "Vance dodges \u2018premature\u2019 talks of 2028 \u2014 but keeps options open - Politico",
     "source": "Politico",
@@ -9990,6 +10350,21 @@
     "topic": "Immigration"
   },
   {
+    "id": "c1aa283fe575",
+    "title": "User Clip: Erika Kirk Introducing JD Vance - C-SPAN",
+    "source": "C-SPAN",
+    "source_url": "https://www.c-span.org",
+    "source_domain": "www.c-span.org",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTzFFMmxsVmstN2JqdEJlR3hsQ0E2dkF6bTRRSTFELW5fc2VONFB4a1d0Xy1OaXFPNlMwelc1RkRZVG1CcTVZTmUyUm8tcE9JZjNLa2FYSkRtdFlmZWllREhIcTVOZlVoTUlMdm10RXhQZjdGT3Bra09PYVdQNWJpOFpwamQ5cnU4SGpRNzBKQVhMZ3l3Y0gxdEM4bHd6QlU?oc=5",
+    "published": "2025-10-29T07:00:00+00:00",
+    "published_display": "Oct 29, 2025",
+    "query": "JD Vance speech",
+    "image": "https://ximage.c-spanvideo.org/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJoZWlnaHQiOjYzMCwid2lkdGgiOjEyMDB9fSwiYnVja2V0IjoicGljdHVyZXMuYy1zcGFudmlkZW8ub3JnIiwia2V5IjoiRmlsZXMvYjAwLzAwMi8xNzYxODAxOTUyXzAwMi5qcGcifQ==",
+    "real_url": "https://www.c-span.org/clip/public-affairs-event/user-clip-erika-kirk-introducing-jd-vance/5177935",
+    "bias": "C",
+    "topic": "General"
+  },
+  {
     "id": "745f339e3b76",
     "title": "Vice President Vance says troops will be paid as pressure builds on Congress to end the shutdown - Colorado Politics",
     "source": "Politics",
@@ -10018,6 +10393,21 @@
     "real_url": "https://www.coloradopolitics.com/2025/10/28/vice-president-vance-says-troops-will-be-paid-as-pressure-builds-on-congress-to-end-the-shutdown/",
     "bias": "C",
     "topic": "Immigration"
+  },
+  {
+    "id": "d330a377e6e5",
+    "title": "Fox News show to be live at Ole Miss during Turning Point USA event with Vance, Erika Kirk - The Clarion-Ledger",
+    "source": "The Clarion-Ledger",
+    "source_url": "https://www.clarionledger.com",
+    "source_domain": "www.clarionledger.com",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNUJHbjNndF9jWXpEVzJiZ3llMXExTGFORUtsZVlERkcxNkQwX0dTZnF4WmtmSzNGV25TVVRXUGRXdGxmZXAtYjRXWjMyZ0x5VnlVZjBfTmpPZ3NhSDFvRF9kV2EwVU9vN2xiaXF6YWstMG9sZ2lveXR2bGZQQUE1eE9Gci1Ia3JjVVNYc3lmX093OUgzUnZ4SGVudVJ0bE5ZVjZZQ2V4bjZhbThqOXVCLXNHcmtVXy1mZXlvcGNlOWx5UnVrdmliNFhFS1RVLU1FX0ZOdHo1VU1xYXgxRHgzSndoN1M?oc=5",
+    "published": "2025-10-27T07:00:00+00:00",
+    "published_display": "Oct 27, 2025",
+    "query": "JD Vance speech",
+    "image": "",
+    "real_url": "https://www.clarionledger.com/story/news/2025/10/27/fox-news-show-live-ole-miss-turning-point-usa-event-erika-kirk-jd-vance-jesse-watters/86934690007/",
+    "bias": "?",
+    "topic": "General"
   },
   {
     "id": "0029f75847e6",
@@ -10770,6 +11160,21 @@
     "topic": "Immigration"
   },
   {
+    "id": "9622b99b090d",
+    "title": "Vance pauses North Carolina speech for boy who said he \u2018skipped school\u2019 to ask for a selfie - Fox News",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0YtdFE3UldyNTgtMk1xa25UODB6QkItUVpjanhNbWlSRWdVaFdMZGt3RmV6U1lyWjFrSEgzeUNwRjh5X0RkNTcwdkR5YkVMQlhqdG1Id0puSzAyaU53SFJsb1FaZGpEbkMyYWV4cE9YUlZ6T1ZWYVZGZXB4LUJ4Z0FnVXlZSEFsdzRLems1Q25NWDZlTWREZmJtLThSWlhDcE1V0gGoAUFVX3lxTE0tZHR6MlotQ3M3R2pfUzdkMXRZUzZSaE55N0xpaXBjV1NQY0xrX0JkZnNlRDR4TjEwaEl3OW9jeUJrOVdYUlhYU0pvNFRIVWNQb2FFelZIeVFvSWdVa0NacUY0eklLTi1BdE4wWDRNUHdrT1VQcld6LVB2RmhBcE9ZWmdNUWplN1FoR3lTWWhXNWxpM2NiRUd1dXRUeWdlRDd5S0tpajNWdQ?oc=5",
+    "published": "2025-09-24T07:00:00+00:00",
+    "published_display": "Sep 24, 2025",
+    "query": "JD Vance speech",
+    "image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/09/vance-takes-selfie-with-young-supporter.jpg",
+    "real_url": "https://www.foxnews.com/politics/vance-pauses-north-carolina-speech-boy-who-skipped-school-ask-selfie",
+    "bias": "R",
+    "topic": "General"
+  },
+  {
     "id": "96b1de7ba340",
     "title": "JD Vance blames &#x27;soft-on-crime&#x27; policies for fatal Charlotte stabbing, targets Cooper - WRAL",
     "source": "WRAL",
@@ -10812,6 +11217,21 @@
     "image": "",
     "real_url": "",
     "bias": "L",
+    "topic": "General"
+  },
+  {
+    "id": "452aaad98ac4",
+    "title": "Vance says those who celebrate Charlie Kirk\u2019s death should face consequences as he ramps up criticism of the left - CNN",
+    "source": "CNN",
+    "source_url": "https://www.cnn.com",
+    "source_domain": "www.cnn.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ENzNla0R1elpNSTBZZVAtbTJ0dzFWUUpUaTJzcTlsUGVDc0tyNkVITWpyWjNCaUFZNmdMemtxSkJmYlNtODNDLUhkSjAzMnJfc3gwSzFySksxbVJmTS0waHJWbGFCUTJ5OW1oLVZLQkYtcnpCQjk3Z0FMWkhSemM?oc=5",
+    "published": "2025-09-18T07:00:00+00:00",
+    "published_display": "Sep 18, 2025",
+    "query": "JD Vance speech",
+    "image": "",
+    "real_url": "https://www.cnn.com/2025/09/17/politics/vance-first-amendment-charlie-kirk",
+    "bias": "LL",
     "topic": "General"
   },
   {
@@ -10903,6 +11323,21 @@
     "real_url": "https://www.cbsnews.com/detroit/news/vice-president-jd-vance-speaks-in-howell-michigan/",
     "bias": "LL",
     "topic": "General"
+  },
+  {
+    "id": "d393af0589f8",
+    "title": "Vice President JD Vance returning to Michigan to tout tax cuts - Bridge Michigan",
+    "source": "Bridge Michigan",
+    "source_url": "https://bridgemi.com",
+    "source_domain": "bridgemi.com",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTNSeUNMY19tTVZWNkJDRy1Zc0l3TjVXRzJqYkFkVTJJMGRwZ0pycFNnTmctWl9NWC14Vm5lWlBIaFZCUi05QmtsalY2ZWdGRkZkeExnYmt3U1pHT1VKNTFvaHc1T0lCeWhoOUlpMUI5dk9PQmRGUDA3WnprcVNyUWtXbmlQaVV2RnZhTHhFMXNWOWxIRkJndXQ0SlZRUmhud2Z2RWtFTQ?oc=5",
+    "published": "2025-09-16T07:00:00+00:00",
+    "published_display": "Sep 16, 2025",
+    "query": "JD Vance speech",
+    "image": "https://bridgemi.com/wp-content/uploads/2025/09/AP25245686585486-scaled.jpg",
+    "real_url": "https://bridgemi.com/michigan-government/vice-president-jd-vance-returning-to-michigan-to-tout-tax-cuts/",
+    "bias": "?",
+    "topic": "Economy"
   },
   {
     "id": "c1504289469b",
@@ -11203,6 +11638,21 @@
     "real_url": "https://www.politico.com/news/2025/08/07/vance-indiana-00497634",
     "bias": "LL",
     "topic": "Domestic"
+  },
+  {
+    "id": "e3c5b52d7202",
+    "title": "What Gov. Mike Braun said about redistricting in Indiana following meeting with JD Vance - indystar.com",
+    "source": "indystar.com",
+    "source_url": "https://www.indystar.com",
+    "source_domain": "www.indystar.com",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOVpjSGt1czhmcFFmWkdFN085ZkhXSE1DYzhKdlRESlY5QjdJRTBOTGhXY1AtNGVPdmtwcU5uZDhiajEtZ3NOMGlWY2Z4QS14MTk1YnRCNGNKS05oYVIyMV95ZU9MWGJfMEJvNGh3M0trNUdINWZKa1p1QlcyLXU4Q00wWWtUN3BlRi1zckFnSFVMZkxndUwyWWNlZVRDX2tUR3JrSjZPWWg5OG9ybk5YSE1BLUh1TjZRc3JCTERCMzBIeWdJMmZqV0NMR2RuT1l2?oc=5",
+    "published": "2025-08-07T07:00:00+00:00",
+    "published_display": "Aug 07, 2025",
+    "query": "Vance Congress",
+    "image": "",
+    "real_url": "https://www.indystar.com/story/news/politics/2025/08/07/indiana-redistricting-jd-vance-visit-mike-braun-congress-elections/85556859007/",
+    "bias": "?",
+    "topic": "General"
   },
   {
     "id": "7486c5a7adc4",
@@ -11820,6 +12270,21 @@
     "topic": "Tech & AI"
   },
   {
+    "id": "ea896b31cd4b",
+    "title": "JD Vance says &quot;crypto finally has a champion&quot; in the White House during Bitcoin conference speech - CBS News",
+    "source": "CBS News",
+    "source_url": "https://www.cbsnews.com",
+    "source_domain": "www.cbsnews.com",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTFBjM2M2SmQyQmc1TkxyNFJGR3RuNnk0OEZNOVBkWnZIQkxuc1ZteXladjhyakZjY3ZUSDlHQ1V5Y242cHRiWk1SYV9ROWhMb3libVhFbzl2TGd1U19QTk1iNFhKTWxORVMydFlmM09SZXVMbHpIQzE5anNIeTAxYTlIcGVQdENIakE5WVE3Q0NjbElfZFRCU1lVNVXSAaIBQVVfeXFMUGdxWWxBak9fSmtRSGVBUU1HZ2l1VTFpU1psN0oyTjBwZ0RFX0w5TzhZYjRVZHhrLUg2MnhMenlQVUNLZ0tocFBHak4yQzI2Q2I1d3p2T0JsemZmSEJMQ2NKdmhvWHp3ZHRfOHU4MFRJd21iUUxaLWhwY2FhQ05vcXVwNFFwaWJKelRLczR3eEZ1TWlYdFhkU3pWcVBaOEpfQWpB?oc=5",
+    "published": "2025-05-28T07:00:00+00:00",
+    "published_display": "May 28, 2025",
+    "query": "Vance policy",
+    "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2025/05/28/a94b55cf-77d2-4661-8efb-fa1bb144b718/thumbnail/1200x630g2/27a388dac77e74946e6e6fbc6d65d6f6/ap25148603326815.jpg",
+    "real_url": "https://www.cbsnews.com/news/jd-vance-bitcoin-event-today-trump-administration-crypto-ties-grow/",
+    "bias": "LL",
+    "topic": "Tech & AI"
+  },
+  {
     "id": "eb27e25ca861",
     "title": "Vance is doing his best to help Trump tear down the Supreme Court | Opinion - USA Today",
     "source": "USA Today",
@@ -11863,6 +12328,21 @@
     "real_url": "",
     "bias": "C",
     "topic": "General"
+  },
+  {
+    "id": "ebf3f661293a",
+    "title": "Vance Tells Midshipmen Their Service Will Not Be Squandered on Rudderless Missions - war.gov",
+    "source": "war.gov",
+    "source_url": "https://www.war.gov",
+    "source_domain": "www.war.gov",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQY01UQzdaamdzeGhkVkVLMV9aSWViT1ZxUXhnT3hmU2I5dlE1QWkyRTNGUWMxU1I1YVJmQTBNcEhtYUhmU1lrbG5oblFwX2Y1b244V0pBTFVIYy0zclZNdTdIZnRGNWVmdFlsbWkyYXZ2OW92MFVVVWtwNUxwQlYwQzYwREZROGlWM3loUG9DTUVMTFY2dzBWRWkzTEJaeGNZZkpFZ0lIeWpJdVBFa2RaTG9EMjdRRUYzQ0RjS1NhZ1FhbU9EMERETVgxSmN0eU51VkVJbU1TOVNEdw?oc=5",
+    "published": "2025-05-23T07:00:00+00:00",
+    "published_display": "May 23, 2025",
+    "query": "Vance policy",
+    "image": "",
+    "real_url": "https://www.war.gov/News/News-Stories/Article/Article/4196829/vance-tells-midshipmen-their-service-will-not-be-squandered-on-rudderless-missi/",
+    "bias": "?",
+    "topic": "Immigration"
   },
   {
     "id": "adfdf578cc0e",
@@ -12206,6 +12686,21 @@
     "query": "Vance Congress",
     "image": "",
     "real_url": "",
+    "bias": "?",
+    "topic": "Domestic"
+  },
+  {
+    "id": "fbeadfdeb474",
+    "title": "Melania Trump, Ivanka Trump, and Usha Vance Keep Low Profiles at the Joint Session of Congress - vogue.com",
+    "source": "vogue.com",
+    "source_url": "https://www.vogue.com",
+    "source_domain": "www.vogue.com",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3BoTDYyVEpCRFpSeVlvM2FHRnJ6bndfa3M2TmctV3BtcnhpX2N1bkVYM2ZtV2VnRE81SFpLRzNNdVZRR0NfTjNGSWFHelZLbTQydXlxeXR1UUpFSFJOMi1qRHl3NU1ySDVkc2dlRDR0ZUVVS2VjNTNiNjltRWxyMjZWQXk2VnNZTk1pU0Z0ZVU?oc=5",
+    "published": "2025-03-05T08:00:00+00:00",
+    "published_display": "Mar 05, 2025",
+    "query": "Vance Congress",
+    "image": "https://assets.vogue.com/photos/67c8636fbedf73f00609d7e8/16:9/w_1280,c_limit/GettyImages-2202807228%20(1).jpg",
+    "real_url": "https://www.vogue.com/article/melania-ivanka-trump-usha-vance-joint-session-of-congress",
     "bias": "?",
     "topic": "Domestic"
   },
