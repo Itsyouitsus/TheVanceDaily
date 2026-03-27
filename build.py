@@ -116,13 +116,32 @@ INTL_BLOCK = {
     "rt.com", "sputniknews.com", "globaltimes.cn", "anadolu.com",
     "aa.com.tr", "tribunecontentagency.com", "pressenza.com",
     "palestinechronicle.com", "middleeasteye.net", "lavoce.com",
+    # Indian outlets
+    "timesofindia.com", "timesofindia.indiatimes.com", "indiatimes.com",
+    "singju.com", "singjupost.com", "thesingju", "india.com",
+    "ndtv.com", "zeenews.india.com", "news18.com",
+    # Other international
+    "malaysiasun.com", "gbnews.com", "lbc.co.uk", "itv.com",
+    "cbc.ca", "globalnews.ca", "thestar.com",
+    "smh.com.au", "abc.net.au", "9news.com.au",
+    "lavoce", "lavocedinewyork",
+    "globalbanking", "gbaf",
 }
 
 def is_us_source(article):
     """Filter to keep only US-based sources."""
     domain = article.get("source_domain", "").lower()
+    source = article.get("source", "").lower()
+    # Block by domain
     for blocked in INTL_BLOCK:
         if blocked in domain:
+            return False
+    # Block by source name
+    INTL_NAMES = {"times of india", "singju post", "the singju post", "ndtv", "malaysia sun",
+                  "la voce di new york", "global banking & finance review", "global banking &amp; finance review",
+                  "premier christian news", "the times of india", "india times"}
+    for blocked_name in INTL_NAMES:
+        if blocked_name in source:
             return False
     # Block by TLD (non-US country TLDs)
     non_us_tlds = ['.co.uk', '.co.in', '.com.au', '.co.nz', '.co.za', '.ca', '.fr', '.de', '.it', '.es', '.ru', '.cn', '.jp', '.kr', '.in', '.pk', '.tr', '.il', '.ae']
@@ -576,8 +595,7 @@ def generate_html(articles, build_time):
 
         if a.get("image"):
             fd = a.get("source_domain", "")
-            fallback_js = f"this.onerror=null;this.parentElement.innerHTML=\\'<img class=src-logo src=https://www.google.com/s2/favicons?domain={fd}&sz=64><span class=src-lbl>{a['source']}</span>\\';this.parentElement.className=\\'card-img card-img-source\\'" if fd else "this.onerror=null;this.parentElement.className='card-img card-img-empty';this.style.display='none'"
-            img_html = f'<div class="card-img"><img src="{a["image"]}" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover" onerror="{fallback_js}"></div>'
+            img_html = f'<div class="card-img" data-fallback-domain="{fd}" data-fallback-name="{a["source"]}"><img src="{a["image"]}" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover" onerror="imgFail(this)"></div>'
         else:
             fd = a.get("source_domain", "")
             if fd:
@@ -1046,6 +1064,19 @@ def generate_html(articles, build_time):
 </div>
 
 <script>
+function imgFail(img){
+    img.onerror=null;
+    var p=img.parentElement;
+    var d=p.getAttribute('data-fallback-domain');
+    var n=p.getAttribute('data-fallback-name')||'';
+    if(d){
+        p.className='card-img card-img-source';
+        p.innerHTML='<img class="src-logo" src="https://www.google.com/s2/favicons?domain='+d+'&sz=64" alt=""><span class="src-lbl">'+n+'</span>';
+    }else{
+        p.className='card-img card-img-empty';
+        img.style.display='none';
+    }
+}
 (function(){
     const cards=Array.from(document.querySelectorAll('.card'));
     const g=document.getElementById('g');
