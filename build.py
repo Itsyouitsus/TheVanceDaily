@@ -568,48 +568,72 @@ STATIC_SOCIAL = [
 
 
 def fetch_social_posts():
-    """Fetch latest posts from X/Twitter via the syndication API (free, no key needed)."""
+    """Fetch latest posts from X/Twitter via the syndication API (free, no key needed).
+    Includes retry logic, varied User-Agents, and JSON cache fallback."""
+    import time
+    SOCIAL_CACHE = os.path.join(OUTPUT_DIR, "social_cache.json")
+    USER_AGENTS = [
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
+    ]
     all_posts = []
-    for acct in SOCIAL_ACCOUNTS:
-        try:
-            url = f'https://syndication.twitter.com/srv/timeline-profile/screen-name/{acct["handle"]}'
-            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept': 'text/html'})
-            resp = urllib.request.urlopen(req, timeout=15, context=SSL_CTX)
-            raw_html = resp.read().decode('utf-8', errors='ignore')
-            match = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', raw_html, re.DOTALL)
-            if match:
-                data = json.loads(match.group(1))
-                entries = data.get('props', {}).get('pageProps', {}).get('timeline', {}).get('entries', [])
-                for entry in entries[:5]:  # Latest 5 per account
-                    tweet = entry.get('content', {}).get('tweet', {})
-                    text = tweet.get('text', '')
-                    created = tweet.get('created_at', '')
-                    tweet_id = tweet.get('id_str', '')
-                    # Clean up t.co links from text
-                    text_clean = re.sub(r'https?://t\.co/\S+', '', text).strip()
-                    if not text_clean:
-                        continue
-                    # Parse date
-                    try:
-                        dt = datetime.strptime(created, "%a %b %d %H:%M:%S %z %Y")
-                        date_display = dt.strftime("%b %d, %Y · %I:%M %p")
-                    except:
-                        date_display = ""
-                    all_posts.append({
-                        "platform": acct["platform"],
-                        "handle": acct["label"],
-                        "url": f'https://x.com/{acct["handle"]}/status/{tweet_id}' if tweet_id else acct["url"],
-                        "icon": acct["icon"],
-                        "text": html_module.escape(text_clean[:280]),
-                        "time": date_display,
-                        "timestamp": created,
-                        "foot": f'@{acct["handle"]}',
-                    })
-                print(f"  @{acct['handle']}: {len(entries)} posts scraped")
-            else:
-                print(f"  @{acct['handle']}: no data found in syndication response")
-        except Exception as e:
-            print(f"  @{acct['handle']}: error - {e}")
+    for acct_idx, acct in enumerate(SOCIAL_ACCOUNTS):
+        success = False
+        # Add delay between accounts to avoid rate limits
+        if acct_idx > 0:
+            time.sleep(3)
+        for attempt, ua in enumerate(USER_AGENTS):
+            if success:
+                break
+            try:
+                if attempt > 0:
+                    time.sleep(2 * attempt)  # Backoff
+                url = f'https://syndication.twitter.com/srv/timeline-profile/screen-name/{acct["handle"]}'
+                req = urllib.request.Request(url, headers={
+                    'User-Agent': ua,
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Cache-Control': 'no-cache',
+                })
+                resp = urllib.request.urlopen(req, timeout=15, context=SSL_CTX)
+                raw_html = resp.read().decode('utf-8', errors='ignore')
+                match = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', raw_html, re.DOTALL)
+                if match:
+                    data = json.loads(match.group(1))
+                    entries = data.get('props', {}).get('pageProps', {}).get('timeline', {}).get('entries', [])
+                    for entry in entries[:5]:  # Latest 5 per account
+                        tweet = entry.get('content', {}).get('tweet', {})
+                        text = tweet.get('text', '')
+                        created = tweet.get('created_at', '')
+                        tweet_id = tweet.get('id_str', '')
+                        # Clean up t.co links from text
+                        text_clean = re.sub(r'https?://t\.co/\S+', '', text).strip()
+                        if not text_clean:
+                            continue
+                        # Parse date
+                        try:
+                            dt = datetime.strptime(created, "%a %b %d %H:%M:%S %z %Y")
+                            date_display = dt.strftime("%b %d, %Y · %I:%M %p")
+                        except:
+                            date_display = ""
+                        all_posts.append({
+                            "platform": acct["platform"],
+                            "handle": acct["label"],
+                            "url": f'https://x.com/{acct["handle"]}/status/{tweet_id}' if tweet_id else acct["url"],
+                            "icon": acct["icon"],
+                            "text": html_module.escape(text_clean[:280]),
+                            "time": date_display,
+                            "timestamp": created,
+                            "foot": f'@{acct["handle"]}',
+                        })
+                    print(f"  @{acct['handle']}: {len(entries)} posts scraped (attempt {attempt+1})")
+                    success = True
+                else:
+                    print(f"  @{acct['handle']}: no data (attempt {attempt+1})")
+            except Exception as e:
+                print(f"  @{acct['handle']}: attempt {attempt+1} failed - {e}")
 
     # Add static social accounts (no live data available)
     for s in STATIC_SOCIAL:
@@ -623,6 +647,28 @@ def fetch_social_posts():
             "timestamp": "",
             "foot": s["foot"],
         })
+
+    # Cache: save if we got X posts, load from cache if we didn't
+    x_posts = [p for p in all_posts if p.get("timestamp")]
+    if x_posts:
+        try:
+            with open(SOCIAL_CACHE, "w") as f:
+                json.dump(x_posts, f)
+            print(f"  Cached {len(x_posts)} X posts to {SOCIAL_CACHE}")
+        except Exception as e:
+            print(f"  Cache save failed: {e}")
+    else:
+        # Try loading from cache
+        try:
+            if os.path.exists(SOCIAL_CACHE):
+                with open(SOCIAL_CACHE, "r") as f:
+                    cached = json.load(f)
+                # Insert cached posts before static ones
+                static_posts = [p for p in all_posts if not p.get("timestamp")]
+                all_posts = cached + static_posts
+                print(f"  Loaded {len(cached)} cached X posts (live scrape failed)")
+        except Exception as e:
+            print(f"  Cache load failed: {e}")
 
     return all_posts
 
