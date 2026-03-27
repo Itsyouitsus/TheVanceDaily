@@ -542,7 +542,114 @@ def deduplicate(articles):
     return [a for a in articles if a["id"] not in seen and not seen.add(a["id"])]
 
 
-def generate_html(articles, build_time):
+# ── Social media scraping (X/Twitter via syndication API) ──
+SOCIAL_ACCOUNTS = [
+    {"handle": "JDVance", "platform": "X / Twitter", "label": "@JDVance", "url": "https://x.com/JDVance",
+     "icon": '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>'},
+    {"handle": "VP", "platform": "X / Official", "label": "@VP", "url": "https://x.com/VP",
+     "icon": '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>'},
+]
+
+# Static social accounts (no free API/scraping available)
+STATIC_SOCIAL = [
+    {"platform": "Instagram", "label": "@jdvance", "url": "https://www.instagram.com/jdvance/",
+     "icon": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/></svg>',
+     "foot": "Photos &amp; Stories"},
+    {"platform": "TikTok", "label": "@jd", "url": "https://www.tiktok.com/@jd",
+     "icon": '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.46V13a8.28 8.28 0 005.58 2.15V11.7a4.79 4.79 0 01-3.24-1.26V6.69h3.24z"/></svg>',
+     "foot": "2.9M Followers"},
+    {"platform": "Truth Social", "label": "@JDVance1", "url": "https://truthsocial.com/@JDVance1",
+     "icon": '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-4H7l6-8v4h4l-6 8z"/></svg>',
+     "foot": "Truth Social"},
+    {"platform": "Facebook", "label": "VP Page", "url": "https://www.facebook.com/VicePresident/",
+     "icon": '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>',
+     "foot": "4.8M Likes"},
+]
+
+
+def fetch_social_posts():
+    """Fetch latest posts from X/Twitter via the syndication API (free, no key needed)."""
+    all_posts = []
+    for acct in SOCIAL_ACCOUNTS:
+        try:
+            url = f'https://syndication.twitter.com/srv/timeline-profile/screen-name/{acct["handle"]}'
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept': 'text/html'})
+            resp = urllib.request.urlopen(req, timeout=15, context=SSL_CTX)
+            raw_html = resp.read().decode('utf-8', errors='ignore')
+            match = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', raw_html, re.DOTALL)
+            if match:
+                data = json.loads(match.group(1))
+                entries = data.get('props', {}).get('pageProps', {}).get('timeline', {}).get('entries', [])
+                for entry in entries[:5]:  # Latest 5 per account
+                    tweet = entry.get('content', {}).get('tweet', {})
+                    text = tweet.get('text', '')
+                    created = tweet.get('created_at', '')
+                    tweet_id = tweet.get('id_str', '')
+                    # Clean up t.co links from text
+                    text_clean = re.sub(r'https?://t\.co/\S+', '', text).strip()
+                    if not text_clean:
+                        continue
+                    # Parse date
+                    try:
+                        dt = datetime.strptime(created, "%a %b %d %H:%M:%S %z %Y")
+                        date_display = dt.strftime("%b %d, %Y · %I:%M %p")
+                    except:
+                        date_display = ""
+                    all_posts.append({
+                        "platform": acct["platform"],
+                        "handle": acct["label"],
+                        "url": f'https://x.com/{acct["handle"]}/status/{tweet_id}' if tweet_id else acct["url"],
+                        "icon": acct["icon"],
+                        "text": html_module.escape(text_clean[:280]),
+                        "time": date_display,
+                        "timestamp": created,
+                        "foot": f'@{acct["handle"]}',
+                    })
+                print(f"  @{acct['handle']}: {len(entries)} posts scraped")
+            else:
+                print(f"  @{acct['handle']}: no data found in syndication response")
+        except Exception as e:
+            print(f"  @{acct['handle']}: error - {e}")
+
+    # Add static social accounts (no live data available)
+    for s in STATIC_SOCIAL:
+        all_posts.append({
+            "platform": s["platform"],
+            "handle": s["label"],
+            "url": s["url"],
+            "icon": s["icon"],
+            "text": "",
+            "time": "",
+            "timestamp": "",
+            "foot": s["foot"],
+        })
+
+    return all_posts
+
+
+def generate_social_html(posts):
+    """Generate the social card carousel HTML from scraped posts."""
+    cards = ""
+    for p in posts:
+        ga_platform = p["platform"].replace("'", "\\'")
+        ga_handle = p["handle"].replace("'", "\\'")
+        time_html = ""
+        if p["time"]:
+            time_html = f'<span class="soc-card-time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>{p["time"]}</span>'
+        text_html = f'<p class="soc-card-text">{p["text"]}</p>' if p["text"] else ''
+        cards += f'''<a href="{p["url"]}" target="_blank" class="soc-card" onclick="gtag('event','social_click',{{platform:'{ga_platform}',handle:'{ga_handle}'}})">
+            <div class="soc-card-hdr">{p["icon"]}<span class="platform">{p["platform"]}</span><span class="handle">{p["handle"]}</span></div>
+            {text_html}
+            {time_html}
+            <span class="soc-card-foot">{p["foot"]}</span>
+        </a>'''
+    # Duplicate for infinite scroll
+    return cards + cards
+
+
+def generate_html(articles, build_time, social_posts=None):
+    # Generate social carousel HTML
+    social_html = generate_social_html(social_posts) if social_posts else ''
     sources = sorted(set(a["source"] for a in articles if a["source"]))
     sources_json = json.dumps(sources)
     topics = sorted(set(a["topic"] for a in articles if a["topic"]))
@@ -725,6 +832,8 @@ def generate_html(articles, build_time):
         .soc-card-hdr .handle{font-size:.7rem;font-weight:500;color:var(--accent);margin-left:auto}
         .soc-card-text{font-size:.78rem;line-height:1.45;color:var(--text);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
         .soc-card-foot{font-size:.62rem;color:var(--text3)}
+        .soc-card-time{font-size:.6rem;color:var(--text3);display:flex;align-items:center;gap:.25rem}
+        .soc-card-time svg{width:10px;height:10px;flex-shrink:0}
 
         /* SOURCE CAROUSEL */
         .crs{overflow:hidden;background:var(--bg3);border-bottom:1px solid var(--border);padding:.6rem 0;position:relative}
@@ -898,68 +1007,7 @@ def generate_html(articles, build_time):
 </header>
 
 <div class="soc-bar">
-    <div class="soc-track">
-        <a href="https://x.com/JDVance" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'X',handle:'@JDVance'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span class="platform">X / Twitter</span><span class="handle">@JDVance</span></div>
-            <p class="soc-card-text">Republicans are about to vote (again) to reopen the government and every Democrat outside of a few sensible moderates will vote to keep it shut.</p>
-            <span class="soc-card-foot">Follow on X for latest posts</span>
-        </a>
-        <a href="https://x.com/VP" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'X',handle:'@VP'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span class="platform">X / Official</span><span class="handle">@VP</span></div>
-            <p class="soc-card-text">When you restore sanity at the border it shows up everywhere. Wages are finally growing, inflation is half of what it was under Democrats.</p>
-            <span class="soc-card-foot">Official VP account</span>
-        </a>
-        <a href="https://www.instagram.com/jdvance/" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Instagram',handle:'@jdvance'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/></svg><span class="platform">Instagram</span><span class="handle">@jdvance</span></div>
-            <p class="soc-card-text">Great meeting with our allies today. America is stronger when we lead from a position of strength.</p>
-            <span class="soc-card-foot">Photos &amp; Stories</span>
-        </a>
-        <a href="https://www.tiktok.com/@jd" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'TikTok',handle:'@jd'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.46V13a8.28 8.28 0 005.58 2.15V11.7a4.79 4.79 0 01-3.24-1.26V6.69h3.24z"/></svg><span class="platform">TikTok</span><span class="handle">@jd</span></div>
-            <p class="soc-card-text">We're relaunching the VP's TikTok page. We'll update y'all on what's going on in the White House, the business of state.</p>
-            <span class="soc-card-foot">2.9M Followers</span>
-        </a>
-        <a href="https://truthsocial.com/@JDVance1" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Truth Social',handle:'@JDVance1'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-4H7l6-8v4h4l-6 8z"/></svg><span class="platform">Truth Social</span><span class="handle">@JDVance1</span></div>
-            <p class="soc-card-text">The American people sent us to Washington to get things done. That's exactly what we're doing. No more excuses.</p>
-            <span class="soc-card-foot">Truth Social</span>
-        </a>
-        <a href="https://www.facebook.com/VicePresident/" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Facebook',handle:'VP'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg><span class="platform">Facebook</span><span class="handle">VP Page</span></div>
-            <p class="soc-card-text">Honored to chair the first anti-fraud task force meeting. Hardworking Americans deserve a government that works for them, not against them.</p>
-            <span class="soc-card-foot">4.8M Likes</span>
-        </a>
-        <a href="https://x.com/JDVance" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'X',handle:'@JDVance'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span class="platform">X / Twitter</span><span class="handle">@JDVance</span></div>
-            <p class="soc-card-text">Republicans are about to vote (again) to reopen the government and every Democrat outside of a few sensible moderates will vote to keep it shut.</p>
-            <span class="soc-card-foot">Follow on X for latest posts</span>
-        </a>
-        <a href="https://x.com/VP" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'X',handle:'@VP'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span class="platform">X / Official</span><span class="handle">@VP</span></div>
-            <p class="soc-card-text">When you restore sanity at the border it shows up everywhere. Wages are finally growing, inflation is half of what it was under Democrats.</p>
-            <span class="soc-card-foot">Official VP account</span>
-        </a>
-        <a href="https://www.instagram.com/jdvance/" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Instagram',handle:'@jdvance'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/></svg><span class="platform">Instagram</span><span class="handle">@jdvance</span></div>
-            <p class="soc-card-text">Great meeting with our allies today. America is stronger when we lead from a position of strength.</p>
-            <span class="soc-card-foot">Photos &amp; Stories</span>
-        </a>
-        <a href="https://www.tiktok.com/@jd" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'TikTok',handle:'@jd'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.46V13a8.28 8.28 0 005.58 2.15V11.7a4.79 4.79 0 01-3.24-1.26V6.69h3.24z"/></svg><span class="platform">TikTok</span><span class="handle">@jd</span></div>
-            <p class="soc-card-text">We're relaunching the VP's TikTok page. We'll update y'all on what's going on in the White House, the business of state.</p>
-            <span class="soc-card-foot">2.9M Followers</span>
-        </a>
-        <a href="https://truthsocial.com/@JDVance1" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Truth Social',handle:'@JDVance1'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-4H7l6-8v4h4l-6 8z"/></svg><span class="platform">Truth Social</span><span class="handle">@JDVance1</span></div>
-            <p class="soc-card-text">The American people sent us to Washington to get things done. That's exactly what we're doing. No more excuses.</p>
-            <span class="soc-card-foot">Truth Social</span>
-        </a>
-        <a href="https://www.facebook.com/VicePresident/" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Facebook',handle:'VP'})">
-            <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg><span class="platform">Facebook</span><span class="handle">VP Page</span></div>
-            <p class="soc-card-text">Honored to chair the first anti-fraud task force meeting. Hardworking Americans deserve a government that works for them, not against them.</p>
-            <span class="soc-card-foot">4.8M Likes</span>
-        </a>
-    </div>
+    <div class="soc-track">''' + social_html + '''</div>
 </div>
 
 <div class="crs">
@@ -1297,69 +1345,36 @@ def main():
     all_articles = [a for a in all_articles if is_us_source(a)]
     print(f"US-only filter: {before} -> {len(all_articles)} (dropped {before - len(all_articles)} international)")
 
-    # 5. Inject Vance's social media posts
+    # 5. Scrape Vance's social media posts (X/Twitter via syndication API)
+    print("\nScraping social media posts...")
     from datetime import timedelta
     now = datetime.now(timezone.utc)
-    social_posts = [
-        {
-            "title": "Republicans are about to vote (again) to reopen the government and every Democrat outside of a few sensible moderates will vote to keep it shut. This is the basic fact of the shutdown.",
-            "source": "Vance Social Media",
-            "platform": "X (@JDVance)",
-            "link": "https://x.com/JDVance",
-            "source_url": "https://x.com",
-            "source_domain": "x.com",
-        },
-        {
-            "title": "When you restore sanity at the border it shows up everywhere. Wages are finally growing, inflation is half of what it was under Democrats.",
-            "source": "Vance Social Media",
-            "platform": "X (@VP)",
-            "link": "https://x.com/VP",
-            "source_url": "https://x.com",
-            "source_domain": "x.com",
-        },
-        {
-            "title": "We're relaunching the VP's TikTok page. I got a little lazy the last few months, I was focused on the job of being VP, not enough on TikToks. That's about to change.",
-            "source": "Vance Social Media",
-            "platform": "TikTok (@jd)",
-            "link": "https://www.tiktok.com/@jd",
-            "source_url": "https://www.tiktok.com",
-            "source_domain": "www.tiktok.com",
-        },
-        {
-            "title": "Christian, husband, dad. Vice President of the United States. Proud to serve the American people with President Donald J. Trump.",
-            "source": "Vance Social Media",
-            "platform": "Facebook",
-            "link": "https://www.facebook.com/VicePresident/",
-            "source_url": "https://www.facebook.com",
-            "source_domain": "www.facebook.com",
-        },
-        {
-            "title": "Follow for direct updates and commentary. Christian, husband, dad. Vice President of the United States.",
-            "source": "Vance Social Media",
-            "platform": "Truth Social (@JDVance1)",
-            "link": "https://truthsocial.com/@JDVance1",
-            "source_url": "https://truthsocial.com",
-            "source_domain": "truthsocial.com",
-        },
-    ]
-    for i, sp in enumerate(social_posts):
+    scraped_social = fetch_social_posts()
+    # Use scraped X posts for the article grid (with real timestamps)
+    for sp in scraped_social:
+        if not sp.get("text") or not sp.get("timestamp"):
+            continue  # Skip static accounts (no live data)
+        try:
+            dt = datetime.strptime(sp["timestamp"], "%a %b %d %H:%M:%S %z %Y")
+        except:
+            dt = now
         sp_article = {
-            "id": hashlib.md5(sp["title"].encode()).hexdigest()[:12],
-            "title": html_module.escape(sp["title"]),
-            "source": sp["source"],
-            "source_url": sp["source_url"],
-            "source_domain": sp["source_domain"],
-            "link": sp["link"],
-            "published": (now - timedelta(hours=i*2)).isoformat(),
-            "published_display": (now - timedelta(hours=i*2)).strftime("%b %d, %Y"),
+            "id": hashlib.md5(sp["text"].encode()).hexdigest()[:12],
+            "title": sp["text"],
+            "source": "Vance Social Media",
+            "source_url": sp["url"],
+            "source_domain": "x.com",
+            "link": sp["url"],
+            "published": dt.isoformat(),
+            "published_display": dt.strftime("%b %d, %Y"),
             "query": "social",
             "image": "",
-            "real_url": sp["link"],
+            "real_url": sp["url"],
             "bias": "?",
             "topic": "General",
         }
-        all_articles.insert(i, sp_article)
-    print(f"Added {len(social_posts)} social media posts")
+        all_articles.append(sp_article)
+    print(f"Added {len([s for s in scraped_social if s.get('text') and s.get('timestamp')])} social media posts to articles")
 
     # 6. Sort and limit
     all_articles.sort(key=lambda a: a.get("published", ""), reverse=True)
@@ -1380,7 +1395,7 @@ def main():
     print(f"  Images: {img_count}/{len(all_articles)}")
 
     build_time = datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")
-    html_content = generate_html(all_articles, build_time)
+    html_content = generate_html(all_articles, build_time, social_posts=scraped_social)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(html_content)
