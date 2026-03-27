@@ -321,56 +321,99 @@ def clean_source_name(name):
         return name
     # HTML entity decode
     name = name.replace("&amp;", "&").replace("&#39;", "'").replace("&quot;", '"')
-    # Remove common RSS title patterns
-    for sep in [" – ", " - ", " | ", " :: ", " : "]:
-        if sep in name:
-            parts = name.split(sep)
-            # Usually the actual name is the shortest meaningful part
-            # "Politics - CBSNews.com" → "CBSNews.com" → "CBS News"
-            # "The Daily Wire - Breaking News, Videos & Podcasts" → "The Daily Wire"
-            candidates = [p.strip() for p in parts]
-            # Pick the part that looks most like a source name (shortest, not generic)
-            generic = ["politics", "news", "breaking news", "latest", "opinion", "world", "us", "headlines", "stories"]
-            for c in candidates:
-                if c.lower() not in generic and not any(g in c.lower() for g in ["breaking news", "latest us", "political news", "headlines"]):
-                    name = c
-                    break
-    # Remove trailing "stories:" prefix patterns
-    if name.lower().endswith(" stories"):
-        name = name[:-8].strip()
-    if " stories:" in name.lower():
-        name = name.split(" stories:")[0].strip()
-    # Clean up .com/.org domains into proper names
-    DOMAIN_TO_NAME = {
-        "cbsnews.com": "CBS News", "nbcnews.com": "NBC News", "abcnews.com": "ABC News",
-        "foxnews.com": "Fox News", "nytimes.com": "New York Times",
-        "washingtonpost.com": "Washington Post", "nypost.com": "New York Post",
-        "al.com": "AL.com", "nj.com": "NJ.com", "silive.com": "SILive",
-        "upi.com": "UPI", "ntd.com": "NTD News", "wng.org": "World Magazine",
-        "tyla.com": "Tyla", "whas11.com": "WHAS11", "koin.com": "KOIN",
-        "newschannel9.com": "NewsChannel 9", "islandernews.com": "Islander News",
-        "elkintribune.com": "Elkin Tribune", "malaysiasun.com": "Malaysia Sun",
-        "communitynewspapergroup.com": "Community Newspaper Group",
-        "aol.com": "AOL News",
-    }
-    name_lower = name.lower().strip()
-    if name_lower in DOMAIN_TO_NAME:
-        return DOMAIN_TO_NAME[name_lower]
-    # Remove "®" and similar
-    name = name.replace("®", "").strip()
-    # Specific overrides for known messy patterns
-    OVERRIDES = {
+    
+    # DIRECT LOOKUP: catch all known messy patterns first (case-insensitive)
+    KNOWN = {
+        "politics - cbsnews.com": "CBS News",
+        "politics – cbsnews.com": "CBS News",
+        "politics - washington examiner": "Washington Examiner",
+        "politics – washington examiner": "Washington Examiner",
+        "politics – latest us political news & headlines | new york post": "New York Post",
+        "politics - latest us political news & headlines | new york post": "New York Post",
+        "the daily wire - breaking news, videos & podcasts": "The Daily Wire",
+        "the daily wire – breaking news, videos & podcasts": "The Daily Wire",
         "latest political news on fox news": "Fox News",
         "nbc news politics": "NBC News",
         "cbs news politics": "CBS News",
         "abc news politics": "ABC News",
         "fox news politics": "Fox News",
+        "fox news - latest news & headlines | fox news": "Fox News",
         "global banking & finance review": "Global Banking & Finance Review",
         "the hill news": "The Hill",
+        "the washington times stories: politics": "Washington Times",
+        "reuters connect": "Reuters",
+        "cbsnews.com": "CBS News",
+        "nbcnews.com": "NBC News",
+        "abcnews.com": "ABC News",
+        "foxnews.com": "Fox News",
+        "nytimes.com": "New York Times",
+        "washingtonpost.com": "Washington Post",
+        "nypost.com": "New York Post",
+        "al.com": "AL.com",
+        "nj.com": "NJ.com",
+        "silive.com": "SILive",
+        "upi.com": "UPI",
+        "ntd.com": "NTD News",
+        "wng.org": "World Magazine",
+        "tyla.com": "Tyla",
+        "whas11.com": "WHAS11",
+        "koin.com": "KOIN",
+        "newschannel9.com": "NewsChannel 9",
+        "newschannel 9": "NewsChannel 9",
+        "islandernews.com": "Islander News",
+        "elkintribune.com": "Elkin Tribune",
+        "malaysiasun.com": "Malaysia Sun",
+        "communitynewspapergroup.com": "Community Newspaper Group",
+        "aol.com": "AOL News",
+        "abc27.com": "ABC27",
+        "kpic.com": "KPIC",
+        "newsweek.com": "Newsweek",
+        "stamfordadvocate.com": "Stamford Advocate",
+        "wkyt.com": "WKYT",
+        "politics": "Politics",  # bare "Politics" from CBS feed - will be overridden by feed title
+        "nbc news politics": "NBC News",
+        "bloomberg politics": "Bloomberg",
+        "blaze media": "The Blaze",
+        "the hill news": "The Hill",
+        "the washington times stories: politics": "Washington Times",
+        "reuters connect": "Reuters",
+        "us weekly": "Us Weekly",
     }
-    if name.lower() in OVERRIDES:
-        return OVERRIDES[name.lower()]
-    return name
+    name_clean = name.strip()
+    if name_clean.lower() in KNOWN:
+        return KNOWN[name_clean.lower()]
+    
+    # Check if the name CONTAINS a known messy pattern
+    for pattern, clean_name in KNOWN.items():
+        if pattern in name_clean.lower():
+            return clean_name
+    
+    # HEURISTIC: if name has separators, try to extract the outlet name
+    for sep in [" – ", " - ", " | ", " :: "]:
+        if sep in name_clean:
+            parts = [p.strip() for p in name_clean.split(sep)]
+            generic_words = {"politics", "news", "breaking news", "latest", "opinion", 
+                           "world", "us", "headlines", "stories", "home"}
+            # Take the first part that isn't generic
+            for p in parts:
+                if p.lower() not in generic_words and len(p) > 2:
+                    name_clean = p
+                    break
+    
+    # Remove " stories:" suffixes  
+    if " stories:" in name_clean:
+        name_clean = name_clean.split(" stories:")[0].strip()
+    if name_clean.lower().endswith(" stories"):
+        name_clean = name_clean[:-8].strip()
+    
+    # Remove ® and similar
+    name_clean = name_clean.replace("®", "").strip()
+    
+    # Final check against KNOWN with cleaned name
+    if name_clean.lower() in KNOWN:
+        return KNOWN[name_clean.lower()]
+    
+    return name_clean
 
 
 def get_bias(source_name):
@@ -461,8 +504,14 @@ def fetch_direct_feeds():
                             a["real_url"] = entry.link
                         # Try to get source from feed title if missing
                         if not a["source"] and hasattr(feed, 'feed') and hasattr(feed.feed, 'title'):
-                            a["source"] = html_module.escape(feed.feed.title)
-                            a["bias"] = get_bias(feed.feed.title)
+                            cleaned = clean_source_name(feed.feed.title)
+                            a["source"] = html_module.escape(cleaned)
+                            a["bias"] = get_bias(cleaned)
+                        # Always re-clean source name (catches cases where process_entry set a messy name)
+                        if a["source"]:
+                            recleaned = clean_source_name(html_module.unescape(a["source"]))
+                            a["source"] = html_module.escape(recleaned)
+                            a["bias"] = get_bias(recleaned)
                         articles.append(a)
         except Exception as e:
             print(f"  Feed error {feed_url[:40]}: {e}")
