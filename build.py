@@ -96,7 +96,7 @@ DIRECT_FEEDS = [
     "https://reason.com/feed/",  # Libertarian
 ]
 
-MAX_ARTICLES = 120
+MAX_ARTICLES = 200
 OUTPUT_DIR = "docs"
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "index.html")
 DATA_FILE = os.path.join(OUTPUT_DIR, "articles.json")
@@ -677,17 +677,24 @@ def generate_social_html(posts):
     """Generate the social card carousel HTML from scraped posts."""
     cards = ""
     for p in posts:
+        # Skip cards with no post content (static accounts with no API)
+        if not p.get("text"):
+            continue
         ga_platform = p["platform"].replace("'", "\\'")
         ga_handle = p["handle"].replace("'", "\\'")
-        time_html = ""
-        if p["time"]:
-            time_html = f'<span class="soc-card-time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>{p["time"]}</span>'
-        text_html = f'<p class="soc-card-text">{p["text"]}</p>' if p["text"] else ''
+        time_html = f'<span class="soc-card-time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>{p["time"]}</span>' if p.get("time") else ''
         cards += f'''<a href="{p["url"]}" target="_blank" class="soc-card" onclick="gtag('event','social_click',{{platform:'{ga_platform}',handle:'{ga_handle}'}})">
             <div class="soc-card-hdr">{p["icon"]}<span class="platform">{p["platform"]}</span><span class="handle">{p["handle"]}</span></div>
-            {text_html}
-            {time_html}
-            <span class="soc-card-foot">{p["foot"]}</span>
+            <p class="soc-card-text">{p["text"]}</p>
+            <div class="soc-card-foot"><span>{p["foot"]}</span>{time_html}</div>
+        </a>'''
+    # Add static links as compact cards (no post text, just platform + handle)
+    for s in STATIC_SOCIAL:
+        ga_platform = s["platform"].replace("'", "\\'")
+        ga_handle = s["label"].replace("'", "\\'")
+        cards += f'''<a href="{s["url"]}" target="_blank" class="soc-card soc-card-static" onclick="gtag('event','social_click',{{platform:'{ga_platform}',handle:'{ga_handle}'}})">
+            <div class="soc-card-hdr">{s["icon"]}<span class="platform">{s["platform"]}</span><span class="handle">{s["label"]}</span></div>
+            <span class="soc-card-foot"><span>{s["foot"]}</span></span>
         </a>'''
     # Duplicate for infinite scroll
     return cards + cards
@@ -877,9 +884,10 @@ def generate_html(articles, build_time, social_posts=None):
         .soc-card-hdr .platform{font-size:.65rem;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.04em}
         .soc-card-hdr .handle{font-size:.7rem;font-weight:500;color:var(--accent);margin-left:auto}
         .soc-card-text{font-size:.78rem;line-height:1.45;color:var(--text);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-        .soc-card-foot{font-size:.62rem;color:var(--text3)}
-        .soc-card-time{font-size:.6rem;color:var(--text3);display:flex;align-items:center;gap:.25rem}
+        .soc-card-foot{font-size:.62rem;color:var(--text3);display:flex;align-items:center;justify-content:space-between;gap:.4rem;margin-top:auto}
+        .soc-card-time{font-size:.6rem;color:var(--text3);display:flex;align-items:center;gap:.25rem;white-space:nowrap}
         .soc-card-time svg{width:10px;height:10px;flex-shrink:0}
+        .soc-card-static{justify-content:center;min-height:auto}
 
         /* SOURCE CAROUSEL */
         .crs{overflow:hidden;background:var(--bg3);border-bottom:1px solid var(--border);padding:.6rem 0;position:relative}
@@ -1066,16 +1074,13 @@ def generate_html(articles, build_time, social_posts=None):
         <input type="text" class="si" placeholder="Search headlines..." id="si">
     </div>
     <select class="sel" id="srcF" style="display:none"><option value="">All Sources</option><option value="Vance Social Media" class="soc-opt" style="color:#b8322a;font-weight:bold">&#9733; Vance's Social Media</option></select>
-    <div style="display:flex;flex-direction:column;gap:0">
-        <div class="custom-dd" id="srcDD">
-            <button type="button" class="custom-dd-btn" id="srcDDBtn">All Sources</button>
-            <div class="custom-dd-list" id="srcDDList">
-                <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
-                <div class="custom-dd-item active" data-val="">All Sources</div>
-                <div class="custom-dd-item soc-opt" data-val="Vance Social Media">&#9733; Vance's Social Media</div>
-            </div>
+    <div class="custom-dd" id="srcDD">
+        <button type="button" class="custom-dd-btn" id="srcDDBtn">All Sources</button>
+        <div class="custom-dd-list" id="srcDDList">
+            <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
+            <div class="custom-dd-item active" data-val="">All Sources</div>
+            <div class="custom-dd-item soc-opt" data-val="Vance Social Media">&#9733; Vance's Social Media</div>
         </div>
-        <span class="src-count-row">''' + str(source_count) + ''' sources &middot; <a href="#" id="suggestBtn" style="color:var(--accent);text-decoration:none">Missing a source?</a></span>
     </div>
     <select class="sel" id="topicF"><option value="">All Topics</option></select>
     <div class="pills">
@@ -1093,6 +1098,7 @@ def generate_html(articles, build_time, social_posts=None):
     </div>
     <span class="count" id="cnt"></span>
 </div>
+<div style="max-width:1200px;margin:0 auto;padding:0 2rem"><span class="src-count-row">''' + str(source_count) + ''' sources &middot; <a href="#" id="suggestBtn" style="color:var(--accent);text-decoration:none">Missing a source?</a></span></div>
 
 <main class="main">
     <div class="grid" id="g">''' + cards_html + '''
