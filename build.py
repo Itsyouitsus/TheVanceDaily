@@ -607,8 +607,12 @@ def generate_html(articles, build_time):
         # Source display
         source_display = a["source"]
 
+        # GA tracking data
+        ga_source = a["source"].replace("'", "\\'")
+        ga_title = a["title"][:60].replace("'", "\\'")
+        
         cards_html += f'''
-        <a href="{link}" target="_blank" rel="noopener noreferrer" class="{card_class}" data-idx="{i}" style="animation-delay:{delay}s">
+        <a href="{link}" target="_blank" rel="noopener noreferrer" class="{card_class}" data-idx="{i}" style="animation-delay:{delay}s" onclick="gtag('event','article_click',{{source:'{ga_source}',bias:'{bias}',topic:'{a["topic"]}'}})">
             {img_html}
             <div class="card-body">
                 <div class="card-top">
@@ -742,7 +746,8 @@ def generate_html(articles, build_time):
         .si{width:100%;padding:.48rem .7rem .48rem 2rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.83rem;color:var(--text);outline:none}
         .si::placeholder{color:var(--text3)}
         .si:focus{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
-        .sel{padding:.48rem 1.8rem .48rem .7rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.8rem;color:var(--text);outline:none;cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%239e9790' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .6rem center}
+        .sel{padding:.48rem 1.8rem .48rem .7rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.8rem;color:var(--text);outline:none;cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%239e9790' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .6rem center;max-width:220px}
+        .sel option{font-size:.82rem}
         .sel:focus{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
         .sel option.soc-opt{color:var(--accent);font-weight:600}
         .pills{display:flex;gap:.2rem}
@@ -880,64 +885,64 @@ def generate_html(articles, build_time):
 
 <div class="soc-bar">
     <div class="soc-track">
-        <a href="https://x.com/JDVance" target="_blank" class="soc-card">
+        <a href="https://x.com/JDVance" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'X',handle:'@JDVance'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span class="platform">X / Twitter</span><span class="handle">@JDVance</span></div>
             <p class="soc-card-text">Republicans are about to vote (again) to reopen the government and every Democrat outside of a few sensible moderates will vote to keep it shut.</p>
             <span class="soc-card-foot">Follow on X for latest posts</span>
         </a>
-        <a href="https://x.com/VP" target="_blank" class="soc-card">
+        <a href="https://x.com/VP" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'X',handle:'@VP'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span class="platform">X / Official</span><span class="handle">@VP</span></div>
-            <p class="soc-card-text">Vice President Vance celebrates the Administration&#39;s successful deportation efforts: &quot;When you restore sanity at the border it shows up everywhere.&quot;</p>
+            <p class="soc-card-text">When you restore sanity at the border it shows up everywhere. Wages are finally growing, inflation is half of what it was under Democrats.</p>
             <span class="soc-card-foot">Official VP account</span>
         </a>
-        <a href="https://www.instagram.com/jdvance/" target="_blank" class="soc-card">
+        <a href="https://www.instagram.com/jdvance/" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Instagram',handle:'@jdvance'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/></svg><span class="platform">Instagram</span><span class="handle">@jdvance</span></div>
-            <p class="soc-card-text">Behind the scenes at the White House. Family moments, official duties, and life as Vice President.</p>
+            <p class="soc-card-text">Great meeting with our allies today. America is stronger when we lead from a position of strength.</p>
             <span class="soc-card-foot">Photos &amp; Stories</span>
         </a>
-        <a href="https://www.tiktok.com/@jd" target="_blank" class="soc-card">
+        <a href="https://www.tiktok.com/@jd" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'TikTok',handle:'@jd'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.46V13a8.28 8.28 0 005.58 2.15V11.7a4.79 4.79 0 01-3.24-1.26V6.69h3.24z"/></svg><span class="platform">TikTok</span><span class="handle">@jd</span></div>
-            <p class="soc-card-text">&quot;We&#39;re relaunching the VP&#39;s TikTok page. We&#39;ll update y&#39;all on what&#39;s going on in the White House.&quot;</p>
+            <p class="soc-card-text">We're relaunching the VP's TikTok page. We'll update y'all on what's going on in the White House, the business of state.</p>
             <span class="soc-card-foot">2.9M Followers</span>
         </a>
-        <a href="https://truthsocial.com/@JDVance1" target="_blank" class="soc-card">
+        <a href="https://truthsocial.com/@JDVance1" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Truth Social',handle:'@JDVance1'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-4H7l6-8v4h4l-6 8z"/></svg><span class="platform">Truth Social</span><span class="handle">@JDVance1</span></div>
-            <p class="soc-card-text">Christian, husband, dad. Vice President of the United States. Follow for direct updates and commentary.</p>
+            <p class="soc-card-text">The American people sent us to Washington to get things done. That's exactly what we're doing. No more excuses.</p>
             <span class="soc-card-foot">Truth Social</span>
         </a>
-        <a href="https://www.facebook.com/VicePresident/" target="_blank" class="soc-card">
+        <a href="https://www.facebook.com/VicePresident/" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Facebook',handle:'VP'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg><span class="platform">Facebook</span><span class="handle">VP Page</span></div>
-            <p class="soc-card-text">50th Vice President of the United States. Proud to serve the American people with President Donald J. Trump.</p>
+            <p class="soc-card-text">Honored to chair the first anti-fraud task force meeting. Hardworking Americans deserve a government that works for them, not against them.</p>
             <span class="soc-card-foot">4.8M Likes</span>
         </a>
-        <a href="https://x.com/JDVance" target="_blank" class="soc-card">
+        <a href="https://x.com/JDVance" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'X',handle:'@JDVance'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span class="platform">X / Twitter</span><span class="handle">@JDVance</span></div>
             <p class="soc-card-text">Republicans are about to vote (again) to reopen the government and every Democrat outside of a few sensible moderates will vote to keep it shut.</p>
             <span class="soc-card-foot">Follow on X for latest posts</span>
         </a>
-        <a href="https://x.com/VP" target="_blank" class="soc-card">
+        <a href="https://x.com/VP" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'X',handle:'@VP'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span class="platform">X / Official</span><span class="handle">@VP</span></div>
-            <p class="soc-card-text">Vice President Vance celebrates the Administration&#39;s successful deportation efforts: &quot;When you restore sanity at the border it shows up everywhere.&quot;</p>
+            <p class="soc-card-text">When you restore sanity at the border it shows up everywhere. Wages are finally growing, inflation is half of what it was under Democrats.</p>
             <span class="soc-card-foot">Official VP account</span>
         </a>
-        <a href="https://www.instagram.com/jdvance/" target="_blank" class="soc-card">
+        <a href="https://www.instagram.com/jdvance/" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Instagram',handle:'@jdvance'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/></svg><span class="platform">Instagram</span><span class="handle">@jdvance</span></div>
-            <p class="soc-card-text">Behind the scenes at the White House. Family moments, official duties, and life as Vice President.</p>
+            <p class="soc-card-text">Great meeting with our allies today. America is stronger when we lead from a position of strength.</p>
             <span class="soc-card-foot">Photos &amp; Stories</span>
         </a>
-        <a href="https://www.tiktok.com/@jd" target="_blank" class="soc-card">
+        <a href="https://www.tiktok.com/@jd" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'TikTok',handle:'@jd'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.46V13a8.28 8.28 0 005.58 2.15V11.7a4.79 4.79 0 01-3.24-1.26V6.69h3.24z"/></svg><span class="platform">TikTok</span><span class="handle">@jd</span></div>
-            <p class="soc-card-text">&quot;We&#39;re relaunching the VP&#39;s TikTok page. We&#39;ll update y&#39;all on what&#39;s going on in the White House.&quot;</p>
+            <p class="soc-card-text">We're relaunching the VP's TikTok page. We'll update y'all on what's going on in the White House, the business of state.</p>
             <span class="soc-card-foot">2.9M Followers</span>
         </a>
-        <a href="https://truthsocial.com/@JDVance1" target="_blank" class="soc-card">
+        <a href="https://truthsocial.com/@JDVance1" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Truth Social',handle:'@JDVance1'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-4H7l6-8v4h4l-6 8z"/></svg><span class="platform">Truth Social</span><span class="handle">@JDVance1</span></div>
-            <p class="soc-card-text">Christian, husband, dad. Vice President of the United States. Follow for direct updates and commentary.</p>
+            <p class="soc-card-text">The American people sent us to Washington to get things done. That's exactly what we're doing. No more excuses.</p>
             <span class="soc-card-foot">Truth Social</span>
         </a>
-        <a href="https://www.facebook.com/VicePresident/" target="_blank" class="soc-card">
+        <a href="https://www.facebook.com/VicePresident/" target="_blank" class="soc-card" onclick="gtag('event','social_click',{platform:'Facebook',handle:'VP'})">
             <div class="soc-card-hdr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg><span class="platform">Facebook</span><span class="handle">VP Page</span></div>
-            <p class="soc-card-text">50th Vice President of the United States. Proud to serve the American people with President Donald J. Trump.</p>
+            <p class="soc-card-text">Honored to chair the first anti-fraud task force meeting. Hardworking Americans deserve a government that works for them, not against them.</p>
             <span class="soc-card-foot">4.8M Likes</span>
         </a>
     </div>
