@@ -961,7 +961,7 @@ def generate_html(articles, build_time, social_posts=None):
         @keyframes scrollR{0%{transform:translateX(-50%)}100%{transform:translateX(0)}}
 
         /* TOOLBAR */
-        .tb{max-width:1200px;margin:0 auto;padding:.9rem 2rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:center}
+        .tb{max-width:1200px;margin:0 auto;padding:.9rem 2rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:flex-start}
         .sb{flex:1;min-width:170px;position:relative}
         .sb svg{position:absolute;left:.7rem;top:50%;transform:translateY(-50%);width:15px;height:15px;color:var(--text3);pointer-events:none}
         .si{width:100%;padding:.48rem .7rem .48rem 2rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.83rem;color:var(--text);outline:none}
@@ -984,7 +984,8 @@ def generate_html(articles, build_time, social_posts=None):
         .custom-dd-search{width:calc(100% - .6rem);margin:.2rem .3rem .3rem;padding:.35rem .5rem;border-radius:5px;border:1px solid var(--border);background:var(--bg);font-family:'DM Sans',sans-serif;font-size:.78rem;color:var(--text);outline:none}
         .custom-dd-search::placeholder{color:var(--text3)}
         .custom-dd-search:focus{border-color:var(--blue)}
-        .src-count-row{font-size:.7rem;color:var(--text3);margin-top:.15rem;white-space:nowrap}
+        .src-count-row{font-size:.68rem;color:var(--accent);text-decoration:none;display:block;text-align:center;margin-top:.15rem}
+        .tb .sb,.tb .sel,.tb .pills,.tb .bias-pills,.tb .count{margin-top:.25rem}
         .pills{display:flex;gap:.2rem}
         .pill{padding:.38rem .65rem;border-radius:100px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.74rem;font-weight:500;color:var(--text2);cursor:pointer;transition:all .2s}
         .pill:hover{background:var(--bg3)}
