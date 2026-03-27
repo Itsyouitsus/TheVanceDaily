@@ -247,21 +247,31 @@ def resolve_url(google_url):
 
 
 def fetch_og_image(url):
-    try:
-        req = urllib.request.Request(url, headers={
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-        })
-        resp = urllib.request.urlopen(req, timeout=8, context=SSL_CTX)
-        raw = resp.read(60000)
-        html_text = raw.decode('utf-8', errors='ignore')
-        parser = OGParser()
-        parser.feed(html_text)
-        img = parser.og.get('og:image') or parser.og.get('twitter:image') or parser.og.get('twitter:image:src', '')
-        if img and not img.startswith('http'):
-            p = urlparse(url)
-            img = f"{p.scheme}://{p.netloc}{img}"
-        return img
-    except: return ''
+    """Fetch OG image with multiple fallback strategies."""
+    headers_list = [
+        {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+         'Accept-Language': 'en-US,en;q=0.5'},
+        {'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)'},
+        {'User-Agent': 'Twitterbot/1.0'},
+    ]
+    for headers in headers_list:
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            resp = urllib.request.urlopen(req, timeout=10, context=SSL_CTX)
+            raw = resp.read(120000)  # Read 120KB instead of 60KB
+            html_text = raw.decode('utf-8', errors='ignore')
+            parser = OGParser()
+            parser.feed(html_text)
+            img = parser.og.get('og:image') or parser.og.get('twitter:image') or parser.og.get('twitter:image:src', '')
+            if img:
+                if not img.startswith('http'):
+                    p = urlparse(url)
+                    img = f"{p.scheme}://{p.netloc}{img}"
+                return img
+        except:
+            continue
+    return ''
 
 
 def get_bias(source_name):
@@ -592,10 +602,10 @@ def generate_html(articles, build_time):
         .card-img{width:100%;height:165px;background-size:cover;background-position:center;background-color:var(--bg3);flex-shrink:0}
         .card-img-lazy{transition:opacity .3s ease;opacity:.6}
         .card-img-lazy.loaded{opacity:1}
-        .card-img-source{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;background:linear-gradient(135deg,var(--bg3),var(--border))}
-        .src-logo{width:40px;height:40px;border-radius:8px;background:var(--bg2);padding:3px;box-shadow:0 2px 6px rgba(0,0,0,.08)}
-        .src-lbl{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--text3);text-align:center;max-width:80%}
-        .card-img-empty{background:linear-gradient(135deg,var(--bg3),var(--border))}
+        .card-img-source{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4rem;background:linear-gradient(145deg,#ece8e2 0%,#e2ddd5 50%,#d5cfC6 100%);height:100px}
+        .src-logo{width:32px;height:32px;border-radius:6px;background:var(--bg2);padding:2px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+        .src-lbl{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--text3);text-align:center;max-width:80%}
+        .card-img-empty{background:linear-gradient(145deg,#ece8e2 0%,#e2ddd5 50%,#d5cfC6 100%);height:100px}
 
         .card-body{padding:.85rem 1.05rem .95rem;display:flex;flex-direction:column;flex-grow:1}
         .card-top{display:flex;align-items:center;justify-content:space-between;gap:.4rem;margin-bottom:.25rem}
