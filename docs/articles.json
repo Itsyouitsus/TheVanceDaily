@@ -195,21 +195,6 @@
     "topic": "Immigration"
   },
   {
-    "id": "4222a287b918",
-    "title": "Vance says theft of federal dollars by fraud is swamping states, programs - Washington Times",
-    "source": "Washington Times",
-    "source_url": "https://www.washingtontimes.com",
-    "source_domain": "www.washingtontimes.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU2JlRmZycXE1T2VoMGFPNUFucUlYQUppOGRFeENYS28xNV9Sekg5a0xTMmhBdENoTDdVbFVGQ0F1N01LN2hQeHFQdTRVUk5NM281NENNNm9mZlBtQndtT0pRSmt3U1d2djlsczVJZHo3MHlCLVFKemNyUC1NUTZveUFnY3BEUklUdXNMYW5hM2ttUVRzbXdTR2pnWnlIUThtejNPM0NZMVhDQVZUaVRPYlpuNA?oc=5",
-    "published": "2026-03-27T20:34:54+00:00",
-    "published_display": "Mar 27, 2026",
-    "query": "JD Vance",
-    "image": "",
-    "real_url": "https://www.washingtontimes.com/news/2026/mar/27/vance-says-theft-federal-dollars-fraud-swamping-states-programs/",
-    "bias": "LR",
-    "topic": "General"
-  },
-  {
     "id": "0455da6bc3fb",
     "title": "Miller pledges new Vance fraud task force will &#x27;demolish&#x27; social services corruption - Fox News",
     "source": "Fox News",
@@ -414,7 +399,7 @@
     "published": "2026-03-27T17:46:58+00:00",
     "published_display": "Mar 27, 2026",
     "query": "Vice President Vance",
-    "image": "https://wach.com/resources/media2/16x9/6000/1320/0x313/90/789199dc-d291-4f11-9bdb-4e9c5e523e39-GettyImages2266912789.jpg",
+    "image": "https://wach.com/resources/media2/16x9/4653/1320/0x28/90/8857202a-163b-4d99-a486-229ebb4c25c9-GettyImages2268631377.jpg",
     "real_url": "https://wach.com/news/nation-world/vance-holds-first-meeting-of-task-for-to-eliminate-fraud-amid-minnesota-medicaid-pause-vice-president-federal-trade-commission-andrew-ferguson-stephen-miller-dr-oz",
     "bias": "?",
     "topic": "Healthcare"
@@ -450,9 +435,9 @@
     "topic": "General"
   },
   {
-    "id": "efcdef4bbfa5",
-    "title": "Trump Goons Accuse U.S. Ally of Conducting JD Vance Smear Campaign - The Daily Beast",
-    "source": "The Daily Beast",
+    "id": "e9bbd91f5a2e",
+    "title": "Trump Goons Accuse U.S. Ally of Conducting JD Vance Smear Campaign - thedailybeast.com",
+    "source": "thedailybeast.com",
     "source_url": "https://www.thedailybeast.com",
     "source_domain": "www.thedailybeast.com",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeDh0cGJxejBDQ3lSb1ZSYmxzUXIzWHlqVk1jM2Q0T3VGREVlbEV6VDhwWGF3ZndiXzZyNnhSamlISTBjZ3lHcEttdlpxUW5KWUdyejR6ZUNMeGRldzh0UmFOaWJ3TGFpdnBYT041Mm4xT1JHRkRSamY0MFBnUXFkQS1IYUlwTHZBWV9PUElhM3hacjlLYV9IZ3Qtaw?oc=5",
@@ -461,7 +446,7 @@
     "query": "JD Vance",
     "image": "https://www.thedailybeast.com/resizer/v2/M3MLFSMB4RHOTFU6HI6L2MTF5Y.jpg?smart=true&auth=b722ed8edaf8541e207f19beb492267aed0911883e3b0ed75927343ba8223505&width=1200&height=630",
     "real_url": "https://www.thedailybeast.com/trump-goons-accuse-us-ally-of-conducting-jd-vance-smear-campaign/",
-    "bias": "L",
+    "bias": "?",
     "topic": "2028 Race"
   },
   {
@@ -900,6 +885,21 @@
     "topic": "Immigration"
   },
   {
+    "id": "4222a287b918",
+    "title": "Vance says theft of federal dollars by fraud is swamping states, programs - Washington Times",
+    "source": "Washington Times",
+    "source_url": "https://www.washingtontimes.com",
+    "source_domain": "www.washingtontimes.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU2JlRmZycXE1T2VoMGFPNUFucUlYQUppOGRFeENYS28xNV9Sekg5a0xTMmhBdENoTDdVbFVGQ0F1N01LN2hQeHFQdTRVUk5NM281NENNNm9mZlBtQndtT0pRSmt3U1d2djlsczVJZHo3MHlCLVFKemNyUC1NUTZveUFnY3BEUklUdXNMYW5hM2ttUVRzbXdTR2pnWnlIUThtejNPM0NZMVhDQVZUaVRPYlpuNA?oc=5",
+    "published": "2026-03-27T15:20:44+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "Vice President Vance",
+    "image": "",
+    "real_url": "https://www.washingtontimes.com/news/2026/mar/27/vance-says-theft-federal-dollars-fraud-swamping-states-programs/",
+    "bias": "LR",
+    "topic": "General"
+  },
+  {
     "id": "b20cd5155fa3",
     "title": "VP Vance claims Rep. Ilhan Omar \u2018definitely committed immigration fraud\u2019 by allegedly marrying brother",
     "source": "New York Post",
@@ -1110,21 +1110,6 @@
     "topic": "General"
   },
   {
-    "id": "7977d0d2d82e",
-    "title": "Democrats sharpen criticism of Vance as they look past Trump to the 2028 presidential campaign - WCPO 9 News",
-    "source": "WCPO 9 News",
-    "source_url": "https://www.wcpo.com",
-    "source_domain": "www.wcpo.com",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZE5OLWgtS2ZpaVp0T2d4QWt5bDlZdy1KUDRpcFV6dGY3WUkzUWRLT3ZHejN5c0c5czdYLUhsSFZQWW9DVzYxcU5ycWRYOG5yTndtZnZVMVFDSVJTVUVDc2pXTHVORnFHZkhWdEpfem1SRGpxOGo0THJuYXJoTWZKRUt2aWpxRjc3YnI3STRsU294MFhRMmhIUkprcmktc3dlODBrSWFjN3BGUVpGdUxsaEVZS3dCQzN5ajZsTjVWUUtZSElIYjR4OWR4UWdzQUdpWkNGT0sxbHppdjJmbWc?oc=5",
-    "published": "2026-03-27T12:31:04+00:00",
-    "published_display": "Mar 27, 2026",
-    "query": "Vance Republican",
-    "image": "",
-    "real_url": "https://www.wcpo.com/news/local-news/butler-county/democrats-sharpen-criticism-of-vance-as-they-look-past-trump-to-the-2028-presidential-campaign",
-    "bias": "C",
-    "topic": "2028 Race"
-  },
-  {
     "id": "5839e800940e",
     "title": "Task Force to Eliminate Fraud, led by VP Vance, to hold first meeting - CBS News",
     "source": "CBS News",
@@ -1245,6 +1230,21 @@
     "topic": "General"
   },
   {
+    "id": "c5d7a8bf0bd9",
+    "title": "Trump Refuses to Endorse His Goons for President - thedailybeast.com",
+    "source": "thedailybeast.com",
+    "source_url": "https://www.thedailybeast.com",
+    "source_domain": "www.thedailybeast.com",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR1dwTkN6STV1VWNNZFBST1Y4QlNzSGlzVV9UYnF1d2I2WXdhdTMxUlItd0NONVpBVndPNTJYdW5WZlM1eU9UVnFPelVRMkZOdFYxUTAxV1JvNWJsZ3BuOEhNUENBTTlrR0pDTFBpbXpyOWhwSEJrVmVJSVdaVTBNSzA4MWVMOVcwb0xvOXZ1bnZCdGVNZ3dRY2JPYWVyek13bVE?oc=5",
+    "published": "2026-03-27T04:45:00+00:00",
+    "published_display": "Mar 27, 2026",
+    "query": "JD Vance",
+    "image": "https://www.thedailybeast.com/resizer/v2/GJMS36YGLRCEPIWYHFMOE66XTA.JPG?smart=true&auth=17cbeeb81deb7ccda9c94f89a107e97df30f49411c0c92e1b8518d7f10378f82&width=1200&height=630",
+    "real_url": "https://www.thedailybeast.com/donald-trump-refuses-to-endorse-marco-rubio-or-jd-vance-for-president/",
+    "bias": "?",
+    "topic": "General"
+  },
+  {
     "id": "47a8c4eef971",
     "title": "Trump Refuses to Endorse His Goons for President - The Daily Beast",
     "source": "The Daily Beast",
@@ -1253,7 +1253,7 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR1dwTkN6STV1VWNNZFBST1Y4QlNzSGlzVV9UYnF1d2I2WXdhdTMxUlItd0NONVpBVndPNTJYdW5WZlM1eU9UVnFPelVRMkZOdFYxUTAxV1JvNWJsZ3BuOEhNUENBTTlrR0pDTFBpbXpyOWhwSEJrVmVJSVdaVTBNSzA4MWVMOVcwb0xvOXZ1bnZCdGVNZ3dRY2JPYWVyek13bVE?oc=5",
     "published": "2026-03-27T04:45:00+00:00",
     "published_display": "Mar 27, 2026",
-    "query": "JD Vance",
+    "query": "Vance Republican",
     "image": "https://www.thedailybeast.com/resizer/v2/GJMS36YGLRCEPIWYHFMOE66XTA.JPG?smart=true&auth=17cbeeb81deb7ccda9c94f89a107e97df30f49411c0c92e1b8518d7f10378f82&width=1200&height=630",
     "real_url": "https://www.thedailybeast.com/donald-trump-refuses-to-endorse-marco-rubio-or-jd-vance-for-president/",
     "bias": "L",
@@ -1395,9 +1395,9 @@
     "topic": "Immigration"
   },
   {
-    "id": "dac9be5dbcc8",
-    "title": "Trump Is Secretly Bad-Mouthing Vance for Saving Face on War - The Daily Beast",
-    "source": "The Daily Beast",
+    "id": "471ff112990b",
+    "title": "Trump Is Secretly Bad-Mouthing Vance for Saving Face on War - thedailybeast.com",
+    "source": "thedailybeast.com",
     "source_url": "https://www.thedailybeast.com",
     "source_domain": "www.thedailybeast.com",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVGlMSVJBWEVsZVA5NGktWFoySlZzTl96b2ZOMHJxMHA2MTNGS1lLOWtEUGdXX0JoMWFhUkhoVk9hV2ZkUW5JUldvb2J3Qi1DQ0xEdTBiVGJMeUNvTnJoN2lYcjlEMy1USXJ4dW9ubVRxS09wZWFoMkxJZWRjU1FjMXZXUlRack00NE1udU5HUzFOa0pf?oc=5",
@@ -1406,7 +1406,7 @@
     "query": "JD Vance",
     "image": "https://www.thedailybeast.com/resizer/v2/M3MLFSMB4RHOTFU6HI6L2MTF5Y.jpg?smart=true&auth=b722ed8edaf8541e207f19beb492267aed0911883e3b0ed75927343ba8223505&width=1200&height=630",
     "real_url": "https://www.thedailybeast.com/trump-is-secretly-bad-mouthing-vance-for-saving-face-on-war/",
-    "bias": "L",
+    "bias": "?",
     "topic": "Military"
   },
   {
@@ -1635,6 +1635,21 @@
     "topic": "Iran"
   },
   {
+    "id": "762a0894a8bf",
+    "title": "Jimmy Kimmel Mocks JD Vance With STD Jab Amid Report Iran Wants VP to Lead Talks - Yahoo",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQazY1ZFVfTVVLSzQ1WnRrVllTUDVWQ2N1dGh1dE0waTg0LUVOYV9DQXVJNU9hSVZtRDZTLWdTYkhYa0lFakFYenl4Tmtja2swZlhQRUZMT3FBMTVMSHg0emFvRlBqTUtWa0oyVXJDeFJJd3JjblRMVDczR0tiTlhBR2ZUcXAxUzl5ck1tT1p3M1VhNXZn?oc=5",
+    "published": "2026-03-26T10:48:55+00:00",
+    "published_display": "Mar 26, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/ny/api/res/1.2/hrHgQYCltb1E.O7XUZtK5g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/mediaite_845/e3a7f4290403305ce744bea1fc09bba4",
+    "real_url": "https://www.yahoo.com/entertainment/tv/articles/jimmy-kimmel-mocks-jd-vance-104855492.html",
+    "bias": "C",
+    "topic": "Iran"
+  },
+  {
     "id": "26551a61d735",
     "title": "Buttigieg, Vance lead New Hampshire primary voters in 2028 preview; Emerson College Polling - ABC27",
     "source": "ABC27",
@@ -1665,9 +1680,9 @@
     "topic": "Military"
   },
   {
-    "id": "fc6f079d5f2b",
-    "title": "Trump Makes Vance His War Fall Guy With Mission Impossible - The Daily Beast",
-    "source": "The Daily Beast",
+    "id": "91826e58d1fa",
+    "title": "Trump Makes Vance His War Fall Guy With Mission Impossible - thedailybeast.com",
+    "source": "thedailybeast.com",
     "source_url": "https://www.thedailybeast.com",
     "source_domain": "www.thedailybeast.com",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNjVuV1FKUzdfTHo4b0hISjgzX1F3SmVzTzU2MmxoLWx1aFZfV1lZUFhLTVdoSm1LVUJhelAyVHlSZVQza1Z6MkJXTXJzR19jdC1ySlFfZmltRlRIN0ltMWdOcDBUeU1tQWFuVjl1YmVVRmFXdk9QQjl6REpGR3dVcFEtWHl5aHR5cDhzNUR5M3BtNXFTRk1jbVRzcDdIZw?oc=5",
@@ -1676,7 +1691,7 @@
     "query": "Vice President Vance",
     "image": "https://www.thedailybeast.com/resizer/v2/EUDKDX4IWRGL7ILCY2CFHLJDRU.jpg?smart=true&auth=3ea428b45b6449462acd2ea4e922b4f27fe8ee5537c9279871b2943a213f035d&width=1200&height=630",
     "real_url": "https://www.thedailybeast.com/trump-makes-jd-vance-his-iran-war-fall-guy-with-mission-impossible/",
-    "bias": "L",
+    "bias": "?",
     "topic": "Military"
   },
   {
@@ -1704,7 +1719,7 @@
     "published": "2026-03-25T20:40:00+00:00",
     "published_display": "Mar 25, 2026",
     "query": "JD Vance",
-    "image": "",
+    "image": "https://thehill.com/wp-content/uploads/sites/2/2025/03/cpac_022025gn14_w.jpg?w=1280",
     "real_url": "https://thehill.com/homenews/campaign/5800749-trump-cpac-absence-notable-names/",
     "bias": "C",
     "topic": "General"
@@ -1740,6 +1755,21 @@
     "topic": "2028 Race"
   },
   {
+    "id": "3b0697e47cf3",
+    "title": "As Trump\u2019s Iran War Stretches To A Month, Rubio And Vance Remain Curiously Quiet - Yahoo",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb2RVNkwyYjF1U01YaGJwZWc4TUJhQUpkYjRPYWdoVHhMZEhEd01WVUpvZVZMZ2MtRmJkX0dJM0pxc1hhbWgycHdvNDE4U2hKNjZwR3paQ0FsMS1aNkFZcVNzUTkzUThjOHVCY1lzM20yalF1NTBfa0g5SWxqaGJzQ2FTYVd2d3Ri?oc=5",
+    "published": "2026-03-25T16:51:38+00:00",
+    "published_display": "Mar 25, 2026",
+    "query": "Vance Republican",
+    "image": "https://s.yimg.com/os/en/the_huffington_post_584/11cc16cc10d7339d1ed5a70924512292",
+    "real_url": "https://www.yahoo.com/news/articles/trump-iran-war-stretches-month-165138021.html",
+    "bias": "C",
+    "topic": "Iran"
+  },
+  {
     "id": "90b2d3bbf4d5",
     "title": "Secretary Rubio and Governor DeSantis Could be Headed to a 2028 Presidential Showdown - floridianpress.com",
     "source": "floridianpress.com",
@@ -1768,35 +1798,5 @@
     "real_url": "https://www.yahoo.com/news/articles/gavin-newsom-responds-jd-vance-131557225.html",
     "bias": "C",
     "topic": "Military"
-  },
-  {
-    "id": "df1bc1741e9a",
-    "title": "&#x27;Dangerous and arrogant&#x27;: Beshear takes aim at JD Vance amid 2028 presidential race discussions - WHAS11",
-    "source": "WHAS11",
-    "source_url": "https://www.whas11.com",
-    "source_domain": "www.whas11.com",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWQxR2R1dUlvcEtCT1AxckZQN0o0N1RCZG9XdnU2dERIQzdDSnJ6UEVaY2N4NmYwQUtISUJvMU9TeXM5SkN4bFNnS3hPYUNBeWp5dl9OakZMX1UtVG14eHF4TzhpeVV2VTcyd3ByYmdHTUlGWHUteG9qNVJqWlQxRl9tNGdfb1dJMU1NdFR1OEtFc0RhQUl0MU9YZlpfdHVnZm15WmRIX0dFWnllcjdNUU52NkdNa3liUjczcmdSWWcxalpy?oc=5",
-    "published": "2026-03-24T23:25:00+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance president 2028",
-    "image": "https://media.whas11.com/assets/WHAS/images/d28b39a6-96d5-423c-8a60-b348d6a15980/d28b39a6-96d5-423c-8a60-b348d6a15980_1140x641.jpg",
-    "real_url": "https://www.whas11.com/article/news/politics/andy-beshear-jd-vance-feud-2028-election/417-aac7904c-672b-4b8f-8a77-ffe76b02240f",
-    "bias": "?",
-    "topic": "2028 Race"
-  },
-  {
-    "id": "0b8d5bd4cdaf",
-    "title": "Why JD Vance could be the key to a peace deal with Iran - The Times",
-    "source": "The Times",
-    "source_url": "https://www.thetimes.com",
-    "source_domain": "www.thetimes.com",
-    "link": "https://news.google.com/rss/articles/CBMiugNBVV95cUxPYUREMVZ3ajJBNjMza1ZCczhGUWZ2WmY0WEhLLTFld2hGVWFVZVZGcFhuTGJXeVptdmwwMkdZVndwNkkzeDV2Sk1EeEdFczBaTk1XOW5oYjlTemZocUZZcXdhaWFwdnpLaFc4M1Z1QmJUQ3pzUG5YS192YzM2QjBjbzZNaVRjcmMwdTIyalFtZmhqQnhYSy0xN3ZXR3NpbVBoZmR2d3drZEpzaEpTTy1XSnYtQ0dpS1ZGSFhTNHA5dUlDemVWM29tMFd6Y1hDT19XMUVZM2R5eVNpV1g0X2sxR3p0bUZJNHpQMXFkQ3RUQzFxRW5KM0VmdXFzRVNWQS1rNER2aUk2NW1lUUVMcDlpbS1tVmhTc3hrWkZ3cFdxZVl1VzR3dEk1MUtpdEM1SUZLZVdNd0lXUzB2Y0tzdmtKTklCZzcwVzZDSGtKYkNyZml2d3JuaXVyMHY0VUlQTmtCUFFCVlJvX2NEZDJ1ZEw4S2NlRXBnMFdTY2dFdjBwNEgwZGl1ZHE0aUJoRFBmdzdCYzdxd1JnZTVvdXZjVHpPOW00d3Q4UWdBSm1zeUJGX0pMc0lwN3YzU2dn?oc=5",
-    "published": "2026-03-24T21:20:30+00:00",
-    "published_display": "Mar 24, 2026",
-    "query": "Vance Republican",
-    "image": "",
-    "real_url": "https://www.thetimes.com/us/american-politics/article/why-iran-wants-negotiate-peace-plan-jd-vance-trump-gn3nj2n2c?gaa_at=eafs&gaa_n=AWEtsqerWbbbK0J95UmfPOPVpKJXpvCwjbBX14P-rrak1oDaa7_cymm29FRm&gaa_ts=69c6fa62&gaa_sig=pTJrL48K2dfUpv05OqtIayjoD69jpeZeF1h7zyueIeEQap-xf2dfj6Ngy9CBziRfAD99rxvb3M7iqqHbaULxxA%3D%3D",
-    "bias": "C",
-    "topic": "Iran"
   }
 ]
