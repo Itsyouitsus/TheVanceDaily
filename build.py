@@ -538,8 +538,37 @@ def fetch_direct_feeds():
 
 
 def deduplicate(articles):
-    seen = set()
-    return [a for a in articles if a["id"] not in seen and not seen.add(a["id"])]
+    """Remove exact duplicates and near-duplicates (same source, similar title)."""
+    seen_ids = set()
+    seen_titles = []  # list of (normalized_title, source) tuples
+    result = []
+    for a in articles:
+        # Skip exact ID duplicates
+        if a["id"] in seen_ids:
+            continue
+        # Normalize title for fuzzy matching: lowercase, strip source suffixes, punctuation
+        title = a.get("title", "").lower().strip()
+        source = a.get("source", "").lower().strip()
+        # Strip common suffixes like "- NBC News", "| Fox News", "– Washington Post"
+        for sep in [" - ", " | ", " – ", " — "]:
+            if sep in title:
+                title = title.rsplit(sep, 1)[0].strip()
+        # Remove punctuation for comparison
+        norm = re.sub(r'[^a-z0-9 ]', '', title).strip()
+        norm = re.sub(r'\s+', ' ', norm)
+        # Check for near-duplicate: same first 60 chars of normalized title
+        norm_key = norm[:60]
+        is_dup = False
+        for prev_norm, prev_source in seen_titles:
+            if prev_norm[:60] == norm_key:
+                is_dup = True
+                break
+        if is_dup:
+            continue
+        seen_ids.add(a["id"])
+        seen_titles.append((norm, source))
+        result.append(a)
+    return result
 
 
 # ── Social media scraping (X/Twitter via syndication API) ──
@@ -720,7 +749,7 @@ def generate_html(articles, build_time, social_posts=None):
     source_counts_json = json.dumps(dict(source_counts_map))
     topic_counts_map = Ctr(a["topic"] for a in articles)
     topic_counts_json = json.dumps(dict(topic_counts_map))
-    bias_counts_map = Ctr(a["bias"] for a in articles if a["source"] != "Vance Social Media")
+    bias_counts_map = Ctr(a["bias"] for a in articles if not a.get("source", "").startswith("Vance on "))
     bias_count_L = bias_counts_map.get("L", 0)
     bias_count_LL = bias_counts_map.get("LL", 0)
     bias_count_C = bias_counts_map.get("C", 0)
@@ -733,7 +762,7 @@ def generate_html(articles, build_time, social_posts=None):
     for a in articles:
         d = a.get("source_domain", "")
         n = a.get("source", "")
-        if d and d not in seen_d and n and n != "Vance Social Media":
+        if d and d not in seen_d and n and not n.startswith("Vance on "):
             seen_d.add(d)
             src_items.append({"domain": d, "name": n, "url": a.get("source_url", "")})
     carousel_html = ""
@@ -750,7 +779,7 @@ def generate_html(articles, build_time, social_posts=None):
         bias = a.get("bias", "?")
         bias_label = BIAS_LABELS.get(bias, "Unknown")
         bias_color = BIAS_COLORS.get(bias, "#555")
-        is_social = a.get("source") == "Vance Social Media"
+        is_social = a.get("source", "").startswith("Vance on ")
         card_class = "card soc-card-item" if is_social else "card"
 
         if a.get("image"):
@@ -771,13 +800,16 @@ def generate_html(articles, build_time, social_posts=None):
         ga_source = a["source"].replace("'", "\\'")
         ga_title = a["title"][:60].replace("'", "\\'")
         
+        # Hide bias badge for social posts (empty bias)
+        bias_badge_html = f'<span class="bias-badge" style="background:{bias_color}" title="{bias_label}">{bias_label}</span>' if bias and bias != "" else ''
+        
         cards_html += f'''
         <a href="{link}" target="_blank" rel="noopener noreferrer" class="{card_class}" data-idx="{i}" style="animation-delay:{delay}s" onclick="gtag('event','article_click',{{source:'{ga_source}',bias:'{bias}',topic:'{a["topic"]}'}})">
             {img_html}
             <div class="card-body">
                 <div class="card-top">
                     <span class="card-source">{source_display}</span>
-                    <span class="bias-badge" style="background:{bias_color}" title="{bias_label}">{bias_label}</span>
+                    {bias_badge_html}
                 </div>
                 <h3 class="card-title">{a["title"]}</h3>
                 <div class="card-meta">
@@ -791,7 +823,7 @@ def generate_html(articles, build_time, social_posts=None):
 
     # Build bias stats for SEO summary
     from collections import Counter
-    bias_counts = Counter(a.get("bias","?") for a in articles if a.get("source") != "Vance Social Media")
+    bias_counts = Counter(a.get("bias","?") for a in articles if not a.get("source", "").startswith("Vance on "))
     total_rated = sum(v for k,v in bias_counts.items() if k != "?")
     topic_counts = Counter(a.get("topic","General") for a in articles)
     top_topics = [t for t in topic_counts.most_common() if t[0] != "General"]
@@ -1073,13 +1105,13 @@ def generate_html(articles, build_time, social_posts=None):
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
         <input type="text" class="si" placeholder="Search headlines..." id="si">
     </div>
-    <select class="sel" id="srcF" style="display:none"><option value="">All Sources</option><option value="Vance Social Media" class="soc-opt" style="color:#b8322a;font-weight:bold">&#9733; Vance's Social Media</option></select>
+    <select class="sel" id="srcF" style="display:none"><option value="">All Sources</option></select>
     <div class="custom-dd" id="srcDD">
         <button type="button" class="custom-dd-btn" id="srcDDBtn">All Sources</button>
         <div class="custom-dd-list" id="srcDDList">
             <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
             <div class="custom-dd-item active" data-val="">All Sources</div>
-            <div class="custom-dd-item soc-opt" data-val="Vance Social Media">&#9733; Vance's Social Media</div>
+            
         </div>
     </div>
     <select class="sel" id="topicF"><option value="">All Topics</option></select>
@@ -1222,7 +1254,7 @@ function imgFail(img){
     const srcCounts=''' + source_counts_json + ''';
     const topicCounts=''' + topic_counts_json + ''';
 
-    srcs.forEach(s=>{if(s==='Vance Social Media')return;const o=document.createElement('option');o.value=s;o.textContent=s+(srcCounts[s]?' ('+srcCounts[s]+')':'');srcF.appendChild(o)});
+    srcs.forEach(s=>{if(s.startsWith('Vance on '))return;const o=document.createElement('option');o.value=s;o.textContent=s+(srcCounts[s]?' ('+srcCounts[s]+')':'');srcF.appendChild(o)});
     topics.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t+(topicCounts[t]?' ('+topicCounts[t]+')':'');topicF.appendChild(o)});
 
     // Custom dropdown for sources
@@ -1230,7 +1262,7 @@ function imgFail(img){
     const srcDDList=document.getElementById('srcDDList');
     const srcDDSearch=document.getElementById('srcDDSearch');
     // Populate custom dropdown items
-    srcs.forEach(s=>{if(s==='Vance Social Media')return;const d=document.createElement('div');d.className='custom-dd-item';d.dataset.val=s;d.textContent=s+(srcCounts[s]?' ('+srcCounts[s]+')':'');srcDDList.appendChild(d)});
+    srcs.forEach(s=>{if(s.startsWith('Vance on '))return;const d=document.createElement('div');d.className='custom-dd-item';d.dataset.val=s;d.textContent=s+(srcCounts[s]?' ('+srcCounts[s]+')':'');srcDDList.appendChild(d)});
     // Toggle open/close
     srcDDBtn.addEventListener('click',(e)=>{e.stopPropagation();const isOpen=srcDDList.classList.contains('open');closeDD();if(!isOpen){srcDDList.classList.add('open');srcDDBtn.classList.add('open');srcDDSearch.value='';filterDDItems('');setTimeout(()=>srcDDSearch.focus(),50)}});
     function closeDD(){srcDDList.classList.remove('open');srcDDBtn.classList.remove('open')}
@@ -1410,10 +1442,18 @@ def main():
             dt = datetime.strptime(sp["timestamp"], "%a %b %d %H:%M:%S %z %Y")
         except:
             dt = now
+        # Platform-specific source name
+        handle = sp.get("handle", "")
+        if "@VP" in handle:
+            source_name = "Vance on X (@VP)"
+        elif "@JDVance" in handle:
+            source_name = "Vance on X (@JDVance)"
+        else:
+            source_name = f"Vance on {sp.get('platform', 'Social')}"
         sp_article = {
             "id": hashlib.md5(sp["text"].encode()).hexdigest()[:12],
             "title": sp["text"],
-            "source": "Vance Social Media",
+            "source": source_name,
             "source_url": sp["url"],
             "source_domain": "x.com",
             "link": sp["url"],
@@ -1422,15 +1462,14 @@ def main():
             "query": "social",
             "image": "",
             "real_url": sp["url"],
-            "bias": "?",
+            "bias": "",
             "topic": "General",
         }
         all_articles.append(sp_article)
     print(f"Added {len([s for s in scraped_social if s.get('text') and s.get('timestamp')])} social media posts to articles")
 
-    # 6. Sort and limit
+    # 6. Sort (no cap — show all articles)
     all_articles.sort(key=lambda a: a.get("published", ""), reverse=True)
-    all_articles = all_articles[:MAX_ARTICLES]
 
     # 7. Stats
     from collections import Counter
@@ -1551,7 +1590,7 @@ def main():
     today_display = datetime.now(timezone.utc).strftime("%B %d, %Y")
 
     bias_summary_parts = []
-    bc2 = Counter(a["bias"] for a in all_articles if a["source"] != "Vance Social Media")
+    bc2 = Counter(a["bias"] for a in all_articles if not a["source"].startswith("Vance on "))
     for bk, bl in [("L","Left"),("LL","Leans Left"),("C","Center"),("LR","Leans Right"),("R","Right")]:
         if bc2.get(bk, 0) > 0:
             bias_summary_parts.append(f"{bl}: {bc2[bk]}")
@@ -1560,7 +1599,7 @@ def main():
 
     # Try to generate briefing with Claude API
     briefing_text = ""
-    top_headlines = [a for a in all_articles if a["source"] != "Vance Social Media"][:15]
+    top_headlines = [a for a in all_articles if not a["source"].startswith("Vance on ")][:15]
     headline_list = "\n".join(f"- {a['title']} ({a['source']}, {BIAS_LABELS.get(a['bias'],'Unrated')})" for a in top_headlines)
 
     try:
