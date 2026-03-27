@@ -274,6 +274,64 @@ def fetch_og_image(url):
     return ''
 
 
+def clean_source_name(name):
+    """Clean RSS feed titles into proper outlet names."""
+    if not name:
+        return name
+    # HTML entity decode
+    name = name.replace("&amp;", "&").replace("&#39;", "'").replace("&quot;", '"')
+    # Remove common RSS title patterns
+    for sep in [" – ", " - ", " | ", " :: ", " : "]:
+        if sep in name:
+            parts = name.split(sep)
+            # Usually the actual name is the shortest meaningful part
+            # "Politics - CBSNews.com" → "CBSNews.com" → "CBS News"
+            # "The Daily Wire - Breaking News, Videos & Podcasts" → "The Daily Wire"
+            candidates = [p.strip() for p in parts]
+            # Pick the part that looks most like a source name (shortest, not generic)
+            generic = ["politics", "news", "breaking news", "latest", "opinion", "world", "us", "headlines", "stories"]
+            for c in candidates:
+                if c.lower() not in generic and not any(g in c.lower() for g in ["breaking news", "latest us", "political news", "headlines"]):
+                    name = c
+                    break
+    # Remove trailing "stories:" prefix patterns
+    if name.lower().endswith(" stories"):
+        name = name[:-8].strip()
+    if " stories:" in name.lower():
+        name = name.split(" stories:")[0].strip()
+    # Clean up .com/.org domains into proper names
+    DOMAIN_TO_NAME = {
+        "cbsnews.com": "CBS News", "nbcnews.com": "NBC News", "abcnews.com": "ABC News",
+        "foxnews.com": "Fox News", "nytimes.com": "New York Times",
+        "washingtonpost.com": "Washington Post", "nypost.com": "New York Post",
+        "al.com": "AL.com", "nj.com": "NJ.com", "silive.com": "SILive",
+        "upi.com": "UPI", "ntd.com": "NTD News", "wng.org": "World Magazine",
+        "tyla.com": "Tyla", "whas11.com": "WHAS11", "koin.com": "KOIN",
+        "newschannel9.com": "NewsChannel 9", "islandernews.com": "Islander News",
+        "elkintribune.com": "Elkin Tribune", "malaysiasun.com": "Malaysia Sun",
+        "communitynewspapergroup.com": "Community Newspaper Group",
+        "aol.com": "AOL News",
+    }
+    name_lower = name.lower().strip()
+    if name_lower in DOMAIN_TO_NAME:
+        return DOMAIN_TO_NAME[name_lower]
+    # Remove "®" and similar
+    name = name.replace("®", "").strip()
+    # Specific overrides for known messy patterns
+    OVERRIDES = {
+        "latest political news on fox news": "Fox News",
+        "nbc news politics": "NBC News",
+        "cbs news politics": "CBS News",
+        "abc news politics": "ABC News",
+        "fox news politics": "Fox News",
+        "global banking & finance review": "Global Banking & Finance Review",
+        "the hill news": "The Hill",
+    }
+    if name.lower() in OVERRIDES:
+        return OVERRIDES[name.lower()]
+    return name
+
+
 def get_bias(source_name):
     if source_name in BIAS_MAP: return BIAS_MAP[source_name]
     for key in BIAS_MAP:
@@ -303,6 +361,7 @@ def process_entry(entry, query):
             source_name = parts[1].strip()
 
         article_id = hashlib.md5(title.encode()).hexdigest()[:12]
+        source_name = clean_source_name(source_name)
         bias = get_bias(source_name)
         topic = classify_topic(title)
 
@@ -324,14 +383,53 @@ def process_entry(entry, query):
     except: return None
 
 
+def download_image(url, article_id):
+    """Download an image and save it locally. Returns local path or empty string."""
+    img_dir = os.path.join(OUTPUT_DIR, "img")
+    os.makedirs(img_dir, exist_ok=True)
+    # Determine extension from URL
+    ext = ".jpg"
+    url_lower = url.lower().split("?")[0]
+    if url_lower.endswith(".png"): ext = ".png"
+    elif url_lower.endswith(".webp"): ext = ".webp"
+    elif url_lower.endswith(".gif"): ext = ".gif"
+    
+    local_path = os.path.join(img_dir, f"{article_id}{ext}")
+    relative_path = f"img/{article_id}{ext}"
+    
+    if os.path.exists(local_path):
+        return relative_path
+    
+    try:
+        req = urllib.request.Request(url, headers={
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+            'Referer': url,
+        })
+        resp = urllib.request.urlopen(req, timeout=10, context=SSL_CTX)
+        data = resp.read(500000)  # Max 500KB per image
+        if len(data) > 1000:  # Minimum size to be a real image
+            with open(local_path, 'wb') as f:
+                f.write(data)
+            return relative_path
+    except:
+        pass
+    return ""
+
+
 def enrich_article(article):
     try:
         real_url = resolve_url(article["link"])
         if real_url:
             article["real_url"] = real_url
-            image = fetch_og_image(real_url)
-            if image and image.startswith('http'):
-                article["image"] = image
+            image_url = fetch_og_image(real_url)
+            if image_url and image_url.startswith('http'):
+                # Download image locally
+                local = download_image(image_url, article["id"])
+                if local:
+                    article["image"] = local
+                    article["image_remote"] = image_url
+                else:
+                    article["image"] = image_url  # Fallback to remote
     except: pass
     return article
 
