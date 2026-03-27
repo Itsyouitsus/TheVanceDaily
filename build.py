@@ -126,6 +126,10 @@ INTL_BLOCK = {
     "smh.com.au", "abc.net.au", "9news.com.au",
     "lavoce", "lavocedinewyork",
     "globalbanking", "gbaf",
+    # More international
+    "unherd.com", "politico.eu", "hungarianconservative.com",
+    "middleeastmonitor.com", "thecatholicspirit.com",
+    "rev.com",
 }
 
 def is_us_source(article):
@@ -139,7 +143,8 @@ def is_us_source(article):
     # Block by source name
     INTL_NAMES = {"times of india", "singju post", "the singju post", "ndtv", "malaysia sun",
                   "la voce di new york", "global banking & finance review", "global banking &amp; finance review",
-                  "premier christian news", "the times of india", "india times"}
+                  "premier christian news", "the times of india", "india times",
+                  "unherd", "hungarian conservative", "middle east monitor", "politico.eu"}
     for blocked_name in INTL_NAMES:
         if blocked_name in source:
             return False
@@ -397,6 +402,35 @@ def clean_source_name(name):
         "the washington times stories: politics": "Washington Times",
         "reuters connect": "Reuters",
         "us weekly": "Us Weekly",
+        "wsj.com": "Wall Street Journal",
+        "wsj": "Wall Street Journal",
+        "axios.com": "Axios",
+        "salon.com": "Salon",
+        "forbes.com": "Forbes",
+        "thedailybeast.com": "The Daily Beast",
+        "facebook.com": "Facebook",
+        "bloomberg.com": "Bloomberg",
+        "democracydocket.com": "Democracy Docket",
+        "democrats.org": "Democrats.org",
+        "factcheck.org": "FactCheck.org",
+        "floridianpress.com": "The Floridian Press",
+        "houstonchronicle.com": "Houston Chronicle",
+        "houstonpublicmedia.org": "Houston Public Media",
+        "nbcmiami.com": "NBC Miami",
+        "newscentermaine.com": "NEWS CENTER Maine",
+        "washingtonblade.com": "Washington Blade",
+        "wisconsinexaminer.com": "Wisconsin Examiner",
+        "people.com": "People",
+        "cleveland.com": "Cleveland.com",
+        "lehighvalleylive.com": "Lehigh Valley Live",
+        "mlive.com": "MLive",
+        "13wham.com": "13WHAM",
+        "cbs17.com": "CBS 17",
+        "kare11.com": "KARE 11",
+        "wmur.com": "WMUR",
+        "wfmz.com": "WFMZ",
+        "wtol.com": "WTOL",
+        "inkstickmedia.com": "Inkstick Media",
     }
     name_clean = name.strip()
     if name_clean.lower() in KNOWN:
@@ -717,15 +751,7 @@ def generate_social_html(posts):
             <p class="soc-card-text">{p["text"]}</p>
             <div class="soc-card-foot"><span>{p["foot"]}</span>{time_html}</div>
         </a>'''
-    # Add static links as compact cards (no post text, just platform + handle)
-    for s in STATIC_SOCIAL:
-        ga_platform = s["platform"].replace("'", "\\'")
-        ga_handle = s["label"].replace("'", "\\'")
-        cards += f'''<a href="{s["url"]}" target="_blank" class="soc-card soc-card-static" onclick="gtag('event','social_click',{{platform:'{ga_platform}',handle:'{ga_handle}'}})">
-            <div class="soc-card-hdr">{s["icon"]}<span class="platform">{s["platform"]}</span><span class="handle">{s["label"]}</span></div>
-            <span class="soc-card-foot"><span>{s["foot"]}</span></span>
-        </a>'''
-    # Duplicate for infinite scroll
+    # Duplicate for infinite scroll (no static cards - only real posts)
     return cards + cards
 
 
@@ -926,7 +952,7 @@ def generate_html(articles, build_time, social_posts=None):
         .crs::before,.crs::after{content:'';position:absolute;top:0;bottom:0;width:60px;z-index:2;pointer-events:none}
         .crs::before{left:0;background:linear-gradient(90deg,var(--bg3),transparent)}
         .crs::after{right:0;background:linear-gradient(270deg,var(--bg3),transparent)}
-        .crs-track{display:flex;gap:1.8rem;width:max-content;animation:scrollR 120s linear infinite}
+        .crs-track{display:flex;gap:1.8rem;width:max-content;animation:scrollR 480s linear infinite}
         .crs-track:hover{animation-play-state:paused}
         .crs-item{display:flex;align-items:center;gap:.4rem;flex-shrink:0;text-decoration:none;transition:opacity .2s}
         .crs-item:hover{opacity:.7}
@@ -1005,6 +1031,8 @@ def generate_html(articles, build_time, social_posts=None):
         .card.soc-card-item .card-img-source{background:linear-gradient(135deg,#fdf2f1,#f8e6e4)}
 
         .no-res{grid-column:1/-1;text-align:center;padding:3rem 2rem;color:var(--text3);background:var(--bg2);border-radius:var(--r);border:1px solid var(--border)}
+        .load-more-btn{display:block;margin:1.5rem auto;padding:.6rem 2rem;border-radius:8px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.85rem;font-weight:600;color:var(--text2);cursor:pointer;transition:all .2s}
+        .load-more-btn:hover{background:var(--bg3);color:var(--text);border-color:var(--accent)}
 
         /* NEWSLETTER MODAL */
         .modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:100;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
@@ -1106,13 +1134,16 @@ def generate_html(articles, build_time, social_posts=None):
         <input type="text" class="si" placeholder="Search headlines..." id="si">
     </div>
     <select class="sel" id="srcF" style="display:none"><option value="">All Sources</option></select>
-    <div class="custom-dd" id="srcDD">
-        <button type="button" class="custom-dd-btn" id="srcDDBtn">All Sources</button>
-        <div class="custom-dd-list" id="srcDDList">
-            <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
-            <div class="custom-dd-item active" data-val="">All Sources</div>
-            
+    <div style="display:flex;flex-direction:column;gap:.15rem">
+        <div class="custom-dd" id="srcDD">
+            <button type="button" class="custom-dd-btn" id="srcDDBtn">All Sources (''' + str(source_count) + ''')</button>
+            <div class="custom-dd-list" id="srcDDList">
+                <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
+                <div class="custom-dd-item active" data-val="">All Sources (''' + str(source_count) + ''')</div>
+                <div class="custom-dd-item soc-opt" data-val="__vance_social__">&#9733; Vance's Social Media</div>
+            </div>
         </div>
+        <a href="#" id="suggestBtn" class="src-count-row" style="color:var(--accent);text-decoration:none;font-size:.68rem">Missing a source?</a>
     </div>
     <select class="sel" id="topicF"><option value="">All Topics</option></select>
     <div class="pills">
@@ -1130,7 +1161,6 @@ def generate_html(articles, build_time, social_posts=None):
     </div>
     <span class="count" id="cnt"></span>
 </div>
-<div style="max-width:1200px;margin:0 auto;padding:0 2rem"><span class="src-count-row">''' + str(source_count) + ''' sources &middot; <a href="#" id="suggestBtn" style="color:var(--accent);text-decoration:none">Missing a source?</a></span></div>
 
 <main class="main">
     <div class="grid" id="g">''' + cards_html + '''
@@ -1272,10 +1302,11 @@ function imgFail(img){
     srcDDSearch.addEventListener('click',(e)=>e.stopPropagation());
     function filterDDItems(q){srcDDList.querySelectorAll('.custom-dd-item').forEach(it=>{const txt=it.textContent.toLowerCase();it.style.display=(!q||txt.includes(q))?'':'none'})}
     // Select item
-    srcDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;srcF.value=val;srcDDBtn.textContent=val||'All Sources';srcDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeDD();filter()});
+    srcDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;srcF.value=val;srcDDBtn.textContent=val==='__vance_social__'?'Vance\\'s Social Media':val||('All Sources ('+srcs.length+')');srcDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeDD();filter()});
 
     let dateRange='all';
     let activeBias=new Set(); // empty = show all
+    let showLimit=60; // Initial cards to show
 
     function filter(){
         const q=si.value.toLowerCase();
@@ -1283,12 +1314,14 @@ function imgFail(img){
         const topic=topicF.value;
         const now=new Date();
         let vis=0;
+        let totalMatch=0;
         cards.forEach((c,i)=>{
             const m=meta[i];
             const t=c.querySelector('.card-title').textContent.toLowerCase();
             let ok=true;
             if(q&&!t.includes(q)&&!m.source.toLowerCase().includes(q))ok=false;
-            if(src&&m.source!==src)ok=false;
+            if(src==='__vance_social__'){if(!m.source.startsWith('Vance on '))ok=false}
+            else if(src&&m.source!==src)ok=false;
             if(topic&&m.topic!==topic)ok=false;
             if(activeBias.size>0&&!activeBias.has(m.bias))ok=false;
             if(dateRange!=='all'&&m.published){
@@ -1297,10 +1330,16 @@ function imgFail(img){
                 if(dateRange==='week'&&d>7)ok=false;
                 if(dateRange==='month'&&d>30)ok=false;
             }
-            c.style.display=ok?'':'none';
-            if(ok)vis++;
+            if(ok){totalMatch++;if(totalMatch<=showLimit){c.style.display='';vis++}else{c.style.display='none'}}
+            else{c.style.display='none'}
         });
         cnt.textContent='';
+        // Show/hide load more button
+        let lb=document.getElementById('loadMoreBtn');
+        if(totalMatch>showLimit){
+            if(!lb){lb=document.createElement('button');lb.id='loadMoreBtn';lb.className='load-more-btn';lb.addEventListener('click',()=>{showLimit+=60;filter()});g.parentElement.appendChild(lb)}
+            lb.textContent='Show more ('+vis+' of '+totalMatch+')';lb.style.display=''
+        }else if(lb){lb.style.display='none'}
         let nr=g.querySelector('.no-res');
         if(!vis){
             if(!nr){nr=document.createElement('div');nr.className='no-res';nr.innerHTML='<p>No articles match your filters.</p>';g.appendChild(nr)}
@@ -1468,7 +1507,21 @@ def main():
         all_articles.append(sp_article)
     print(f"Added {len([s for s in scraped_social if s.get('text') and s.get('timestamp')])} social media posts to articles")
 
-    # 6. Sort (no cap — show all articles)
+    # 6. Merge with existing articles (incremental — keep old, add new)
+    existing_articles = []
+    if os.path.exists(DATA_FILE):
+        try:
+            with open(DATA_FILE, "r") as f:
+                existing_articles = json.load(f)
+            print(f"\nLoaded {len(existing_articles)} existing articles from cache")
+        except:
+            print("\nNo existing article cache found")
+    # Build set of existing IDs for fast lookup
+    existing_ids = set(a.get("id", "") for a in existing_articles)
+    new_articles = [a for a in all_articles if a["id"] not in existing_ids]
+    print(f"New articles this scrape: {len(new_articles)}")
+    
+    # Sort all articles by date
     all_articles.sort(key=lambda a: a.get("published", ""), reverse=True)
 
     # 7. Stats
@@ -1478,12 +1531,34 @@ def main():
     print(f"\nBias breakdown: {dict(bc)}")
     print(f"Unique sources: {len(sc)}")
 
-    # 8. Enrich (resolve URLs, fetch images)
-    print(f"\nEnriching {len(all_articles)} articles...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as ex:
-        all_articles = list(ex.map(enrich_article, all_articles))
-    img_count = sum(1 for a in all_articles if a.get("image"))
-    print(f"  Images: {img_count}/{len(all_articles)}")
+    # 8. Enrich ONLY new articles (existing ones already have images)
+    if new_articles:
+        print(f"\nEnriching {len(new_articles)} NEW articles...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=15) as ex:
+            enriched = list(ex.map(enrich_article, new_articles))
+        # Update the new articles in all_articles
+        enriched_map = {a["id"]: a for a in enriched}
+        all_articles = [enriched_map.get(a["id"], a) for a in all_articles]
+        img_count = sum(1 for a in new_articles if a.get("image"))
+        print(f"  New images: {img_count}/{len(new_articles)}")
+    else:
+        print("\nNo new articles to enrich")
+    
+    # Merge: combine new enriched articles with existing cached articles
+    merged_ids = set()
+    merged = []
+    for a in all_articles:
+        if a["id"] not in merged_ids:
+            merged_ids.add(a["id"])
+            merged.append(a)
+    for a in existing_articles:
+        if a.get("id", "") not in merged_ids:
+            merged_ids.add(a["id"])
+            merged.append(a)
+    all_articles = sorted(merged, key=lambda a: a.get("published", ""), reverse=True)
+    print(f"Total articles after merge: {len(all_articles)}")
+    total_img = sum(1 for a in all_articles if a.get("image"))
+    print(f"Total images: {total_img}/{len(all_articles)}")
 
     build_time = datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")
     html_content = generate_html(all_articles, build_time, social_posts=scraped_social)
