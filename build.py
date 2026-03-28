@@ -926,6 +926,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     top_topics = [t for t in topic_counts.most_common() if t[0] != "General"]
     top_topic = top_topics[0] if top_topics else ("General", 0)
     source_count = len(set(a["source"] for a in articles if a["source"]))
+    topic_count = len(topic_counts)
 
     return '''<!DOCTYPE html>
 <html lang="en">
@@ -1263,7 +1264,13 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             <div class="custom-dd-item soc-opt" data-val="__vance_social__">&#9733; Vance's Social Media</div>
         </div>
     </div>
-    <select class="sel" id="topicF"><option value="">All Topics</option></select>
+    <select class="sel" id="topicF" style="display:none"><option value="">All Topics</option></select>
+    <div class="custom-dd" id="topicDD">
+        <button type="button" class="custom-dd-btn" id="topicDDBtn">All Topics (''' + str(topic_count) + ''')</button>
+        <div class="custom-dd-list" id="topicDDList">
+            <div class="custom-dd-item active" data-val="">All Topics (''' + str(topic_count) + ''')</div>
+        </div>
+    </div>
     <button type="button" class="briefing-find-btn" id="briefingFindBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
         Find a daily briefing
@@ -1301,15 +1308,15 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             </div>
             <div class="ft-col">
                 <h4>Topics</h4>
-                <a href="#" onclick="document.getElementById('topicF').value='Iran';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Iran</a>
-                <a href="#" onclick="document.getElementById('topicF').value='Foreign Policy';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Foreign Policy</a>
-                <a href="#" onclick="document.getElementById('topicF').value='2028 Race';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">2028 Race</a>
-                <a href="#" onclick="document.getElementById('topicF').value='Immigration';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Immigration</a>
-                <a href="#" onclick="document.getElementById('topicF').value='Economy';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Economy</a>
-                <a href="#" onclick="document.getElementById('topicF').value='Domestic';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Domestic</a>
-                <a href="#" onclick="document.getElementById('topicF').value='Military';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Military</a>
-                <a href="#" onclick="document.getElementById('topicF').value='Healthcare';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Healthcare</a>
-                <a href="#" onclick="document.getElementById('topicF').value='Tech &amp; AI';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Tech &amp; AI</a>
+                <a href="#" onclick="document.querySelector('#topicDDList [data-val=\\'Iran\\']').click();window.scrollTo(0,0);return false">Iran</a>
+                <a href="#" onclick="document.querySelector('#topicDDList [data-val=\\'Foreign Policy\\']').click();window.scrollTo(0,0);return false">Foreign Policy</a>
+                <a href="#" onclick="document.querySelector('#topicDDList [data-val=\\'2028 Race\\']').click();window.scrollTo(0,0);return false">2028 Race</a>
+                <a href="#" onclick="document.querySelector('#topicDDList [data-val=\\'Immigration\\']').click();window.scrollTo(0,0);return false">Immigration</a>
+                <a href="#" onclick="document.querySelector('#topicDDList [data-val=\\'Economy\\']').click();window.scrollTo(0,0);return false">Economy</a>
+                <a href="#" onclick="document.querySelector('#topicDDList [data-val=\\'Domestic\\']').click();window.scrollTo(0,0);return false">Domestic</a>
+                <a href="#" onclick="document.querySelector('#topicDDList [data-val=\\'Military\\']').click();window.scrollTo(0,0);return false">Military</a>
+                <a href="#" onclick="document.querySelector('#topicDDList [data-val=\\'Healthcare\\']').click();window.scrollTo(0,0);return false">Healthcare</a>
+                <a href="#" onclick="document.querySelector('#topicDDList [data-val=\\'Tech &amp; AI\\']').click();window.scrollTo(0,0);return false">Tech &amp; AI</a>
             </div>
             <div class="ft-col">
                 <h4>Contact</h4>
@@ -1499,16 +1506,24 @@ function imgFail(img){
     // Populate custom dropdown items
     srcs.forEach(s=>{if(s.startsWith('Vance on '))return;const d=document.createElement('div');d.className='custom-dd-item';d.dataset.val=s;d.textContent=s+(srcCounts[s]?' ('+srcCounts[s]+')':'');srcDDList.appendChild(d)});
     // Toggle open/close
-    srcDDBtn.addEventListener('click',(e)=>{e.stopPropagation();const isOpen=srcDDList.classList.contains('open');closeDD();if(!isOpen){srcDDList.classList.add('open');srcDDBtn.classList.add('open');srcDDSearch.value='';filterDDItems('');setTimeout(()=>srcDDSearch.focus(),50)}});
-    function closeDD(){srcDDList.classList.remove('open');srcDDBtn.classList.remove('open')}
-    document.addEventListener('click',(e)=>{if(!e.target.closest('#srcDD'))closeDD()});
+    srcDDBtn.addEventListener('click',(e)=>{e.stopPropagation();const isOpen=srcDDList.classList.contains('open');closeAllDD();if(!isOpen){srcDDList.classList.add('open');srcDDBtn.classList.add('open');srcDDSearch.value='';filterDDItems('');setTimeout(()=>srcDDSearch.focus(),50)}});
     // Search within dropdown
     srcDDSearch.addEventListener('input',()=>filterDDItems(srcDDSearch.value.toLowerCase()));
     srcDDSearch.addEventListener('click',(e)=>e.stopPropagation());
     function filterDDItems(q){srcDDList.querySelectorAll('.custom-dd-item').forEach(it=>{const txt=it.textContent.toLowerCase();it.style.display=(!q||txt.includes(q))?'':'none'})}
     // Select item
     let selectedSrc='';
-    srcDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;selectedSrc=val;srcDDBtn.textContent=val==='__vance_social__'?'Vance\\'s Social Media':val||('All Sources ('+srcs.length+')');srcDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeDD();filter()});
+    srcDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;selectedSrc=val;srcDDBtn.textContent=val==='__vance_social__'?'Vance\\'s Social Media':val||('All Sources ('+srcs.length+')');srcDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeAllDD();filter()});
+
+    // Custom dropdown for topics
+    const topicDDBtn=document.getElementById('topicDDBtn');
+    const topicDDList=document.getElementById('topicDDList');
+    topics.forEach(t=>{const d=document.createElement('div');d.className='custom-dd-item';d.dataset.val=t;d.textContent=t+(topicCounts[t]?' ('+topicCounts[t]+')':'');topicDDList.appendChild(d)});
+    topicDDBtn.addEventListener('click',(e)=>{e.stopPropagation();const isOpen=topicDDList.classList.contains('open');closeAllDD();if(!isOpen){topicDDList.classList.add('open');topicDDBtn.classList.add('open')}});
+    let selectedTopic='';
+    topicDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;selectedTopic=val;topicDDBtn.textContent=val||('All Topics ('+topics.length+')');topicDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeAllDD();filter()});
+    function closeAllDD(){srcDDList.classList.remove('open');srcDDBtn.classList.remove('open');topicDDList.classList.remove('open');topicDDBtn.classList.remove('open')}
+    document.addEventListener('click',(e)=>{if(!e.target.closest('.custom-dd'))closeAllDD()});
 
     let dateRange='today';
     let activeBias=new Set(); // empty = show all
@@ -1517,7 +1532,7 @@ function imgFail(img){
     function filter(){
         const q=si.value.toLowerCase();
         const src=selectedSrc;
-        const topic=topicF.value;
+        const topic=selectedTopic;
         const now=new Date();
         let vis=0;
         let totalMatch=0;
