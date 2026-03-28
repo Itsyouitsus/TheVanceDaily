@@ -1520,11 +1520,27 @@ function imgFail(img){
     document.getElementById('emailBtn').addEventListener('click',()=>{
         const e=document.getElementById('emailIn').value.trim();
         if(e&&e.includes('@')&&e.includes('.')){
-            modalEmail.textContent=e;
-            modal.classList.add('show');
-            document.getElementById('emailIn').value='';
-            // TODO: Replace with Mailchimp/Buttondown POST
-            // fetch('https://YOUR_MAILCHIMP_FORM_URL',{method:'POST',body:new URLSearchParams({EMAIL:e})});
+            // Subscribe via Buttondown
+            fetch('https://api.buttondown.com/v1/subscribers',{
+                method:'POST',
+                headers:{'Content-Type':'application/json'},
+                body:JSON.stringify({email:e,tags:['onlyvance28']})
+            }).then(r=>{
+                if(r.ok||r.status===201){
+                    modalEmail.textContent=e;
+                    modal.classList.add('show');
+                    document.getElementById('emailIn').value='';
+                    gtag('event','newsletter_subscribe',{method:'header'});
+                }else{
+                    r.json().then(d=>{
+                        if(d.email&&d.email[0]&&d.email[0].includes('already')){
+                            modalEmail.textContent=e;
+                            modal.classList.add('show');
+                            document.getElementById('emailIn').value='';
+                        }else{alert('Something went wrong. Please try again.')}
+                    }).catch(()=>alert('Something went wrong. Please try again.'));
+                }
+            }).catch(()=>alert('Something went wrong. Please try again.'));
         }
     });
 
@@ -2054,7 +2070,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         <p>Every morning. The stories that matter. No spam.</p>
         <div class="cta-row">
             <input type="email" placeholder="your@email.com" id="dailyEmail">
-            <button onclick="var e=document.getElementById('dailyEmail').value;if(e&&e.includes('@'))alert('Subscribed! The Vance Daily is on its way.')">Subscribe</button>
+            <button onclick="var e=document.getElementById('dailyEmail').value;if(e&&e.includes('@')){{fetch('https://api.buttondown.com/v1/subscribers',{{method:'POST',headers:{{'Content-Type':'application/json'}},body:JSON.stringify({{email:e,tags:['onlyvance28','daily']}}) }}).then(function(){{alert('Subscribed! The Vance Daily is on its way.');document.getElementById('dailyEmail').value=''}}).catch(function(){{alert('Something went wrong. Please try again.')}})}}">Subscribe</button>
         </div>
     </div>
 
@@ -2172,7 +2188,43 @@ Sitemap: https://onlyvance28.com/sitemap.xml
     with open(os.path.join(OUTPUT_DIR, "robots.txt"), "w") as f:
         f.write(robots)
 
-    print(f"Generated: sitemap.xml ({len(sitemap_urls)} URLs), robots.txt\n=== Done ===")
+    print(f"Generated: sitemap.xml ({len(sitemap_urls)} URLs), robots.txt")
+
+    # 14. Send daily briefing email via Buttondown (only once per day, at ~12:00 UTC)
+    current_hour = datetime.now(timezone.utc).hour
+    buttondown_key = os.environ.get("BUTTONDOWN_API_KEY", "")
+    sent_flag = os.path.join(OUTPUT_DIR, f".sent_{today}")
+    if buttondown_key and briefing_text and current_hour >= 12 and not os.path.exists(sent_flag):
+        try:
+            email_body = briefing_text + f"\n\n---\n\n[Read the full briefing with headlines](https://onlyvance28.com/daily/{today}.html)\n\n[Visit OnlyVance28.com](https://onlyvance28.com) for all {len(all_articles)} articles from {len(set(a['source'] for a in all_articles))} sources."
+            email_data = json.dumps({
+                "subject": f"The Vance Daily - {today_display}",
+                "body": email_body,
+                "status": "draft",
+            }).encode()
+            req = urllib.request.Request(
+                "https://api.buttondown.com/v1/emails",
+                data=email_data,
+                headers={
+                    "Content-Type": "application/json",
+                    "Authorization": f"Token {buttondown_key}",
+                }
+            )
+            resp = urllib.request.urlopen(req, timeout=15)
+            print(f"  Buttondown: daily email drafted for {today_display}")
+            # Mark as sent so we don't send again today
+            with open(sent_flag, "w") as f:
+                f.write(today)
+        except Exception as e:
+            print(f"  Buttondown email failed: {e}")
+    elif not buttondown_key:
+        print("  Buttondown: no API key, skipping email")
+    elif os.path.exists(sent_flag):
+        print(f"  Buttondown: already sent for {today}")
+    else:
+        print(f"  Buttondown: waiting until 12:00 UTC to send (current: {current_hour}:00)")
+
+    print("\n=== Done ===")
 
 
 if __name__ == "__main__":
