@@ -1348,10 +1348,10 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <div class="smodal">
         <button class="smodal-close" id="biasClose">&times;</button>
         <div class="smodal-icon" style="background:linear-gradient(135deg,#d94a4a,#e06050)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:26px;height:26px;color:#fff"><path d="M12 3v12M8 11l4 4 4-4"/><path d="M4 21h16"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:26px;height:26px;color:#fff"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
         </div>
         <h2>Report a Bias Rating</h2>
-        <p class="smodal-sub">Think we got a source's political bias rating wrong? Let us know and we'll review it.</p>
+        <p class="smodal-sub">Think we got a source's political bias rating wrong?<br>Let us know and we'll review it.</p>
         <div id="biasForm" class="smodal-form">
             <div class="smodal-field">
                 <label>Source Name</label>
