@@ -2228,6 +2228,7 @@ Sitemap: https://onlyvance28.com/sitemap.xml
                 headers={
                     "Content-Type": "application/json",
                     "Authorization": f"Token {buttondown_key}",
+                    "X-Buttondown-Live-Dangerously": "true",
                 }
             )
             resp = urllib.request.urlopen(req, timeout=15)
