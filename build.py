@@ -1830,17 +1830,17 @@ def main():
         api_body = j2.dumps({
             "model": "claude-sonnet-4-20250514",
             "max_tokens": 800,
-            "messages": [{"role": "user", "content": f"""You are writing "The Vance Daily" — a short, punchy morning briefing about JD Vance for {today_display}. Based on these top headlines from today:
+            "messages": [{"role": "user", "content": f"""You are writing "The Vance Daily" - a short, punchy morning briefing about JD Vance for {today_display}. Based on these top headlines from today:
 
 {headline_list}
 
 Write a briefing with:
 1. A one-sentence opener that captures the day's biggest Vance story
-2. "Top Stories" section: 4-5 of the most important headlines, each as one tight sentence summarizing the story (not just repeating the headline). Include the source name.
-3. "Left vs Right" section: 2-3 sentences noting how Left-leaning and Right-leaning outlets are framing Vance differently today
+2. 4-5 of the most important stories, each as a bold title followed by one tight sentence summarizing it. Format each as: **Bold title**: summary sentence.
+3. A "Left vs Right" paragraph: 2-3 sentences noting how Left-leaning and Right-leaning outlets are framing Vance differently today
 4. A one-line sign-off
 
-Keep it under 250 words. Write like a sharp newsletter editor — conversational, direct, no filler. Do not use em dashes."""}]
+Keep it under 250 words. Write like a sharp newsletter editor - conversational, direct, no filler. Do not use em dashes. Do not use markdown headers (no # or ##). Use **bold** for emphasis only. Do not repeat the same headline twice even if multiple sources cover it."""}]
         }).encode()
         req = urllib.request.Request(
             "https://api.anthropic.com/v1/messages",
@@ -1871,14 +1871,22 @@ Keep it under 250 words. Write like a sharp newsletter editor — conversational
         line = line.strip()
         if not line:
             continue
-        if line.startswith("**") and line.endswith("**"):
-            briefing_html_body += f"<h2>{line.strip('*')}</h2>"
+        # Convert ## headers
+        if line.startswith("## "):
+            briefing_html_body += f"<h2>{line[3:]}</h2>"
         elif line.startswith("# "):
             briefing_html_body += f"<h2>{line[2:]}</h2>"
+        # Full-line bold = header
+        elif line.startswith("**") and line.endswith("**") and line.count("**") == 2:
+            briefing_html_body += f"<h2>{line.strip('*')}</h2>"
+        # Bullet points
         elif line.startswith("- "):
-            briefing_html_body += f"<p style='padding-left:1rem;margin-bottom:.4rem'>&#8226; {line[2:]}</p>"
+            inner = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line[2:])
+            briefing_html_body += f"<p style='padding-left:1rem;margin-bottom:.4rem'>&#8226; {inner}</p>"
         else:
-            briefing_html_body += f"<p>{line}</p>"
+            # Convert inline **bold** to <strong>
+            inner = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line)
+            briefing_html_body += f"<p>{inner}</p>"
 
     # Top stories for the "read more" links
     top_story_links = ""
