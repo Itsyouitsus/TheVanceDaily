@@ -976,8 +976,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;-webkit-font-smoothing:antialiased}
 
         /* HEADER */
-        .hdr{padding:0;border-bottom:1px solid var(--border);background:var(--bg2)}
-        .sticky-tb{position:sticky;top:0;z-index:29;background:var(--bg);border-bottom:1px solid var(--border);box-shadow:0 2px 8px rgba(26,23,20,.06)}
+        .hdr{padding:0;border-bottom:1px solid var(--border);background:var(--bg2);position:sticky;top:0;z-index:30}
+        .sticky-tb{position:sticky;top:0;z-index:29;background:var(--bg);border-bottom:1px solid var(--border);box-shadow:0 2px 8px rgba(26,23,20,.06);transition:top .1s}
         .hdr-in{max-width:1200px;margin:0 auto;padding:1.6rem 2rem 1.1rem}
         .hdr-top{display:flex;align-items:center;justify-content:space-between;gap:1.2rem;flex-wrap:wrap}
         .hdr-left{display:flex;flex-direction:column;gap:.1rem}
@@ -1248,8 +1248,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     </div>
     <span class="count" id="cnt"></span>
 </div>
+<p style="text-align:center;font-size:.68rem;color:#9e9790;margin:0;padding:.15rem 0 .4rem">''' + total + ''' articles &middot; Updated ''' + build_time + '''</p>
 </div>
-<p class="stats-line" style="text-align:center;font-size:.68rem;color:#9e9790;margin:-.1rem 0 .5rem">''' + total + ''' articles &middot; Updated ''' + build_time + '''</p>
 
 <main class="main">
     <div class="grid" id="g">''' + cards_html + '''
@@ -1537,6 +1537,13 @@ function imgFail(img){
 
     // Apply default filter on page load (Today)
     filter();
+
+    // Set toolbar sticky position below header
+    const hdr=document.querySelector('.hdr');
+    const stickyTb=document.getElementById('stickyTb');
+    function setTbTop(){if(hdr&&stickyTb)stickyTb.style.top=hdr.offsetHeight+'px'}
+    setTbTop();
+    window.addEventListener('resize',setTbTop);
 })();
 </script>
 </body>
