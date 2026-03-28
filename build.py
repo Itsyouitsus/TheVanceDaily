@@ -930,6 +930,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     return '''<!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>if(location.protocol==='http:'&&location.hostname!=='localhost')location.replace('https://'+location.host+location.pathname+location.search)</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OnlyVance28 - Every JD Vance Article, Every Day | News Aggregator</title>
