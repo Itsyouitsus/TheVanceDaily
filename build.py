@@ -987,13 +987,12 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .logo .a{color:var(--accent)}
         .tagline{font-size:.65rem;font-weight:300;color:var(--text2);letter-spacing:.04em;text-transform:uppercase;margin-top:.2rem}
         .hdr-right{display:flex;align-items:center}
-        .cta-row{display:flex;gap:.5rem;align-items:center;width:100%}
+        .cta-row{display:flex;gap:.5rem;align-items:center}
         .cta-email{padding:.45rem .8rem;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:.82rem;outline:none;flex:1;min-width:220px}
         .cta-email::placeholder{color:var(--text3)}
         .cta-email:focus{border-color:var(--accent)}
         .cta-btn{padding:.45rem 1rem;border-radius:6px;border:none;background:var(--accent);color:#fff;font-family:'DM Sans',sans-serif;font-weight:600;font-size:.82rem;cursor:pointer;transition:background .2s}
         .cta-btn:hover{background:var(--accent-h)}
-        .hdr-meta{font-size:.7rem;color:var(--text3);white-space:nowrap;text-align:right}
 
         /* SOCIAL POSTS CAROUSEL */
         .soc-bar{overflow:hidden;background:var(--bg2);border-bottom:1px solid var(--border);padding:.8rem 0;position:relative}
