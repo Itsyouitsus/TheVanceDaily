@@ -976,14 +976,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;-webkit-font-smoothing:antialiased}
 
         /* HEADER */
-        .sticky-top{position:sticky;top:0;z-index:30;background:var(--bg2);transition:box-shadow .3s}
-        .sticky-top.scrolled{box-shadow:0 2px 12px rgba(26,23,20,.1)}
         .hdr{padding:0;border-bottom:1px solid var(--border);background:var(--bg2)}
-        .hdr-in{max-width:1200px;margin:0 auto;padding:1.6rem 2rem 1.1rem;transition:padding .3s}
-        .scrolled .hdr-in{padding:.6rem 2rem .5rem}
-        .scrolled .logo{font-size:clamp(1.2rem,3vw,1.6rem)}
-        .scrolled .logo-flag{width:32px;height:22px}
-        .scrolled .tagline{display:none}
+        .sticky-tb{position:sticky;top:0;z-index:29;background:var(--bg);border-bottom:1px solid var(--border);box-shadow:0 2px 8px rgba(26,23,20,.06)}
         .hdr-in{max-width:1200px;margin:0 auto;padding:1.6rem 2rem 1.1rem}
         .hdr-top{display:flex;align-items:center;justify-content:space-between;gap:1.2rem;flex-wrap:wrap}
         .hdr-left{display:flex;flex-direction:column;gap:.1rem}
@@ -1002,8 +996,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .cta-btn:hover{background:var(--accent-h)}
 
         /* SOCIAL POSTS CAROUSEL */
-        .soc-bar{overflow:hidden;background:var(--bg2);border-bottom:1px solid var(--border);padding:.8rem 0;position:relative;transition:padding .2s,opacity .2s}
-        .scrolled .soc-bar{display:none}
+        .soc-bar{overflow:hidden;background:var(--bg2);border-bottom:1px solid var(--border);padding:.8rem 0;position:relative}
         .soc-bar::before,.soc-bar::after{content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none}
         .soc-bar::before{left:0;background:linear-gradient(90deg,var(--bg2),transparent)}
         .soc-bar::after{right:0;background:linear-gradient(270deg,var(--bg2),transparent)}
@@ -1023,8 +1016,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .soc-card-static{justify-content:center;min-height:auto}
 
         /* SOURCE CAROUSEL */
-        .crs{overflow:hidden;background:var(--bg3);border-bottom:1px solid var(--border);padding:.6rem 0;position:relative;transition:padding .2s,opacity .2s}
-        .scrolled .crs{display:none}
+        .crs{overflow:hidden;background:var(--bg3);border-bottom:1px solid var(--border);padding:.6rem 0;position:relative}
         .crs::before,.crs::after{content:'';position:absolute;top:0;bottom:0;width:60px;z-index:2;pointer-events:none}
         .crs::before{left:0;background:linear-gradient(90deg,var(--bg3),transparent)}
         .crs::after{right:0;background:linear-gradient(270deg,var(--bg3),transparent)}
@@ -1037,8 +1029,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         @keyframes scrollR{0%{transform:translateX(-50%)}100%{transform:translateX(0)}}
 
         /* TOOLBAR */
-        .tb{max-width:1400px;margin:0 auto;padding:.9rem 2rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:flex-start;justify-content:center;transition:padding .3s}
-        .scrolled .tb{padding:.5rem 2rem}
+        .tb{max-width:1400px;margin:0 auto;padding:.9rem 2rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:flex-start;justify-content:center}
         .src-col{display:flex;flex-direction:column;align-items:center}
         .tb>.sb,.tb>.sel,.tb>.pills,.tb>.bias-pills,.tb>.count,.tb>.briefing-find-btn{margin-top:0}
         .sb{flex:1;min-width:170px;position:relative}
@@ -1185,7 +1176,6 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
 </head>
 <body>
 
-<div class="sticky-top" id="stickyTop">
 <header class="hdr">
     <div class="hdr-in">
         <div class="hdr-top">
@@ -1217,6 +1207,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
 <div class="crs">
     <div class="crs-track">''' + carousel_track + '''</div>
 </div>
+
+<div class="sticky-tb" id="stickyTb">
 
 <div class="tb">
     <div class="sb">
@@ -1545,20 +1537,6 @@ function imgFail(img){
 
     // Apply default filter on page load (Today)
     filter();
-
-    // Sticky header: collapse carousels on scroll
-    const stickyTop=document.getElementById('stickyTop');
-    let isScrolled=false;
-    window.addEventListener('scroll',function(){
-        const y=window.scrollY;
-        if(!isScrolled&&y>100){
-            isScrolled=true;
-            stickyTop.classList.add('scrolled');
-        }else if(isScrolled&&y<20){
-            isScrolled=false;
-            stickyTop.classList.remove('scrolled');
-        }
-    },{passive:true});
 })();
 </script>
 </body>
