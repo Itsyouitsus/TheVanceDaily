@@ -1261,7 +1261,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         <div class="ft-grid">
             <div class="ft-col">
                 <h4>OnlyVance28</h4>
-                <p>The most comprehensive JD Vance news aggregator. Every article from every source, automatically collected daily with political bias ratings.</p>
+                <p>The most comprehensive JD Vance news aggregator.<br>Every article from every source, automatically collected daily with political bias ratings.</p>
             </div>
             <div class="ft-col">
                 <h4>Topics</h4>
@@ -1280,7 +1280,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             </div>
         </div>
         <div class="ft-bottom">
-            <p>OnlyVance28.com - Automated news aggregation. Headlines link to original sources. Not affiliated with any political campaign, party, or government entity.</p>
+            <p>OnlyVance28.com - Automated news aggregation. Headlines link to original sources. Not affiliated with any political campaign, party, government or media entity. Just a guy who loves building stuff.</p>
             <p style="margin-top:.4rem"><a href="/disclaimer.html">Disclaimer &amp; Terms</a> &middot; <a href="mailto:contact@onlyvance28.com">Contact</a></p>
         </div>
     </div>
@@ -1982,7 +1982,7 @@ Keep it under 250 words. Write like a sharp newsletter editor — conversational
 
     <div class="ft">
         <p><a href="/">OnlyVance28.com</a> &middot; <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a></p>
-        <p style="margin-top:.3rem">Not affiliated with any political campaign.</p>
+        <p style="margin-top:.3rem">Not affiliated with any political campaign, party, government or media entity. Just a guy who loves building stuff.</p>
     </div>
 </body>
 </html>'''
