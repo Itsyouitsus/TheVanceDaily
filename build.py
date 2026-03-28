@@ -976,7 +976,14 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;-webkit-font-smoothing:antialiased}
 
         /* HEADER */
+        .sticky-top{position:sticky;top:0;z-index:30;background:var(--bg2);transition:box-shadow .3s}
+        .sticky-top.scrolled{box-shadow:0 2px 12px rgba(26,23,20,.1)}
         .hdr{padding:0;border-bottom:1px solid var(--border);background:var(--bg2)}
+        .hdr-in{max-width:1200px;margin:0 auto;padding:1.6rem 2rem 1.1rem;transition:padding .3s}
+        .scrolled .hdr-in{padding:.6rem 2rem .5rem}
+        .scrolled .logo{font-size:clamp(1.2rem,3vw,1.6rem)}
+        .scrolled .logo-flag{width:32px;height:22px}
+        .scrolled .tagline{display:none}
         .hdr-in{max-width:1200px;margin:0 auto;padding:1.6rem 2rem 1.1rem}
         .hdr-top{display:flex;align-items:center;justify-content:space-between;gap:1.2rem;flex-wrap:wrap}
         .hdr-left{display:flex;flex-direction:column;gap:.1rem}
@@ -995,7 +1002,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .cta-btn:hover{background:var(--accent-h)}
 
         /* SOCIAL POSTS CAROUSEL */
-        .soc-bar{overflow:hidden;background:var(--bg2);border-bottom:1px solid var(--border);padding:.8rem 0;position:relative}
+        .soc-bar{overflow:hidden;background:var(--bg2);border-bottom:1px solid var(--border);padding:.8rem 0;position:relative;max-height:120px;transition:max-height .3s,padding .3s,opacity .3s}
+        .scrolled .soc-bar{max-height:0;padding:0;opacity:0;border-bottom:none}
         .soc-bar::before,.soc-bar::after{content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none}
         .soc-bar::before{left:0;background:linear-gradient(90deg,var(--bg2),transparent)}
         .soc-bar::after{right:0;background:linear-gradient(270deg,var(--bg2),transparent)}
@@ -1015,7 +1023,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .soc-card-static{justify-content:center;min-height:auto}
 
         /* SOURCE CAROUSEL */
-        .crs{overflow:hidden;background:var(--bg3);border-bottom:1px solid var(--border);padding:.6rem 0;position:relative}
+        .crs{overflow:hidden;background:var(--bg3);border-bottom:1px solid var(--border);padding:.6rem 0;position:relative;max-height:50px;transition:max-height .3s,padding .3s,opacity .3s}
+        .scrolled .crs{max-height:0;padding:0;opacity:0;border-bottom:none}
         .crs::before,.crs::after{content:'';position:absolute;top:0;bottom:0;width:60px;z-index:2;pointer-events:none}
         .crs::before{left:0;background:linear-gradient(90deg,var(--bg3),transparent)}
         .crs::after{right:0;background:linear-gradient(270deg,var(--bg3),transparent)}
@@ -1028,7 +1037,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         @keyframes scrollR{0%{transform:translateX(-50%)}100%{transform:translateX(0)}}
 
         /* TOOLBAR */
-        .tb{max-width:1400px;margin:0 auto;padding:.9rem 2rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:flex-start;justify-content:center}
+        .tb{max-width:1400px;margin:0 auto;padding:.9rem 2rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:flex-start;justify-content:center;transition:padding .3s}
+        .scrolled .tb{padding:.5rem 2rem}
         .src-col{display:flex;flex-direction:column;align-items:center}
         .tb>.sb,.tb>.sel,.tb>.pills,.tb>.bias-pills,.tb>.count,.tb>.briefing-find-btn{margin-top:0}
         .sb{flex:1;min-width:170px;position:relative}
@@ -1175,6 +1185,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
 </head>
 <body>
 
+<div class="sticky-top" id="stickyTop">
 <header class="hdr">
     <div class="hdr-in">
         <div class="hdr-top">
@@ -1245,7 +1256,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     </div>
     <span class="count" id="cnt"></span>
 </div>
-<p style="text-align:center;font-size:.68rem;color:#9e9790;margin:-.1rem 0 .5rem">''' + total + ''' articles &middot; Updated ''' + build_time + '''</p>
+</div>
+<p class="stats-line" style="text-align:center;font-size:.68rem;color:#9e9790;margin:-.1rem 0 .5rem">''' + total + ''' articles &middot; Updated ''' + build_time + '''</p>
 
 <main class="main">
     <div class="grid" id="g">''' + cards_html + '''
@@ -1533,6 +1545,16 @@ function imgFail(img){
 
     // Apply default filter on page load (Today)
     filter();
+
+    // Sticky header: collapse carousels on scroll
+    const stickyTop=document.getElementById('stickyTop');
+    let lastScroll=0;
+    window.addEventListener('scroll',function(){
+        const y=window.scrollY;
+        if(y>80&&!stickyTop.classList.contains('scrolled')){stickyTop.classList.add('scrolled')}
+        else if(y<=80&&stickyTop.classList.contains('scrolled')){stickyTop.classList.remove('scrolled')}
+        lastScroll=y;
+    },{passive:true});
 })();
 </script>
 </body>
