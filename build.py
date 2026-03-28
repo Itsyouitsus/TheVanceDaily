@@ -1072,7 +1072,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .briefing-btn{display:flex;align-items:center;gap:.35rem;padding:.45rem .9rem;border-radius:6px;border:none;background:#1a3a5c;color:#fff;font-family:'DM Sans',sans-serif;font-size:.82rem;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .2s}
         .briefing-btn:hover{background:#234d78}
         .briefing-btn svg{width:14px;height:14px;flex-shrink:0}
-        .briefing-find-btn{display:flex;align-items:center;gap:.35rem;padding:.48rem .8rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.8rem;font-weight:500;color:var(--text);cursor:pointer;white-space:nowrap;transition:all .2s}
+        .briefing-find-btn{display:flex;align-items:center;gap:.35rem;padding:.48rem .8rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.8rem;font-weight:500;color:var(--text);cursor:pointer;white-space:nowrap;transition:all .2s;position:relative;overflow:hidden}
         .briefing-find-btn:hover{border-color:var(--blue);color:var(--blue)}
         .briefing-find-btn svg{width:14px;height:14px;flex-shrink:0}
 
@@ -1262,8 +1262,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <button type="button" class="briefing-find-btn" id="briefingFindBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
         Find a daily briefing
+        <input type="date" id="briefingDate" style="position:absolute;top:0;left:0;width:1px;height:1px;opacity:0.01;border:none;padding:0;pointer-events:none" value="''' + (today or '') + '''" min="2026-03-27" max="''' + (today or '') + '''">
     </button>
-    <div style="position:relative;width:0;height:0;overflow:visible"><input type="date" id="briefingDate" style="position:absolute;top:0;left:-140px;width:1px;height:1px;opacity:0.01;border:none;padding:0" value="''' + (today or '') + '''" min="2026-03-27" max="''' + (today or '') + '''"></div>
     <div class="pills">
         <button class="pill" data-r="all">All</button>
         <button class="pill on" data-r="today">Today</button>
