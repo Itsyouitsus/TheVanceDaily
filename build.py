@@ -1002,8 +1002,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .cta-btn:hover{background:var(--accent-h)}
 
         /* SOCIAL POSTS CAROUSEL */
-        .soc-bar{overflow:hidden;background:var(--bg2);border-bottom:1px solid var(--border);padding:.8rem 0;position:relative;max-height:120px;transition:max-height .3s,padding .3s,opacity .3s}
-        .scrolled .soc-bar{max-height:0;padding:0;opacity:0;border-bottom:none}
+        .soc-bar{overflow:hidden;background:var(--bg2);border-bottom:1px solid var(--border);padding:.8rem 0;position:relative;transition:padding .2s,opacity .2s}
+        .scrolled .soc-bar{display:none}
         .soc-bar::before,.soc-bar::after{content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none}
         .soc-bar::before{left:0;background:linear-gradient(90deg,var(--bg2),transparent)}
         .soc-bar::after{right:0;background:linear-gradient(270deg,var(--bg2),transparent)}
@@ -1023,8 +1023,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .soc-card-static{justify-content:center;min-height:auto}
 
         /* SOURCE CAROUSEL */
-        .crs{overflow:hidden;background:var(--bg3);border-bottom:1px solid var(--border);padding:.6rem 0;position:relative;max-height:50px;transition:max-height .3s,padding .3s,opacity .3s}
-        .scrolled .crs{max-height:0;padding:0;opacity:0;border-bottom:none}
+        .crs{overflow:hidden;background:var(--bg3);border-bottom:1px solid var(--border);padding:.6rem 0;position:relative;transition:padding .2s,opacity .2s}
+        .scrolled .crs{display:none}
         .crs::before,.crs::after{content:'';position:absolute;top:0;bottom:0;width:60px;z-index:2;pointer-events:none}
         .crs::before{left:0;background:linear-gradient(90deg,var(--bg3),transparent)}
         .crs::after{right:0;background:linear-gradient(270deg,var(--bg3),transparent)}
@@ -1546,28 +1546,17 @@ function imgFail(img){
     // Apply default filter on page load (Today)
     filter();
 
-    // Sticky header: collapse carousels on scroll (one-way to prevent jitter)
+    // Sticky header: collapse carousels on scroll
     const stickyTop=document.getElementById('stickyTop');
     let isScrolled=false;
-    const scrollThreshold=80;
-    // Measure carousel height before collapsing so we can compensate
-    const socBar=document.querySelector('.soc-bar');
-    const crsBar=document.querySelector('.crs');
-    function getCarouselHeight(){return(socBar?socBar.offsetHeight:0)+(crsBar?crsBar.offsetHeight:0)+30}
-    let savedHeight=getCarouselHeight();
-    
     window.addEventListener('scroll',function(){
         const y=window.scrollY;
-        if(!isScrolled&&y>scrollThreshold){
+        if(!isScrolled&&y>100){
             isScrolled=true;
-            savedHeight=getCarouselHeight();
             stickyTop.classList.add('scrolled');
-            // Add spacer to prevent content jump
-            document.body.style.paddingTop=savedHeight+'px';
-        }else if(isScrolled&&y<=10){
+        }else if(isScrolled&&y<20){
             isScrolled=false;
             stickyTop.classList.remove('scrolled');
-            document.body.style.paddingTop='0';
         }
     },{passive:true});
 })();
