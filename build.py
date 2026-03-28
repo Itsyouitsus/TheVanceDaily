@@ -935,17 +935,23 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OnlyVance28 - Every JD Vance Article, Every Day | News Aggregator</title>
-    <meta name="description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles from ''' + str(source_count) + ''' sources, updated daily. Filter by political bias, topic, source, or date. Left to Right coverage compared.">
+    <meta name="description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles from ''' + str(source_count) + ''' sources, updated hourly. Filter by political bias, topic, channel, or date. Left to Right coverage compared.">
     <meta name="keywords" content="JD Vance, Vance news, Vance 2028, VP Vance, Republican news, political news aggregator, media bias, Vance Iran, Vance immigration, Vance policy">
     <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta property="og:title" content="OnlyVance28 - Every JD Vance Article, Every Day">
-    <meta property="og:description" content="''' + total + ''' articles from ''' + str(source_count) + ''' sources. Filter by political bias, topic, or date. Updated daily.">
+    <meta property="og:description" content="''' + total + ''' articles from ''' + str(source_count) + ''' sources. Filter by political bias, topic, channel, or date. Updated hourly.">
+    <meta property="og:image" content="https://onlyvance28.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://onlyvance28.com">
     <meta property="og:site_name" content="OnlyVance28">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="OnlyVance28 - Every JD Vance Article, Every Day">
-    <meta name="twitter:description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles updated daily.">
+    <meta name="twitter:description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles updated hourly.">
+    <meta name="twitter:image" content="https://onlyvance28.com/og-image.png">
     <link rel="canonical" href="https://onlyvance28.com">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <script type="application/ld+json">
