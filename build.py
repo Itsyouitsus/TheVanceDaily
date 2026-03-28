@@ -1661,6 +1661,36 @@ def main():
             merged_ids.add(a["id"])
             merged.append(a)
     all_articles = sorted(merged, key=lambda a: a.get("published", ""), reverse=True)
+    
+    # 9. Re-enrich batch: try to fix existing articles missing images (50 per build)
+    needs_fix = [a for a in all_articles if not a.get("image") and a.get("real_url") and not a.get("source","").startswith("Vance on ")]
+    needs_url = [a for a in all_articles if not a.get("real_url") and "news.google.com" in a.get("link","")]
+    fix_batch_size = 50
+    if needs_url:
+        url_batch = needs_url[:fix_batch_size]
+        print(f"\nRe-resolving {len(url_batch)} unresolved Google News URLs...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as ex:
+            resolved = list(ex.map(enrich_article, url_batch))
+        resolved_map = {a["id"]: a for a in resolved if a.get("real_url")}
+        fixed_urls = 0
+        for i, a in enumerate(all_articles):
+            if a["id"] in resolved_map:
+                all_articles[i] = resolved_map[a["id"]]
+                fixed_urls += 1
+        print(f"  Resolved {fixed_urls} URLs")
+    if needs_fix:
+        fix_batch = needs_fix[:fix_batch_size]
+        print(f"\nRe-fetching images for {len(fix_batch)} articles (of {len(needs_fix)} needing fix)...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as ex:
+            refixed = list(ex.map(enrich_article, fix_batch))
+        fixed_count = 0
+        refix_map = {a["id"]: a for a in refixed if a.get("image")}
+        for i, a in enumerate(all_articles):
+            if a["id"] in refix_map:
+                all_articles[i] = refix_map[a["id"]]
+                fixed_count += 1
+        print(f"  Fixed {fixed_count} images")
+    
     print(f"Total articles after merge: {len(all_articles)}")
     total_img = sum(1 for a in all_articles if a.get("image"))
     print(f"Total images: {total_img}/{len(all_articles)}")
