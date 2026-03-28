@@ -1546,14 +1546,29 @@ function imgFail(img){
     // Apply default filter on page load (Today)
     filter();
 
-    // Sticky header: collapse carousels on scroll
+    // Sticky header: collapse carousels on scroll (one-way to prevent jitter)
     const stickyTop=document.getElementById('stickyTop');
-    let lastScroll=0;
+    let isScrolled=false;
+    const scrollThreshold=80;
+    // Measure carousel height before collapsing so we can compensate
+    const socBar=document.querySelector('.soc-bar');
+    const crsBar=document.querySelector('.crs');
+    function getCarouselHeight(){return(socBar?socBar.offsetHeight:0)+(crsBar?crsBar.offsetHeight:0)+30}
+    let savedHeight=getCarouselHeight();
+    
     window.addEventListener('scroll',function(){
         const y=window.scrollY;
-        if(y>80&&!stickyTop.classList.contains('scrolled')){stickyTop.classList.add('scrolled')}
-        else if(y<=80&&stickyTop.classList.contains('scrolled')){stickyTop.classList.remove('scrolled')}
-        lastScroll=y;
+        if(!isScrolled&&y>scrollThreshold){
+            isScrolled=true;
+            savedHeight=getCarouselHeight();
+            stickyTop.classList.add('scrolled');
+            // Add spacer to prevent content jump
+            document.body.style.paddingTop=savedHeight+'px';
+        }else if(isScrolled&&y<=10){
+            isScrolled=false;
+            stickyTop.classList.remove('scrolled');
+            document.body.style.paddingTop='0';
+        }
     },{passive:true});
 })();
 </script>
