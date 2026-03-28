@@ -1180,7 +1180,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             
             /* TOOLBAR - two-column grid layout, sticky below header */
             .sticky-tb{position:sticky;z-index:29;border-bottom:1px solid var(--border)}
-            .tb{padding:.5rem .6rem .3rem;gap:.35rem;display:grid;grid-template-columns:1fr 1fr;max-width:100%}
+            .tb{padding:.5rem .6rem .3rem;gap:.35rem;display:grid!important;grid-template-columns:1fr 1fr;max-width:100%}
             .sb{grid-column:1;min-width:0}
             .si{font-size:.75rem;padding:.4rem .5rem .4rem 1.8rem}
             .sb svg{left:.5rem;width:13px;height:13px}
@@ -1435,6 +1435,31 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     </div>
 </div>
 
+<div class="smodal-overlay" id="subModal">
+    <div class="smodal">
+        <button class="smodal-close" id="subClose">&times;</button>
+        <div class="smodal-icon" style="background:linear-gradient(135deg,#b8322a,#d43d33)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:26px;height:26px;color:#fff"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+        </div>
+        <h2>Get The Vance Daily</h2>
+        <p class="smodal-sub">Every morning, the top JD Vance stories delivered to your inbox. No spam.</p>
+        <div id="subForm" class="smodal-form">
+            <div class="smodal-field">
+                <label>Your Email</label>
+                <input type="email" id="subEmail" placeholder="your@email.com">
+            </div>
+            <button class="smodal-submit" id="subSubmit">Subscribe</button>
+        </div>
+        <div id="subThanks" class="smodal-thanks">
+            <div style="width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#2a9d5c,#34c06e);display:flex;align-items:center;justify-content:center;margin:1rem auto">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" style="width:28px;height:28px"><path d="M20 6L9 17l-5-5"/></svg>
+            </div>
+            <h2 style="margin-top:.5rem">You're In!</h2>
+            <p style="font-size:.85rem;color:#6b6560;margin-top:.4rem">The Vance Daily is on its way to your inbox.</p>
+        </div>
+    </div>
+</div>
+
 <script>
 function imgFail(img){
     img.onerror=null;
@@ -1556,19 +1581,9 @@ function imgFail(img){
 
     document.getElementById('emailBtn').addEventListener('click',()=>{
         const emailIn=document.getElementById('emailIn');
-        // On mobile the email input is hidden, show a subscribe popup instead
+        // On mobile the email input is hidden, show subscribe modal instead
         if(window.getComputedStyle(emailIn).display==='none'){
-            const subEmail=prompt('Enter your email for The Vance Daily briefing:');
-            if(subEmail&&subEmail.includes('@')&&subEmail.includes('.')){
-                const form=new FormData();
-                form.append('email',subEmail);
-                fetch('https://buttondown.com/api/emails/embed-subscribe/thevancedaily',{
-                    method:'POST',body:form
-                }).then(()=>{}).catch(()=>{});
-                modalEmail.textContent=subEmail;
-                modal.classList.add('show');
-                gtag('event','newsletter_subscribe',{method:'mobile_popup'});
-            }
+            document.getElementById('subModal').classList.add('show');
             return;
         }
         const e=emailIn.value.trim();
@@ -1589,6 +1604,31 @@ function imgFail(img){
                 emailIn.value='';
             });
         }
+    });
+
+    // Mobile subscribe modal
+    const subModal=document.getElementById('subModal');
+    document.getElementById('subClose').addEventListener('click',()=>subModal.classList.remove('show'));
+    subModal.addEventListener('click',(e)=>{if(e.target===subModal)subModal.classList.remove('show')});
+    document.getElementById('subSubmit').addEventListener('click',()=>{
+        const email=document.getElementById('subEmail').value.trim();
+        if(!email||!email.includes('@')){document.getElementById('subEmail').focus();return}
+        const form=new FormData();
+        form.append('email',email);
+        fetch('https://buttondown.com/api/emails/embed-subscribe/thevancedaily',{
+            method:'POST',body:form
+        }).then(()=>{}).catch(()=>{});
+        document.getElementById('subForm').classList.add('hide');
+        document.getElementById('subThanks').classList.add('show');
+        gtag('event','newsletter_subscribe',{method:'mobile_modal'});
+        setTimeout(()=>{
+            subModal.classList.remove('show');
+            setTimeout(()=>{
+                document.getElementById('subForm').classList.remove('hide');
+                document.getElementById('subThanks').classList.remove('show');
+                document.getElementById('subEmail').value='';
+            },300);
+        },2500);
     });
 
     // Lazy load images with IntersectionObserver
