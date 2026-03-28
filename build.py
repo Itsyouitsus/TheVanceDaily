@@ -1278,7 +1278,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     </div>
     <span class="count" id="cnt"></span>
 </div>
-<p style="text-align:center;font-size:.65rem;color:#9e9790;margin:0;padding:0 0 .3rem"><a href="#" id="suggestBtn" style="color:var(--accent);text-decoration:none">Missing a source?</a> &nbsp;&middot;&nbsp; ''' + total + ''' articles &middot; Updated ''' + build_time + '''</p>
+<p style="text-align:center;font-size:.65rem;color:#9e9790;margin:0;padding:0 0 .3rem">''' + total + ''' articles &middot; Updated ''' + build_time + '''</p>
 </div>
 
 <main class="main">
@@ -1308,7 +1308,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             <div class="ft-col">
                 <h4>Contact</h4>
                 <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a>
-                <a href="#" onclick="document.getElementById('suggestModal').classList.add('show');return false">Suggest a missing source</a>
+                <a href="#" data-open-suggest onclick="return false">Suggest a missing source</a>
                 <a href="#" onclick="document.getElementById('biasModal').classList.add('show');return false">Report a bias rating</a>
                 <p style="margin-top:.5rem">Bias ratings based on <a href="https://www.allsides.com/media-bias" target="_blank">AllSides</a>.</p>
             </div>
@@ -1602,7 +1602,8 @@ function imgFail(img){
 
     // Suggest source modal
     const sugModal=document.getElementById('suggestModal');
-    document.getElementById('suggestBtn').addEventListener('click',(e)=>{e.preventDefault();sugModal.classList.add('show')});
+    const sugBtns=document.querySelectorAll('[data-open-suggest]');
+    sugBtns.forEach(b=>b.addEventListener('click',(e)=>{e.preventDefault();sugModal.classList.add('show')}));
     document.getElementById('suggestClose').addEventListener('click',()=>sugModal.classList.remove('show'));
     sugModal.addEventListener('click',(e)=>{if(e.target===sugModal)sugModal.classList.remove('show')});
 
