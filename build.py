@@ -1029,7 +1029,9 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         @keyframes scrollR{0%{transform:translateX(-50%)}100%{transform:translateX(0)}}
 
         /* TOOLBAR */
-        .tb{max-width:1200px;margin:0 auto;padding:.9rem 2rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:center}
+        .tb{max-width:1400px;margin:0 auto;padding:.9rem 2rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:flex-start;justify-content:center}
+        .src-col{display:flex;flex-direction:column;align-items:center}
+        .tb>.sb,.tb>.sel,.tb>.pills,.tb>.bias-pills,.tb>.count,.tb>.briefing-find-btn{margin-top:0}
         .sb{flex:1;min-width:170px;position:relative}
         .sb svg{position:absolute;left:.7rem;top:50%;transform:translateY(-50%);width:15px;height:15px;color:var(--text3);pointer-events:none}
         .si{width:100%;padding:.48rem .7rem .48rem 2rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.83rem;color:var(--text);outline:none}
@@ -1213,15 +1215,17 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         <input type="text" class="si" placeholder="Search headlines..." id="si">
     </div>
     <select class="sel" id="srcF" style="display:none"><option value="">All Sources</option></select>
-    <div class="custom-dd" id="srcDD">
-        <button type="button" class="custom-dd-btn" id="srcDDBtn">All Sources (''' + str(source_count) + ''')</button>
-        <div class="custom-dd-list" id="srcDDList">
-            <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
-            <div class="custom-dd-item active" data-val="">All Sources (''' + str(source_count) + ''')</div>
-            <div class="custom-dd-item soc-opt" data-val="__vance_social__">&#9733; Vance's Social Media</div>
+    <div class="src-col">
+        <div class="custom-dd" id="srcDD">
+            <button type="button" class="custom-dd-btn" id="srcDDBtn">All Sources (''' + str(source_count) + ''')</button>
+            <div class="custom-dd-list" id="srcDDList">
+                <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
+                <div class="custom-dd-item active" data-val="">All Sources (''' + str(source_count) + ''')</div>
+                <div class="custom-dd-item soc-opt" data-val="__vance_social__">&#9733; Vance's Social Media</div>
             </div>
-            <div style="padding:.4rem .7rem;border-top:1px solid var(--border)"><a href="#" id="suggestBtn" style="font-size:.72rem;color:var(--accent);text-decoration:none">Missing a source?</a></div>
         </div>
+        <a href="#" id="suggestBtn" style="font-size:.65rem;color:var(--accent);text-decoration:none;text-align:center;display:block;margin-top:.15rem">Missing a source?</a>
+    </div>
     <select class="sel" id="topicF"><option value="">All Topics</option></select>
     <button type="button" class="briefing-find-btn" id="briefingFindBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
