@@ -473,6 +473,13 @@ def clean_source_name(name):
         "poynter.org": "Poynter",
         "edweek.org": "Education Week",
         "wwd.com": "WWD",
+        "democracyforward.org": "Democracy Forward",
+        "komonews.com": "KOMO News",
+        "nationalreview.com": "National Review",
+        "13abc.com": "13abc",
+        "wcnc.com": "WCNC",
+        "cbsaustin.com": "CBS Austin",
+        "axios.com": "Axios",
     }
     name_clean = name.strip()
     if name_clean.lower() in KNOWN:
@@ -1912,6 +1919,17 @@ def main():
     print(f"Total articles after merge: {len(all_articles)}")
     total_img = sum(1 for a in all_articles if a.get("image"))
     print(f"Total images: {total_img}/{len(all_articles)}")
+    
+    # 10. Fix source names retroactively on all cached articles
+    fixed_names = 0
+    for a in all_articles:
+        old_name = a.get("source", "")
+        new_name = clean_source_name(old_name)
+        if new_name != old_name:
+            a["source"] = new_name
+            fixed_names += 1
+    if fixed_names:
+        print(f"Fixed {fixed_names} source names")
 
     build_time = datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
