@@ -1261,17 +1261,21 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             </div>
             <div class="ft-col">
                 <h4>Topics</h4>
-                <a href="#" onclick="document.getElementById('topicF').value='Iran';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Iran &amp; Foreign Policy</a>
-                <a href="#" onclick="document.getElementById('topicF').value='2028 Race';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">2028 Presidential Race</a>
+                <a href="#" onclick="document.getElementById('topicF').value='Iran';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Iran</a>
+                <a href="#" onclick="document.getElementById('topicF').value='Foreign Policy';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Foreign Policy</a>
+                <a href="#" onclick="document.getElementById('topicF').value='2028 Race';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">2028 Race</a>
                 <a href="#" onclick="document.getElementById('topicF').value='Immigration';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Immigration</a>
                 <a href="#" onclick="document.getElementById('topicF').value='Economy';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Economy</a>
-                <a href="#" onclick="document.getElementById('topicF').value='Military';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Military &amp; Defense</a>
+                <a href="#" onclick="document.getElementById('topicF').value='Domestic';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Domestic</a>
+                <a href="#" onclick="document.getElementById('topicF').value='Military';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Military</a>
+                <a href="#" onclick="document.getElementById('topicF').value='Healthcare';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Healthcare</a>
+                <a href="#" onclick="document.getElementById('topicF').value='Tech &amp; AI';document.getElementById('topicF').dispatchEvent(new Event('change'));window.scrollTo(0,0);return false">Tech &amp; AI</a>
             </div>
             <div class="ft-col">
                 <h4>Contact</h4>
                 <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a>
-                <a href="mailto:contact@onlyvance28.com?subject=Suggest%20a%20Source">Suggest a missing source</a>
-                <a href="mailto:contact@onlyvance28.com?subject=Bias%20Rating%20Correction">Report a bias rating</a>
+                <a href="#" onclick="document.getElementById('suggestModal').classList.add('show');return false">Suggest a missing source</a>
+                <a href="#" onclick="document.getElementById('biasModal').classList.add('show');return false">Report a bias rating</a>
                 <p style="margin-top:.5rem">Bias ratings based on <a href="https://www.allsides.com/media-bias" target="_blank">AllSides</a>.</p>
             </div>
         </div>
@@ -1300,7 +1304,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <div class="smodal">
         <button class="smodal-close" id="suggestClose">&times;</button>
         <div class="smodal-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"/><path d="M14 2v6h6"/><path d="M3 15h6"/><path d="M6 12v6"/></svg>
         </div>
         <h2>Suggest a Source</h2>
         <p class="smodal-sub">Know a news outlet covering JD Vance that we're missing? We'll add it within 24 hours.</p>
@@ -1336,6 +1340,57 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             </div>
             <h2 style="margin-top:.5rem">Source Submitted!</h2>
             <p style="font-size:.85rem;color:#6b6560;margin-top:.4rem">We'll review it and add it to OnlyVance28 within 24 hours.</p>
+        </div>
+    </div>
+</div>
+
+<div class="smodal-overlay" id="biasModal">
+    <div class="smodal">
+        <button class="smodal-close" id="biasClose">&times;</button>
+        <div class="smodal-icon" style="background:linear-gradient(135deg,#d94a4a,#e06050)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:26px;height:26px;color:#fff"><path d="M12 3v12M8 11l4 4 4-4"/><path d="M4 21h16"/></svg>
+        </div>
+        <h2>Report a Bias Rating</h2>
+        <p class="smodal-sub">Think we got a source's political bias rating wrong? Let us know and we'll review it.</p>
+        <div id="biasForm" class="smodal-form">
+            <div class="smodal-field">
+                <label>Source Name</label>
+                <input type="text" id="biasSource" placeholder="e.g. Reuters">
+            </div>
+            <div class="smodal-field">
+                <label>Current Rating</label>
+                <select id="biasCurrent">
+                    <option value="">Not sure</option>
+                    <option value="Left">Left</option>
+                    <option value="Leans Left">Leans Left</option>
+                    <option value="Center">Center</option>
+                    <option value="Leans Right">Leans Right</option>
+                    <option value="Right">Right</option>
+                </select>
+            </div>
+            <div class="smodal-field">
+                <label>What should it be?</label>
+                <select id="biasSuggested">
+                    <option value="">Select...</option>
+                    <option value="Left">Left</option>
+                    <option value="Leans Left">Leans Left</option>
+                    <option value="Center">Center</option>
+                    <option value="Leans Right">Leans Right</option>
+                    <option value="Right">Right</option>
+                </select>
+            </div>
+            <div class="smodal-field">
+                <label>Your Email (optional)</label>
+                <input type="email" id="biasEmail" placeholder="So we can follow up">
+            </div>
+            <button class="smodal-submit" id="biasSubmit">Submit Report</button>
+        </div>
+        <div id="biasThanks" class="smodal-thanks">
+            <div style="width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#2a9d5c,#34c06e);display:flex;align-items:center;justify-content:center;margin:1rem auto">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" style="width:28px;height:28px"><path d="M20 6L9 17l-5-5"/></svg>
+            </div>
+            <h2 style="margin-top:.5rem">Report Submitted!</h2>
+            <p style="font-size:.85rem;color:#6b6560;margin-top:.4rem">We'll review the bias rating and update it if needed.</p>
         </div>
     </div>
 </div>
@@ -1527,6 +1582,34 @@ function imgFail(img){
                 document.getElementById('sugUrl').value='';
                 document.getElementById('sugBias').value='';
                 document.getElementById('sugEmail').value='';
+            },300);
+        },2500);
+    });
+
+    // Bias report modal
+    const biasModal=document.getElementById('biasModal');
+    document.getElementById('biasClose').addEventListener('click',()=>biasModal.classList.remove('show'));
+    biasModal.addEventListener('click',(e)=>{if(e.target===biasModal)biasModal.classList.remove('show')});
+    document.getElementById('biasSubmit').addEventListener('click',()=>{
+        const source=document.getElementById('biasSource').value.trim();
+        const current=document.getElementById('biasCurrent').value;
+        const suggested=document.getElementById('biasSuggested').value;
+        const email=document.getElementById('biasEmail').value.trim();
+        if(!source){document.getElementById('biasSource').focus();return}
+        if(!suggested){document.getElementById('biasSuggested').focus();return}
+        const body='Source: '+source+'%0ACurrent rating: '+(current||'Not specified')+'%0ASuggested rating: '+suggested+'%0ASubmitter email: '+(email||'Not provided');
+        window.open('mailto:contact@onlyvance28.com?subject=Bias%20Rating%20Report:%20'+encodeURIComponent(source)+'&body='+body,'_blank');
+        document.getElementById('biasForm').classList.add('hide');
+        document.getElementById('biasThanks').classList.add('show');
+        setTimeout(()=>{
+            biasModal.classList.remove('show');
+            setTimeout(()=>{
+                document.getElementById('biasForm').classList.remove('hide');
+                document.getElementById('biasThanks').classList.remove('show');
+                document.getElementById('biasSource').value='';
+                document.getElementById('biasCurrent').value='';
+                document.getElementById('biasSuggested').value='';
+                document.getElementById('biasEmail').value='';
             },300);
         },2500);
     });
