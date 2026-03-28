@@ -129,7 +129,9 @@ INTL_BLOCK = {
     # More international
     "unherd.com", "politico.eu", "hungarianconservative.com",
     "middleeastmonitor.com", "thecatholicspirit.com",
-    "rev.com",
+    "rev.com", "arka.am", "voxnews.al", "voi.id",
+    "irishstar.com", "channelstv.com", "i24news.tv",
+    "rferl.org", "thetimes.com",
 }
 
 def is_us_source(article):
@@ -144,7 +146,9 @@ def is_us_source(article):
     INTL_NAMES = {"times of india", "singju post", "the singju post", "ndtv", "malaysia sun",
                   "la voce di new york", "global banking & finance review", "global banking &amp; finance review",
                   "premier christian news", "the times of india", "india times",
-                  "unherd", "hungarian conservative", "middle east monitor", "politico.eu"}
+                  "unherd", "hungarian conservative", "middle east monitor", "politico.eu",
+                  "i24news", "irish star", "channels television", "channelstv", "voi.id",
+                  "arka.am", "voxnews.al", "rferl", "rfe/rl"}
     for blocked_name in INTL_NAMES:
         if blocked_name in source:
             return False
@@ -431,6 +435,44 @@ def clean_source_name(name):
         "wfmz.com": "WFMZ",
         "wtol.com": "WTOL",
         "inkstickmedia.com": "Inkstick Media",
+        "foxbusiness.com": "Fox Business",
+        "latimes.com": "Los Angeles Times",
+        "motherjones.com": "Mother Jones",
+        "slate.com": "Slate",
+        "thehill.com": "The Hill",
+        "reuters.com": "Reuters",
+        "reutersconnect.com": "Reuters",
+        "politico.com": "Politico",
+        "cnn.com": "CNN",
+        "msn.com": "MSN",
+        "usatoday.com": "USA Today",
+        "nymag.com": "New York Magazine",
+        "snopes.com": "Snopes",
+        "vogue.com": "Vogue",
+        "themarysue.com": "The Mary Sue",
+        "washingtonexaminer.com": "Washington Examiner",
+        "commondreams.org": "Common Dreams",
+        "indystar.com": "IndyStar",
+        "jsonline.com": "Milwaukee Journal Sentinel",
+        "lgbtqnation.com": "LGBTQ Nation",
+        "nbcphiladelphia.com": "NBC Philadelphia",
+        "orlandosentinel.com": "Orlando Sentinel",
+        "post-gazette.com": "Pittsburgh Post-Gazette",
+        "newsobserver.com": "The News & Observer",
+        "dailyherald.com": "Daily Herald",
+        "cincinnati.com": "Cincinnati Enquirer",
+        "nysun.com": "New York Sun",
+        "statnews.com": "STAT News",
+        "punchbowl.news": "Punchbowl News",
+        "thenationaldesk.com": "The National Desk",
+        "audacy.com": "Audacy",
+        "ewtnnews.com": "EWTN News",
+        "jta.org": "JTA",
+        "jns.org": "JNS",
+        "opensecrets.org": "OpenSecrets",
+        "poynter.org": "Poynter",
+        "edweek.org": "Education Week",
+        "wwd.com": "WWD",
     }
     name_clean = name.strip()
     if name_clean.lower() in KNOWN:
@@ -465,6 +507,32 @@ def clean_source_name(name):
     # Final check against KNOWN with cleaned name
     if name_clean.lower() in KNOWN:
         return KNOWN[name_clean.lower()]
+    
+    # Auto-capitalize domain-style names (e.g. "foxbusiness.com" -> "Foxbusiness.com")
+    # and also proper-case names that start with lowercase
+    if name_clean and name_clean[0].islower():
+        # If it looks like a domain (has a dot), try to make it presentable
+        if '.' in name_clean:
+            # Strip common TLDs to get the name part
+            domain = name_clean
+            for tld in ['.com', '.org', '.net', '.gov', '.io', '.news', '.am', '.al', '.id']:
+                if domain.endswith(tld):
+                    base = domain[:-len(tld)]
+                    # Known patterns: fox9 -> FOX 9, abc11 -> ABC 11, nbc -> NBC
+                    base_lower = base.lower()
+                    # TV station call letters (3-4 uppercase letters + optional digits)
+                    if re.match(r'^[a-z]{3,4}\d*$', base_lower) and len(base_lower) <= 8:
+                        # Likely a TV station: WKYC, FOX9, ABC11
+                        letters = re.match(r'^([a-z]+)(\d*)$', base_lower)
+                        if letters:
+                            return letters.group(1).upper() + ((' ' + letters.group(2)) if letters.group(2) else '') + tld
+                    # Capitalize first letter of each word for others
+                    return domain[0].upper() + domain[1:]
+            # No known TLD matched, just capitalize
+            return name_clean[0].upper() + name_clean[1:]
+        else:
+            # Not a domain, title-case it (e.g. "the indiana citizen" -> "The Indiana Citizen")
+            return name_clean.title()
     
     return name_clean
 
