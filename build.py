@@ -988,7 +988,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .tagline{font-size:.65rem;font-weight:300;color:var(--text2);letter-spacing:.04em;text-transform:uppercase;margin-top:.2rem}
         .hdr-right{display:flex;flex-direction:column;align-items:flex-end;gap:.4rem}
         .cta-row{display:flex;gap:.5rem;align-items:center;width:100%}
-        .cta-email{padding:.45rem .8rem;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:.82rem;outline:none;flex:1;min-width:0}
+        .cta-email{padding:.45rem .8rem;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:.82rem;outline:none;flex:1;min-width:220px}
         .cta-email::placeholder{color:var(--text3)}
         .cta-email:focus{border-color:var(--accent)}
         .cta-btn{padding:.45rem 1rem;border-radius:6px;border:none;background:var(--accent);color:#fff;font-family:'DM Sans',sans-serif;font-weight:600;font-size:.82rem;cursor:pointer;transition:background .2s}
@@ -1219,9 +1219,15 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
             <div class="custom-dd-item active" data-val="">All Sources (''' + str(source_count) + ''')</div>
             <div class="custom-dd-item soc-opt" data-val="__vance_social__">&#9733; Vance's Social Media</div>
+            </div>
+            <div style="padding:.4rem .7rem;border-top:1px solid var(--border)"><a href="#" id="suggestBtn" style="font-size:.72rem;color:var(--accent);text-decoration:none">Missing a source?</a></div>
         </div>
-    </div>
     <select class="sel" id="topicF"><option value="">All Topics</option></select>
+    <button type="button" class="briefing-find-btn" id="briefingFindBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        Find a daily briefing
+    </button>
+    <input type="date" id="briefingDate" style="position:fixed;top:-9999px;opacity:0;pointer-events:none" value="''' + (today or '') + '''" min="2026-03-27" max="''' + (today or '') + '''">
     <div class="pills">
         <button class="pill" data-r="all">All</button>
         <button class="pill on" data-r="today">Today</button>
@@ -1236,13 +1242,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         <button class="bpill" data-b="R" style="color:#d94a4a;border-color:#d94a4a">Right ''' + str(bias_count_R) + '''</button>
     </div>
     <span class="count" id="cnt"></span>
-    <button type="button" class="briefing-find-btn" id="briefingFindBtn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
-        Find a daily briefing
-    </button>
-    <input type="date" id="briefingDate" style="position:absolute;opacity:0;pointer-events:none" value="''' + (today or '') + '''" min="2026-03-27" max="''' + (today or '') + '''">
 </div>
-<div style="max-width:1200px;margin:-.2rem auto .3rem;padding:0 2rem"><a href="#" id="suggestBtn" style="font-size:.68rem;color:var(--accent);text-decoration:none">Missing a source?</a></div>
 
 <main class="main">
     <div class="grid" id="g">''' + cards_html + '''
@@ -1488,8 +1488,7 @@ function imgFail(img){
     // Briefing date picker - button opens the hidden date input
     const briefingDateInput=document.getElementById('briefingDate');
     document.getElementById('briefingFindBtn').addEventListener('click',function(){
-        briefingDateInput.style.position='static';briefingDateInput.style.opacity='1';briefingDateInput.style.pointerEvents='auto';
-        briefingDateInput.showPicker?briefingDateInput.showPicker():briefingDateInput.focus();
+        if(briefingDateInput.showPicker){briefingDateInput.showPicker()}else{briefingDateInput.click()}
     });
     briefingDateInput.addEventListener('change',function(){
         const d=this.value;
