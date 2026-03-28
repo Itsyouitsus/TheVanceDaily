@@ -984,8 +984,6 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .custom-dd-search{width:calc(100% - .6rem);margin:.2rem .3rem .3rem;padding:.35rem .5rem;border-radius:5px;border:1px solid var(--border);background:var(--bg);font-family:'DM Sans',sans-serif;font-size:.78rem;color:var(--text);outline:none}
         .custom-dd-search::placeholder{color:var(--text3)}
         .custom-dd-search:focus{border-color:var(--blue)}
-        .src-count-row{font-size:.68rem;color:var(--accent);text-decoration:none;display:block;text-align:center;margin-top:.15rem;position:absolute;left:0;right:0}
-        .src-dd-wrap{position:relative;padding-bottom:1.1rem}
         .pills{display:flex;gap:.2rem}
         .pill{padding:.38rem .65rem;border-radius:100px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.74rem;font-weight:500;color:var(--text2);cursor:pointer;transition:all .2s}
         .pill:hover{background:var(--bg3)}
@@ -998,12 +996,12 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .bpill.on{color:#fff!important}
 
         .count{font-size:.7rem;color:var(--text3);white-space:nowrap}
-        .briefing-group{display:flex;gap:.3rem;align-items:flex-start;margin-left:auto}
-        .briefing-btn{display:flex;align-items:center;gap:.35rem;padding:.48rem .9rem;border-radius:7px;border:none;background:#1a3a5c;color:#fff;font-family:'DM Sans',sans-serif;font-size:.8rem;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .2s}
+        .briefing-btn{display:flex;align-items:center;gap:.35rem;padding:.45rem .9rem;border-radius:6px;border:none;background:#1a3a5c;color:#fff;font-family:'DM Sans',sans-serif;font-size:.82rem;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .2s}
         .briefing-btn:hover{background:#234d78}
         .briefing-btn svg{width:14px;height:14px;flex-shrink:0}
-        .briefing-date{padding:.48rem .6rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.78rem;color:var(--text);cursor:pointer;outline:none}
-        .briefing-date:focus{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
+        .briefing-find-btn{display:flex;align-items:center;gap:.35rem;padding:.48rem .8rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.8rem;font-weight:500;color:var(--text);cursor:pointer;white-space:nowrap;transition:all .2s}
+        .briefing-find-btn:hover{border-color:var(--blue);color:var(--blue)}
+        .briefing-find-btn svg{width:14px;height:14px;flex-shrink:0}
 
         /* GRID */
         .main{max-width:1200px;margin:0 auto;padding:.5rem 2rem 4rem}
@@ -1098,8 +1096,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             .pills,.bias-pills{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}
             .pill,.bpill{flex-shrink:0}
             .ft-grid{grid-template-columns:1fr;gap:1rem}
-            .briefing-group{width:100%;margin-left:0}
-            .briefing-btn{flex:1;justify-content:center}
+            .briefing-find-btn{width:100%}
+            .briefing-btn{font-size:.75rem;padding:.4rem .7rem}
         }
     </style>
 <!-- Google tag (gtag.js) -->
@@ -1122,6 +1120,10 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
                 <div class="cta-row">
                     <input type="email" class="cta-email" placeholder="Get the daily Vance briefing" id="emailIn">
                     <button class="cta-btn" id="emailBtn">Subscribe</button>
+                    <a href="/daily/''' + (today or '') + '''.html" class="briefing-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                        Read today's briefing
+                    </a>
                 </div>
                 <p class="hdr-meta">''' + total + ''' articles &middot; Started on March 27, 2026 - Updated ''' + build_time + '''</p>
             </div>
@@ -1143,16 +1145,13 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         <input type="text" class="si" placeholder="Search headlines..." id="si">
     </div>
     <select class="sel" id="srcF" style="display:none"><option value="">All Sources</option></select>
-    <div class="src-dd-wrap">
-        <div class="custom-dd" id="srcDD">
-            <button type="button" class="custom-dd-btn" id="srcDDBtn">All Sources (''' + str(source_count) + ''')</button>
-            <div class="custom-dd-list" id="srcDDList">
-                <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
-                <div class="custom-dd-item active" data-val="">All Sources (''' + str(source_count) + ''')</div>
-                <div class="custom-dd-item soc-opt" data-val="__vance_social__">&#9733; Vance's Social Media</div>
-            </div>
+    <div class="custom-dd" id="srcDD">
+        <button type="button" class="custom-dd-btn" id="srcDDBtn">All Sources (''' + str(source_count) + ''')</button>
+        <div class="custom-dd-list" id="srcDDList">
+            <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
+            <div class="custom-dd-item active" data-val="">All Sources (''' + str(source_count) + ''')</div>
+            <div class="custom-dd-item soc-opt" data-val="__vance_social__">&#9733; Vance's Social Media</div>
         </div>
-        <a href="#" id="suggestBtn" class="src-count-row" style="color:var(--accent);text-decoration:none">Missing a source?</a>
     </div>
     <select class="sel" id="topicF"><option value="">All Topics</option></select>
     <div class="pills">
@@ -1169,14 +1168,13 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         <button class="bpill" data-b="R" style="color:#d94a4a;border-color:#d94a4a">Right ''' + str(bias_count_R) + '''</button>
     </div>
     <span class="count" id="cnt"></span>
-    <div class="briefing-group">
-        <a href="/daily/''' + (today or '') + '''.html" class="briefing-btn">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
-            Read today's briefing
-        </a>
-        <input type="date" class="briefing-date" id="briefingDate" value="''' + (today or '') + '''" min="2026-03-27" max="''' + (today or '') + '''" title="Browse past briefings">
-    </div>
+    <button type="button" class="briefing-find-btn" id="briefingFindBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        Find a daily briefing
+    </button>
+    <input type="date" id="briefingDate" style="position:absolute;opacity:0;pointer-events:none" value="''' + (today or '') + '''" min="2026-03-27" max="''' + (today or '') + '''">
 </div>
+<div style="max-width:1200px;margin:-.2rem auto .3rem;padding:0 2rem"><a href="#" id="suggestBtn" style="font-size:.68rem;color:var(--accent);text-decoration:none">Missing a source?</a></div>
 
 <main class="main">
     <div class="grid" id="g">''' + cards_html + '''
@@ -1419,8 +1417,13 @@ function imgFail(img){
     }, { rootMargin: '200px' });
     document.querySelectorAll('.card-img-lazy').forEach(el => lazyObs.observe(el));
 
-    // Briefing date picker
-    document.getElementById('briefingDate').addEventListener('change',function(){
+    // Briefing date picker - button opens the hidden date input
+    const briefingDateInput=document.getElementById('briefingDate');
+    document.getElementById('briefingFindBtn').addEventListener('click',function(){
+        briefingDateInput.style.position='static';briefingDateInput.style.opacity='1';briefingDateInput.style.pointerEvents='auto';
+        briefingDateInput.showPicker?briefingDateInput.showPicker():briefingDateInput.focus();
+    });
+    briefingDateInput.addEventListener('change',function(){
         const d=this.value;
         if(d)window.location.href='/daily/'+d+'.html';
     });
