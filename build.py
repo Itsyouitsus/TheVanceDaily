@@ -1207,6 +1207,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
 <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FJK6HBH8C"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-6FJK6HBH8C");</script>
+<!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6910331043242861" crossorigin="anonymous"></script>
 </head>
 <body>
 
