@@ -1195,7 +1195,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
                         Read today's briefing
                     </a>
                 </div>
-                <p class="hdr-meta">''' + total + ''' articles &middot; Started on March 27, 2026 - Updated ''' + build_time + '''</p>
+                <p class="hdr-meta">Started on March 27, 2026</p>
             </div>
         </div>
     </div>
@@ -1231,7 +1231,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
         Find a daily briefing
     </button>
-    <input type="date" id="briefingDate" style="position:fixed;top:-9999px;opacity:0;pointer-events:none" value="''' + (today or '') + '''" min="2026-03-27" max="''' + (today or '') + '''">
+    <div style="position:relative;width:0;height:0;overflow:visible"><input type="date" id="briefingDate" style="position:absolute;top:0;left:-140px;width:1px;height:1px;opacity:0.01;border:none;padding:0" value="''' + (today or '') + '''" min="2026-03-27" max="''' + (today or '') + '''"></div>
     <div class="pills">
         <button class="pill" data-r="all">All</button>
         <button class="pill on" data-r="today">Today</button>
@@ -1247,6 +1247,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     </div>
     <span class="count" id="cnt"></span>
 </div>
+<p style="text-align:center;font-size:.68rem;color:#9e9790;margin:-.1rem 0 .5rem">''' + total + ''' articles &middot; Updated ''' + build_time + '''</p>
 
 <main class="main">
     <div class="grid" id="g">''' + cards_html + '''
@@ -1491,8 +1492,9 @@ function imgFail(img){
 
     // Briefing date picker - button opens the hidden date input
     const briefingDateInput=document.getElementById('briefingDate');
-    document.getElementById('briefingFindBtn').addEventListener('click',function(){
-        if(briefingDateInput.showPicker){briefingDateInput.showPicker()}else{briefingDateInput.click()}
+    document.getElementById('briefingFindBtn').addEventListener('click',function(e){
+        e.preventDefault();e.stopPropagation();
+        try{briefingDateInput.showPicker()}catch(err){briefingDateInput.click()}
     });
     briefingDateInput.addEventListener('change',function(){
         const d=this.value;
