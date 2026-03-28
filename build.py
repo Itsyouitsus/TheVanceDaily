@@ -1157,39 +1157,42 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .ft-bottom{text-align:center;padding-top:1rem;border-top:1px solid var(--border)}
 
         @media(max-width:700px){
-            /* HEADER - stack logo and CTA vertically, center everything */
-            .hdr-in{padding:1rem 1rem .8rem}
-            .hdr-top{flex-direction:column;align-items:center;gap:.6rem}
+            /* HEADER - center, hide email field on mobile, show subscribe as popup trigger */
+            .hdr{position:sticky;top:0;z-index:30}
+            .hdr-in{padding:.7rem .8rem .6rem}
+            .hdr-top{flex-direction:column;align-items:center;gap:.4rem}
             .hdr-left{align-items:center;text-align:center}
-            .logo{font-size:1.6rem}
-            .logo-flag{width:36px;height:24px}
-            .tagline{font-size:.55rem}
+            .logo{font-size:1.5rem}
+            .logo-flag{width:32px;height:22px}
+            .tagline{font-size:.5rem;margin-top:.1rem}
             .hdr-right{width:100%}
-            .cta-row{width:100%;justify-content:center;flex-wrap:wrap;gap:.4rem}
-            .cta-email{min-width:0;flex:1;font-size:.78rem;padding:.4rem .6rem}
-            .cta-btn{font-size:.78rem;padding:.4rem .8rem}
-            .briefing-btn{font-size:.72rem;padding:.38rem .6rem;white-space:nowrap}
+            .cta-row{width:100%;justify-content:center;gap:.4rem}
+            .cta-email{display:none}
+            .cta-btn{font-size:.75rem;padding:.38rem .8rem}
+            .briefing-btn{font-size:.7rem;padding:.35rem .6rem;white-space:nowrap}
             
-            /* CAROUSELS - reduce padding */
+            /* CAROUSELS - no gradient edges on mobile */
             .soc-bar{padding:.5rem 0}
+            .soc-bar::before,.soc-bar::after{display:none}
             .soc-card{width:250px;padding:.5rem .7rem}
             .crs{padding:.4rem 0}
+            .crs::before,.crs::after{display:none}
             
-            /* TOOLBAR - stack vertically, center */
-            .tb{padding:.5rem .8rem .3rem;gap:.4rem;justify-content:center}
-            .sb{min-width:0;width:100%}
-            .si{font-size:.78rem}
-            .custom-dd{max-width:none;width:100%}
-            .custom-dd-btn{width:100%;font-size:.78rem}
-            .sel{width:100%;max-width:none;font-size:.78rem}
-            .briefing-find-btn{width:100%;justify-content:center;font-size:.78rem}
-            .pills{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;width:100%;justify-content:center}
-            .pill{flex-shrink:0;font-size:.7rem;padding:.32rem .5rem}
-            .bias-pills{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;width:100%;justify-content:center}
-            .bpill{flex-shrink:0;font-size:.65rem;padding:.3rem .4rem}
-            
-            /* STICKY TOOLBAR - reduce top offset on mobile */
-            .sticky-tb{border-bottom:1px solid var(--border)}
+            /* TOOLBAR - two-column grid layout, sticky below header */
+            .sticky-tb{position:sticky;z-index:29;border-bottom:1px solid var(--border)}
+            .tb{padding:.5rem .6rem .3rem;gap:.35rem;display:grid;grid-template-columns:1fr 1fr;max-width:100%}
+            .sb{grid-column:1;min-width:0}
+            .si{font-size:.75rem;padding:.4rem .5rem .4rem 1.8rem}
+            .sb svg{left:.5rem;width:13px;height:13px}
+            .briefing-find-btn{grid-column:2;width:100%;justify-content:center;font-size:.75rem;padding:.4rem .5rem}
+            .custom-dd{grid-column:1;max-width:none;width:100%}
+            .custom-dd-btn{width:100%;font-size:.75rem;padding:.4rem .5rem .4rem .5rem}
+            .sel{grid-column:2;width:100%;max-width:none;font-size:.75rem;padding:.4rem .5rem}
+            .pills{grid-column:1/3;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center}
+            .pill{flex-shrink:0;font-size:.68rem;padding:.3rem .45rem}
+            .bias-pills{grid-column:1/3;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center}
+            .bpill{flex-shrink:0;font-size:.62rem;padding:.28rem .38rem}
+            .count{display:none}
             
             /* GRID - single column */
             .main{padding:.3rem .6rem 3rem}
@@ -1552,9 +1555,24 @@ function imgFail(img){
     modal.addEventListener('click',(e)=>{if(e.target===modal)modal.classList.remove('show')});
 
     document.getElementById('emailBtn').addEventListener('click',()=>{
-        const e=document.getElementById('emailIn').value.trim();
+        const emailIn=document.getElementById('emailIn');
+        // On mobile the email input is hidden, show a subscribe popup instead
+        if(window.getComputedStyle(emailIn).display==='none'){
+            const subEmail=prompt('Enter your email for The Vance Daily briefing:');
+            if(subEmail&&subEmail.includes('@')&&subEmail.includes('.')){
+                const form=new FormData();
+                form.append('email',subEmail);
+                fetch('https://buttondown.com/api/emails/embed-subscribe/thevancedaily',{
+                    method:'POST',body:form
+                }).then(()=>{}).catch(()=>{});
+                modalEmail.textContent=subEmail;
+                modal.classList.add('show');
+                gtag('event','newsletter_subscribe',{method:'mobile_popup'});
+            }
+            return;
+        }
+        const e=emailIn.value.trim();
         if(e&&e.includes('@')&&e.includes('.')){
-            // Subscribe via Buttondown public form endpoint
             const form=new FormData();
             form.append('email',e);
             fetch('https://buttondown.com/api/emails/embed-subscribe/thevancedaily',{
@@ -1563,13 +1581,12 @@ function imgFail(img){
             }).then(r=>{
                 modalEmail.textContent=e;
                 modal.classList.add('show');
-                document.getElementById('emailIn').value='';
+                emailIn.value='';
                 gtag('event','newsletter_subscribe',{method:'header'});
             }).catch(()=>{
-                // Even if fetch fails (CORS), the subscription often still works
                 modalEmail.textContent=e;
                 modal.classList.add('show');
-                document.getElementById('emailIn').value='';
+                emailIn.value='';
             });
         }
     });
