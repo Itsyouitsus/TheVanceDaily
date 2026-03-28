@@ -1830,17 +1830,19 @@ def main():
         api_body = j2.dumps({
             "model": "claude-sonnet-4-20250514",
             "max_tokens": 800,
-            "messages": [{"role": "user", "content": f"""You are writing "The Vance Daily" - a short, punchy morning briefing about JD Vance for {today_display}. Based on these top headlines from today:
+            "messages": [{"role": "user", "content": f"""You are writing "The Vance Daily" - a short, factual morning briefing about JD Vance for {today_display}. Based on these top headlines from today:
 
 {headline_list}
 
 Write a briefing with:
-1. A one-sentence opener that captures the day's biggest Vance story
-2. 4-5 of the most important stories, each as a bold title followed by one tight sentence summarizing it. Format each as: **Bold title**: summary sentence.
-3. A "Left vs Right" paragraph: 2-3 sentences noting how Left-leaning and Right-leaning outlets are framing Vance differently today
-4. A one-line sign-off
+1. A one-sentence factual opener summarizing the day's biggest Vance story
+2. 4-5 of the most important stories, each as a bold title followed by one tight sentence summarizing the facts. Format each as: **Bold title**: summary sentence.
+3. A "Left vs Right" paragraph: 2-3 sentences neutrally describing how Left-leaning and Right-leaning outlets are covering Vance differently today. Do not take sides or editorialize.
+4. A neutral one-line sign-off
 
-Keep it under 250 words. Write like a sharp newsletter editor - conversational, direct, no filler. Do not use em dashes. Do not use markdown headers (no # or ##). Use **bold** for emphasis only. Do not repeat the same headline twice even if multiple sources cover it."""}]
+CRITICAL: You must be completely neutral and unbiased. Do not editorialize. Do not use sarcasm, humor, or loaded language. Do not express any opinion about Vance, his policies, or any political party. Just report the facts as covered by the sources. This is a news aggregator, not an opinion site.
+
+Keep it under 250 words. Write in a clean, professional tone. Do not use em dashes. Do not repeat the same headline twice even if multiple sources cover it."""}]
         }).encode()
         req = urllib.request.Request(
             "https://api.anthropic.com/v1/messages",
