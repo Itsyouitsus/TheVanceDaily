@@ -1911,7 +1911,8 @@ Keep it under 250 words. Write like a sharp newsletter editor - conversational, 
         .back{{font-size:.8rem;color:#6b6560;text-decoration:none;display:inline-flex;align-items:center;gap:.3rem;margin-bottom:1.5rem}}
         .back:hover{{color:#1a1714}}
         .masthead{{text-align:center;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:3px double #e2ddd5}}
-        .masthead-flag{{font-size:1.5rem;margin-bottom:.5rem}}
+        .masthead-flag{{margin-bottom:.5rem}}
+        .masthead-flag svg{{width:60px;height:40px;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,.1)}}
         .masthead h1{{font-family:'Playfair Display',Georgia,serif;font-size:2rem;font-weight:900}}
         .masthead h1 span{{color:#b8322a}}
         .masthead .date{{font-size:.85rem;color:#6b6560;margin-top:.3rem}}
@@ -1950,7 +1951,7 @@ Keep it under 250 words. Write like a sharp newsletter editor - conversational, 
     <a href="/" class="back">&larr; Back to all articles</a>
 
     <div class="masthead">
-        <div class="masthead-flag">&#127482;&#127480;</div>
+        <div class="masthead-flag"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#fff"/><g fill="#B22234"><rect y="0" width="60" height="3.08"/><rect y="6.15" width="60" height="3.08"/><rect y="12.31" width="60" height="3.08"/><rect y="18.46" width="60" height="3.08"/><rect y="24.62" width="60" height="3.08"/><rect y="30.77" width="60" height="3.08"/><rect y="36.92" width="60" height="3.08"/></g><rect width="24" height="21.54" fill="#3C3B6E"/></svg></div>
         <h1>The <span>Vance</span> Daily</h1>
         <p class="date">{today_display}</p>
         <p class="stats">{len(all_articles)} articles &middot; {len(set(a['source'] for a in all_articles))} sources &middot; {', '.join(bias_summary_parts)}</p>
