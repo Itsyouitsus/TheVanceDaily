@@ -1523,7 +1523,7 @@ function imgFail(img){
             // Subscribe via Buttondown public form endpoint
             const form=new FormData();
             form.append('email',e);
-            fetch('https://buttondown.com/api/emails/embed-subscribe/WassilyC',{
+            fetch('https://buttondown.com/api/emails/embed-subscribe/thevancedaily',{
                 method:'POST',
                 body:form
             }).then(r=>{
@@ -2066,7 +2066,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         <p>Every morning. The stories that matter. No spam.</p>
         <div class="cta-row">
             <input type="email" placeholder="your@email.com" id="dailyEmail">
-            <button onclick="var e=document.getElementById('dailyEmail').value;if(e&&e.includes('@')){{var f=new FormData();f.append('email',e);fetch('https://buttondown.com/api/emails/embed-subscribe/WassilyC',{{method:'POST',body:f}}).then(function(){{alert('Subscribed! The Vance Daily is on its way.');document.getElementById('dailyEmail').value=''}}).catch(function(){{alert('Subscribed! The Vance Daily is on its way.');document.getElementById('dailyEmail').value=''}})}}">Subscribe</button>
+            <button onclick="var e=document.getElementById('dailyEmail').value;if(e&&e.includes('@')){{var f=new FormData();f.append('email',e);fetch('https://buttondown.com/api/emails/embed-subscribe/thevancedaily',{{method:'POST',body:f}}).then(function(){{alert('Subscribed! The Vance Daily is on its way.');document.getElementById('dailyEmail').value=''}}).catch(function(){{alert('Subscribed! The Vance Daily is on its way.');document.getElementById('dailyEmail').value=''}})}}">Subscribe</button>
         </div>
     </div>
 
@@ -2192,20 +2192,34 @@ Sitemap: https://onlyvance28.com/sitemap.xml
     sent_flag = os.path.join(OUTPUT_DIR, f".sent_{today}")
     if buttondown_key and briefing_text and current_hour >= 12 and not os.path.exists(sent_flag):
         try:
-            # Convert briefing to simple HTML for email
-            email_html = ""
+            # Build branded email HTML
+            email_header = '''<div style="text-align:center;padding:20px 0 15px;border-bottom:2px solid #b8322a;margin-bottom:20px">
+<a href="https://onlyvance28.com" style="text-decoration:none">
+<span style="font-family:Georgia,serif;font-size:28px;font-weight:900;color:#1a1714">Only<span style="color:#b8322a">Vance</span>28</span>
+</a>
+<p style="font-size:11px;color:#9e9790;margin:4px 0 0;letter-spacing:0.04em;text-transform:uppercase">The Vance Daily - ''' + today_display + '''</p>
+</div>'''
+            
+            # Convert briefing to HTML paragraphs
+            email_body = ""
             for line in briefing_text.split("\n"):
                 line = line.strip()
                 if not line:
                     continue
                 line = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line)
-                email_html += f"<p>{line}</p>"
-            email_html += f'<hr><p><a href="https://onlyvance28.com/daily/{today}.html">Read the full briefing with all headlines</a></p>'
-            email_html += f'<p><a href="https://onlyvance28.com">Visit OnlyVance28.com</a> - {len(all_articles)} articles from {len(set(a["source"] for a in all_articles))} sources today.</p>'
+                email_body += f'<p style="font-family:-apple-system,Arial,sans-serif;font-size:15px;line-height:1.6;color:#1a1714;margin:0 0 12px">{line}</p>'
+            
+            email_footer = f'''<div style="border-top:1px solid #e2ddd5;margin-top:24px;padding-top:16px;text-align:center">
+<p style="font-size:13px;margin:0 0 8px"><a href="https://onlyvance28.com/daily/{today}.html" style="color:#b8322a;text-decoration:none;font-weight:600">Read the full briefing with all headlines</a></p>
+<p style="font-size:12px;color:#9e9790;margin:0 0 4px"><a href="https://onlyvance28.com" style="color:#9e9790">OnlyVance28.com</a> - {len(all_articles)} articles from {len(set(a["source"] for a in all_articles))} sources</p>
+<p style="font-size:11px;color:#9e9790;margin:12px 0 0">Not affiliated with any political campaign, party, government or media entity.</p>
+</div>'''
+            
+            full_email = email_header + email_body + email_footer
             
             email_data = json.dumps({
                 "subject": f"The Vance Daily - {today_display}",
-                "body": email_html,
+                "body": full_email,
                 "status": "about_to_send",
             }).encode()
             req = urllib.request.Request(
