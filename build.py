@@ -986,7 +986,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .logo{font-family:'Playfair Display',Georgia,serif;font-weight:900;font-size:clamp(1.8rem,4.5vw,2.8rem);letter-spacing:-.02em;line-height:1.05;color:var(--text)}
         .logo .a{color:var(--accent)}
         .tagline{font-size:.65rem;font-weight:300;color:var(--text2);letter-spacing:.04em;text-transform:uppercase;margin-top:.2rem}
-        .hdr-right{display:flex;flex-direction:column;align-items:flex-end;gap:.4rem}
+        .hdr-right{display:flex;align-items:center}
         .cta-row{display:flex;gap:.5rem;align-items:center;width:100%}
         .cta-email{padding:.45rem .8rem;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:.82rem;outline:none;flex:1;min-width:220px}
         .cta-email::placeholder{color:var(--text3)}
@@ -1195,7 +1195,6 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
                         Read today's briefing
                     </a>
                 </div>
-                <p class="hdr-meta">Started on March 27, 2026</p>
             </div>
         </div>
     </div>
