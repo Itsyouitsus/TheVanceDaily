@@ -1156,8 +1156,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     </div>
     <select class="sel" id="topicF"><option value="">All Topics</option></select>
     <div class="pills">
-        <button class="pill on" data-r="all">All</button>
-        <button class="pill" data-r="today">Today</button>
+        <button class="pill" data-r="all">All</button>
+        <button class="pill on" data-r="today">Today</button>
         <button class="pill" data-r="week">Week</button>
         <button class="pill" data-r="month">Month</button>
     </div>
@@ -1321,7 +1321,7 @@ function imgFail(img){
     let selectedSrc='';
     srcDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;selectedSrc=val;srcDDBtn.textContent=val==='__vance_social__'?'Vance\\'s Social Media':val||('All Sources ('+srcs.length+')');srcDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeDD();filter()});
 
-    let dateRange='all';
+    let dateRange='today';
     let activeBias=new Set(); // empty = show all
     let showLimit=60; // Initial cards to show
 
@@ -1456,6 +1456,9 @@ function imgFail(img){
             },300);
         },2500);
     });
+
+    // Apply default filter on page load (Today)
+    filter();
 })();
 </script>
 </body>
