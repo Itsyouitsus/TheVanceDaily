@@ -1156,20 +1156,51 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .ft-bottom{text-align:center;padding-top:1rem;border-top:1px solid var(--border)}
 
         @media(max-width:700px){
-            .hdr{padding:1.4rem 1rem .9rem}
-            .hdr-top{flex-direction:column;align-items:flex-start}
-            .hdr-right{align-items:flex-start;width:100%}
-            .cta-row{width:100%}.cta-email{flex:1}
-            .socials{gap:.25rem;padding:.5rem .8rem}.soc-link{padding:.25rem .4rem;font-size:.63rem}
-            .tb{padding:.6rem .8rem}
+            /* HEADER - stack logo and CTA vertically, center everything */
+            .hdr-in{padding:1rem 1rem .8rem}
+            .hdr-top{flex-direction:column;align-items:center;gap:.6rem}
+            .hdr-left{align-items:center;text-align:center}
+            .logo{font-size:1.6rem}
+            .logo-flag{width:36px;height:24px}
+            .tagline{font-size:.55rem}
+            .hdr-right{width:100%}
+            .cta-row{width:100%;justify-content:center;flex-wrap:wrap;gap:.4rem}
+            .cta-email{min-width:0;flex:1;font-size:.78rem;padding:.4rem .6rem}
+            .cta-btn{font-size:.78rem;padding:.4rem .8rem}
+            .briefing-btn{font-size:.72rem;padding:.38rem .6rem;white-space:nowrap}
+            
+            /* CAROUSELS - reduce padding */
+            .soc-bar{padding:.5rem 0}
+            .soc-card{width:250px;padding:.5rem .7rem}
+            .crs{padding:.4rem 0}
+            
+            /* TOOLBAR - stack vertically, center */
+            .tb{padding:.5rem .8rem .3rem;gap:.4rem;justify-content:center}
+            .sb{min-width:0;width:100%}
+            .si{font-size:.78rem}
+            .custom-dd{max-width:none;width:100%}
+            .custom-dd-btn{width:100%;font-size:.78rem}
+            .sel{width:100%;max-width:none;font-size:.78rem}
+            .briefing-find-btn{width:100%;justify-content:center;font-size:.78rem}
+            .pills{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;width:100%;justify-content:center}
+            .pill{flex-shrink:0;font-size:.7rem;padding:.32rem .5rem}
+            .bias-pills{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;width:100%;justify-content:center}
+            .bpill{flex-shrink:0;font-size:.65rem;padding:.3rem .4rem}
+            
+            /* STICKY TOOLBAR - reduce top offset on mobile */
+            .sticky-tb{border-bottom:1px solid var(--border)}
+            
+            /* GRID - single column */
             .main{padding:.3rem .6rem 3rem}
             .grid{grid-template-columns:1fr;gap:.7rem}
-            .card-img{height:140px}
-            .pills,.bias-pills{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}
-            .pill,.bpill{flex-shrink:0}
+            .card-img{height:160px}
+            
+            /* FOOTER */
             .ft-grid{grid-template-columns:1fr;gap:1rem}
-            .briefing-find-btn{width:100%}
-            .briefing-btn{font-size:.75rem;padding:.4rem .7rem}
+            .ft-inner{padding:2rem 1rem}
+            
+            /* MODALS */
+            .smodal{width:92%;margin:0 auto;padding:1.5rem}
         }
     </style>
 <!-- Google tag (gtag.js) -->
