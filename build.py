@@ -755,7 +755,7 @@ def generate_social_html(posts):
     return cards + cards
 
 
-def generate_html(articles, build_time, social_posts=None):
+def generate_html(articles, build_time, social_posts=None, today=None, daily_dates=None):
     # Generate social carousel HTML
     social_html = generate_social_html(social_posts) if social_posts else ''
     sources = sorted(set(a["source"] for a in articles if a["source"]))
@@ -961,7 +961,7 @@ def generate_html(articles, build_time, social_posts=None):
         @keyframes scrollR{0%{transform:translateX(-50%)}100%{transform:translateX(0)}}
 
         /* TOOLBAR */
-        .tb{max-width:1200px;margin:0 auto;padding:.9rem 2rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:flex-start}
+        .tb{max-width:1200px;margin:0 auto;padding:.9rem 2rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:center}
         .sb{flex:1;min-width:170px;position:relative}
         .sb svg{position:absolute;left:.7rem;top:50%;transform:translateY(-50%);width:15px;height:15px;color:var(--text3);pointer-events:none}
         .si{width:100%;padding:.48rem .7rem .48rem 2rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.83rem;color:var(--text);outline:none}
@@ -984,8 +984,8 @@ def generate_html(articles, build_time, social_posts=None):
         .custom-dd-search{width:calc(100% - .6rem);margin:.2rem .3rem .3rem;padding:.35rem .5rem;border-radius:5px;border:1px solid var(--border);background:var(--bg);font-family:'DM Sans',sans-serif;font-size:.78rem;color:var(--text);outline:none}
         .custom-dd-search::placeholder{color:var(--text3)}
         .custom-dd-search:focus{border-color:var(--blue)}
-        .src-count-row{font-size:.68rem;color:var(--accent);text-decoration:none;display:block;text-align:center;margin-top:.15rem}
-        .tb .sb,.tb .sel,.tb .pills,.tb .bias-pills,.tb .count{margin-top:.25rem}
+        .src-count-row{font-size:.68rem;color:var(--accent);text-decoration:none;display:block;text-align:center;margin-top:.15rem;position:absolute;left:0;right:0}
+        .src-dd-wrap{position:relative;padding-bottom:1.1rem}
         .pills{display:flex;gap:.2rem}
         .pill{padding:.38rem .65rem;border-radius:100px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.74rem;font-weight:500;color:var(--text2);cursor:pointer;transition:all .2s}
         .pill:hover{background:var(--bg3)}
@@ -998,6 +998,12 @@ def generate_html(articles, build_time, social_posts=None):
         .bpill.on{color:#fff!important}
 
         .count{font-size:.7rem;color:var(--text3);white-space:nowrap}
+        .briefing-group{display:flex;gap:.3rem;align-items:flex-start;margin-left:auto}
+        .briefing-btn{display:flex;align-items:center;gap:.35rem;padding:.48rem .9rem;border-radius:7px;border:none;background:#1a3a5c;color:#fff;font-family:'DM Sans',sans-serif;font-size:.8rem;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .2s}
+        .briefing-btn:hover{background:#234d78}
+        .briefing-btn svg{width:14px;height:14px;flex-shrink:0}
+        .briefing-date{padding:.48rem .6rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.78rem;color:var(--text);cursor:pointer;outline:none}
+        .briefing-date:focus{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
 
         /* GRID */
         .main{max-width:1200px;margin:0 auto;padding:.5rem 2rem 4rem}
@@ -1092,6 +1098,8 @@ def generate_html(articles, build_time, social_posts=None):
             .pills,.bias-pills{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}
             .pill,.bpill{flex-shrink:0}
             .ft-grid{grid-template-columns:1fr;gap:1rem}
+            .briefing-group{width:100%;margin-left:0}
+            .briefing-btn{flex:1;justify-content:center}
         }
     </style>
 <!-- Google tag (gtag.js) -->
@@ -1135,7 +1143,7 @@ def generate_html(articles, build_time, social_posts=None):
         <input type="text" class="si" placeholder="Search headlines..." id="si">
     </div>
     <select class="sel" id="srcF" style="display:none"><option value="">All Sources</option></select>
-    <div style="display:flex;flex-direction:column;gap:.15rem">
+    <div class="src-dd-wrap">
         <div class="custom-dd" id="srcDD">
             <button type="button" class="custom-dd-btn" id="srcDDBtn">All Sources (''' + str(source_count) + ''')</button>
             <div class="custom-dd-list" id="srcDDList">
@@ -1144,7 +1152,7 @@ def generate_html(articles, build_time, social_posts=None):
                 <div class="custom-dd-item soc-opt" data-val="__vance_social__">&#9733; Vance's Social Media</div>
             </div>
         </div>
-        <a href="#" id="suggestBtn" class="src-count-row" style="color:var(--accent);text-decoration:none;font-size:.68rem">Missing a source?</a>
+        <a href="#" id="suggestBtn" class="src-count-row" style="color:var(--accent);text-decoration:none">Missing a source?</a>
     </div>
     <select class="sel" id="topicF"><option value="">All Topics</option></select>
     <div class="pills">
@@ -1161,6 +1169,13 @@ def generate_html(articles, build_time, social_posts=None):
         <button class="bpill" data-b="R" style="color:#d94a4a;border-color:#d94a4a">Right ''' + str(bias_count_R) + '''</button>
     </div>
     <span class="count" id="cnt"></span>
+    <div class="briefing-group">
+        <a href="/daily/''' + (today or '') + '''.html" class="briefing-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+            Read today's briefing
+        </a>
+        <input type="date" class="briefing-date" id="briefingDate" value="''' + (today or '') + '''" min="2026-03-27" max="''' + (today or '') + '''" title="Browse past briefings">
+    </div>
 </div>
 
 <main class="main">
@@ -1303,7 +1318,8 @@ function imgFail(img){
     srcDDSearch.addEventListener('click',(e)=>e.stopPropagation());
     function filterDDItems(q){srcDDList.querySelectorAll('.custom-dd-item').forEach(it=>{const txt=it.textContent.toLowerCase();it.style.display=(!q||txt.includes(q))?'':'none'})}
     // Select item
-    srcDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;srcF.value=val;srcDDBtn.textContent=val==='__vance_social__'?'Vance\\'s Social Media':val||('All Sources ('+srcs.length+')');srcDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeDD();filter()});
+    let selectedSrc='';
+    srcDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;selectedSrc=val;srcDDBtn.textContent=val==='__vance_social__'?'Vance\\'s Social Media':val||('All Sources ('+srcs.length+')');srcDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeDD();filter()});
 
     let dateRange='all';
     let activeBias=new Set(); // empty = show all
@@ -1311,7 +1327,7 @@ function imgFail(img){
 
     function filter(){
         const q=si.value.toLowerCase();
-        const src=srcF.value;
+        const src=selectedSrc;
         const topic=topicF.value;
         const now=new Date();
         let vis=0;
@@ -1402,6 +1418,12 @@ function imgFail(img){
         });
     }, { rootMargin: '200px' });
     document.querySelectorAll('.card-img-lazy').forEach(el => lazyObs.observe(el));
+
+    // Briefing date picker
+    document.getElementById('briefingDate').addEventListener('change',function(){
+        const d=this.value;
+        if(d)window.location.href='/daily/'+d+'.html';
+    });
 
     // Suggest source modal
     const sugModal=document.getElementById('suggestModal');
@@ -1565,7 +1587,15 @@ def main():
     print(f"Total images: {total_img}/{len(all_articles)}")
 
     build_time = datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")
-    html_content = generate_html(all_articles, build_time, social_posts=scraped_social)
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    # Find all existing daily briefing dates
+    daily_dir_check = os.path.join(OUTPUT_DIR, "daily")
+    available_dates = []
+    if os.path.exists(daily_dir_check):
+        for f in sorted(os.listdir(daily_dir_check), reverse=True):
+            if f.endswith(".html"):
+                available_dates.append(f.replace(".html", ""))
+    html_content = generate_html(all_articles, build_time, social_posts=scraped_social, today=today, daily_dates=available_dates)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(html_content)
