@@ -734,7 +734,7 @@ def fetch_social_posts():
                 if match:
                     data = json.loads(match.group(1))
                     entries = data.get('props', {}).get('pageProps', {}).get('timeline', {}).get('entries', [])
-                    for entry in entries[:5]:  # Latest 5 per account
+                    for entry in entries[:10]:  # Latest 10 per account
                         tweet = entry.get('content', {}).get('tweet', {})
                         text = tweet.get('text', '')
                         created = tweet.get('created_at', '')
@@ -743,10 +743,13 @@ def fetch_social_posts():
                         text_clean = re.sub(r'https?://t\.co/\S+', '', text).strip()
                         if not text_clean:
                             continue
-                        # Parse date
+                        # Parse date and skip posts older than 30 days
                         try:
                             dt = datetime.strptime(created, "%a %b %d %H:%M:%S %z %Y")
-                            date_display = dt.strftime("%b %d, %Y · %I:%M %p")
+                            age_days = (datetime.now(timezone.utc) - dt).days
+                            if age_days > 30:
+                                continue
+                            date_display = dt.strftime("%b %d, %Y - %I:%M %p")
                         except:
                             date_display = ""
                         all_posts.append({
