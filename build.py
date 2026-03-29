@@ -1861,12 +1861,8 @@ def main():
     print(f"  Found {len(direct_arts)} Vance-related articles from direct feeds")
     all_articles.extend(direct_arts)
 
-    # 3. Deduplicate
-    all_articles = deduplicate(all_articles)
-    print(f"\nTotal unique (before filter): {len(all_articles)}")
-
-    # 3b. Retroactive title cleaning: strip source suffixes from all articles
-    # Known non-content suffixes that appear after separators
+    # 3. Retroactive title cleaning: strip source suffixes from all articles
+    # Must run BEFORE dedup so identical titles get properly deduplicated
     _noise_suffixes = {"watch", "opinion", "world", "video", "photos", "exclusive", "breaking",
                        "analysis", "editorial", "column", "podcast", "live", "update", "updates"}
     title_cleaned = 0
@@ -1887,17 +1883,22 @@ def main():
                 if sep in t:
                     parts = t.rsplit(sep, 1)
                     suffix = parts[1].strip()
-                    # Only strip if it's a short single-entity name (likely source) or known noise
                     if suffix.lower() in _noise_suffixes or (len(suffix.split()) <= 3 and len(suffix) < 30):
                         t = parts[0].strip()
                     break
         if changed:
             title_cleaned += 1
-        a["title"] = html_module.escape(t)
+            a["title"] = html_module.escape(t)
+            # Rehash article ID so dedup works on the cleaned title
+            a["id"] = hashlib.md5(t.encode()).hexdigest()[:12]
     if title_cleaned:
         print(f"Cleaned source suffixes from {title_cleaned} article titles")
 
-    # 4. Label articles as US or International (no longer blocking)
+    # 4. Deduplicate (now runs on cleaned titles)
+    all_articles = deduplicate(all_articles)
+    print(f"\nTotal unique (before filter): {len(all_articles)}")
+
+    # 5. Label articles as US or International (no longer blocking)
     us_count = 0
     intl_count = 0
     for a in all_articles:
@@ -1908,7 +1909,7 @@ def main():
             intl_count += 1
     print(f"Region labeling: {us_count} US, {intl_count} International")
 
-    # 5. Scrape Vance's social media posts (X/Twitter via syndication API)
+    # 6. Scrape Vance's social media posts (X/Twitter via syndication API)
     print("\nScraping social media posts...")
     from datetime import timedelta
     now = datetime.now(timezone.utc)
@@ -1947,7 +1948,7 @@ def main():
         all_articles.append(sp_article)
     print(f"Added {len([s for s in scraped_social if s.get('text') and s.get('timestamp')])} social media posts to articles")
 
-    # 6. Merge with existing articles (incremental — keep old, add new)
+    # 7. Merge with existing articles (incremental — keep old, add new)
     existing_articles = []
     if os.path.exists(DATA_FILE):
         try:
@@ -1964,14 +1965,14 @@ def main():
     # Sort all articles by date
     all_articles.sort(key=lambda a: a.get("published", ""), reverse=True)
 
-    # 7. Stats
+    # 8. Stats
     from collections import Counter
     bc = Counter(a["bias"] for a in all_articles)
     sc = Counter(a["source"] for a in all_articles)
     print(f"\nBias breakdown: {dict(bc)}")
     print(f"Unique sources: {len(sc)}")
 
-    # 8. Enrich ONLY new articles (existing ones already have images)
+    # 9. Enrich ONLY new articles (existing ones already have images)
     if new_articles:
         print(f"\nEnriching {len(new_articles)} NEW articles...")
         with concurrent.futures.ThreadPoolExecutor(max_workers=15) as ex:
@@ -2000,7 +2001,7 @@ def main():
             merged.append(a)
     all_articles = sorted(merged, key=lambda a: a.get("published", ""), reverse=True)
     
-    # 9. Re-enrich batch: try to fix existing articles missing images (50 per build)
+    # 10. Re-enrich batch: try to fix existing articles missing images (50 per build)
     needs_fix = [a for a in all_articles if not a.get("image") and a.get("real_url") and not a.get("source","").startswith("Vance on ")]
     needs_url = [a for a in all_articles if not a.get("real_url") and "news.google.com" in a.get("link","")]
     fix_batch_size = 50
@@ -2033,7 +2034,7 @@ def main():
     total_img = sum(1 for a in all_articles if a.get("image"))
     print(f"Total images: {total_img}/{len(all_articles)}")
     
-    # 10. Fix source names retroactively on all cached articles
+    # 11. Fix source names retroactively on all cached articles
     fixed_names = 0
     for a in all_articles:
         old_name = a.get("source", "")
@@ -2062,7 +2063,7 @@ def main():
         json.dump(all_articles, f, indent=2)
     print(f"Saved: {DATA_FILE}")
 
-    # 10. Generate topic pages
+    # 12. Generate topic pages
     from collections import Counter
     topic_counts_all = Counter(a.get("topic","General") for a in all_articles)
     topics_dir = os.path.join(OUTPUT_DIR, "topics")
@@ -2150,7 +2151,7 @@ def main():
         topic_pages.append(slug)
     print(f"Generated {len(topic_pages)} topic pages: {', '.join(topic_pages)}")
 
-    # 11. Generate "The Vance Daily" briefing page
+    # 13. Generate "The Vance Daily" briefing page
     daily_dir = os.path.join(OUTPUT_DIR, "daily")
     os.makedirs(daily_dir, exist_ok=True)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -2342,7 +2343,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         f.write(daily_html)
     print(f"Generated: The Vance Daily /daily/{today}.html")
 
-    # 12. Generate Disclaimer & Terms page
+    # 14. Generate Disclaimer & Terms page
     disclaimer_html = '''<!DOCTYPE html>
 <html lang="en">
 <head>
