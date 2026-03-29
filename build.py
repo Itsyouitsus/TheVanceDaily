@@ -1516,7 +1516,7 @@ function imgFail(img){
     const si=document.getElementById('si');
     const srcF=document.getElementById('srcF');
     const topicF=document.getElementById('topicF');
-    const pills=document.querySelectorAll('.pill');
+    const pills=document.querySelectorAll('.pill[data-r]');
     const bpills=document.querySelectorAll('.bpill');
     const cnt=document.getElementById('cnt');
     const meta=''' + article_meta + ''';
