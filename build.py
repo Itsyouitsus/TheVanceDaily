@@ -135,30 +135,72 @@ INTL_BLOCK = {
 }
 
 def get_region(article):
-    """Classify article as 'US' or 'International'."""
+    """Classify article region: US, Europe, Asia, Middle East, etc."""
     domain = article.get("source_domain", "").lower()
     source = article.get("source", "").lower()
-    # Check domain against known international domains
+    
+    # Europe
+    eu_domains = ['.co.uk', '.uk', '.ie', '.fr', '.de', '.it', '.es', '.nl', '.be', '.at', '.ch', '.se', '.no', '.dk', '.fi', '.pt', '.pl', '.cz', '.hu', '.ro', '.bg', '.hr', '.gr']
+    eu_names = {"unherd", "politico.eu", "irish star", "breakingnews.ie", "irishstar",
+                "hungarian conservative", "premier christian news", "the times", "bbc",
+                "the guardian", "telegraph", "sky news uk", "daily mail"}
+    eu_site_domains = {"unherd.com", "politico.eu", "irishstar.com", "breakingnews.ie",
+                       "hungarianconservative.com", "thetimes.com", "thetimes.co.uk"}
+    
+    # Asia
+    asia_domains = ['.co.in', '.in', '.pk', '.jp', '.kr', '.cn', '.com.au', '.co.nz', '.ph', '.sg', '.my', '.id', '.th', '.vn', '.tw']
+    asia_names = {"times of india", "ndtv", "firstpost", "wion", "wionews",
+                  "singju post", "the singju post", "india times", "malaysia sun",
+                  "voi.id", "channels television", "channelstv"}
+    asia_site_domains = {"firstpost.com", "wionews.com", "channelstv.com", "voi.id",
+                         "ndtv.com", "timesofindia.com", "smh.com.au", "abc.net.au", "9news.com.au"}
+    
+    # Middle East
+    me_names = {"al arabiya", "alarabiya", "i24news", "middle east monitor", "al jazeera", "jns", "jta"}
+    me_site_domains = {"alarabiya.net", "i24news.tv", "middleeastmonitor.com", "aljazeera.com"}
+    me_domains = ['.il', '.ae', '.sa', '.qa', '.iq', '.ir']
+    
+    # Africa
+    africa_domains = ['.co.za', '.ng', '.ke', '.eg', '.gh']
+    
+    # Americas (non-US)
+    americas_domains = ['.ca', '.com.br', '.mx', '.ar', '.cl', '.co']
+    americas_names = {"la voce di new york"}
+    
+    # Check domains
+    for d in eu_site_domains:
+        if d in domain: return "Europe"
+    for d in asia_site_domains:
+        if d in domain: return "Asia"
+    for d in me_site_domains:
+        if d in domain: return "Middle East"
+    
+    # Check source names
+    for n in eu_names:
+        if n in source: return "Europe"
+    for n in asia_names:
+        if n in source: return "Asia"
+    for n in me_names:
+        if n in source: return "Middle East"
+    for n in americas_names:
+        if n in source: return "Americas"
+    
+    # Check TLDs
+    for tld in eu_domains:
+        if domain.endswith(tld): return "Europe"
+    for tld in asia_domains:
+        if domain.endswith(tld): return "Asia"
+    for tld in me_domains:
+        if domain.endswith(tld): return "Middle East"
+    for tld in africa_domains:
+        if domain.endswith(tld): return "Africa"
+    for tld in americas_domains:
+        if domain.endswith(tld): return "Americas"
+    
+    # Check INTL_BLOCK for anything else international
     for blocked in INTL_BLOCK:
-        if blocked in domain:
-            return "International"
-    # Check source name
-    INTL_NAMES = {"times of india", "singju post", "the singju post", "ndtv", "malaysia sun",
-                  "la voce di new york", "global banking & finance review", "global banking &amp; finance review",
-                  "premier christian news", "the times of india", "india times",
-                  "unherd", "hungarian conservative", "middle east monitor", "politico.eu",
-                  "i24news", "irish star", "channels television", "channelstv", "voi.id",
-                  "arka.am", "voxnews.al", "rferl", "rfe/rl",
-                  "firstpost", "wion", "wionews", "al arabiya", "alarabiya",
-                  "breakingnews.ie", "irishstar"}
-    for intl_name in INTL_NAMES:
-        if intl_name in source:
-            return "International"
-    # Check TLD
-    non_us_tlds = ['.co.uk', '.co.in', '.com.au', '.co.nz', '.co.za', '.ca', '.fr', '.de', '.it', '.es', '.ru', '.cn', '.jp', '.kr', '.in', '.pk', '.tr', '.il', '.ae']
-    for tld in non_us_tlds:
-        if domain.endswith(tld):
-            return "International"
+        if blocked in domain: return "International"
+    
     return "US"
 
 # ── Media bias database (based on AllSides 2025/2026 ratings) ──
@@ -864,7 +906,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     bias_count_R = bias_counts_map.get("R", 0)
     region_counts = Ctr(a.get("region", "US") for a in articles if not a.get("source", "").startswith("Vance on "))
     region_us = region_counts.get("US", 0)
-    region_intl = region_counts.get("International", 0)
+    region_counts_json = json.dumps(dict(region_counts))
 
     # Carousel
     seen_d = set()
@@ -1085,8 +1127,6 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         /* BIAS FILTER */
         .bias-pills{display:flex;gap:.2rem}
         .bpill{padding:.38rem .55rem;border-radius:100px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.7rem;font-weight:500;cursor:pointer;transition:all .2s}
-        .rpill{border-color:#7a8a9e;color:#7a8a9e}
-        .rpill.on{background:#7a8a9e!important;color:#fff!important;border-color:#7a8a9e!important}
         .bpill:hover{opacity:.85}
         .bpill.on{color:#fff!important}
 
@@ -1209,12 +1249,12 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             .briefing-find-btn{grid-column:2;width:100%;justify-content:center;font-size:.75rem;padding:.4rem .5rem;order:2}
             .custom-dd{max-width:none;width:100%}
             #srcDD{grid-column:1;order:3}
-            #topicDD{grid-column:2;order:4}
+            #regionDD{grid-column:2;order:4}
+            #topicDD{grid-column:1;order:5}
             .custom-dd-btn{width:100%;font-size:.75rem;padding:.4rem .5rem .4rem .5rem}
             .sel{display:none!important}
-            .pills{grid-column:1/3;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center;order:5}
+            .pills{grid-column:1/3;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center;order:6}
             .pill{flex-shrink:0;font-size:.68rem;padding:.3rem .45rem}
-            .region-pills{grid-column:1/3;order:6;justify-content:center}
             .bias-pills{grid-column:1/3;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center;order:7}
             .bpill{flex-shrink:0;font-size:.62rem;padding:.28rem .38rem}
             .count{display:none}
@@ -1288,6 +1328,12 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             <div class="custom-dd-item soc-opt" data-val="__vance_social__">&#9733; Vance's Social Media</div>
         </div>
     </div>
+    <div class="custom-dd" id="regionDD">
+        <button type="button" class="custom-dd-btn" id="regionDDBtn">All Areas</button>
+        <div class="custom-dd-list" id="regionDDList">
+            <div class="custom-dd-item active" data-val="">All Areas</div>
+        </div>
+    </div>
     <select class="sel" id="topicF" style="display:none"><option value="">All Topics</option></select>
     <div class="custom-dd" id="topicDD">
         <button type="button" class="custom-dd-btn" id="topicDDBtn">All Topics (''' + str(topic_count) + ''')</button>
@@ -1295,22 +1341,17 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             <div class="custom-dd-item active" data-val="">All Topics (''' + str(topic_count) + ''')</div>
         </div>
     </div>
-    <button type="button" class="briefing-find-btn" id="briefingFindBtn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
-        Find a daily briefing
-        <input type="date" id="briefingDate" style="position:absolute;top:0;left:0;width:1px;height:1px;opacity:0.01;border:none;padding:0;pointer-events:none" value="''' + (today or '') + '''" min="2026-03-27" max="''' + (today or '') + '''">
-    </button>
     <div class="pills">
         <button class="pill" data-r="all">All</button>
         <button class="pill on" data-r="today">Today</button>
         <button class="pill" data-r="week">Week</button>
         <button class="pill" data-r="month">Month</button>
     </div>
-    <div class="pills region-pills">
-        <button class="pill rpill on" data-reg="all">All</button>
-        <button class="pill rpill" data-reg="US">US ''' + str(region_us) + '''</button>
-        <button class="pill rpill" data-reg="International">Int'l ''' + str(region_intl) + '''</button>
-    </div>
+    <button type="button" class="briefing-find-btn" id="briefingFindBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        Find a daily briefing
+        <input type="date" id="briefingDate" style="position:absolute;top:0;left:0;width:1px;height:1px;opacity:0.01;border:none;padding:0;pointer-events:none" value="''' + (today or '') + '''" min="2026-03-27" max="''' + (today or '') + '''">
+    </button>
     <div class="bias-pills">
         <button class="bpill" data-b="L" style="color:#4a90d9;border-color:#4a90d9">Left ''' + str(bias_count_L) + '''</button>
         <button class="bpill" data-b="LL" style="color:#7bb3e0;border-color:#7bb3e0">Leans L ''' + str(bias_count_LL) + '''</button>
@@ -1524,6 +1565,7 @@ function imgFail(img){
     const topics=''' + topics_json + ''';
     const srcCounts=''' + source_counts_json + ''';
     const topicCounts=''' + topic_counts_json + ''';
+    const regionCounts=''' + region_counts_json + ''';
 
     srcs.forEach(s=>{if(s.startsWith('Vance on '))return;const o=document.createElement('option');o.value=s;o.textContent=s+(srcCounts[s]?' ('+srcCounts[s]+')':'');srcF.appendChild(o)});
     topics.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t+(topicCounts[t]?' ('+topicCounts[t]+')':'');topicF.appendChild(o)});
@@ -1551,7 +1593,7 @@ function imgFail(img){
     topicDDBtn.addEventListener('click',(e)=>{e.stopPropagation();const isOpen=topicDDList.classList.contains('open');closeAllDD();if(!isOpen){topicDDList.classList.add('open');topicDDBtn.classList.add('open')}});
     let selectedTopic='';
     topicDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;selectedTopic=val;topicDDBtn.textContent=val||('All Topics ('+topics.length+')');topicDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeAllDD();filter()});
-    function closeAllDD(){srcDDList.classList.remove('open');srcDDBtn.classList.remove('open');topicDDList.classList.remove('open');topicDDBtn.classList.remove('open')}
+    function closeAllDD(){srcDDList.classList.remove('open');srcDDBtn.classList.remove('open');topicDDList.classList.remove('open');topicDDBtn.classList.remove('open');regionDDList.classList.remove('open');regionDDBtn.classList.remove('open')}
     document.addEventListener('click',(e)=>{if(!e.target.closest('.custom-dd'))closeAllDD()});
 
     let dateRange='today';
@@ -1619,14 +1661,15 @@ function imgFail(img){
         filter();
     }));
 
-    // Region filter: single-select (All / US / International)
-    const rpills=document.querySelectorAll('.rpill');
-    rpills.forEach(p=>p.addEventListener('click',()=>{
-        rpills.forEach(x=>x.classList.remove('on'));
-        p.classList.add('on');
-        activeRegion=p.dataset.reg;
-        filter();
-    }));
+    // Region dropdown
+    const regionDDBtn=document.getElementById('regionDDBtn');
+    const regionDDList=document.getElementById('regionDDList');
+    // Populate region dropdown items
+    const regionOrder=['US','Europe','Asia','Middle East','Americas','Africa','International'];
+    regionOrder.forEach(r=>{if(regionCounts[r]){const d=document.createElement('div');d.className='custom-dd-item';d.dataset.val=r;d.textContent=r+' ('+regionCounts[r]+')';regionDDList.appendChild(d)}});
+    regionDDBtn.addEventListener('click',(e)=>{e.stopPropagation();const isOpen=regionDDList.classList.contains('open');closeAllDD();if(!isOpen){regionDDList.classList.add('open');regionDDBtn.classList.add('open')}});
+    let selectedRegion='';
+    regionDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;selectedRegion=val;activeRegion=val||'all';regionDDBtn.textContent=val||'All Areas';regionDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeAllDD();filter()});
 
     // Newsletter modal
     const modal=document.getElementById('modal');
