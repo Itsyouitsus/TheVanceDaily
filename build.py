@@ -1004,7 +1004,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta property="og:title" content="The Vance Daily - Every JD Vance Article, Every Day">
     <meta property="og:description" content="''' + total + ''' articles from ''' + str(source_count) + ''' sources. Filter by political bias, topic, channel, or date. Updated hourly.">
-    <meta property="og:image" content="https://onlyvance28.com/og-image-v2.png">
+    <meta property="og:image" content="https://onlyvance28.com/og-image-v3.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
@@ -1013,7 +1013,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Vance Daily - Every JD Vance Article, Every Day">
     <meta name="twitter:description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles updated hourly.">
-    <meta name="twitter:image" content="https://onlyvance28.com/og-image-v2.png">
+    <meta name="twitter:image" content="https://onlyvance28.com/og-image-v3.png">
     <link rel="canonical" href="https://onlyvance28.com">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <script type="application/ld+json">
@@ -1293,7 +1293,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             <div class="hdr-left">
                 <div class="logo-row">
                     <div class="logo-flag"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#fff"/><g fill="#B22234"><rect y="0" width="60" height="3.08"/><rect y="6.15" width="60" height="3.08"/><rect y="12.31" width="60" height="3.08"/><rect y="18.46" width="60" height="3.08"/><rect y="24.62" width="60" height="3.08"/><rect y="30.77" width="60" height="3.08"/><rect y="36.92" width="60" height="3.08"/></g><rect width="24" height="21.54" fill="#3C3B6E"/><g fill="#fff" font-size="2.8" font-family="sans-serif" text-anchor="middle"><text x="2.4" y="3.5">&#9733;</text><text x="7.2" y="3.5">&#9733;</text><text x="12" y="3.5">&#9733;</text><text x="16.8" y="3.5">&#9733;</text><text x="21.6" y="3.5">&#9733;</text><text x="4.8" y="7">&#9733;</text><text x="9.6" y="7">&#9733;</text><text x="14.4" y="7">&#9733;</text><text x="19.2" y="7">&#9733;</text><text x="2.4" y="10.5">&#9733;</text><text x="7.2" y="10.5">&#9733;</text><text x="12" y="10.5">&#9733;</text><text x="16.8" y="10.5">&#9733;</text><text x="21.6" y="10.5">&#9733;</text><text x="4.8" y="14">&#9733;</text><text x="9.6" y="14">&#9733;</text><text x="14.4" y="14">&#9733;</text><text x="19.2" y="14">&#9733;</text><text x="2.4" y="17.5">&#9733;</text><text x="7.2" y="17.5">&#9733;</text><text x="12" y="17.5">&#9733;</text><text x="16.8" y="17.5">&#9733;</text><text x="21.6" y="17.5">&#9733;</text><text x="4.8" y="21">&#9733;</text><text x="9.6" y="21">&#9733;</text><text x="14.4" y="21">&#9733;</text><text x="19.2" y="21">&#9733;</text></g></svg></div>
-                    <h1 class="logo">The Vance <span class="a">Daily</span></h1>
+                    <h1 class="logo">The <span class="a">Vance</span> Daily</h1>
                 </div>
                 <p class="tagline">Every JD Vance article. Every channel. Every topic. Every hour.</p>
             </div>
@@ -2447,7 +2447,7 @@ Sitemap: https://onlyvance28.com/sitemap.xml
             # Build branded email HTML
             email_header = '''<div style="text-align:center;padding:20px 0 15px;border-bottom:2px solid #b8322a;margin-bottom:20px">
 <a href="https://onlyvance28.com" style="text-decoration:none">
-<span style="font-family:Georgia,serif;font-size:28px;font-weight:900;color:#1a1714">The Vance <span style="color:#b8322a">Daily</span></span>
+<span style="font-family:Georgia,serif;font-size:28px;font-weight:900;color:#1a1714">The <span style="color:#b8322a">Vance</span> Daily</span>
 </a>
 <p style="font-size:11px;color:#9e9790;margin:4px 0 0;letter-spacing:0.04em;text-transform:uppercase">The Vance Daily - ''' + today_display + '''</p>
 </div>'''
