@@ -134,15 +134,15 @@ INTL_BLOCK = {
     "rferl.org", "thetimes.com",
 }
 
-def is_us_source(article):
-    """Filter to keep only US-based sources."""
+def get_region(article):
+    """Classify article as 'US' or 'International'."""
     domain = article.get("source_domain", "").lower()
     source = article.get("source", "").lower()
-    # Block by domain
+    # Check domain against known international domains
     for blocked in INTL_BLOCK:
         if blocked in domain:
-            return False
-    # Block by source name
+            return "International"
+    # Check source name
     INTL_NAMES = {"times of india", "singju post", "the singju post", "ndtv", "malaysia sun",
                   "la voce di new york", "global banking & finance review", "global banking &amp; finance review",
                   "premier christian news", "the times of india", "india times",
@@ -151,15 +151,15 @@ def is_us_source(article):
                   "arka.am", "voxnews.al", "rferl", "rfe/rl",
                   "firstpost", "wion", "wionews", "al arabiya", "alarabiya",
                   "breakingnews.ie", "irishstar"}
-    for blocked_name in INTL_NAMES:
-        if blocked_name in source:
-            return False
-    # Block by TLD (non-US country TLDs)
+    for intl_name in INTL_NAMES:
+        if intl_name in source:
+            return "International"
+    # Check TLD
     non_us_tlds = ['.co.uk', '.co.in', '.com.au', '.co.nz', '.co.za', '.ca', '.fr', '.de', '.it', '.es', '.ru', '.cn', '.jp', '.kr', '.in', '.pk', '.tr', '.il', '.ae']
     for tld in non_us_tlds:
         if domain.endswith(tld):
-            return False
-    return True
+            return "International"
+    return "US"
 
 # ── Media bias database (based on AllSides 2025/2026 ratings) ──
 # L=Left, LL=Lean Left, C=Center, LR=Lean Right, R=Right
@@ -847,6 +847,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         "source": a["source"],
         "bias": a["bias"],
         "topic": a["topic"],
+        "region": a.get("region", "US"),
     } for a in articles])
 
     # Counts for dropdowns and buttons
@@ -861,6 +862,9 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     bias_count_C = bias_counts_map.get("C", 0)
     bias_count_LR = bias_counts_map.get("LR", 0)
     bias_count_R = bias_counts_map.get("R", 0)
+    region_counts = Ctr(a.get("region", "US") for a in articles if not a.get("source", "").startswith("Vance on "))
+    region_us = region_counts.get("US", 0)
+    region_intl = region_counts.get("International", 0)
 
     # Carousel
     seen_d = set()
@@ -1081,6 +1085,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         /* BIAS FILTER */
         .bias-pills{display:flex;gap:.2rem}
         .bpill{padding:.38rem .55rem;border-radius:100px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.7rem;font-weight:500;cursor:pointer;transition:all .2s}
+        .rpill{border-color:#7a8a9e;color:#7a8a9e}
+        .rpill.on{background:#7a8a9e!important;color:#fff!important;border-color:#7a8a9e!important}
         .bpill:hover{opacity:.85}
         .bpill.on{color:#fff!important}
 
@@ -1208,7 +1214,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             .sel{display:none!important}
             .pills{grid-column:1/3;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center;order:5}
             .pill{flex-shrink:0;font-size:.68rem;padding:.3rem .45rem}
-            .bias-pills{grid-column:1/3;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center;order:6}
+            .region-pills{grid-column:1/3;order:6;justify-content:center}
+            .bias-pills{grid-column:1/3;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center;order:7}
             .bpill{flex-shrink:0;font-size:.62rem;padding:.28rem .38rem}
             .count{display:none}
             
@@ -1298,6 +1305,11 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         <button class="pill on" data-r="today">Today</button>
         <button class="pill" data-r="week">Week</button>
         <button class="pill" data-r="month">Month</button>
+    </div>
+    <div class="pills region-pills">
+        <button class="pill rpill on" data-reg="all">All</button>
+        <button class="pill rpill" data-reg="US">US ''' + str(region_us) + '''</button>
+        <button class="pill rpill" data-reg="International">Int'l ''' + str(region_intl) + '''</button>
     </div>
     <div class="bias-pills">
         <button class="bpill" data-b="L" style="color:#4a90d9;border-color:#4a90d9">Left ''' + str(bias_count_L) + '''</button>
@@ -1544,6 +1556,7 @@ function imgFail(img){
 
     let dateRange='today';
     let activeBias=new Set(); // empty = show all
+    let activeRegion='all'; // 'all', 'US', 'International'
     let showLimit=60; // Initial cards to show
 
     function filter(){
@@ -1562,6 +1575,7 @@ function imgFail(img){
             else if(src&&m.source!==src)ok=false;
             if(topic&&m.topic!==topic)ok=false;
             if(activeBias.size>0&&!activeBias.has(m.bias))ok=false;
+            if(activeRegion!=='all'&&m.region!==activeRegion)ok=false;
             if(dateRange!=='all'&&m.published){
                 const d=(now-new Date(m.published))/864e5;
                 if(dateRange==='today'&&d>1)ok=false;
@@ -1602,6 +1616,15 @@ function imgFail(img){
             p.classList.add('on');
             p.style.background=p.style.borderColor;
         }
+        filter();
+    }));
+
+    // Region filter: single-select (All / US / International)
+    const rpills=document.querySelectorAll('.rpill');
+    rpills.forEach(p=>p.addEventListener('click',()=>{
+        rpills.forEach(x=>x.classList.remove('on'));
+        p.classList.add('on');
+        activeRegion=p.dataset.reg;
         filter();
     }));
 
@@ -1792,10 +1815,16 @@ def main():
     all_articles = deduplicate(all_articles)
     print(f"\nTotal unique (before filter): {len(all_articles)}")
 
-    # 4. US-only filter
-    before = len(all_articles)
-    all_articles = [a for a in all_articles if is_us_source(a)]
-    print(f"US-only filter: {before} -> {len(all_articles)} (dropped {before - len(all_articles)} international)")
+    # 4. Label articles as US or International (no longer blocking)
+    us_count = 0
+    intl_count = 0
+    for a in all_articles:
+        a["region"] = get_region(a)
+        if a["region"] == "US":
+            us_count += 1
+        else:
+            intl_count += 1
+    print(f"Region labeling: {us_count} US, {intl_count} International")
 
     # 5. Scrape Vance's social media posts (X/Twitter via syndication API)
     print("\nScraping social media posts...")
