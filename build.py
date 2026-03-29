@@ -611,10 +611,17 @@ def process_entry(entry, query):
         if hasattr(entry, 'source'):
             source_name = entry.source.get('title', '')
             source_url = entry.source.get('href', '')
-        if not source_name and " - " in title:
-            parts = title.rsplit(" - ", 1)
-            title = parts[0].strip()
-            source_name = parts[1].strip()
+        # Always strip source suffix from title (handles " - Source", " – Source", " | Source")
+        for sep in [" - ", " – ", " — ", " | "]:
+            if sep in title:
+                parts = title.rsplit(sep, 1)
+                suffix = parts[1].strip()
+                # Only strip if suffix looks like a source name (< 50 chars, not too many words)
+                if len(suffix) < 50 and len(suffix.split()) <= 6:
+                    if not source_name:
+                        source_name = suffix
+                    title = parts[0].strip()
+                    break
 
         article_id = hashlib.md5(title.encode()).hexdigest()[:12]
         source_name = clean_source_name(source_name)
@@ -1857,6 +1864,38 @@ def main():
     # 3. Deduplicate
     all_articles = deduplicate(all_articles)
     print(f"\nTotal unique (before filter): {len(all_articles)}")
+
+    # 3b. Retroactive title cleaning: strip source suffixes from all articles
+    # Known non-content suffixes that appear after separators
+    _noise_suffixes = {"watch", "opinion", "world", "video", "photos", "exclusive", "breaking",
+                       "analysis", "editorial", "column", "podcast", "live", "update", "updates"}
+    title_cleaned = 0
+    for a in all_articles:
+        t = html_module.unescape(a.get("title", ""))
+        changed = False
+        for sep in [" - ", " – ", " — ", " | "]:
+            if sep in t:
+                parts = t.rsplit(sep, 1)
+                suffix = parts[1].strip()
+                if len(suffix) < 50 and len(suffix.split()) <= 6:
+                    t = parts[0].strip()
+                    changed = True
+                    break
+        # Second pass: only strip if suffix looks like a source/noise, not real content
+        if changed:
+            for sep in [" - ", " – ", " — ", " | "]:
+                if sep in t:
+                    parts = t.rsplit(sep, 1)
+                    suffix = parts[1].strip()
+                    # Only strip if it's a short single-entity name (likely source) or known noise
+                    if suffix.lower() in _noise_suffixes or (len(suffix.split()) <= 3 and len(suffix) < 30):
+                        t = parts[0].strip()
+                    break
+        if changed:
+            title_cleaned += 1
+        a["title"] = html_module.escape(t)
+    if title_cleaned:
+        print(f"Cleaned source suffixes from {title_cleaned} article titles")
 
     # 4. Label articles as US or International (no longer blocking)
     us_count = 0
