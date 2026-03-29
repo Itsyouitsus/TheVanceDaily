@@ -142,7 +142,7 @@ def get_region(article):
     # Europe
     eu_domains = ['.co.uk', '.uk', '.ie', '.fr', '.de', '.it', '.es', '.nl', '.be', '.at', '.ch', '.se', '.no', '.dk', '.fi', '.pt', '.pl', '.cz', '.hu', '.ro', '.bg', '.hr', '.gr']
     eu_names = {"unherd", "politico.eu", "irish star", "breakingnews.ie", "irishstar",
-                "hungarian conservative", "premier christian news", "the times", "bbc",
+                "hungarian conservative", "premier christian news", "the times uk", "bbc",
                 "the guardian", "telegraph", "sky news uk", "daily mail"}
     eu_site_domains = {"unherd.com", "politico.eu", "irishstar.com", "breakingnews.ie",
                        "hungarianconservative.com", "thetimes.com", "thetimes.co.uk"}
@@ -151,13 +151,16 @@ def get_region(article):
     asia_domains = ['.co.in', '.in', '.pk', '.jp', '.kr', '.cn', '.com.au', '.co.nz', '.ph', '.sg', '.my', '.id', '.th', '.vn', '.tw']
     asia_names = {"times of india", "ndtv", "firstpost", "wion", "wionews",
                   "singju post", "the singju post", "india times", "malaysia sun",
-                  "voi.id", "channels television", "channelstv"}
+                  "voi.id", "channels television", "channelstv", "india tv news"}
     asia_site_domains = {"firstpost.com", "wionews.com", "channelstv.com", "voi.id",
-                         "ndtv.com", "timesofindia.com", "smh.com.au", "abc.net.au", "9news.com.au"}
+                         "ndtv.com", "timesofindia.com", "indiatimes.com", "smh.com.au", "abc.net.au", "9news.com.au",
+                         "indiatvnews.com", "india.com"}
     
     # Middle East
-    me_names = {"al arabiya", "alarabiya", "i24news", "middle east monitor", "al jazeera", "jns", "jta"}
-    me_site_domains = {"alarabiya.net", "i24news.tv", "middleeastmonitor.com", "aljazeera.com"}
+    me_names = {"al arabiya", "alarabiya", "i24news", "middle east monitor", "al jazeera", "jns", "jta",
+                "times of israel"}
+    me_site_domains = {"alarabiya.net", "i24news.tv", "middleeastmonitor.com", "aljazeera.com",
+                       "timesofisrael.com"}
     me_domains = ['.il', '.ae', '.sa', '.qa', '.iq', '.ir']
     
     # Africa
