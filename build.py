@@ -2001,10 +2001,10 @@ def main():
             merged.append(a)
     all_articles = sorted(merged, key=lambda a: a.get("published", ""), reverse=True)
     
-    # 10. Re-enrich batch: try to fix existing articles missing images (50 per build)
+    # 10. Re-enrich batch: try to fix existing articles missing images (150 per build)
     needs_fix = [a for a in all_articles if not a.get("image") and a.get("real_url") and not a.get("source","").startswith("Vance on ")]
     needs_url = [a for a in all_articles if not a.get("real_url") and "news.google.com" in a.get("link","")]
-    fix_batch_size = 50
+    fix_batch_size = 150
     if needs_url:
         url_batch = needs_url[:fix_batch_size]
         print(f"\nRe-resolving {len(url_batch)} unresolved Google News URLs...")
