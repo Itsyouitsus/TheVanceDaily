@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-OnlyVance28.com - v4
+The Vance Daily (onlyvance28.com) - v4
 Dark editorial design, social links, political bias indicators, source carousel.
 """
 
@@ -996,22 +996,22 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <script>if(location.protocol==='http:'&&location.hostname!=='localhost')location.replace('https://'+location.host+location.pathname+location.search)</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OnlyVance28 - Every JD Vance Article, Every Day | News Aggregator</title>
+    <title>The Vance Daily - Every JD Vance Article, Every Day | News Aggregator</title>
     <meta name="description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles from ''' + str(source_count) + ''' sources, updated hourly. Filter by political bias, topic, channel, or date. Left to Right coverage compared.">
     <meta name="keywords" content="JD Vance, Vance news, Vance 2028, VP Vance, Republican news, political news aggregator, media bias, Vance Iran, Vance immigration, Vance policy">
     <meta name="robots" content="index, follow">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <meta property="og:title" content="OnlyVance28 - Every JD Vance Article, Every Day">
+    <meta property="og:title" content="The Vance Daily - Every JD Vance Article, Every Day">
     <meta property="og:description" content="''' + total + ''' articles from ''' + str(source_count) + ''' sources. Filter by political bias, topic, channel, or date. Updated hourly.">
     <meta property="og:image" content="https://onlyvance28.com/og-image-v2.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://onlyvance28.com">
-    <meta property="og:site_name" content="OnlyVance28">
+    <meta property="og:site_name" content="The Vance Daily">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="OnlyVance28 - Every JD Vance Article, Every Day">
+    <meta name="twitter:title" content="The Vance Daily - Every JD Vance Article, Every Day">
     <meta name="twitter:description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles updated hourly.">
     <meta name="twitter:image" content="https://onlyvance28.com/og-image-v2.png">
     <link rel="canonical" href="https://onlyvance28.com">
@@ -1020,12 +1020,12 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "OnlyVance28",
+        "name": "The Vance Daily",
         "url": "https://onlyvance28.com",
         "description": "Automated JD Vance news aggregator with political bias ratings",
         "publisher": {
             "@type": "Organization",
-            "name": "OnlyVance28",
+            "name": "The Vance Daily",
             "email": "contact@onlyvance28.com"
         }
     }
@@ -1293,7 +1293,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             <div class="hdr-left">
                 <div class="logo-row">
                     <div class="logo-flag"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#fff"/><g fill="#B22234"><rect y="0" width="60" height="3.08"/><rect y="6.15" width="60" height="3.08"/><rect y="12.31" width="60" height="3.08"/><rect y="18.46" width="60" height="3.08"/><rect y="24.62" width="60" height="3.08"/><rect y="30.77" width="60" height="3.08"/><rect y="36.92" width="60" height="3.08"/></g><rect width="24" height="21.54" fill="#3C3B6E"/><g fill="#fff" font-size="2.8" font-family="sans-serif" text-anchor="middle"><text x="2.4" y="3.5">&#9733;</text><text x="7.2" y="3.5">&#9733;</text><text x="12" y="3.5">&#9733;</text><text x="16.8" y="3.5">&#9733;</text><text x="21.6" y="3.5">&#9733;</text><text x="4.8" y="7">&#9733;</text><text x="9.6" y="7">&#9733;</text><text x="14.4" y="7">&#9733;</text><text x="19.2" y="7">&#9733;</text><text x="2.4" y="10.5">&#9733;</text><text x="7.2" y="10.5">&#9733;</text><text x="12" y="10.5">&#9733;</text><text x="16.8" y="10.5">&#9733;</text><text x="21.6" y="10.5">&#9733;</text><text x="4.8" y="14">&#9733;</text><text x="9.6" y="14">&#9733;</text><text x="14.4" y="14">&#9733;</text><text x="19.2" y="14">&#9733;</text><text x="2.4" y="17.5">&#9733;</text><text x="7.2" y="17.5">&#9733;</text><text x="12" y="17.5">&#9733;</text><text x="16.8" y="17.5">&#9733;</text><text x="21.6" y="17.5">&#9733;</text><text x="4.8" y="21">&#9733;</text><text x="9.6" y="21">&#9733;</text><text x="14.4" y="21">&#9733;</text><text x="19.2" y="21">&#9733;</text></g></svg></div>
-                    <h1 class="logo">Only<span class="a">Vance</span>28</h1>
+                    <h1 class="logo">The Vance <span class="a">Daily</span></h1>
                 </div>
                 <p class="tagline">Every JD Vance article. Every channel. Every topic. Every hour.</p>
             </div>
@@ -1380,7 +1380,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <div class="ft-inner">
         <div class="ft-grid">
             <div class="ft-col">
-                <h4>OnlyVance28</h4>
+                <h4>The Vance Daily</h4>
                 <p>The most comprehensive JD Vance news aggregator.<br>Every article from every source, automatically collected daily with political bias ratings.</p>
             </div>
             <div class="ft-col">
@@ -1404,7 +1404,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             </div>
         </div>
         <div class="ft-bottom">
-            <p>OnlyVance28.com - Automated news aggregation. Headlines link to original sources. Not affiliated with any political campaign, party, government or media entity. Just a guy who loves building stuff.</p>
+            <p>The Vance Daily - Automated news aggregation. Headlines link to original sources. Not affiliated with any political campaign, party, government or media entity. Just a guy who loves building stuff.</p>
             <p style="margin-top:.4rem"><a href="/disclaimer.html">Disclaimer &amp; Terms</a> &middot; <a href="mailto:contact@onlyvance28.com">Contact</a></p>
         </div>
     </div>
@@ -1463,7 +1463,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
                 <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" style="width:28px;height:28px"><path d="M20 6L9 17l-5-5"/></svg>
             </div>
             <h2 style="margin-top:.5rem">Source Submitted!</h2>
-            <p style="font-size:.85rem;color:#6b6560;margin-top:.4rem">We'll review it and add it to OnlyVance28 within 24 hours.</p>
+            <p style="font-size:.85rem;color:#6b6560;margin-top:.4rem">We'll review it and add it to The Vance Daily within 24 hours.</p>
         </div>
     </div>
 </div>
@@ -1843,7 +1843,7 @@ function imgFail(img){
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    print("=== OnlyVance28 Build v5 ===")
+    print("=== The Vance Daily Build v5 ===")
     print(f"Time: {datetime.now(timezone.utc).isoformat()}")
 
     all_articles = []
@@ -2099,7 +2099,7 @@ def main():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JD Vance &amp; {topic_name} - Latest News | OnlyVance28</title>
+    <title>JD Vance &amp; {topic_name} - Latest News | The Vance Daily</title>
     <meta name="description" content="{count} articles about JD Vance and {topic_name} from {len(sources_in_topic)} sources. See how Left, Center, and Right media cover Vance on {topic_name}.">
     <link rel="canonical" href="https://onlyvance28.com/topics/{slug}.html">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
@@ -2123,7 +2123,7 @@ def main():
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-6FJK6HBH8C");</script>
 </head>
 <body>
-    <a href="/" class="back">&larr; Back to OnlyVance28</a>
+    <a href="/" class="back">&larr; Back to The Vance Daily</a>
     <h1>Vance &amp; <span>{topic_name}</span></h1>
     <p class="meta">
         <strong>{count}</strong> articles from <strong>{len(sources_in_topic)}</strong> sources.
@@ -2140,7 +2140,7 @@ def main():
     </div>
     <div class="articles">{article_list}</div>
     <div class="ft">
-        <p><a href="/">OnlyVance28.com</a> — Automated news aggregation. <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a></p>
+        <p><a href="/">The Vance Daily</a> — Automated news aggregation. <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a></p>
     </div>
 </body>
 </html>'''
@@ -2247,7 +2247,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Vance Daily - {today_display} | OnlyVance28</title>
+    <title>The Vance Daily - {today_display} | The Vance Daily</title>
     <meta name="description" content="Your daily JD Vance briefing for {today_display}. Top stories, media bias analysis, and what Left and Right are saying about the Vice President.">
     <link rel="canonical" href="https://onlyvance28.com/daily/{today}.html">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
@@ -2332,7 +2332,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     </div>
 
     <div class="ft">
-        <p><a href="/">OnlyVance28.com</a> &middot; <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a></p>
+        <p><a href="/">The Vance Daily</a> &middot; <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a></p>
         <p style="margin-top:.3rem">Not affiliated with any political campaign, party, government or media entity. Just a guy who loves building stuff.</p>
     </div>
 </body>
@@ -2348,8 +2348,8 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disclaimer &amp; Terms | OnlyVance28</title>
-    <meta name="description" content="Legal disclaimer and terms of use for OnlyVance28.com news aggregator.">
+    <title>Disclaimer &amp; Terms | The Vance Daily</title>
+    <meta name="description" content="Legal disclaimer and terms of use for The Vance Daily news aggregator.">
     <link rel="canonical" href="https://onlyvance28.com/disclaimer.html">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
     <style>
@@ -2368,14 +2368,14 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-6FJK6HBH8C");</script>
 </head>
 <body>
-    <a href="/" class="back">&larr; Back to OnlyVance28</a>
+    <a href="/" class="back">&larr; Back to The Vance Daily</a>
     <h1>Disclaimer &amp; Terms of Use</h1>
 
     <h2>What This Site Is</h2>
-    <p>OnlyVance28.com is an automated news aggregation service. We collect headlines and links to articles about JD Vance from publicly available news sources and RSS feeds. We do not host, reproduce, or republish article content. All headlines link directly to the original publisher's website.</p>
+    <p>The Vance Daily (onlyvance28.com) is an automated news aggregation service. We collect headlines and links to articles about JD Vance from publicly available news sources and RSS feeds. We do not host, reproduce, or republish article content. All headlines link directly to the original publisher's website.</p>
 
     <h2>No Affiliation</h2>
-    <p>OnlyVance28.com is not affiliated with, endorsed by, or connected to JD Vance, any political campaign, political party, government office, or any of the news organizations whose content we link to. This is an independent project.</p>
+    <p>The Vance Daily is not affiliated with, endorsed by, or connected to JD Vance, any political campaign, political party, government office, or any of the news organizations whose content we link to. This is an independent project.</p>
 
     <h2>Political Bias Ratings</h2>
     <p>The political bias labels displayed on this site (Left, Leans Left, Center, Leans Right, Right) are based on ratings published by <a href="https://www.allsides.com/media-bias" target="_blank">AllSides.com</a>, a third-party media bias rating organization. We report their classifications and do not make independent bias determinations. If you believe a rating is incorrect, please contact AllSides directly or <a href="mailto:contact@onlyvance28.com">let us know</a> and we will review it.</p>
@@ -2401,7 +2401,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     <p style="font-size:.78rem;color:#9e9790;margin-top:1.5rem">Last updated: March 27, 2026</p>
 
     <div class="ft">
-        <p><a href="/" style="color:#6b6560;text-decoration:none">OnlyVance28.com</a></p>
+        <p><a href="/" style="color:#6b6560;text-decoration:none">The Vance Daily</a></p>
     </div>
 </body>
 </html>'''
@@ -2447,7 +2447,7 @@ Sitemap: https://onlyvance28.com/sitemap.xml
             # Build branded email HTML
             email_header = '''<div style="text-align:center;padding:20px 0 15px;border-bottom:2px solid #b8322a;margin-bottom:20px">
 <a href="https://onlyvance28.com" style="text-decoration:none">
-<span style="font-family:Georgia,serif;font-size:28px;font-weight:900;color:#1a1714">Only<span style="color:#b8322a">Vance</span>28</span>
+<span style="font-family:Georgia,serif;font-size:28px;font-weight:900;color:#1a1714">The Vance <span style="color:#b8322a">Daily</span></span>
 </a>
 <p style="font-size:11px;color:#9e9790;margin:4px 0 0;letter-spacing:0.04em;text-transform:uppercase">The Vance Daily - ''' + today_display + '''</p>
 </div>'''
@@ -2463,7 +2463,7 @@ Sitemap: https://onlyvance28.com/sitemap.xml
             
             email_footer = f'''<div style="border-top:1px solid #e2ddd5;margin-top:24px;padding-top:16px;text-align:center">
 <p style="font-size:13px;margin:0 0 8px"><a href="https://onlyvance28.com/daily/{today}.html" style="color:#b8322a;text-decoration:none;font-weight:600">Read the full briefing with all headlines</a></p>
-<p style="font-size:12px;color:#9e9790;margin:0 0 4px"><a href="https://onlyvance28.com" style="color:#9e9790">OnlyVance28.com</a> - {len(all_articles)} articles from {len(set(a["source"] for a in all_articles))} sources</p>
+<p style="font-size:12px;color:#9e9790;margin:0 0 4px"><a href="https://onlyvance28.com" style="color:#9e9790">The Vance Daily</a> - {len(all_articles)} articles from {len(set(a["source"] for a in all_articles))} sources</p>
 <p style="font-size:11px;color:#9e9790;margin:12px 0 0">Not affiliated with any political campaign, party, government or media entity.</p>
 </div>'''
             
