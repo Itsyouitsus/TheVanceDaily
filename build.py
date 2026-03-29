@@ -148,7 +148,9 @@ def is_us_source(article):
                   "premier christian news", "the times of india", "india times",
                   "unherd", "hungarian conservative", "middle east monitor", "politico.eu",
                   "i24news", "irish star", "channels television", "channelstv", "voi.id",
-                  "arka.am", "voxnews.al", "rferl", "rfe/rl"}
+                  "arka.am", "voxnews.al", "rferl", "rfe/rl",
+                  "firstpost", "wion", "wionews", "al arabiya", "alarabiya",
+                  "breakingnews.ie", "irishstar"}
     for blocked_name in INTL_NAMES:
         if blocked_name in source:
             return False
@@ -2296,12 +2298,18 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         f.write(disclaimer_html)
     print("Generated: disclaimer.html")
 
-    # 13. Generate sitemap.xml (with all pages)
+    # 13. Generate sitemap.xml (with all pages including daily briefing archive)
     sitemap_urls = [
-        f'    <url><loc>https://onlyvance28.com/</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>',
-        f'    <url><loc>https://onlyvance28.com/daily/{today}.html</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>',
+        f'    <url><loc>https://onlyvance28.com/</loc><lastmod>{today}</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>',
         f'    <url><loc>https://onlyvance28.com/disclaimer.html</loc><lastmod>{today}</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>',
     ]
+    # Add all daily briefing pages
+    daily_dir_sitemap = os.path.join(OUTPUT_DIR, "daily")
+    if os.path.exists(daily_dir_sitemap):
+        for f in sorted(os.listdir(daily_dir_sitemap)):
+            if f.endswith(".html"):
+                date_str = f.replace(".html", "")
+                sitemap_urls.append(f'    <url><loc>https://onlyvance28.com/daily/{f}</loc><lastmod>{date_str}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>')
     for slug in topic_pages:
         sitemap_urls.append(f'    <url><loc>https://onlyvance28.com/topics/{slug}.html</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>')
 
