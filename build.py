@@ -951,7 +951,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta property="og:title" content="OnlyVance28 - Every JD Vance Article, Every Day">
     <meta property="og:description" content="''' + total + ''' articles from ''' + str(source_count) + ''' sources. Filter by political bias, topic, channel, or date. Updated hourly.">
-    <meta property="og:image" content="https://onlyvance28.com/og-image.png">
+    <meta property="og:image" content="https://onlyvance28.com/og-image-v2.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
@@ -960,7 +960,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="OnlyVance28 - Every JD Vance Article, Every Day">
     <meta name="twitter:description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles updated hourly.">
-    <meta name="twitter:image" content="https://onlyvance28.com/og-image.png">
+    <meta name="twitter:image" content="https://onlyvance28.com/og-image-v2.png">
     <link rel="canonical" href="https://onlyvance28.com">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <script type="application/ld+json">
