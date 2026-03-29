@@ -1250,17 +1250,17 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             .crs{padding:.4rem 0}
             .crs::before,.crs::after{display:none}
             
-            /* TOOLBAR - two-column grid layout, sticky below header */
+            /* TOOLBAR - mobile grid layout, sticky below header */
             .sticky-tb{position:sticky;z-index:29;border-bottom:1px solid var(--border)}
             .tb{padding:.5rem .6rem .3rem;gap:.35rem;display:grid!important;grid-template-columns:1fr 1fr;max-width:100%}
-            .sb{grid-column:1;min-width:0;order:1}
+            .sb{grid-column:1/3;min-width:0;order:1}
             .si{font-size:.75rem;padding:.4rem .5rem .4rem 1.8rem}
             .sb svg{left:.5rem;width:13px;height:13px}
-            .briefing-find-btn{grid-column:2;width:100%;justify-content:center;font-size:.75rem;padding:.4rem .5rem;order:2}
             .custom-dd{max-width:none;width:100%}
-            #srcDD{grid-column:1;order:3}
-            #regionDD{grid-column:2;order:4}
-            #topicDD{grid-column:1;order:5}
+            #srcDD{grid-column:1;order:2}
+            #regionDD{grid-column:2;order:3}
+            #topicDD{grid-column:1;order:4}
+            .briefing-find-btn{grid-column:2;width:100%;justify-content:center;font-size:.75rem;padding:.4rem .5rem;order:5}
             .custom-dd-btn{width:100%;font-size:.75rem;padding:.4rem .5rem .4rem .5rem}
             .sel{display:none!important}
             .pills{grid-column:1/3;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center;order:6}
@@ -1339,9 +1339,9 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         </div>
     </div>
     <div class="custom-dd" id="regionDD">
-        <button type="button" class="custom-dd-btn" id="regionDDBtn">All Areas</button>
+        <button type="button" class="custom-dd-btn" id="regionDDBtn">All Source Areas</button>
         <div class="custom-dd-list" id="regionDDList">
-            <div class="custom-dd-item active" data-val="">All Areas</div>
+            <div class="custom-dd-item active" data-val="">All Source Areas</div>
         </div>
     </div>
     <select class="sel" id="topicF" style="display:none"><option value="">All Topics</option></select>
@@ -1679,7 +1679,7 @@ function imgFail(img){
     regionOrder.forEach(r=>{if(regionCounts[r]){const d=document.createElement('div');d.className='custom-dd-item';d.dataset.val=r;d.textContent=r+' ('+regionCounts[r]+')';regionDDList.appendChild(d)}});
     regionDDBtn.addEventListener('click',(e)=>{e.stopPropagation();const isOpen=regionDDList.classList.contains('open');closeAllDD();if(!isOpen){regionDDList.classList.add('open');regionDDBtn.classList.add('open')}});
     let selectedRegion='';
-    regionDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;selectedRegion=val;activeRegion=val||'all';regionDDBtn.textContent=val||'All Areas';regionDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeAllDD();filter()});
+    regionDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;selectedRegion=val;activeRegion=val||'all';regionDDBtn.textContent=val||'All Source Areas';regionDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeAllDD();filter()});
 
     // Newsletter modal
     const modal=document.getElementById('modal');
