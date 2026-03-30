@@ -1105,7 +1105,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         @keyframes scrollR{0%{transform:translateX(-50%)}100%{transform:translateX(0)}}
 
         /* TOOLBAR */
-        .tb{max-width:1400px;margin:0 auto;padding:.6rem 2rem .3rem;display:flex;gap:.55rem;flex-wrap:wrap;align-items:flex-start;justify-content:center}
+        .tb{max-width:1400px;margin:0 auto;padding:.6rem 2rem .3rem;display:flex;gap:.55rem;flex-wrap:nowrap;align-items:center;justify-content:center}
         .tb>.sb,.tb>.sel,.tb>.pills,.tb>.bias-pills,.tb>.count,.tb>.briefing-find-btn{margin-top:0}
         .sb{flex:1;min-width:170px;position:relative}
         .sb svg{position:absolute;left:.7rem;top:50%;transform:translateY(-50%);width:15px;height:15px;color:var(--text3);pointer-events:none}
@@ -1130,7 +1130,6 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .custom-dd-search::placeholder{color:var(--text3)}
         .custom-dd-search:focus{border-color:var(--blue)}
         .pills{display:flex;gap:.2rem;flex-shrink:0}
-        .pills-row{display:flex;gap:.55rem;align-items:center;flex-shrink:0;flex-wrap:nowrap}
         .pill{padding:.38rem .65rem;border-radius:100px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.74rem;font-weight:500;color:var(--text2);cursor:pointer;transition:all .2s}
         .pill:hover{background:var(--bg3)}
         .pill.on{background:var(--blue);color:#fff;border-color:var(--blue)}
@@ -1264,10 +1263,9 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             .briefing-find-btn{grid-column:2;width:100%;justify-content:center;font-size:.75rem;padding:.4rem .5rem;order:5}
             .custom-dd-btn{width:100%;font-size:.75rem;padding:.4rem .5rem .4rem .5rem}
             .sel{display:none!important}
-            .pills-row{grid-column:1/3;display:flex;flex-wrap:wrap;gap:.3rem;justify-content:center;order:6}
-            .pills{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center}
+            .pills{grid-column:1/3;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center;order:6}
             .pill{flex-shrink:0;font-size:.68rem;padding:.3rem .45rem}
-            .bias-pills{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center}
+            .bias-pills{grid-column:1/3;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;justify-content:center;order:7}
             .bpill{flex-shrink:0;font-size:.62rem;padding:.28rem .38rem}
             .count{display:none}
             
@@ -1353,7 +1351,6 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             <div class="custom-dd-item active" data-val="">All Topics (''' + str(topic_count) + ''')</div>
         </div>
     </div>
-    <div class="pills-row">
     <div class="pills">
         <button class="pill" data-r="all">All</button>
         <button class="pill on" data-r="today">Today</button>
@@ -1371,7 +1368,6 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         <button class="bpill" data-b="C" style="color:#a0a090;border-color:#a0a090">Center ''' + str(bias_count_C) + '''</button>
         <button class="bpill" data-b="LR" style="color:#e09070;border-color:#e09070">Leans R ''' + str(bias_count_LR) + '''</button>
         <button class="bpill" data-b="R" style="color:#d94a4a;border-color:#d94a4a">Right ''' + str(bias_count_R) + '''</button>
-    </div>
     </div>
     <span class="count" id="cnt"></span>
 </div>
