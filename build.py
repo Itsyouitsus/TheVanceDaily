@@ -1072,22 +1072,22 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .cta-btn:hover{background:var(--accent-h)}
 
         /* SOCIAL POSTS CAROUSEL */
-        .soc-bar{overflow:hidden;background:var(--bg2);border-bottom:1px solid var(--border);padding:.8rem 0;position:relative}
+        .soc-bar{overflow:hidden;background:#1a1714;border-bottom:1px solid #2a2520;padding:.8rem 0;position:relative}
         .soc-bar::before,.soc-bar::after{content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none}
-        .soc-bar::before{left:0;background:linear-gradient(90deg,var(--bg2),transparent)}
-        .soc-bar::after{right:0;background:linear-gradient(270deg,var(--bg2),transparent)}
+        .soc-bar::before{left:0;background:linear-gradient(90deg,#1a1714,transparent)}
+        .soc-bar::after{right:0;background:linear-gradient(270deg,#1a1714,transparent)}
         .soc-label{position:absolute;left:1rem;top:50%;transform:translateY(-50%);z-index:3;font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--text3);background:var(--bg2);padding:.2rem .5rem;border-radius:4px}
         .soc-track{display:flex;gap:1rem;width:max-content;animation:scrollR 100s linear infinite}
         .soc-track:hover{animation-play-state:paused}
-        .soc-card{flex-shrink:0;width:300px;padding:.7rem .9rem;border-radius:8px;border:1px solid var(--border);background:var(--bg);text-decoration:none;color:var(--text);transition:border-color .2s,box-shadow .2s;display:flex;flex-direction:column;gap:.4rem}
-        .soc-card:hover{border-color:var(--border2);box-shadow:var(--shadow-h)}
+        .soc-card{flex-shrink:0;width:300px;padding:.7rem .9rem;border-radius:8px;border:1px solid #333;background:#242020;text-decoration:none;color:#e8e4df;transition:border-color .2s,box-shadow .2s;display:flex;flex-direction:column;gap:.4rem}
+        .soc-card:hover{border-color:#555;box-shadow:0 4px 16px rgba(0,0,0,.3)}
         .soc-card-hdr{display:flex;align-items:center;gap:.4rem}
-        .soc-card-hdr svg{width:14px;height:14px;color:var(--text3);flex-shrink:0}
-        .soc-card-hdr .platform{font-size:.65rem;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.04em}
-        .soc-card-hdr .handle{font-size:.7rem;font-weight:500;color:var(--accent);margin-left:auto}
-        .soc-card-text{font-size:.78rem;line-height:1.45;color:var(--text);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-        .soc-card-foot{font-size:.62rem;color:var(--text3);display:flex;align-items:center;justify-content:space-between;gap:.4rem;margin-top:auto}
-        .soc-card-time{font-size:.6rem;color:var(--text3);display:flex;align-items:center;gap:.25rem;white-space:nowrap}
+        .soc-card-hdr svg{width:14px;height:14px;color:#9e9790;flex-shrink:0}
+        .soc-card-hdr .platform{font-size:.65rem;font-weight:600;color:#9e9790;text-transform:uppercase;letter-spacing:.04em}
+        .soc-card-hdr .handle{font-size:.7rem;font-weight:500;color:#e09070;margin-left:auto}
+        .soc-card-text{font-size:.78rem;line-height:1.45;color:#e8e4df;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+        .soc-card-foot{font-size:.62rem;color:#9e9790;display:flex;align-items:center;justify-content:space-between;gap:.4rem;margin-top:auto}
+        .soc-card-time{font-size:.6rem;color:#9e9790;display:flex;align-items:center;gap:.25rem;white-space:nowrap}
         .soc-card-time svg{width:10px;height:10px;flex-shrink:0}
         .soc-card-static{justify-content:center;min-height:auto}
 
