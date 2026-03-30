@@ -1786,7 +1786,7 @@ function imgFail(img){
         if(!msg){document.getElementById('contactMsg').focus();return}
         // Send via mailto in background
         const subject=encodeURIComponent('Contact from The Vance Daily: '+name);
-        const body=encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+msg);
+        const body=encodeURIComponent('Name: '+name+'\\nEmail: '+email+'\\n\\n'+msg);
         window.open('mailto:contact@onlyvance28.com?subject='+subject+'&body='+body,'_blank');
         document.getElementById('contactForm').classList.add('hide');
         document.getElementById('contactThanks').classList.add('show');
