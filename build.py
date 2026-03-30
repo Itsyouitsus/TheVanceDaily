@@ -1400,7 +1400,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             </div>
             <div class="ft-col">
                 <h4>Contact</h4>
-                <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a>
+                <a href="#" data-open-contact onclick="return false">Send us a message</a>
                 <a href="#" data-open-suggest onclick="return false">Suggest a missing source</a>
                 <a href="#" onclick="document.getElementById('biasModal').classList.add('show');return false">Report a bias rating</a>
                 <p style="margin-top:.5rem">Bias ratings based on <a href="https://www.allsides.com/media-bias" target="_blank">AllSides</a>.</p>
@@ -1408,7 +1408,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         </div>
         <div class="ft-bottom">
             <p>The Vance Daily - Automated news aggregation. Headlines link to original sources. Not affiliated with any political campaign, party, government or media entity. Just a guy who loves building stuff.</p>
-            <p style="margin-top:.4rem"><a href="/disclaimer.html">Disclaimer &amp; Terms</a> &middot; <a href="mailto:contact@onlyvance28.com">Contact</a></p>
+            <p style="margin-top:.4rem"><a href="/disclaimer.html">Disclaimer &amp; Terms</a> &middot; <a href="#" data-open-contact onclick="return false">Contact</a></p>
         </div>
     </div>
 </footer>
@@ -1543,6 +1543,39 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             </div>
             <h2 style="margin-top:.5rem">You're In!</h2>
             <p style="font-size:.85rem;color:#6b6560;margin-top:.4rem">The Vance Daily is on its way to your inbox.</p>
+        </div>
+    </div>
+</div>
+
+<div class="smodal-overlay" id="contactModal">
+    <div class="smodal">
+        <button class="smodal-close" id="contactClose">&times;</button>
+        <div class="smodal-icon" style="background:linear-gradient(135deg,#1a3a5c,#2a5a8c)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:26px;height:26px;color:#fff"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+        </div>
+        <h2>Contact Us</h2>
+        <p class="smodal-sub">Questions, feedback, or takedown requests — we'll get back to you within 48 hours.</p>
+        <div id="contactForm" class="smodal-form">
+            <div class="smodal-field">
+                <label>Your Name</label>
+                <input type="text" id="contactName" placeholder="Your name">
+            </div>
+            <div class="smodal-field">
+                <label>Your Email</label>
+                <input type="email" id="contactEmail" placeholder="your@email.com">
+            </div>
+            <div class="smodal-field">
+                <label>Message</label>
+                <textarea id="contactMsg" placeholder="How can we help?" style="width:100%;min-height:100px;padding:.55rem .7rem;border-radius:7px;border:1px solid #d4cfc7;font-family:'DM Sans',sans-serif;font-size:.85rem;color:#1a1714;resize:vertical;outline:none;box-sizing:border-box"></textarea>
+            </div>
+            <button class="smodal-submit" id="contactSubmit">Send Message</button>
+        </div>
+        <div id="contactThanks" class="smodal-thanks">
+            <div style="width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#2a9d5c,#34c06e);display:flex;align-items:center;justify-content:center;margin:1rem auto">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" style="width:28px;height:28px"><path d="M20 6L9 17l-5-5"/></svg>
+            </div>
+            <h2 style="margin-top:.5rem">Message Sent!</h2>
+            <p style="font-size:.85rem;color:#6b6560;margin-top:.4rem">We'll get back to you within 48 hours.</p>
         </div>
     </div>
 </div>
@@ -1735,6 +1768,37 @@ function imgFail(img){
                 document.getElementById('subForm').classList.remove('hide');
                 document.getElementById('subThanks').classList.remove('show');
                 document.getElementById('subEmail').value='';
+            },300);
+        },2500);
+    });
+
+    // Contact modal
+    const contactModal=document.getElementById('contactModal');
+    document.getElementById('contactClose').addEventListener('click',()=>contactModal.classList.remove('show'));
+    contactModal.addEventListener('click',(e)=>{if(e.target===contactModal)contactModal.classList.remove('show')});
+    document.querySelectorAll('[data-open-contact]').forEach(el=>el.addEventListener('click',(e)=>{e.preventDefault();contactModal.classList.add('show')}));
+    document.getElementById('contactSubmit').addEventListener('click',()=>{
+        const name=document.getElementById('contactName').value.trim();
+        const email=document.getElementById('contactEmail').value.trim();
+        const msg=document.getElementById('contactMsg').value.trim();
+        if(!name){document.getElementById('contactName').focus();return}
+        if(!email||!email.includes('@')){document.getElementById('contactEmail').focus();return}
+        if(!msg){document.getElementById('contactMsg').focus();return}
+        // Send via mailto in background
+        const subject=encodeURIComponent('Contact from The Vance Daily: '+name);
+        const body=encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+msg);
+        window.open('mailto:contact@onlyvance28.com?subject='+subject+'&body='+body,'_blank');
+        document.getElementById('contactForm').classList.add('hide');
+        document.getElementById('contactThanks').classList.add('show');
+        gtag('event','contact_form',{method:'popup'});
+        setTimeout(()=>{
+            contactModal.classList.remove('show');
+            setTimeout(()=>{
+                document.getElementById('contactForm').classList.remove('hide');
+                document.getElementById('contactThanks').classList.remove('show');
+                document.getElementById('contactName').value='';
+                document.getElementById('contactEmail').value='';
+                document.getElementById('contactMsg').value='';
             },300);
         },2500);
     });
