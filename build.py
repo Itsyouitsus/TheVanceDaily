@@ -1117,7 +1117,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .sel:focus{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
         .sel option.soc-opt{color:var(--accent);font-weight:600}
         /* Custom dropdown for Sources (opens downward) */
-        .custom-dd{position:relative;max-width:220px}
+        .custom-dd{position:relative;max-width:220px;flex-shrink:0}
         .custom-dd-btn{padding:.48rem 1.8rem .48rem .7rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.8rem;color:var(--text);outline:none;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%;text-align:left;background-image:url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%239e9790' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .6rem center}
         .custom-dd-btn:focus,.custom-dd-btn.open{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
         .custom-dd-list{display:none;position:absolute;top:calc(100% + 4px);left:0;min-width:100%;max-height:320px;overflow-y:auto;background:var(--bg2);border:1px solid var(--border);border-radius:7px;box-shadow:0 8px 24px rgba(0,0,0,.12);z-index:50;padding:.3rem 0}
@@ -1144,7 +1144,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .briefing-btn{display:flex;align-items:center;gap:.35rem;padding:.45rem .9rem;border-radius:6px;border:none;background:#1a3a5c;color:#fff;font-family:'DM Sans',sans-serif;font-size:.82rem;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .2s}
         .briefing-btn:hover{background:#234d78}
         .briefing-btn svg{width:14px;height:14px;flex-shrink:0}
-        .briefing-find-btn{display:flex;align-items:center;gap:.35rem;padding:.48rem .8rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.8rem;font-weight:500;color:var(--text);cursor:pointer;white-space:nowrap;transition:all .2s;position:relative;overflow:hidden}
+        .briefing-find-btn{display:flex;align-items:center;gap:.35rem;padding:.48rem .8rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.8rem;font-weight:500;color:var(--text);cursor:pointer;white-space:nowrap;transition:all .2s;position:relative;overflow:hidden;flex-shrink:0}
         .briefing-find-btn:hover{border-color:var(--blue);color:var(--blue)}
         .briefing-find-btn svg{width:14px;height:14px;flex-shrink:0}
 
