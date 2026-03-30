@@ -1129,14 +1129,14 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .custom-dd-search{width:calc(100% - .6rem);margin:.2rem .3rem .3rem;padding:.35rem .5rem;border-radius:5px;border:1px solid var(--border);background:var(--bg);font-family:'DM Sans',sans-serif;font-size:.78rem;color:var(--text);outline:none}
         .custom-dd-search::placeholder{color:var(--text3)}
         .custom-dd-search:focus{border-color:var(--blue)}
-        .pills{display:flex;gap:.2rem}
+        .pills{display:flex;gap:.2rem;flex-shrink:0}
         .pill{padding:.38rem .65rem;border-radius:100px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.74rem;font-weight:500;color:var(--text2);cursor:pointer;transition:all .2s}
         .pill:hover{background:var(--bg3)}
         .pill.on{background:var(--blue);color:#fff;border-color:var(--blue)}
 
         /* BIAS FILTER */
-        .bias-pills{display:flex;gap:.2rem}
-        .bpill{padding:.38rem .55rem;border-radius:100px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.7rem;font-weight:500;cursor:pointer;transition:all .2s}
+        .bias-pills{display:flex;gap:.2rem;flex-shrink:0}
+        .bpill{padding:.38rem .55rem;border-radius:100px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.7rem;font-weight:500;cursor:pointer;transition:all .2s;white-space:nowrap}
         .bpill:hover{opacity:.85}
         .bpill.on{color:#fff!important}
 
