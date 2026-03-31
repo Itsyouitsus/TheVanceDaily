@@ -1029,7 +1029,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         "publisher": {
             "@type": "Organization",
             "name": "The Vance Daily",
-            "email": "contact@thevancedaily.com"
+            "email": "hello@itsyouitsus.com"
         }
     }
     </script>
@@ -1785,9 +1785,9 @@ function imgFail(img){
         if(!email||!email.includes('@')){document.getElementById('contactEmail').focus();return}
         if(!msg){document.getElementById('contactMsg').focus();return}
         // Send via mailto in background
-        const subject=encodeURIComponent('Contact from The Vance Daily: '+name);
+        const subject=encodeURIComponent('[The Vance Daily] Contact: '+name);
         const body=encodeURIComponent('Name: '+name+'\\nEmail: '+email+'\\n\\n'+msg);
-        window.open('mailto:contact@thevancedaily.com?subject='+subject+'&body='+body,'_blank');
+        window.open('mailto:hello@itsyouitsus.com?subject='+subject+'&body='+body,'_blank');
         document.getElementById('contactForm').classList.add('hide');
         document.getElementById('contactThanks').classList.add('show');
         gtag('event','contact_form',{method:'popup'});
@@ -1847,7 +1847,7 @@ function imgFail(img){
         if(!name){document.getElementById('sugName').focus();return}
         // Send via mailto (works without backend)
         const body='Source name: '+name+'%0AURL: '+url+'%0ABias: '+(bias||'Not specified')+'%0ASubmitter email: '+(email||'Not provided');
-        window.open('mailto:contact@thevancedaily.com?subject=Source%20Suggestion:%20'+encodeURIComponent(name)+'&body='+body,'_blank');
+        window.open('mailto:hello@itsyouitsus.com?subject=[The%20Vance%20Daily]%20Source%20Suggestion:%20'+encodeURIComponent(name)+'&body='+body,'_blank');
         // Show thanks
         document.getElementById('suggestForm').classList.add('hide');
         document.getElementById('suggestThanks').classList.add('show');
@@ -1877,7 +1877,7 @@ function imgFail(img){
         if(!source){document.getElementById('biasSource').focus();return}
         if(!suggested){document.getElementById('biasSuggested').focus();return}
         const body='Source: '+source+'%0ACurrent rating: '+(current||'Not specified')+'%0ASuggested rating: '+suggested+'%0ASubmitter email: '+(email||'Not provided');
-        window.open('mailto:contact@thevancedaily.com?subject=Bias%20Rating%20Report:%20'+encodeURIComponent(source)+'&body='+body,'_blank');
+        window.open('mailto:hello@itsyouitsus.com?subject=[The%20Vance%20Daily]%20Bias%20Rating%20Report:%20'+encodeURIComponent(source)+'&body='+body,'_blank');
         document.getElementById('biasForm').classList.add('hide');
         document.getElementById('biasThanks').classList.add('show');
         setTimeout(()=>{
@@ -2208,7 +2208,7 @@ def main():
     </div>
     <div class="articles">{article_list}</div>
     <div class="ft">
-        <p><a href="/">The Vance Daily</a> — Automated news aggregation. <a href="mailto:contact@thevancedaily.com">contact@thevancedaily.com</a></p>
+        <p><a href="/">The Vance Daily</a> — Automated news aggregation. <a href="mailto:hello@itsyouitsus.com?subject=[The%20Vance%20Daily]">hello@itsyouitsus.com</a></p>
     </div>
 </body>
 </html>'''
@@ -2400,7 +2400,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     </div>
 
     <div class="ft">
-        <p><a href="/">The Vance Daily</a> &middot; <a href="mailto:contact@thevancedaily.com">contact@thevancedaily.com</a></p>
+        <p><a href="/">The Vance Daily</a> &middot; <a href="mailto:hello@itsyouitsus.com?subject=[The%20Vance%20Daily]">hello@itsyouitsus.com</a></p>
         <p style="margin-top:.3rem">Not affiliated with any political campaign, party, government or media entity. Just a guy who loves building stuff.</p>
     </div>
 </body>
@@ -2446,10 +2446,10 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     <p>The Vance Daily is not affiliated with, endorsed by, or connected to JD Vance, any political campaign, political party, government office, or any of the news organizations whose content we link to. This is an independent project.</p>
 
     <h2>Political Bias Ratings</h2>
-    <p>The political bias labels displayed on this site (Left, Leans Left, Center, Leans Right, Right) are based on ratings published by <a href="https://www.allsides.com/media-bias" target="_blank">AllSides.com</a>, a third-party media bias rating organization. We report their classifications and do not make independent bias determinations. If you believe a rating is incorrect, please contact AllSides directly or <a href="mailto:contact@thevancedaily.com">let us know</a> and we will review it.</p>
+    <p>The political bias labels displayed on this site (Left, Leans Left, Center, Leans Right, Right) are based on ratings published by <a href="https://www.allsides.com/media-bias" target="_blank">AllSides.com</a>, a third-party media bias rating organization. We report their classifications and do not make independent bias determinations. If you believe a rating is incorrect, please contact AllSides directly or <a href="mailto:hello@itsyouitsus.com?subject=[The%20Vance%20Daily]">let us know</a> and we will review it.</p>
 
     <h2>Headlines &amp; Fair Use</h2>
-    <p>We display article headlines as short factual descriptions to identify linked content. Headlines are not copyrightable under US law as they are too brief to constitute original works of authorship. We link to the original source for every headline, driving traffic to the original publisher. If you are a publisher and would like your content removed from this aggregator, please contact us at <a href="mailto:contact@thevancedaily.com">contact@thevancedaily.com</a> and we will remove it promptly.</p>
+    <p>We display article headlines as short factual descriptions to identify linked content. Headlines are not copyrightable under US law as they are too brief to constitute original works of authorship. We link to the original source for every headline, driving traffic to the original publisher. If you are a publisher and would like your content removed from this aggregator, please contact us at <a href="mailto:hello@itsyouitsus.com?subject=[The%20Vance%20Daily]">hello@itsyouitsus.com</a> and we will remove it promptly.</p>
 
     <h2>No Warranty</h2>
     <p>This site is provided "as is" without warranty of any kind. We make no guarantees about the accuracy, completeness, or timeliness of the information displayed. We are not responsible for the content of linked third-party websites.</p>
@@ -2461,10 +2461,10 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     <p>Source suggestions submitted through our site are used solely for improving our news coverage. We do not share your email address with third parties.</p>
 
     <h2>Takedown Requests</h2>
-    <p>If you believe any content on this site infringes your rights, please contact us at <a href="mailto:contact@thevancedaily.com">contact@thevancedaily.com</a> with details of the specific content and the basis for your concern. We will respond within 48 hours.</p>
+    <p>If you believe any content on this site infringes your rights, please contact us at <a href="mailto:hello@itsyouitsus.com?subject=[The%20Vance%20Daily]">hello@itsyouitsus.com</a> with details of the specific content and the basis for your concern. We will respond within 48 hours.</p>
 
     <h2>Contact</h2>
-    <p><a href="mailto:contact@thevancedaily.com">contact@thevancedaily.com</a></p>
+    <p><a href="mailto:hello@itsyouitsus.com?subject=[The%20Vance%20Daily]">hello@itsyouitsus.com</a></p>
 
     <p style="font-size:.78rem;color:#9e9790;margin-top:1.5rem">Last updated: March 27, 2026</p>
 
