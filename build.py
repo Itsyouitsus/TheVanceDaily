@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-The Vance Daily (onlyvance28.com) - v4
+The Vance Daily (thevancedaily.com) - v4
 Dark editorial design, social links, political bias indicators, source carousel.
 """
 
@@ -1007,29 +1007,29 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta property="og:title" content="The Vance Daily - Every JD Vance Article, Every Day">
     <meta property="og:description" content="''' + total + ''' articles from ''' + str(source_count) + ''' sources. Filter by political bias, topic, channel, or date. Updated hourly.">
-    <meta property="og:image" content="https://onlyvance28.com/og-image-v3.png">
+    <meta property="og:image" content="https://thevancedaily.com/og-image-v3.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://onlyvance28.com">
+    <meta property="og:url" content="https://thevancedaily.com">
     <meta property="og:site_name" content="The Vance Daily">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Vance Daily - Every JD Vance Article, Every Day">
     <meta name="twitter:description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles updated hourly.">
-    <meta name="twitter:image" content="https://onlyvance28.com/og-image-v3.png">
-    <link rel="canonical" href="https://onlyvance28.com">
+    <meta name="twitter:image" content="https://thevancedaily.com/og-image-v3.png">
+    <link rel="canonical" href="https://thevancedaily.com">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "The Vance Daily",
-        "url": "https://onlyvance28.com",
+        "url": "https://thevancedaily.com",
         "description": "Automated JD Vance news aggregator with political bias ratings",
         "publisher": {
             "@type": "Organization",
             "name": "The Vance Daily",
-            "email": "contact@onlyvance28.com"
+            "email": "contact@thevancedaily.com"
         }
     }
     </script>
@@ -1787,7 +1787,7 @@ function imgFail(img){
         // Send via mailto in background
         const subject=encodeURIComponent('Contact from The Vance Daily: '+name);
         const body=encodeURIComponent('Name: '+name+'\\nEmail: '+email+'\\n\\n'+msg);
-        window.open('mailto:contact@onlyvance28.com?subject='+subject+'&body='+body,'_blank');
+        window.open('mailto:contact@thevancedaily.com?subject='+subject+'&body='+body,'_blank');
         document.getElementById('contactForm').classList.add('hide');
         document.getElementById('contactThanks').classList.add('show');
         gtag('event','contact_form',{method:'popup'});
@@ -1847,7 +1847,7 @@ function imgFail(img){
         if(!name){document.getElementById('sugName').focus();return}
         // Send via mailto (works without backend)
         const body='Source name: '+name+'%0AURL: '+url+'%0ABias: '+(bias||'Not specified')+'%0ASubmitter email: '+(email||'Not provided');
-        window.open('mailto:contact@onlyvance28.com?subject=Source%20Suggestion:%20'+encodeURIComponent(name)+'&body='+body,'_blank');
+        window.open('mailto:contact@thevancedaily.com?subject=Source%20Suggestion:%20'+encodeURIComponent(name)+'&body='+body,'_blank');
         // Show thanks
         document.getElementById('suggestForm').classList.add('hide');
         document.getElementById('suggestThanks').classList.add('show');
@@ -1877,7 +1877,7 @@ function imgFail(img){
         if(!source){document.getElementById('biasSource').focus();return}
         if(!suggested){document.getElementById('biasSuggested').focus();return}
         const body='Source: '+source+'%0ACurrent rating: '+(current||'Not specified')+'%0ASuggested rating: '+suggested+'%0ASubmitter email: '+(email||'Not provided');
-        window.open('mailto:contact@onlyvance28.com?subject=Bias%20Rating%20Report:%20'+encodeURIComponent(source)+'&body='+body,'_blank');
+        window.open('mailto:contact@thevancedaily.com?subject=Bias%20Rating%20Report:%20'+encodeURIComponent(source)+'&body='+body,'_blank');
         document.getElementById('biasForm').classList.add('hide');
         document.getElementById('biasThanks').classList.add('show');
         setTimeout(()=>{
@@ -2169,7 +2169,7 @@ def main():
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JD Vance &amp; {topic_name} - Latest News | The Vance Daily</title>
     <meta name="description" content="{count} articles about JD Vance and {topic_name} from {len(sources_in_topic)} sources. See how Left, Center, and Right media cover Vance on {topic_name}.">
-    <link rel="canonical" href="https://onlyvance28.com/topics/{slug}.html">
+    <link rel="canonical" href="https://thevancedaily.com/topics/{slug}.html">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
     <style>
         *{{margin:0;padding:0;box-sizing:border-box}}
@@ -2208,7 +2208,7 @@ def main():
     </div>
     <div class="articles">{article_list}</div>
     <div class="ft">
-        <p><a href="/">The Vance Daily</a> — Automated news aggregation. <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a></p>
+        <p><a href="/">The Vance Daily</a> — Automated news aggregation. <a href="mailto:contact@thevancedaily.com">contact@thevancedaily.com</a></p>
     </div>
 </body>
 </html>'''
@@ -2317,7 +2317,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Vance Daily - {today_display} | The Vance Daily</title>
     <meta name="description" content="Your daily JD Vance briefing for {today_display}. Top stories, media bias analysis, and what Left and Right are saying about the Vice President.">
-    <link rel="canonical" href="https://onlyvance28.com/daily/{today}.html">
+    <link rel="canonical" href="https://thevancedaily.com/daily/{today}.html">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
     <style>
         *{{margin:0;padding:0;box-sizing:border-box}}
@@ -2400,7 +2400,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     </div>
 
     <div class="ft">
-        <p><a href="/">The Vance Daily</a> &middot; <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a></p>
+        <p><a href="/">The Vance Daily</a> &middot; <a href="mailto:contact@thevancedaily.com">contact@thevancedaily.com</a></p>
         <p style="margin-top:.3rem">Not affiliated with any political campaign, party, government or media entity. Just a guy who loves building stuff.</p>
     </div>
 </body>
@@ -2418,7 +2418,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disclaimer &amp; Terms | The Vance Daily</title>
     <meta name="description" content="Legal disclaimer and terms of use for The Vance Daily news aggregator.">
-    <link rel="canonical" href="https://onlyvance28.com/disclaimer.html">
+    <link rel="canonical" href="https://thevancedaily.com/disclaimer.html">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
     <style>
         *{margin:0;padding:0;box-sizing:border-box}
@@ -2440,16 +2440,16 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     <h1>Disclaimer &amp; Terms of Use</h1>
 
     <h2>What This Site Is</h2>
-    <p>The Vance Daily (onlyvance28.com) is an automated news aggregation service. We collect headlines and links to articles about JD Vance from publicly available news sources and RSS feeds. We do not host, reproduce, or republish article content. All headlines link directly to the original publisher's website.</p>
+    <p>The Vance Daily (thevancedaily.com) is an automated news aggregation service. We collect headlines and links to articles about JD Vance from publicly available news sources and RSS feeds. We do not host, reproduce, or republish article content. All headlines link directly to the original publisher's website.</p>
 
     <h2>No Affiliation</h2>
     <p>The Vance Daily is not affiliated with, endorsed by, or connected to JD Vance, any political campaign, political party, government office, or any of the news organizations whose content we link to. This is an independent project.</p>
 
     <h2>Political Bias Ratings</h2>
-    <p>The political bias labels displayed on this site (Left, Leans Left, Center, Leans Right, Right) are based on ratings published by <a href="https://www.allsides.com/media-bias" target="_blank">AllSides.com</a>, a third-party media bias rating organization. We report their classifications and do not make independent bias determinations. If you believe a rating is incorrect, please contact AllSides directly or <a href="mailto:contact@onlyvance28.com">let us know</a> and we will review it.</p>
+    <p>The political bias labels displayed on this site (Left, Leans Left, Center, Leans Right, Right) are based on ratings published by <a href="https://www.allsides.com/media-bias" target="_blank">AllSides.com</a>, a third-party media bias rating organization. We report their classifications and do not make independent bias determinations. If you believe a rating is incorrect, please contact AllSides directly or <a href="mailto:contact@thevancedaily.com">let us know</a> and we will review it.</p>
 
     <h2>Headlines &amp; Fair Use</h2>
-    <p>We display article headlines as short factual descriptions to identify linked content. Headlines are not copyrightable under US law as they are too brief to constitute original works of authorship. We link to the original source for every headline, driving traffic to the original publisher. If you are a publisher and would like your content removed from this aggregator, please contact us at <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a> and we will remove it promptly.</p>
+    <p>We display article headlines as short factual descriptions to identify linked content. Headlines are not copyrightable under US law as they are too brief to constitute original works of authorship. We link to the original source for every headline, driving traffic to the original publisher. If you are a publisher and would like your content removed from this aggregator, please contact us at <a href="mailto:contact@thevancedaily.com">contact@thevancedaily.com</a> and we will remove it promptly.</p>
 
     <h2>No Warranty</h2>
     <p>This site is provided "as is" without warranty of any kind. We make no guarantees about the accuracy, completeness, or timeliness of the information displayed. We are not responsible for the content of linked third-party websites.</p>
@@ -2461,10 +2461,10 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     <p>Source suggestions submitted through our site are used solely for improving our news coverage. We do not share your email address with third parties.</p>
 
     <h2>Takedown Requests</h2>
-    <p>If you believe any content on this site infringes your rights, please contact us at <a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a> with details of the specific content and the basis for your concern. We will respond within 48 hours.</p>
+    <p>If you believe any content on this site infringes your rights, please contact us at <a href="mailto:contact@thevancedaily.com">contact@thevancedaily.com</a> with details of the specific content and the basis for your concern. We will respond within 48 hours.</p>
 
     <h2>Contact</h2>
-    <p><a href="mailto:contact@onlyvance28.com">contact@onlyvance28.com</a></p>
+    <p><a href="mailto:contact@thevancedaily.com">contact@thevancedaily.com</a></p>
 
     <p style="font-size:.78rem;color:#9e9790;margin-top:1.5rem">Last updated: March 27, 2026</p>
 
@@ -2479,8 +2479,8 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
 
     # 13. Generate sitemap.xml (with all pages including daily briefing archive)
     sitemap_urls = [
-        f'    <url><loc>https://onlyvance28.com/</loc><lastmod>{today}</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>',
-        f'    <url><loc>https://onlyvance28.com/disclaimer.html</loc><lastmod>{today}</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>',
+        f'    <url><loc>https://thevancedaily.com/</loc><lastmod>{today}</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>',
+        f'    <url><loc>https://thevancedaily.com/disclaimer.html</loc><lastmod>{today}</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>',
     ]
     # Add all daily briefing pages
     daily_dir_sitemap = os.path.join(OUTPUT_DIR, "daily")
@@ -2488,9 +2488,9 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         for f in sorted(os.listdir(daily_dir_sitemap)):
             if f.endswith(".html"):
                 date_str = f.replace(".html", "")
-                sitemap_urls.append(f'    <url><loc>https://onlyvance28.com/daily/{f}</loc><lastmod>{date_str}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>')
+                sitemap_urls.append(f'    <url><loc>https://thevancedaily.com/daily/{f}</loc><lastmod>{date_str}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>')
     for slug in topic_pages:
-        sitemap_urls.append(f'    <url><loc>https://onlyvance28.com/topics/{slug}.html</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>')
+        sitemap_urls.append(f'    <url><loc>https://thevancedaily.com/topics/{slug}.html</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>')
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + '\n'.join(sitemap_urls) + '\n</urlset>'
     with open(os.path.join(OUTPUT_DIR, "sitemap.xml"), "w") as f:
@@ -2499,7 +2499,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
     # 13. Generate robots.txt
     robots = '''User-agent: *
 Allow: /
-Sitemap: https://onlyvance28.com/sitemap.xml
+Sitemap: https://thevancedaily.com/sitemap.xml
 '''
     with open(os.path.join(OUTPUT_DIR, "robots.txt"), "w") as f:
         f.write(robots)
@@ -2514,7 +2514,7 @@ Sitemap: https://onlyvance28.com/sitemap.xml
         try:
             # Build branded email HTML
             email_header = '''<div style="text-align:center;padding:20px 0 15px;border-bottom:2px solid #b8322a;margin-bottom:20px">
-<a href="https://onlyvance28.com" style="text-decoration:none">
+<a href="https://thevancedaily.com" style="text-decoration:none">
 <span style="font-family:Georgia,serif;font-size:28px;font-weight:900;color:#1a1714">The <span style="color:#b8322a">Vance</span> Daily</span>
 </a>
 <p style="font-size:11px;color:#9e9790;margin:4px 0 0;letter-spacing:0.04em;text-transform:uppercase">The Vance Daily - ''' + today_display + '''</p>
@@ -2530,8 +2530,8 @@ Sitemap: https://onlyvance28.com/sitemap.xml
                 email_body += f'<p style="font-family:-apple-system,Arial,sans-serif;font-size:15px;line-height:1.6;color:#1a1714;margin:0 0 12px">{line}</p>'
             
             email_footer = f'''<div style="border-top:1px solid #e2ddd5;margin-top:24px;padding-top:16px;text-align:center">
-<p style="font-size:13px;margin:0 0 8px"><a href="https://onlyvance28.com/daily/{today}.html" style="color:#b8322a;text-decoration:none;font-weight:600">Read the full briefing with all headlines</a></p>
-<p style="font-size:12px;color:#9e9790;margin:0 0 4px"><a href="https://onlyvance28.com" style="color:#9e9790">The Vance Daily</a> - {len(all_articles)} articles from {len(set(a["source"] for a in all_articles))} sources</p>
+<p style="font-size:13px;margin:0 0 8px"><a href="https://thevancedaily.com/daily/{today}.html" style="color:#b8322a;text-decoration:none;font-weight:600">Read the full briefing with all headlines</a></p>
+<p style="font-size:12px;color:#9e9790;margin:0 0 4px"><a href="https://thevancedaily.com" style="color:#9e9790">The Vance Daily</a> - {len(all_articles)} articles from {len(set(a["source"] for a in all_articles))} sources</p>
 <p style="font-size:11px;color:#9e9790;margin:12px 0 0">Not affiliated with any political campaign, party, government or media entity.</p>
 </div>'''
             
