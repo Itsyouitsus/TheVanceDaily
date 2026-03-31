@@ -1041,8 +1041,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             --bg:#f6f4f0; --bg2:#fff; --bg3:#f0ede8;
             --surface:#fff; --surface-h:#f8f6f2;
             --text:#1a1714; --text2:#6b6560; --text3:#9e9790;
-            --accent:#b8322a; --accent-h:#d43d33;
-            --blue:#1e3a6e; --blue-soft:#e0e8f4;
+            --accent:#E81B23; --accent-h:#cc1720;
+            --blue:#003DA5; --blue-soft:#dce6f7;
             --border:#e2ddd5; --border2:#d5cfC6;
             --r:10px;
             --shadow:0 1px 3px rgba(26,23,20,.05);
@@ -1141,8 +1141,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .bpill.on{color:#fff!important}
 
         .count{font-size:.7rem;color:var(--text3);white-space:nowrap}
-        .briefing-btn{display:flex;align-items:center;gap:.35rem;padding:.45rem .9rem;border-radius:6px;border:none;background:#1a3a5c;color:#fff;font-family:'DM Sans',sans-serif;font-size:.82rem;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .2s}
-        .briefing-btn:hover{background:#234d78}
+        .briefing-btn{display:flex;align-items:center;gap:.35rem;padding:.45rem .9rem;border-radius:6px;border:none;background:#003DA5;color:#fff;font-family:'DM Sans',sans-serif;font-size:.82rem;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .2s}
+        .briefing-btn:hover{background:#002d7a}
         .briefing-btn svg{width:14px;height:14px;flex-shrink:0}
         .briefing-find-btn{display:flex;align-items:center;gap:.35rem;padding:.48rem .8rem;border-radius:7px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.8rem;font-weight:500;color:var(--text);cursor:pointer;white-space:nowrap;transition:all .2s;position:relative;overflow:hidden;flex-shrink:0}
         .briefing-find-btn:hover{border-color:var(--blue);color:var(--blue)}
@@ -1178,7 +1178,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         /* SOCIAL MEDIA CARD */
         .card.soc-card-item{border-color:var(--accent);border-width:1.5px}
         .card.soc-card-item .card-source{color:var(--accent);font-weight:700}
-        .card.soc-card-item .card-img-source{background:linear-gradient(135deg,#fdf2f1,#f8e6e4)}
+        .card.soc-card-item .card-img-source{background:linear-gradient(135deg,#fdf1f1,#f8e4e4)}
 
         .no-res{grid-column:1/-1;text-align:center;padding:3rem 2rem;color:var(--text3);background:var(--bg2);border-radius:var(--r);border:1px solid var(--border)}
         .load-more-btn{display:block;margin:1.5rem auto;padding:.6rem 2rem;border-radius:8px;border:1px solid var(--border);background:var(--bg2);font-family:'DM Sans',sans-serif;font-size:.85rem;font-weight:600;color:var(--text2);cursor:pointer;transition:all .2s}
@@ -1191,7 +1191,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         @keyframes modalIn{from{opacity:0;transform:scale(.92) translateY(10px)}to{opacity:1;transform:scale(1) translateY(0)}}
         .modal-close{position:absolute;top:.8rem;right:.8rem;width:28px;height:28px;border-radius:50%;border:1px solid var(--border);background:var(--bg);cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:1rem;transition:all .2s}
         .modal-close:hover{background:var(--bg3);color:var(--text)}
-        .modal-icon{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#d44a3a);display:flex;align-items:center;justify-content:center;margin:0 auto .9rem}
+        .modal-icon{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#E81B23,#ff3340);display:flex;align-items:center;justify-content:center;margin:0 auto .9rem}
         .modal-icon svg{width:26px;height:26px;color:#fff}
         .modal h2{font-family:'Playfair Display',Georgia,serif;font-size:1.35rem;font-weight:700;color:var(--text);margin-bottom:.4rem}
         .modal p{font-size:.85rem;color:var(--text2);line-height:1.5;margin-bottom:1.2rem}
@@ -1204,7 +1204,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .smodal{background:var(--bg2);border-radius:16px;padding:2.5rem 2rem;max-width:440px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,.2);position:relative;animation:modalIn .3s ease}
         .smodal-close{position:absolute;top:.8rem;right:.8rem;width:28px;height:28px;border-radius:50%;border:1px solid var(--border);background:var(--bg);cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:1rem;transition:all .2s}
         .smodal-close:hover{background:var(--bg3);color:var(--text)}
-        .smodal-icon{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--blue),#2a5cc5);display:flex;align-items:center;justify-content:center;margin:0 auto .9rem}
+        .smodal-icon{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#003DA5,#1a5cc5);display:flex;align-items:center;justify-content:center;margin:0 auto .9rem}
         .smodal-icon svg{width:26px;height:26px;color:#fff}
         .smodal h2{font-family:'Playfair Display',Georgia,serif;font-size:1.25rem;font-weight:700;color:var(--text);margin-bottom:.3rem;text-align:center}
         .smodal .smodal-sub{font-size:.82rem;color:var(--text2);text-align:center;margin-bottom:1.2rem}
@@ -1213,7 +1213,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .smodal-field input,.smodal-field select{width:100%;padding:.5rem .7rem;border-radius:7px;border:1px solid var(--border);background:var(--bg);font-family:'DM Sans',sans-serif;font-size:.85rem;color:var(--text);outline:none}
         .smodal-field input:focus,.smodal-field select:focus{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
         .smodal-submit{width:100%;padding:.6rem;border-radius:7px;border:none;background:var(--blue);color:#fff;font-family:'DM Sans',sans-serif;font-weight:600;font-size:.88rem;cursor:pointer;transition:background .2s;margin-top:.4rem}
-        .smodal-submit:hover{background:#163260}
+        .smodal-submit:hover{background:#002d7a}
         .smodal-thanks{display:none;text-align:center}
         .smodal-thanks.show{display:block}
         .smodal-form.hide{display:none}
@@ -1525,7 +1525,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
 <div class="smodal-overlay" id="subModal">
     <div class="smodal">
         <button class="smodal-close" id="subClose">&times;</button>
-        <div class="smodal-icon" style="background:linear-gradient(135deg,#b8322a,#d43d33)">
+        <div class="smodal-icon" style="background:linear-gradient(135deg,#E81B23,#ff3340)">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:26px;height:26px;color:#fff"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
         </div>
         <h2>Get The Vance Daily</h2>
@@ -2154,7 +2154,7 @@ def main():
             article_list += f'''<a href="{link}" target="_blank" rel="noopener noreferrer" style="display:flex;gap:.8rem;align-items:center;padding:.7rem 0;border-bottom:1px solid #e2ddd5;text-decoration:none;color:#1a1714">
                 {img}
                 <div style="flex:1;min-width:0">
-                    <div style="font-size:.65rem;font-weight:600;text-transform:uppercase;color:#b8322a;margin-bottom:.15rem">{a["source"]} <span style="background:{bias_c};color:#fff;padding:.1rem .35rem;border-radius:100px;font-size:.55rem;margin-left:.3rem">{bias_l}</span></div>
+                    <div style="font-size:.65rem;font-weight:600;text-transform:uppercase;color:#E81B23;margin-bottom:.15rem">{a["source"]} <span style="background:{bias_c};color:#fff;padding:.1rem .35rem;border-radius:100px;font-size:.55rem;margin-left:.3rem">{bias_l}</span></div>
                     <div style="font-family:\'Playfair Display\',Georgia,serif;font-size:.88rem;font-weight:700;line-height:1.3">{a["title"]}</div>
                     <div style="font-size:.65rem;color:#9e9790;margin-top:.2rem">{a["published_display"]}</div>
                 </div>
@@ -2175,7 +2175,7 @@ def main():
         .back{{font-size:.8rem;color:#6b6560;text-decoration:none;display:inline-flex;align-items:center;gap:.3rem;margin-bottom:1.5rem}}
         .back:hover{{color:#1a1714}}
         h1{{font-family:'Playfair Display',Georgia,serif;font-size:1.8rem;font-weight:900;margin-bottom:.3rem}}
-        h1 span{{color:#b8322a}}
+        h1 span{{color:#E81B23}}
         .meta{{font-size:.82rem;color:#6b6560;margin-bottom:1.5rem;line-height:1.6}}
         .meta strong{{color:#1a1714}}
         .bias-bar{{display:flex;gap:.6rem;margin-bottom:1.5rem;flex-wrap:wrap}}
@@ -2326,7 +2326,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         .masthead-flag{{margin-bottom:.5rem}}
         .masthead-flag svg{{width:60px;height:40px;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,.1)}}
         .masthead h1{{font-family:'Playfair Display',Georgia,serif;font-size:2rem;font-weight:900}}
-        .masthead h1 span{{color:#b8322a}}
+        .masthead h1 span{{color:#E81B23}}
         .masthead .date{{font-size:.85rem;color:#6b6560;margin-top:.3rem}}
         .masthead .stats{{font-size:.75rem;color:#9e9790;margin-top:.4rem}}
 
@@ -2338,19 +2338,19 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         .stories-section h2{{font-family:'Playfair Display',Georgia,serif;font-size:1.1rem;margin-bottom:.8rem}}
         .story-link{{display:block;padding:.6rem 0;border-bottom:1px solid #ece8e2;text-decoration:none;color:inherit;transition:background .2s}}
         .story-link:hover{{background:#f0ede8;margin:0 -.5rem;padding-left:.5rem;padding-right:.5rem;border-radius:6px}}
-        .sl-source{{display:block;font-size:.65rem;font-weight:600;text-transform:uppercase;color:#b8322a;margin-bottom:.15rem}}
+        .sl-source{{display:block;font-size:.65rem;font-weight:600;text-transform:uppercase;color:#E81B23;margin-bottom:.15rem}}
         .sl-title{{font-size:.85rem;color:#1a1714;line-height:1.35}}
 
-        .subscribe-box{{background:#fff;border:2px solid #b8322a;border-radius:12px;padding:1.5rem;text-align:center;margin-bottom:2rem}}
+        .subscribe-box{{background:#fff;border:2px solid #E81B23;border-radius:12px;padding:1.5rem;text-align:center;margin-bottom:2rem}}
         .subscribe-box h3{{font-family:'Playfair Display',Georgia,serif;font-size:1rem;margin-bottom:.3rem}}
         .subscribe-box p{{font-size:.8rem;color:#6b6560;margin-bottom:.8rem}}
         .subscribe-box .cta-row{{display:flex;gap:.5rem;justify-content:center}}
         .subscribe-box input{{padding:.45rem .8rem;border-radius:6px;border:1px solid #e2ddd5;font-family:'DM Sans',sans-serif;font-size:.82rem;width:220px;outline:none}}
-        .subscribe-box button{{padding:.45rem 1rem;border-radius:6px;border:none;background:#b8322a;color:#fff;font-family:'DM Sans',sans-serif;font-weight:600;font-size:.82rem;cursor:pointer}}
+        .subscribe-box button{{padding:.45rem 1rem;border-radius:6px;border:none;background:#E81B23;color:#fff;font-family:'DM Sans',sans-serif;font-weight:600;font-size:.82rem;cursor:pointer}}
 
         .topics-list{{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:2rem}}
         .topics-list a{{padding:.3rem .7rem;border-radius:100px;border:1px solid #e2ddd5;font-size:.72rem;font-weight:500;color:#6b6560;text-decoration:none}}
-        .topics-list a:hover{{border-color:#b8322a;color:#b8322a}}
+        .topics-list a:hover{{border-color:#E81B23;color:#E81B23}}
 
         .ft{{font-size:.7rem;color:#9e9790;border-top:1px solid #e2ddd5;padding-top:1rem;text-align:center}}
         .ft a{{color:#6b6560}}
@@ -2426,7 +2426,7 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         h1{font-family:'Playfair Display',Georgia,serif;font-size:1.6rem;font-weight:900;margin-bottom:1.5rem}
         h2{font-family:'Playfair Display',Georgia,serif;font-size:1.05rem;font-weight:700;margin:1.8rem 0 .5rem}
         p{font-size:.88rem;line-height:1.7;color:#2a2520;margin-bottom:.8rem}
-        a{color:#b8322a}
+        a{color:#E81B23}
         .ft{font-size:.7rem;color:#9e9790;border-top:1px solid #e2ddd5;padding-top:1rem;margin-top:2rem}
     </style>
 <!-- Google tag (gtag.js) -->
@@ -2511,9 +2511,9 @@ Sitemap: https://thevancedaily.com/sitemap.xml
     if buttondown_key and briefing_text and current_hour >= 12 and not os.path.exists(sent_flag):
         try:
             # Build branded email HTML
-            email_header = '''<div style="text-align:center;padding:20px 0 15px;border-bottom:2px solid #b8322a;margin-bottom:20px">
+            email_header = '''<div style="text-align:center;padding:20px 0 15px;border-bottom:2px solid #E81B23;margin-bottom:20px">
 <a href="https://thevancedaily.com" style="text-decoration:none">
-<span style="font-family:Georgia,serif;font-size:28px;font-weight:900;color:#1a1714">The <span style="color:#b8322a">Vance</span> Daily</span>
+<span style="font-family:Georgia,serif;font-size:28px;font-weight:900;color:#1a1714">The <span style="color:#E81B23">Vance</span> Daily</span>
 </a>
 <p style="font-size:11px;color:#9e9790;margin:4px 0 0;letter-spacing:0.04em;text-transform:uppercase">The Vance Daily - ''' + today_display + '''</p>
 </div>'''
@@ -2528,7 +2528,7 @@ Sitemap: https://thevancedaily.com/sitemap.xml
                 email_body += f'<p style="font-family:-apple-system,Arial,sans-serif;font-size:15px;line-height:1.6;color:#1a1714;margin:0 0 12px">{line}</p>'
             
             email_footer = f'''<div style="border-top:1px solid #e2ddd5;margin-top:24px;padding-top:16px;text-align:center">
-<p style="font-size:13px;margin:0 0 8px"><a href="https://thevancedaily.com/daily/{today}.html" style="color:#b8322a;text-decoration:none;font-weight:600">Read the full briefing with all headlines</a></p>
+<p style="font-size:13px;margin:0 0 8px"><a href="https://thevancedaily.com/daily/{today}.html" style="color:#E81B23;text-decoration:none;font-weight:600">Read the full briefing with all headlines</a></p>
 <p style="font-size:12px;color:#9e9790;margin:0 0 4px"><a href="https://thevancedaily.com" style="color:#9e9790">The Vance Daily</a> - {len(all_articles)} articles from {len(set(a["source"] for a in all_articles))} sources</p>
 <p style="font-size:11px;color:#9e9790;margin:12px 0 0">Not affiliated with any political campaign, party, government or media entity.</p>
 </div>'''
