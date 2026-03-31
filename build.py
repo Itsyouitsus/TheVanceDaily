@@ -1007,7 +1007,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta property="og:title" content="The Vance Daily - Every JD Vance Article, Every Day">
     <meta property="og:description" content="''' + total + ''' articles from ''' + str(source_count) + ''' sources. Filter by political bias, topic, channel, or date. Updated hourly.">
-    <meta property="og:image" content="https://thevancedaily.com/og-image-v3.png">
+    <meta property="og:image" content="https://thevancedaily.com/og-image-v4.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
@@ -1016,7 +1016,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Vance Daily - Every JD Vance Article, Every Day">
     <meta name="twitter:description" content="The most comprehensive JD Vance news aggregator. ''' + total + ''' articles updated hourly.">
-    <meta name="twitter:image" content="https://thevancedaily.com/og-image-v3.png">
+    <meta name="twitter:image" content="https://thevancedaily.com/og-image-v4.png">
     <link rel="canonical" href="https://thevancedaily.com">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <script type="application/ld+json">
@@ -1077,7 +1077,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .soc-bar::before{left:0;background:linear-gradient(90deg,var(--bg2),transparent)}
         .soc-bar::after{right:0;background:linear-gradient(270deg,var(--bg2),transparent)}
         .soc-label{position:absolute;left:1rem;top:50%;transform:translateY(-50%);z-index:3;font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--text3);background:var(--bg2);padding:.2rem .5rem;border-radius:4px}
-        .soc-track{display:flex;gap:1rem;width:max-content;animation:scrollR 100s linear infinite}
+        .soc-track{display:flex;gap:1rem;width:max-content;animation:scrollR 150s linear infinite}
         .soc-track:hover{animation-play-state:paused}
         .soc-card{flex-shrink:0;width:300px;padding:.7rem .9rem;border-radius:8px;border:1px solid var(--border);background:var(--bg);text-decoration:none;color:var(--text);transition:border-color .2s,box-shadow .2s;display:flex;flex-direction:column;gap:.4rem}
         .soc-card:hover{border-color:var(--border2);box-shadow:var(--shadow-h)}
@@ -1096,7 +1096,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .crs::before,.crs::after{content:'';position:absolute;top:0;bottom:0;width:60px;z-index:2;pointer-events:none}
         .crs::before{left:0;background:linear-gradient(90deg,var(--bg3),transparent)}
         .crs::after{right:0;background:linear-gradient(270deg,var(--bg3),transparent)}
-        .crs-track{display:flex;gap:1.8rem;width:max-content;animation:scrollR 200s linear infinite}
+        .crs-track{display:flex;gap:1.8rem;width:max-content;animation:scrollR 300s linear infinite}
         .crs-track:hover{animation-play-state:paused}
         .crs-item{display:flex;align-items:center;gap:.4rem;flex-shrink:0;text-decoration:none;transition:opacity .2s}
         .crs-item:hover{opacity:.7}
