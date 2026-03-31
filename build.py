@@ -1335,7 +1335,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         <div class="custom-dd-list" id="srcDDList">
             <input type="text" class="custom-dd-search" id="srcDDSearch" placeholder="Search sources...">
             <div class="custom-dd-item active" data-val="">All Sources (''' + str(source_count) + ''')</div>
-            <div class="custom-dd-item soc-opt" data-val="__vance_social__">&#9733; Vance's Social Media</div>
+
         </div>
     </div>
     <div class="custom-dd" id="regionDD">
@@ -1976,11 +1976,9 @@ def main():
             intl_count += 1
     print(f"Region labeling: {us_count} US, {intl_count} International")
 
-    # 6. Scrape Vance's social media posts (X/Twitter via syndication API)
-    print("\nScraping social media posts...")
-    from datetime import timedelta
-    now = datetime.now(timezone.utc)
-    scraped_social = fetch_social_posts()
+    # 6. Social media scraping DISABLED until Twitter API is available
+    print("\nSocial media scraping disabled - waiting for Twitter API")
+    scraped_social = []
     # Use scraped X posts for the article grid (with real timestamps)
     for sp in scraped_social:
         if not sp.get("text") or not sp.get("timestamp"):
@@ -2121,7 +2119,7 @@ def main():
         for f in sorted(os.listdir(daily_dir_check), reverse=True):
             if f.endswith(".html"):
                 available_dates.append(f.replace(".html", ""))
-    html_content = generate_html(all_articles, build_time, social_posts=scraped_social, today=today, daily_dates=available_dates)
+    html_content = generate_html(all_articles, build_time, social_posts=None, today=today, daily_dates=available_dates)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(html_content)
