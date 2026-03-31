@@ -1096,7 +1096,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .crs::before,.crs::after{content:'';position:absolute;top:0;bottom:0;width:60px;z-index:2;pointer-events:none}
         .crs::before{left:0;background:linear-gradient(90deg,var(--bg3),transparent)}
         .crs::after{right:0;background:linear-gradient(270deg,var(--bg3),transparent)}
-        .crs-track{display:flex;gap:1.8rem;width:max-content;animation:scrollR 600s linear infinite}
+        .crs-track{display:flex;gap:1.8rem;width:max-content;animation:scrollR 200s linear infinite}
         .crs-track:hover{animation-play-state:paused}
         .crs-item{display:flex;align-items:center;gap:.4rem;flex-shrink:0;text-decoration:none;transition:opacity .2s}
         .crs-item:hover{opacity:.7}
@@ -1314,9 +1314,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     </div>
 </header>
 
-<div class="soc-bar">
-    <div class="soc-track">''' + social_html + '''</div>
-</div>
+''' + (('<div class="soc-bar"><div class="soc-track">' + social_html + '</div></div>') if social_html else '') + '''
 
 <div class="crs">
     <div class="crs-track">''' + carousel_track + '''</div>
