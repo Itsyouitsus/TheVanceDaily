@@ -1283,8 +1283,8 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         }
     </style>
 <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FJK6HBH8C"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-6FJK6HBH8C");</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3WLR951031"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-3WLR951031");</script>
 <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6910331043242861" crossorigin="anonymous"></script>
 </head>
@@ -2187,8 +2187,8 @@ def main():
         .ft a{{color:#6b6560}}
     </style>
 <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FJK6HBH8C"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-6FJK6HBH8C");</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3WLR951031"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-3WLR951031");</script>
 </head>
 <body>
     <a href="/" class="back">&larr; Back to The Vance Daily</a>
@@ -2358,8 +2358,8 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         .ft a{{color:#6b6560}}
     </style>
 <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FJK6HBH8C"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-6FJK6HBH8C");</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3WLR951031"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-3WLR951031");</script>
 </head>
 <body>
     <a href="/" class="back">&larr; Back to all articles</a>
@@ -2432,8 +2432,8 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         .ft{font-size:.7rem;color:#9e9790;border-top:1px solid #e2ddd5;padding-top:1rem;margin-top:2rem}
     </style>
 <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FJK6HBH8C"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-6FJK6HBH8C");</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3WLR951031"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-3WLR951031");</script>
 </head>
 <body>
     <a href="/" class="back">&larr; Back to The Vance Daily</a>
