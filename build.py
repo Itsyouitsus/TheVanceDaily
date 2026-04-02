@@ -1077,7 +1077,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .soc-bar::before{left:0;background:linear-gradient(90deg,var(--bg2),transparent)}
         .soc-bar::after{right:0;background:linear-gradient(270deg,var(--bg2),transparent)}
         .soc-label{position:absolute;left:1rem;top:50%;transform:translateY(-50%);z-index:3;font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--text3);background:var(--bg2);padding:.2rem .5rem;border-radius:4px}
-        .soc-track{display:flex;gap:1rem;width:max-content;animation:scrollR 180s linear infinite}
+        .soc-track{display:flex;gap:1rem;width:max-content;animation:scrollR 1s linear infinite}
         .soc-track:hover{animation-play-state:paused}
         .soc-card{flex-shrink:0;width:300px;padding:.7rem .9rem;border-radius:8px;border:1px solid var(--border);background:var(--bg);text-decoration:none;color:var(--text);transition:border-color .2s,box-shadow .2s;display:flex;flex-direction:column;gap:.4rem}
         .soc-card:hover{border-color:var(--border2);box-shadow:var(--shadow-h)}
@@ -1096,7 +1096,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
         .crs::before,.crs::after{content:'';position:absolute;top:0;bottom:0;width:60px;z-index:2;pointer-events:none}
         .crs::before{left:0;background:linear-gradient(90deg,var(--bg3),transparent)}
         .crs::after{right:0;background:linear-gradient(270deg,var(--bg3),transparent)}
-        .crs-track{display:flex;gap:1.8rem;width:max-content;animation:scrollR 500s linear infinite}
+        .crs-track{display:flex;gap:1.8rem;width:max-content;animation:scrollR 1s linear infinite}
         .crs-track:hover{animation-play-state:paused}
         .crs-item{display:flex;align-items:center;gap:.4rem;flex-shrink:0;text-decoration:none;transition:opacity .2s}
         .crs-item:hover{opacity:.7}
@@ -1818,6 +1818,14 @@ function imgFail(img){
         });
     }, { rootMargin: '200px' });
     document.querySelectorAll('.card-img-lazy').forEach(el => lazyObs.observe(el));
+
+    // Set carousel speeds based on track width (constant px/sec regardless of item count)
+    const PX_PER_SEC = 30; // pixels per second - same speed for all carousels
+    document.querySelectorAll('.soc-track, .crs-track').forEach(track => {
+        const halfWidth = track.scrollWidth / 2;
+        const duration = halfWidth / PX_PER_SEC;
+        track.style.animationDuration = duration + 's';
+    });
 
     // Briefing date picker - button opens the hidden date input
     const briefingDateInput=document.getElementById('briefingDate');
