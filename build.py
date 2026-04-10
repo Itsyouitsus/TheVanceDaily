@@ -1038,7 +1038,7 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg:#b8322a; --bg2:#fff; --bg3:#f0ede8;
+            --bg:#f6f4f0; --bg2:#fff; --bg3:#f0ede8;
             --surface:#fff; --surface-h:#f8f6f2;
             --text:#1a1714; --text2:#6b6560; --text3:#9e9790;
             --accent:#E81B23; --accent-h:#cc1720;
