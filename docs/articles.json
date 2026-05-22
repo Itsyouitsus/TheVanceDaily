@@ -1,5 +1,21 @@
 [
   {
+    "id": "911e31e02e95",
+    "title": "Trump met top advisers on Iran as he weighs return to war",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/05/22/trump-iran-meeting-resume-war-deal",
+    "published": "2026-05-22T20:31:01+00:00",
+    "published_display": "May 22, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/05/22/trump-iran-meeting-resume-war-deal",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
     "id": "28b358f810c1",
     "title": "JD Vance says major Medicaid and autism fraud is being uncovered in Minnesota",
     "source": "The American Bazaar",
@@ -59,6 +75,22 @@
     "query": "direct_feed",
     "image": "",
     "real_url": "https://www.theblaze.com/align/why-teslas-latest-road-test-could-be-bad-news-for-washington",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "d2b247845d02",
+    "title": "Vance Praises &#x27;Patriot&#x27; Gabbard After DNI Resignation",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/jd-vance-tulsi-gabbard-director-of-national-intelligence/2026/05/22/id/1257248",
+    "published": "2026-05-22T16:52:56-04:00",
+    "published_display": "May 22, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/jd-vance-tulsi-gabbard-director-of-national-intelligence/2026/05/22/id/1257248",
     "bias": "R",
     "topic": "General",
     "region": "US"
@@ -669,6 +701,22 @@
     "real_url": "https://www.kbsi23.com/news/vice-president-jd-vance-makes-stop-in-kansas-city-during-missouri-visit/",
     "bias": "?",
     "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "70bfe202218c",
+    "title": "Trump\u2019s Gas Tax Gimmick &amp; Rubio\u2019s 2028 Surge",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ0VRNkxkbjIwVW85T0pldlBhQ2plcFNCa3NoUlZVSzBLbEtEUVVTOGNMSG5OOUU1NFhvWXowdnBaSDVrNEdEMFhtQzFtbnNwaWFxNkdWcWZrV0RNRXR0MHRjVlpmNDhlMWtpbWk4Q0tuUW5fVFRNRmtya0xDYlB5U185RFRvdlVhS3d5b282VTI?oc=5",
+    "published": "2026-05-21T20:05:37+00:00",
+    "published_display": "May 21, 2026",
+    "query": "Vance Republican",
+    "image": "https://s.yimg.com/ny/api/res/1.2/6YiEOW0OMEQueSuVdBOZ3g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/puck_news_articles_824/a3d3b506c8c07e955efcf72ae6a269aa",
+    "real_url": "https://www.yahoo.com/news/politics/articles/trump-gas-tax-gimmick-rubio-200537861.html",
+    "bias": "C",
+    "topic": "Economy",
     "region": "US"
   },
   {
@@ -7406,6 +7454,22 @@
     "bias": "LR",
     "topic": "Domestic",
     "region": "US"
+  },
+  {
+    "id": "537f9a4885b5",
+    "title": "Vance Takes White House Podium Amid 2028 Rivalry With Rubio",
+    "source": "Streamlinefeed.co.ke",
+    "source_url": "https://streamlinefeed.co.ke",
+    "source_domain": "streamlinefeed.co.ke",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaFNaeVEyUi12a0JJSWR3YnJqbWswMVFhM09hTVRFMUh0anM0TkxhaFl3bFZnaDRZUEpVcF9oblhyZUN0Wk5jUzdqbE03MFhpWFloTTljM241WnVsMXF5ajlLd3JZMkVVNDdHX1ZYc0NCMnBqSjNyaF80RW5WR05FLVpMTVZ3WHVIeWMtel92UXJpemdmSFczdA?oc=5",
+    "published": "2026-05-19T12:51:59+00:00",
+    "published_display": "May 19, 2026",
+    "query": "Vance president 2028",
+    "image": "https://nyjbuhvfbjutcfbphchh.supabase.co/storage/v1/object/public/business-media/thumbnails/1ed086ac-3084-4cef-8305-ab489b61134e/1779199561481-ir1y2d6eb5b.webp",
+    "real_url": "https://streamlinefeed.co.ke/news/vance-takes-white-house-podium-amid-2028-rivalry-with-rubio",
+    "bias": "?",
+    "topic": "2028 Race",
+    "region": "Africa"
   },
   {
     "id": "6dbe9d7e4837",
