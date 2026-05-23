@@ -1,5 +1,53 @@
 [
   {
+    "id": "a9f6ad8bdc78",
+    "title": "Nature hates Hegseth, Bezos kisses Trump\u2019s ass, and Vance is a buffoon",
+    "source": "Daily Kos",
+    "source_url": "https://www.dailykos.com",
+    "source_domain": "www.dailykos.com",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObEdBZG05R200ek9oeGVJeGRqY0xObV9MQnpSeUtoS283WXRScmV4bWtWc0VRVWVNNTdQVmw5b0FJMm5FMmh2QzQ5UmUyVC1ULXB5V2FrZUY3SElTTmtpaDRtcVZYTG02Z3I4SWY0bi15VGpZVTd5bTF1ZmhhZXpxM0NCUVpSb05ONGhMSXpPNlNTT1Mwc3F2Z05DZXZhbDA?oc=5",
+    "published": "2026-05-23T17:00:00+00:00",
+    "published_display": "May 23, 2026",
+    "query": "JD Vance",
+    "image": "https://www.dailykos.com/wp-content/uploads/sites/2/2026/05/Clips-of-the-Week-4.png",
+    "real_url": "https://www.dailykos.com/stories/2026/5/23/800043099/series/hegseth-bezos-vance-clips-of-the-week/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "2d8363362b22",
+    "title": "Kyle Busch died after severe pneumonia progressed into sepsis, his family says",
+    "source": "The Hill",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://thehill.com/blogs/in-the-know/5892749-kyle-busch-died-after-severe-pneumonia-progressed-into-sepsis-his-family-says/",
+    "published": "2026-05-23T16:15:04+00:00",
+    "published_display": "May 23, 2026",
+    "query": "direct_feed",
+    "image": "https://thehill.com/wp-content/uploads/sites/2/2026/05/AP26141735566896.jpg?w=1280",
+    "real_url": "https://thehill.com/blogs/in-the-know/5892749-kyle-busch-died-after-severe-pneumonia-progressed-into-sepsis-his-family-says/",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "7306f0bed7e1",
+    "title": "Exclusive: Trump says he&#x27;s &quot;50/50&quot; on Iran deal or bombs, will meet envoys to decide",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/05/23/trump-iran-deal-resume-war-interview",
+    "published": "2026-05-23T16:10:50+00:00",
+    "published_display": "May 23, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/05/23/trump-iran-deal-resume-war-interview",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
     "id": "cdeb2e0f82a5",
     "title": "Who has the better chance of inheriting Trump\u2019s Maga movement: Vance or Rubio?",
     "source": "South China Morning Post",
@@ -16,6 +64,22 @@
     "region": "International"
   },
   {
+    "id": "d807d7567acd",
+    "title": "Pakistan, Iran, Qatar &#x27;finalizing&#x27; interim agreement with US to end Middle East war: Sources",
+    "source": "Anadolu Ajans\u0131",
+    "source_url": "https://www.aa.com.tr",
+    "source_domain": "www.aa.com.tr",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWldUd042eVdvYmZiNV84UEZMTkJKYlV1VW5PT09vWDYzeFFsN0d3Y1d5MVB1VkJSRVBYUTdmT1VUeXRvMXJPNHFkbXRNTWNxU3ZCT2ZYaW5uNG8zZHR4WnFvaXNWbmRwNGpIc245OG1VQVVpWVducEs5X3FXM1BhTTFFT1BkQzEySzVOVFhRN3hNVW8wMWFaVG5NdXl2Sy13Z3RpZ2sweWluY1pzYkVmNmpkenYxeUxBV0NNQnkwMTA3eGVmWl82SldGMk9RZw?oc=5",
+    "published": "2026-05-23T13:46:07+00:00",
+    "published_display": "May 23, 2026",
+    "query": "JD Vance",
+    "image": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/05/23/thumbs_b_c_9e7ccc4989e1f845753a4d828b47bc20.jpg",
+    "real_url": "https://www.aa.com.tr/en/asia-pacific/pakistan-iran-qatar-finalizing-interim-agreement-with-us-to-end-middle-east-war-sources/3946767",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "International"
+  },
+  {
     "id": "481b4c9e8af1",
     "title": "How the H-1B visa replaces American workers",
     "source": "The Blaze",
@@ -29,6 +93,22 @@
     "real_url": "https://www.theblaze.com/columns/opinion/how-the-h-1b-visa-replaces-american-workers",
     "bias": "R",
     "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "29eafb2e9a2c",
+    "title": "Family: Kyle Busch Died After Pneumonia Led to Sepsis",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/kyle-busch-cause-of-death-pneumonia/2026/05/23/id/1257292",
+    "published": "2026-05-23T12:30:11-04:00",
+    "published_display": "May 23, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/kyle-busch-cause-of-death-pneumonia/2026/05/23/id/1257292",
+    "bias": "R",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -333,6 +413,22 @@
     "real_url": "https://www.masslive.com/politics/2026/05/former-press-secretary-grades-vance-rubio-on-media-performances.html",
     "bias": "?",
     "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "f5836461a2ad",
+    "title": "Harris leads Vance and Rubio in new 2028 poll",
+    "source": "MSN",
+    "source_url": "https://www.msn.com",
+    "source_domain": "www.msn.com",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQb0ZGMTdrNDl5b0FyVGw5Wk85MFRIdTY0OC1hU2tuTlB4QmNtenc3MllZV2JaVzByR2hRa2x6YmVfcjJ3SVV3X09qT0E0VUQtYlctMGlfRGxFaGwtWl9wb29YTWFuZXhBWFpJOU9MN1oxNEFwVFhZbnZXNkIzdGRVU1gtOE53WmJTM1R4cDFEMWtVZ3JRQWJQdzdHNEJsRkdlWGZHbjV0c2tRSVNYSWV0WWUyMlhDWmJHa2w1R3czVDAtQjVYTDRJLWFWRFE0ZW5mX3hTWTNpMW5NbTNMYzJzVzdFdk4?oc=5",
+    "published": "2026-05-22T16:02:43+00:00",
+    "published_display": "May 22, 2026",
+    "query": "Vance president 2028",
+    "image": "https://th.bing.com/th?id=OMSN.AA23MSXW.webp-Gem&pid=wdpv2",
+    "real_url": "https://www.msn.com/en-us/news/insight/harris-leads-vance-and-rubio-in-new-2028-poll/gm-GMC79B01C3?gemSnapshotKey=GMC79B01C3-snapshot-1&ocid=LastSlide",
+    "bias": "C",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
@@ -35708,6 +35804,22 @@
     "image": "https://i.guim.co.uk/img/media/02e4f3f4cad75a0ff51da6eb090bd1f04679e049/352_0_3508_2807/master/3508.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6d6abdcf86afd0c81ffdd118d8f43e0a",
     "real_url": "https://www.theguardian.com/us-news/2026/apr/28/king-charles-congress-trump",
     "bias": "LL",
+    "topic": "Domestic",
+    "region": "Europe"
+  },
+  {
+    "id": "3aed03b1d411",
+    "title": "JD Vance refuses to clap as King Charles gets standing ovation at Congress during US visit",
+    "source": "Irish Star",
+    "source_url": "https://www.irishstar.com",
+    "source_domain": "www.irishstar.com",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQanRoR3RQbnpqZXFGOHBzcXFydkVyWG9NbU9QM2ZoalVoV2RWaU9VYkFnejQxRi02eEpyc3JaUi1YS2Z5bWRPZ0Q2UDV2bmJab3FKczZFMVJjNHdiaXNLel9UYzBDTk01R3JzanZoT0EzYS1IZ2NCMS1kLWs5eDZYb3JR0gGHAUFVX3lxTE1xZ0Jxa3QyVF8wQzlRZjg2Smoya05NWmVvRUVDVlRpN282M25FVkxQYjVPbjhFSkphUk9CcThxV2x6OEIwMnFJNmxMTGhsOVU3MUtWbTdNRV8zR3V2dXczVzkzVnQxcXdfZnRyblZKRFJ4TkE5QUdBMHlORFI5T2t1cGJ3aF9vYw?oc=5",
+    "published": "2026-04-29T07:00:00+00:00",
+    "published_display": "Apr 29, 2026",
+    "query": "Vance Congress",
+    "image": "https://i2-prod.irishstar.com/article37084961.ece/ALTERNATES/s1200d/1_King-Charles-III-And-Queen-Camilla-State-Visit-Continues-In-Washington-DC.jpg",
+    "real_url": "https://www.irishstar.com/news/us-news/jd-vance-king-charles-speech-37084962",
+    "bias": "?",
     "topic": "Domestic",
     "region": "Europe"
   },
@@ -172475,6 +172587,22 @@
     "real_url": "https://www.vox.com/2020/7/9/21318612/supreme-court-trump-mazars-vance-john-roberts-subpoenas-tax-returns",
     "bias": "L",
     "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "839b10e69560",
+    "title": "Supreme Court says Manhattan DA can get Trump&#x27;s tax records, but rejects bid by House Democrats",
+    "source": "CNBC",
+    "source_url": "https://www.cnbc.com",
+    "source_domain": "www.cnbc.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1nRnNFeTR3ZlhfT2V0QzRVRFhUZ2tYaVI2Sm1PRS1nTl9kcEEtekxGTzczZFItcWt6ZjRSZjBtQXE0enlnMVNDNXdRVmptOXNBc2gyVGpQRzRQLXNvWktTbUJzclFYN2Y4S3NHbDZLcVNHVEo3dTEw0gF8QVVfeXFMUFpyUl9talZCdzJfdjluLUttSE1TV0pneTZldXZmNXMtR1QyaUQ2UmhMUUJlZWtDR1lRVG1OUHRnZXBNVnNSWnhNV1BCNUpHa0ZJcjhDdk9zMlhHUGs4VHZ3RWd6MElodnlxV3ZDRGx0YlZmZ0xkRnJ2cFU4bw?oc=5",
+    "published": "2020-07-09T07:00:00+00:00",
+    "published_display": "Jul 09, 2020",
+    "query": "Vance Congress",
+    "image": "https://image.cnbcfm.com/api/v1/image/106563431-1591193194489gettyimages-1232910419.jpeg?v=1591193225&w=1920&h=1080",
+    "real_url": "https://www.cnbc.com/2020/07/09/supreme-court-trump-tax-records.html",
+    "bias": "LL",
+    "topic": "Economy",
     "region": "US"
   },
   {
