@@ -1,5 +1,37 @@
 [
   {
+    "id": "18138dba9d1d",
+    "title": "U.S., Iran close to a deal to end war, official says",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/05/23/us-iran-trump-deal-war",
+    "published": "2026-05-23T18:30:35+00:00",
+    "published_display": "May 23, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/05/23/us-iran-trump-deal-war",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "8d9387a32ad9",
+    "title": "Exclusive: Trump says he&#x27;s &quot;50/50&quot; on Iran deal, decision by Sunday",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/05/23/trump-iran-deal-resume-war-interview",
+    "published": "2026-05-23T17:12:03+00:00",
+    "published_display": "May 23, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/05/23/trump-iran-deal-resume-war-interview",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
     "id": "a9f6ad8bdc78",
     "title": "Nature hates Hegseth, Bezos kisses Trump\u2019s ass, and Vance is a buffoon",
     "source": "Daily Kos",
@@ -13,6 +45,22 @@
     "real_url": "https://www.dailykos.com/stories/2026/5/23/800043099/series/hegseth-bezos-vance-clips-of-the-week/",
     "bias": "?",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "a527fef7b275",
+    "title": "EXCLUSIVE \u2014 U.S., Iran to announce peace deal within 24 hours",
+    "source": "Washington Times",
+    "source_url": "https://www.washingtontimes.com",
+    "source_domain": "www.washingtontimes.com",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNek1UdEhNS2lBY2JDM2FyU0pwN280TXFxY1hURFQ4MC16cGxIamx2TTBfMVR1TlQ2UTJrNEJGOEVEVTM3aFJ4dm9wamw1WThhdFJNSnMyZHE1dEFXRDdtUU0tX3FBNDZDMWF2YlctRFItZTU0N3BHZ1E4d2dvMk5FVG5lVjUtNG9UX2hKaFNzZ2kwT3JoS0NEXzl1cFZqWHJzaVFFbDV3?oc=5",
+    "published": "2026-05-23T16:54:30+00:00",
+    "published_display": "May 23, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://www.washingtontimes.com/news/2026/may/23/exclusive-us-iran-announce-peace-deal-within-24-hours/",
+    "bias": "LR",
+    "topic": "Iran",
     "region": "US"
   },
   {
@@ -589,6 +637,22 @@
     "real_url": "https://www.foreignpolicyjournal.com/2026/05/22/kamala-harris-leads-jd-vance-in-new-2028-poll-as-democratic-field-remains-wide-open/",
     "bias": "?",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "fb5794a146eb",
+    "title": "President Trump Delivers Remarks, May 22, 2026",
+    "source": "The White House (.gov)",
+    "source_url": "https://www.whitehouse.gov",
+    "source_domain": "www.whitehouse.gov",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc1hLZUx5dkFncFRvWExWOXpiQ2tpZk5Ib3Y4UTJDbkZXWUpBTnRFWG9nWWtIZkNEMkxBZklyVEthcVRGWW5HMklOUnVVbmE5WngtaVBrTmhLbk96T01uUVV2dzNQUTFPbGd1SzA2dURkOTFkY24yd0dnWWhqU0ZMV2tpQ2g2QQ?oc=5",
+    "published": "2026-05-22T10:02:09+00:00",
+    "published_display": "May 22, 2026",
+    "query": "JD Vance",
+    "image": "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Social-Share-Card.jpg",
+    "real_url": "https://www.whitehouse.gov/videos/president-trump-delivers-remarks-may-22-2026/",
+    "bias": "?",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -11437,6 +11501,22 @@
     "real_url": "https://www.aol.com/entertainment/j-d-vance-claims-dead-184641722.html",
     "bias": "C",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "310f92442a10",
+    "title": "Vance, Walz clash on 2020 election results, economy, reproductive rights in civil debate",
+    "source": "The Indian Panorama",
+    "source_url": "https://www.theindianpanorama.news",
+    "source_domain": "www.theindianpanorama.news",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ3U5cXRpQ3ducXVKVF9ud09MOTRtS0JuSXBBSkV0Vk13NjNMNTRGUWQ4QnRaX2wwR1dpTWVqWTE4TlI2cy1VNEQtN2NmREVmQ2RsZWt3ZE5wY1lzNWFGNVNoZk03WFBlRUxPTWRfcklUS1doTXRhSDJjNFF0UkdiZkJYZ2pLTFFzVE55cGV4N1JMMDhZZ2ljVnlJNV9MYVR6bmwzaWpKajNHcVBzRExZZjlJT0dKWHV6S004RC13?oc=5",
+    "published": "2026-05-15T22:37:18+00:00",
+    "published_display": "May 15, 2026",
+    "query": "Vance economy",
+    "image": "https://www.theindianpanorama.news/wp-content/uploads/2024/10/Vance-Walz-clash-on-2020-election-results-economy-reproductive-rights-in-civil-debate.jpg",
+    "real_url": "https://www.theindianpanorama.news/vance-walz-clash-on-2020-election-results-economy-reproductive-rights-in-civil-debate/",
+    "bias": "?",
+    "topic": "Economy",
     "region": "US"
   },
   {
