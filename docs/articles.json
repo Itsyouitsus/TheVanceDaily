@@ -1,5 +1,53 @@
 [
   {
+    "id": "793ab9677f94",
+    "title": "GOP-led House advances highway bill that slaps fees of EV owners after years of ducking gas taxes",
+    "source": "Just The News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://justthenews.com/nation/states/center-square/580b-federal-highway-bill-clears-committee-includes-rail-safety-ev-fees?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "published": "2026-05-24T05:07:33.914003+00:00",
+    "published_display": "May 24, 2026",
+    "query": "direct_feed",
+    "image": "https://justthenews.com/sites/default/files/styles/social_media_share/public/2025-03/Electric%20vehicle%20ev%20gavin%20newsom.jpg?h=b2fbb545&itok=u0UZOYO-",
+    "real_url": "https://justthenews.com/nation/states/center-square/580b-federal-highway-bill-clears-committee-includes-rail-safety-ev-fees?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "bias": "LR",
+    "topic": "Economy",
+    "region": "US"
+  },
+  {
+    "id": "40ff7d5202be",
+    "title": "Clarence Page: \u2018Anti-weaponization fund\u2019 is corruption, but it\u2019s also an instrument of abuse",
+    "source": "Daily Freeman",
+    "source_url": "https://www.dailyfreeman.com",
+    "source_domain": "www.dailyfreeman.com",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcVdENndLN0JHVTBZcnFLekw1QTgzdU5tTWVpRnNZMDFzVlRZOTVSWWloOHFITl9ueFhqOG51OUlKTTl3c1lqRVFyaGtiVlNzcnAxN0RRTkstS09TZ1EtOFBBYk05bWtqYTdZTWhEOFM1N004ZVB1Q2thbnVFM3hmSE5kN3U4SWx6aDM1TURNTHRHR0Q4Wkhabi1ldGYzcTVidHJ1dUJsazNTMnZhTlNIV1JqUWZQVkVOZ29oMExLaGkyVEZiNG1z?oc=5",
+    "published": "2026-05-24T04:01:04+00:00",
+    "published_display": "May 24, 2026",
+    "query": "JD Vance",
+    "image": "https://www.dailyfreeman.com/wp-content/uploads/2026/05/Vance_Fraud_Task_Force_55161.jpg?w=1024&h=683",
+    "real_url": "https://www.dailyfreeman.com/2026/05/24/clarence-page-anti-weaponization-fund-is-corruption-but-its-also-an-instrument-of-abuse/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "ba6776833d66",
+    "title": "Vice President J.D. Vance\u2019s mother speaks on recovery in Palestine",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeDRBZzJabHpuejNFYmhkNEZneFFucjd6WVlxeDJvclF5MXFUQXJUYmZSOUhFbDdpak14Y2gwNlRUQ0laV0tSckhhSW9jWkZzbEw3U19ra2pqN2gxWVVVamhKb2J1czZBUG1aeDB2ak8zOGJLY3Njb0xOdVlzSnFpZVBIOGQ?oc=5",
+    "published": "2026-05-24T02:57:00+00:00",
+    "published_display": "May 24, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/os/en/ketk_tyler_articles_859/20fde48a24727e7401ab9377c8e319f1",
+    "real_url": "https://www.yahoo.com/news/us/articles/vice-president-j-d-vance-025719790.html",
+    "bias": "C",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "781fbd8867e8",
     "title": "Gunshots heard near White House on Saturday evening",
     "source": "NBC10 Philadelphia",
@@ -14,6 +62,22 @@
     "bias": "?",
     "topic": "Domestic",
     "region": "US"
+  },
+  {
+    "id": "011c69156e06",
+    "title": "Isolated JD Vance considering abandoning 2028 presidential run after Tulsi Gabbard exit",
+    "source": "Irish Star",
+    "source_url": "https://www.irishstar.com",
+    "source_domain": "www.irishstar.com",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWTFLaDhHLUlNd3h0SWp0Rzg2c3NYWThDZmpjV2lZaWJmM25sQjFJRmYyckhtS3VhQ1VHN2R5VGw1WndSOWdSaXJ0ZmlVUWo1MkNqNHJ6QVpoOXEwSDRLdHFzN2F6dlI4bUNHYndDbElGb0xKV0d4Sl9OdDVzT2ltXzVfTTA1N2ZWdFNuS2xUNjZpcXM?oc=5",
+    "published": "2026-05-23T22:26:00+00:00",
+    "published_display": "May 23, 2026",
+    "query": "Vance president 2028",
+    "image": "https://i2-prod.irishstar.com/article37197577.ece/ALTERNATES/s1200d/0_Trump-26139638898254.jpg",
+    "real_url": "https://www.irishstar.com/news/politics/isolated-jd-vance-considering-abandoning-37197572",
+    "bias": "?",
+    "topic": "2028 Race",
+    "region": "Europe"
   },
   {
     "id": "77cfd669d713",
@@ -46,6 +110,22 @@
     "bias": "LL",
     "topic": "Iran",
     "region": "International"
+  },
+  {
+    "id": "f79959596967",
+    "title": "Tulsi Gabbard\u2019s departure is a blow to the coalition of Trump 2.0",
+    "source": "The Times",
+    "source_url": "https://www.thetimes.com",
+    "source_domain": "www.thetimes.com",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLVFLS0Fqd2pJWGhROHVpUS0yM0ZnWlRqempZMy1jRGRDc08xelQ1ZTY2M3V2cHFuTkdDUmswMnZoNDJ4Ri0tWFE4V3ZzYkNJR29hU0luWjVXbmZJVldDV0J6TDNIdmJ3U0ZlNHAzd0FmS3V4dUF4SHdZNWRlNGNoWFhPVHk3U0tPbWRXVFZ4b04tZVJ5R0dXQ0Z6MC11NUxQMHNCLTZB?oc=5",
+    "published": "2026-05-23T21:00:00+00:00",
+    "published_display": "May 23, 2026",
+    "query": "JD Vance",
+    "image": "https://www.thetimes.com/imageserver/image/4bcd0cc4-b76e-4720-b1fd-c31a79276da0.jpg?strip=all&format=webp&crop=3342px%2C1879px%2C0px%2C174px&resize=1200",
+    "real_url": "https://www.thetimes.com/us/american-politics/article/tulsi-gabbard-resignation-husband-trump-jmmpftrbj",
+    "bias": "C",
+    "topic": "General",
+    "region": "Europe"
   },
   {
     "id": "0b901cc331c0",
@@ -254,6 +334,22 @@
     "bias": "C",
     "topic": "Iran",
     "region": "US"
+  },
+  {
+    "id": "816443879929",
+    "title": "Temu policy; bold promises but the devil is in the detail",
+    "source": "The Post",
+    "source_url": "https://www.thepost.co.nz",
+    "source_domain": "www.thepost.co.nz",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUFduNFNBWFBJVzRjQzJxUExnd3AzVG5KOUU4Sk1Ic3A5ek9SVzBnbzhDZkduLXg1dTRHRkRrNFJvaW5kTFMya1hVSWNIek1JMzZRNXVQUURTNnRaLUhNM1VCaFMtMTQ0M3N1NFlTZmhYa2ZFZ1lvT3FaOWVvTkNOQlhVN2o4NV9kQ1lB?oc=5",
+    "published": "2026-05-23T16:00:00+00:00",
+    "published_display": "May 23, 2026",
+    "query": "Vance policy",
+    "image": "https://www.thepost.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUSeZYZbm+SU0zjMnNqDfql8Yk4r+Ht43oxrl86VwI5IF7k1TZFVP%2FGWCLS2aI+JHGnPuq0mzbFrC8y+aeuKyKOHUAWq7koDyxvFajXT5TIs3PtO6tJIp7aIGtSnpUNYWF6BAGOcWMMsfIuToJ9ToK4LLPoI5fPkpAdmGv5AifqTSAibda5FuNgBdyG5tmI3%2FNbzHFEa77uCYkaPqIFh723%2FD4zTXuvnZptX7vvCY26+4rbaxmqmxgsXaTZ3af3kB3c9nOmPQqx9G3AUr0UObAfW6yDOz57g5wzITZnGzD8X%2Fifle73hD4RI+On2ZTK6c763zREkrjPCXLAAT8i+inASfWgzpARqh73JY25AyVCKKhwlk0CBkMU128y+TtCP7dfqvmpQeuQ7xtdrr4fZy5YOW1GoedqLw7ndSFT+%2FxvZ0SUUYCGpkL49ypEO6c9pM2X2mmqa%2FzoC%2FzyybcYsRdvbNlL53Hzz0PtWs+Sc2fl77ZNPos9p59Sxz1cqKxaoyc=?resolution=1240x700",
+    "real_url": "https://www.thepost.co.nz/politics/361008598/temu-policy-bold-promises-devil-detail",
+    "bias": "?",
+    "topic": "General",
+    "region": "Asia"
   },
   {
     "id": "cdeb2e0f82a5",
@@ -42573,6 +42669,22 @@
     "real_url": "https://www.dispatch.com/story/opinion/columns/guest/2026/04/25/jd-vance-fight-pope-catholic/89771243007/",
     "bias": "?",
     "topic": "Military",
+    "region": "US"
+  },
+  {
+    "id": "6b0a70a04e87",
+    "title": "Is J.D. Vance Already Losing the 2028 Primary?",
+    "source": "Messageboxnews.com",
+    "source_url": "https://www.messageboxnews.com",
+    "source_domain": "www.messageboxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBWakNrekwwbVVGS25TN0hNT19hdnRxOVQ1c3hibFRwa2g4eUs2aU84Nldmc1psWUZvNFdNUmNPd3lJZGdHdDNKd3V1ZmUxaW8tTkcxRHhDLU5JZlBqYVU0Y1ItSl9HSFBCWkE2QmVHYUlQcGVRTGtZ?oc=5",
+    "published": "2026-04-25T07:00:00+00:00",
+    "published_display": "Apr 25, 2026",
+    "query": "Vance president 2028",
+    "image": "https://substackcdn.com/image/fetch/$s_!uy3t!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54133627-5605-4729-8a40-ccaa884ab716_799x533.jpeg",
+    "real_url": "https://www.messageboxnews.com/p/is-jd-vance-already-losing-the-2028",
+    "bias": "?",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
@@ -127195,6 +127307,22 @@
     "real_url": "https://abcnews.com/International/pope-leo-shared-content-critical-trump-vances-immigration/story?id=121619905",
     "bias": "LL",
     "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "83d76c1c1c31",
+    "title": "Tucker Carlson&#x27;s son Buckley is joining JD Vance&#x27;s staff",
+    "source": "ABC News",
+    "source_url": "https://abcnews.com",
+    "source_domain": "abcnews.com",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU2J4NFBmd3hKMTA3SnhaSVpNdWRuZHMyOTdfbFZJUDVwQTRWbGNRLU0zMzJ0eFY4Y1ZDQWVfVFIxY21sUGVOVTdmZUU1Nkc0ekVqci1feXZWYmZ4azBuc1pXQXA1S29uR09icmJZa1dxVVotUXpjQzAtanUycEpPYWY5WUF0RF9XYXFMM1NwM25UQVpLbEtEM9IBngFBVV95cUxORWxsZjdHZFhoRWVVcWJkUi1ndWZMaXM2WkF3cXlBdl9XUFBYMnktUGNFTHZkZGVWdXdaY09HRWRSall5TjlYSjV4bUlOTWtaNTNWVmEyUG5IdWdfekRXSzN5MktGRmN0emdXUTl3T1hpWm1fYlM4N2t4OC03VnNhZWlKU01xVkt4WHQ3OUpXM0lINmVPRHZvNGZlVENWUQ?oc=5",
+    "published": "2026-02-11T17:53:56+00:00",
+    "published_display": "Feb 11, 2026",
+    "query": "Vance policy",
+    "image": "https://i.abcnewsfe.com/a/0f855e1d-797c-4bbf-a375-1795c868c4be/jd-vance-1-ap-bb-250127_1738007622647_hpMain_16x9.jpg?w=1600",
+    "real_url": "https://abcnews.com/US/tucker-carlsons-son-buckley-joining-jd-vances-staff/story?id=118150708",
+    "bias": "LL",
+    "topic": "General",
     "region": "US"
   },
   {
