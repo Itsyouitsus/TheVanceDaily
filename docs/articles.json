@@ -1,5 +1,21 @@
 [
   {
+    "id": "5fe404831675",
+    "title": "AOC takes more steps toward 2028 run for president",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/05/24/aoc-takes-more-steps-toward-2028-run-for-president",
+    "published": "2026-05-24T21:29:14+00:00",
+    "published_display": "May 24, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/05/24/aoc-takes-more-steps-toward-2028-run-for-president",
+    "bias": "C",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "4438394d88a9",
     "title": "Trump polls dinner guests on Vance vs. Rubio for 2028 race",
     "source": "Daily Telegraph Sydney",
@@ -1853,6 +1869,22 @@
     "real_url": "https://texasborderbusiness.com/jd-vance-says-he-is-not-running-for-president/",
     "bias": "?",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "22b427105ae6",
+    "title": "Inside the relationship of Vice President JD Vance and Second Lady Usha Vance, who are expecting their fourth child",
+    "source": "MSN",
+    "source_url": "https://www.msn.com",
+    "source_domain": "www.msn.com",
+    "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQVlg1REVYcTAzeGdKUTNFZTNveWgzWVhWMkprblozdGh2cEUxT3pDcHJqMm5MX2t6N3JMYkNwbzhUb1RUUkNPVWVuc1hzZDAwTWQ5ekF4M1lRcXZuZDkyOHVoZmpoNl9jd3dRUlhNbjIyUS1wSUI1MkhSVEdlbGkyeEh2ZTRyOFY3dU4xSXp4RVdsN0NTN0htNjNrZURZeS16X0JSTDdLQ0tIT1liWTgxdHhzYi1pdlVZcHBvZHhuOW1VWnkzZFVPMkVvS0FnQjNWM21XUEExak02Ty1uTmoydmdvaGhGVXhhZy10T2xMME05UFJOLXdQeWcyajhBRXppRExBSjN5eEk5X0lMRENn?oc=5",
+    "published": "2026-05-21T14:01:28+00:00",
+    "published_display": "May 21, 2026",
+    "query": "Vice President Vance",
+    "image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ZJO7A.img?w=1024&h=682&m=4&q=75",
+    "real_url": "https://www.msn.com/en-us/news/politics/inside-the-relationship-of-vice-president-jd-vance-and-second-lady-usha-vance-who-are-expecting-their-fourth-child/ss-BB1qakkK?ocid=entnewsntp",
+    "bias": "C",
+    "topic": "Immigration",
     "region": "US"
   },
   {
@@ -128362,6 +128394,22 @@
     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/02/2026-02-09T155355Z_836171227_RC2FIJA0DN62_RTRMADP_3_ARMENIA-USA-VANCE-1024x683.jpg",
     "real_url": "https://www.pbs.org/newshour/world/vance-visits-armenia-a-country-no-sitting-u-s-president-or-vice-president-has-gone-to-before",
     "bias": "LL",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "9e294e52b1de",
+    "title": "U.S. Vice President Vance Booed at Opening Ceremony of Winter Olympics",
+    "source": "Democracy Now!",
+    "source_url": "https://www.democracynow.org",
+    "source_domain": "www.democracynow.org",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQzVLM29CcThXdkZiMFI1TS1ZLWthYzNiYVpTQmhIbVppX3VUZjlqMWt4UDdFUjluTXR1Nk9Ubm44ZlNjYXZHQ1ZpODFyQ0hETHV5aFNsRzRhUmwxbXFKLTJNV2QyWkVmTVZjVHJfUmkzVjNDNlpMQ29zN29VUTVWWFJ1aVMwbkhSZ2FjenhYcDllYUdWR1VjNW00ZHJnSkprNk1sb0tNTnFMeVpXQ1FoU1pDcDVLSDQ?oc=5",
+    "published": "2026-02-09T08:00:00+00:00",
+    "published_display": "Feb 09, 2026",
+    "query": "Vance immigration",
+    "image": "https://assets.democracynow.org/assets/default_content_image-354f4555cc64afadc730d64243c658dd0af1f330152adcda6c4900cb4a26f082.jpg",
+    "real_url": "https://www.democracynow.org/2026/2/9/headlines/us_vice_president_vance_booed_at_opening_ceremony_of_winter_olympics",
+    "bias": "L",
     "topic": "Immigration",
     "region": "US"
   },
