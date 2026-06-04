@@ -1,5 +1,21 @@
 [
   {
+    "id": "0c645220b802",
+    "title": "Planning Commission Votes to Advance Trump\u2019s Arch Project",
+    "source": "Politics",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.nytimes.com/2026/06/04/us/politics/trump-arch-dc-planning-meeting.html",
+    "published": "2026-06-04T20:45:30+00:00",
+    "published_display": "Jun 04, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.nytimes.com/2026/06/04/us/politics/trump-arch-dc-planning-meeting.html",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "8edbf9df7290",
     "title": "Rubio rises as Vance falls \u2014all because one told truth and one told lies",
     "source": "Alternet",
@@ -64,6 +80,22 @@
     "region": "US"
   },
   {
+    "id": "fca2287d7303",
+    "title": "Sources Say Trump Questions Whether Vance Has What It Takes And The Specifics Are Surprisingly Petty",
+    "source": "LittleThings.com",
+    "source_url": "https://littlethings.com",
+    "source_domain": "littlethings.com",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqaTY4d2d1MkNkNlJWV0txSVpLUEhMRnNpWGZ6TVZTVExaUHZwVEtjY1MyMV8tYlM3SERCQ25uMU1XMi1LZUVEdUh3clpTd0FsUjhzb0V4WEFkeHUtXzV2eEZrUjR5VXBUM3VJ?oc=5",
+    "published": "2026-06-04T18:38:31+00:00",
+    "published_display": "Jun 04, 2026",
+    "query": "Vice President Vance",
+    "image": "https://littlethings.com/wp-content/uploads/2026/05/trump-and-vance.png",
+    "real_url": "https://littlethings.com/entertainment/trump-vance-mistakes",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "8e711332ca8a",
     "title": "Oil industry warns Trump about gas price SHOCK coming soon: Report",
     "source": "The Blaze",
@@ -93,6 +125,22 @@
     "real_url": "https://justthenews.com/nation/culture/republican-governors-giving-june-family-focus-observances-instead-lgbt-pride?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
     "bias": "LR",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "6f44e95d13aa",
+    "title": "Senate Advances Intelligence Bill Backing Israel",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/israel-intelligence-sharing-tom-cotton/2026/06/04/id/1258594",
+    "published": "2026-06-04T17:04:49-04:00",
+    "published_display": "Jun 04, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/israel-intelligence-sharing-tom-cotton/2026/06/04/id/1258594",
+    "bias": "R",
+    "topic": "Foreign Policy",
     "region": "US"
   },
   {
@@ -140,6 +188,38 @@
     "image": "https://substackcdn.com/image/fetch/$s_!9hHr!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d1ba33a-7857-430d-bfc4-badb4bf79e4c_3000x2000.jpeg",
     "real_url": "https://www.thebulwark.com/p/how-marco-beat-jd-with-one-weird-trick-iran-war",
     "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "c260bca8d207",
+    "title": "Huzzah: Thanks to VP JD Vance, the FBI Now Has a List of 10 Most Wanted Fraudsters",
+    "source": "RedState",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://redstate.com/jenniferoo/2026/06/04/huzzah-thanks-to-vp-jd-vance-the-fbi-now-has-a-list-of-10-most-wanted-fraudsters-n2203040",
+    "published": "2026-06-04T16:15:41-04:00",
+    "published_display": "Jun 04, 2026",
+    "query": "direct_feed",
+    "image": "https://media.townhall.com/cdn/hodl/2026/104/bba66696-b295-4e62-8477-4253e5d78ab1.jpg",
+    "real_url": "https://redstate.com/jenniferoo/2026/06/04/huzzah-thanks-to-vp-jd-vance-the-fbi-now-has-a-list-of-10-most-wanted-fraudsters-n2203040",
+    "bias": "R",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "526c06d4b703",
+    "title": "Dow Soars 875 Points to Record Closing High",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/dow-record-jobs/2026/06/04/id/1258584",
+    "published": "2026-06-04T16:02:52-04:00",
+    "published_display": "Jun 04, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/dow-record-jobs/2026/06/04/id/1258584",
+    "bias": "R",
     "topic": "General",
     "region": "US"
   },
@@ -400,6 +480,22 @@
     "region": "International"
   },
   {
+    "id": "f5a5e5150f5b",
+    "title": "The Myth of a Permanently Poor Underclass",
+    "source": "The Daily Economy",
+    "source_url": "https://thedailyeconomy.org",
+    "source_domain": "thedailyeconomy.org",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBUZGtESmswQXB2NmJXRWdMWDh3MFZ6c281OThhZ0tkZUJQbXpLejN5QlBfUGdROVA2NU9NUEthc3N5YW9POUlMcS0wRVZPZW5BS1pNV2pVRjhvR2JIT1l4bkRMUFEzRUh3eGRpaUJnZjRuTzFMUS1Td0Vra1ZfZw?oc=5",
+    "published": "2026-06-04T10:12:00+00:00",
+    "published_display": "Jun 04, 2026",
+    "query": "Vance economy",
+    "image": "https://thedailyeconomy.org/wp-content/uploads/2026/06/Shutterstock_2487755311.jpg",
+    "real_url": "https://thedailyeconomy.org/article/the-myth-of-a-permanently-poor-class/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "97e4bd91c246",
     "title": "Rubio, Vance, Bessent, Oz: White House\u2019s \u2018guest\u2019 briefers step into different spotlight",
     "source": "The Hill",
@@ -478,6 +574,22 @@
     "bias": "?",
     "topic": "2028 Race",
     "region": "Asia"
+  },
+  {
+    "id": "6c221834bae0",
+    "title": "Critics say adding Trump&#x27;s arch to D.C. would take something away: the view",
+    "source": "Politics",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.npr.org/2026/06/04/nx-s1-5842970/trump-arch-dc-lincoln",
+    "published": "2026-06-04T04:41:53-04:00",
+    "published_display": "Jun 04, 2026",
+    "query": "direct_feed",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1346x757+0+51/resize/1400/quality/85/format/gif/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdb%2Ff1%2F9cfbe490486ea654d825bcc298b7%2Farch-promo-compressed.gif",
+    "real_url": "https://www.npr.org/2026/06/04/nx-s1-5842970/trump-arch-dc-lincoln",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
   },
   {
     "id": "3bd76771a7a0",
@@ -115965,6 +116077,22 @@
     "real_url": "https://joycevance.substack.com/p/its-our-house",
     "bias": "?",
     "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "5ff6bdc621f8",
+    "title": "Who Will Run for President in 2028? The Republican Hopefuls",
+    "source": "Katie Couric Media",
+    "source_url": "https://katiecouric.com",
+    "source_domain": "katiecouric.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZW1BU1E5SURRUWZYRm1aRk1FZ3JoaDloNWF6RnBBbHhkU3hWYWhDU0VvODJCb3ZBbTlUMUxVVHFHcl9xXzF1OEJXWDF2b3pyUGhXalpUZTZWZmxhcGhTQzZ3LVhlak1UTk5ROWtpX3FqdURLMWY0VkdkOGxPTzJBX0JZXzlaOFQtYkRvbWRVOGVQQVk0TFVoMDdmMA?oc=5",
+    "published": "2026-03-31T07:00:00+00:00",
+    "published_display": "Mar 31, 2026",
+    "query": "Vance president 2028",
+    "image": "https://katiecouric.com/wp-content/uploads/2026/03/republican-leader-small.png",
+    "real_url": "https://katiecouric.com/news/politics-and-policy/who-will-run-for-president-in-2028-republican/",
+    "bias": "?",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
