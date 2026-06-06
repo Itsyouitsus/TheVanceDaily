@@ -25,7 +25,7 @@
     "published": "2026-06-06T09:16:12+00:00",
     "published_display": "Jun 06, 2026",
     "query": "JD Vance",
-    "image": "",
+    "image": "https://cassette.sphdigital.com.sg/image/straitstimes/59629fd1d5f7d80b7a313aa3431510fb011d4f5137205b242662fb3500489686",
     "real_url": "https://www.straitstimes.com/world/europe/us-v-p-vance-blames-murder-of-british-student-on-migrant-invasion",
     "bias": "LL",
     "topic": "Immigration",
@@ -941,6 +941,22 @@
     "real_url": "https://www.10tv.com/article/syndication/associatedpress/british-pm-criticizes-vance-over-comments-about-uk-teens-stabbing-death/616-0f16a219-075f-4293-b0db-20c2bf3e2ac0",
     "bias": "?",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "41c07e86cfe4",
+    "title": "Democrat Xavier Becerra Advances To General Election In Race For California Governor",
+    "source": "Politics",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.huffpost.com/entry/election-2026-california-governor-xavier-becerra_n_6a23683ee4b0423d0613a0ea",
+    "published": "2026-06-05T20:30:15-04:00",
+    "published_display": "Jun 05, 2026",
+    "query": "direct_feed",
+    "image": "https://img.huffingtonpost.com/asset/6a23684014000015286b478c.jpeg?cache=FuPwxRfLfy&ops=1200_630",
+    "real_url": "https://www.huffpost.com/entry/election-2026-california-governor-xavier-becerra_n_6a23683ee4b0423d0613a0ea",
+    "bias": "C",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
@@ -2029,6 +2045,22 @@
     "real_url": "https://www.thecentersquare.com/national/article_7cb9f895-d0cf-499d-bb89-ec1f8bb750d9.html",
     "bias": "LR",
     "topic": "Tech & AI",
+    "region": "US"
+  },
+  {
+    "id": "fe894f6b5afc",
+    "title": "From \u2018standouts\u2019 to dark horses, who might run for president in 2028?",
+    "source": "Baltimore Sun",
+    "source_url": "https://www.baltimoresun.com",
+    "source_domain": "www.baltimoresun.com",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb2YtS29Jbm1RWDFuMGVJeTM5elhKOU5BQnc4Y0dRamlnVjZJRll2Qi1xWEstZFd4Qm1lOHRQazZmOVVjemdDdlZZaVZjMFpoMVIxQXhWeEtuRi1EVTB1ZHRjbmdLcHpMVEVQQVJLT0hQc0c4QmVwck5qWm9wU2lNU0FmSVY4OTkxMkFDZG1iZ2lLQlB2azhja1NEazg0Y0NHeml3a1RsWXJrQQ?oc=5",
+    "published": "2026-06-05T12:56:37+00:00",
+    "published_display": "Jun 05, 2026",
+    "query": "Vance Republican",
+    "image": "https://www.baltimoresun.com/wp-content/uploads/2026/04/Election_2_26_Shapiro_22665.jpg?w=1024&h=683",
+    "real_url": "https://www.baltimoresun.com/2026/06/05/from-standouts-to-dark-horses-who-might-run-for-president-in-2028/",
+    "bias": "?",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
@@ -190732,6 +190764,22 @@
     "region": "US"
   },
   {
+    "id": "006c39c023f1",
+    "title": "Where does JD Vance stand on key economic issues?",
+    "source": "CBS News",
+    "source_url": "https://www.cbsnews.com",
+    "source_domain": "www.cbsnews.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EbnVZXzlJbFlxUWJ6V1NoYjBja3QwRHBlanY0czhhSGFMOTR5NF9OVFJXQjJuVG8xZkl6TWZVMERWMWl5U0JjeDBGbDFFSVNybmxVQk9La191dTNxQzd0MkRQZXBBMzFOT3BhT3kxX1BYWW5wOHfSAXtBVV95cUxNTHNiaXFpaDlPMDFPUkxxcWtMVzlGTzJ6ckVYX01rdlpmWDlNTkphZG1lUmtaUUhlMHFiaDFJdDV4bmZQTTFPY2R3RjhQbWwzWUd4OVBJVG1QZExPc0NqVDlxMGFuNE04RmZTcGpNcXdYWmlITzZyMVpwejQ?oc=5",
+    "published": "2024-10-01T07:00:00+00:00",
+    "published_display": "Oct 01, 2024",
+    "query": "Vance economy",
+    "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/07/16/bbe52185-dc38-4c22-8e3f-f5d1f6cd4e6c/thumbnail/1200x630/c3d4766d5519c9ee4bf79b973317f190/gettyimages-2162164657-1.jpg",
+    "real_url": "https://www.cbsnews.com/news/jd-vance-trump-vice-president-economy/",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "14f25d012807",
     "title": "A VP policy cheat sheet: Where JD Vance and Tim Walz stand on these key issues - The 19th News",
     "source": "The 19th News",
@@ -193080,6 +193128,22 @@
     "real_url": "https://www.npr.org/2024/07/17/g-s1-11654/five-things-to-know-about-jd-vances-connections-to-tech-billionaires",
     "bias": "LL",
     "topic": "Tech & AI",
+    "region": "US"
+  },
+  {
+    "id": "e45fac53a386",
+    "title": "How J.D. Vance&#x27;s economic philosophy departs from conservative tradition",
+    "source": "Axios",
+    "source_url": "https://www.axios.com",
+    "source_domain": "www.axios.com",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNXpFRXpiYmU5MThFZ1pyckVNR0dVdmxVU3hncWVaY0dLaWd1ZEZYRXFiSmpkbTM3OFlkaF8yMUw4OGVzMG9YUUZiaGZBQ3lUV0pxa05CcFhiMmhfUmlMODNiNVBfZE0zUGlKTVZURnVweHVieG1qRFJsaDZaVDdDbjRCWXBlNHJEaUZsdA?oc=5",
+    "published": "2024-07-17T07:00:00+00:00",
+    "published_display": "Jul 17, 2024",
+    "query": "Vance economy",
+    "image": "",
+    "real_url": "https://www.axios.com/2024/07/17/vance-trump-economic-philosophy-policy-conservative",
+    "bias": "C",
+    "topic": "General",
     "region": "US"
   },
   {
