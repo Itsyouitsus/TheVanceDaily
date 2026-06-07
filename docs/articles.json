@@ -1,5 +1,37 @@
 [
   {
+    "id": "0a0e7d2c2a61",
+    "title": "David Lammy: JD Vance comments on Henry Nowak murder wrong",
+    "source": "Channel 4",
+    "source_url": "https://www.channel4.com",
+    "source_domain": "www.channel4.com",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeDBJV1pSOFIxX1k4QUtNZDJVNmczOUZKQWhJRDdyV1I4UDVISndZd1FyNlpRSHZtZ2pudXAtRWVGRWF2V1lRMWNqM0ppempvdkRNdG4ycmdlOGJWS1BreE1HTHJYUlEzNmVBbkxlMU5LRmdGWGgtejlzdGdhc1NkMGtHeDVSVXVzcE0ydnFkQkM?oc=5",
+    "published": "2026-06-07T17:37:29+00:00",
+    "published_display": "Jun 07, 2026",
+    "query": "JD Vance",
+    "image": "https://fournews-assets-prod-s3-ew1-nmprod.s3.amazonaws.com/media/2026/06/THUMB-POLITICS-WEB-1920x1080.jpg",
+    "real_url": "https://www.channel4.com/news/david-lammy-jd-vance-comments-on-henry-nowak-murder-wrong",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "732a1834ad1e",
+    "title": "David Lammy calls out JD Vance for Henry Nowak comments",
+    "source": "Sky News",
+    "source_url": "https://news.sky.com",
+    "source_domain": "news.sky.com",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPS29lOWhuNHJFWkdGWDkxVUlwTWpuTmE2UE8wZ29ZUi1KS2RCMTQwVWh6bVZ4RkhDQUUwcTc2N1RseE0yRU10UllrTzdkZ25ObE8tU2Q5aksyN2h4bEVnbmpwT3J5UXlwQi1JbDJvX3AzTXE1VFQ1djVoZGd1MkRDRVlHUzgyaW1ScEg4cWVMcnFrdVVYTVE?oc=5",
+    "published": "2026-06-07T17:33:44+00:00",
+    "published_display": "Jun 07, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://news.sky.com/video/david-lammy-calls-out-jd-vance-for-henry-nowak-comments-13551714",
+    "bias": "C",
+    "topic": "General",
+    "region": "International"
+  },
+  {
     "id": "2e0d25b9c659",
     "title": "Nicola Jennings on Donald Trump, JD Vance and civilisational decline",
     "source": "The Guardian",
@@ -64,6 +96,22 @@
     "region": "US"
   },
   {
+    "id": "476d24d9d1e3",
+    "title": "Hegseth attacks Europe on immigration at D-Day event, continuing trend for Trump officials",
+    "source": "NBC News",
+    "source_url": "https://www.nbcnews.com",
+    "source_domain": "www.nbcnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbWkwOFEyNjhJbUVtSFJXWGpLV25mLUpXNWNvUjlCWlJCQnprQUNIYUxYaGJuY3NpVFBOQjIzUnFpaktlb1piYlR2ZzhzcGVRejYxUk1ZZjlZVG1UTWxrQVdFTDY5UjRWQmNwZC1JTHVZWEVURUpTWlJLSmNFYVNyTHA5NElyZlpYaXpaeS1PVmNFS2hkYlZDZnZIRjhJNDZXV3l2UjV5LUNpcmlObHZrNEt2aGQwMWMy?oc=5",
+    "published": "2026-06-07T14:54:16+00:00",
+    "published_display": "Jun 07, 2026",
+    "query": "Vance immigration",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-06/260607-hegseth-nd-635da6.jpg",
+    "real_url": "https://www.nbcnews.com/world/europe/hegseth-attacks-europe-immigration-d-day-event-continuing-trend-trump-rcna348840",
+    "bias": "LL",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "e0db6c09d400",
     "title": "UAE official meets US Vice President to discuss $1.4T economic framework",
     "source": "Crypto Briefing",
@@ -123,6 +171,22 @@
     "query": "JD Vance",
     "image": "https://www.usmagazine.com/wp-content/uploads/2026/06/JD-and-Usha-Vance-GettyImages-2274822286.jpg?crop=0px%2C68px%2C2000px%2C1051px&resize=1200%2C630&quality=86&strip=all",
     "real_url": "https://www.usmagazine.com/celebrity-moms/news/jd-vance-recalls-wife-changing-mind-about-having-more-kids/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "496a3eab1211",
+    "title": "Two more California races called",
+    "source": "And Republicans Are On The Ballot",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://nypost.com/2026/06/07/us-news/two-more-california-races-called-and-republicans-are-on-the-ballot/",
+    "published": "2026-06-07T13:16:15-04:00",
+    "published_display": "Jun 07, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://nypost.com/2026/06/07/us-news/two-more-california-races-called-and-republicans-are-on-the-ballot/",
     "bias": "?",
     "topic": "General",
     "region": "US"
@@ -2014,6 +2078,22 @@
     "bias": "C",
     "topic": "General",
     "region": "Europe"
+  },
+  {
+    "id": "3680f65512f2",
+    "title": "JD Vance&#x27;s Britain doesn&#x27;t exist",
+    "source": "Substack",
+    "source_url": "https://frasernelson.substack.com",
+    "source_domain": "frasernelson.substack.com",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1KM1FOYzBXY3REeEM5dzZSUmNtX1hGMk1zMHI2TFFmYmZiMFlVYnp3WUxjbmRqaURETWVjTVpMMS1RVVlodHgtY3pIMlRxc3ZFM3dENm5IZjY1cFVTWEtLaXBIc1E4NXRrWkZ5SE5KeVBWUFlxZ19FUjhMR3RiZw?oc=5",
+    "published": "2026-06-05T21:35:16+00:00",
+    "published_display": "Jun 05, 2026",
+    "query": "Vance immigration",
+    "image": "",
+    "real_url": "https://frasernelson.substack.com/p/jd-vance-and-the-libelling-of-britain",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
   },
   {
     "id": "18179b00ad7f",
@@ -31248,6 +31328,22 @@
     "region": "US"
   },
   {
+    "id": "e3865cec086c",
+    "title": "Sky News Australia. . WABC radio host Sid Rosenberg has suggested US Secretary of State Marco Rubio won\u2019t run against Vice President JD Vance for the 2028 ticket to become the Republicans\u2019 presidential candidate.",
+    "source": "Facebook",
+    "source_url": "https://www.facebook.com",
+    "source_domain": "www.facebook.com",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYzBLNTd0a1NDSEJ0RlpIZDRjQ3lqTzFadnFYQi1JekJqeVFiX0ZBa2R3a25wSXFMcm9pdjNsQ0dib3dudGpqVE5iaWZoMG10b1RZTVFxNXdnejV0aGd5NWRqUG10YUhkSEVHUGNveElTdmYwUzNhWktNd2NnV044QXBiZXJhT29uVWZRV3BLMHhSdzFuTExrWU9pdGxmLVhhM18yUENuNVFnYWxlYmYzMEFNRFFrZl9hdDhkTzRWVDJsMk9sZHBLVll4WnotUE8wQ2dWZmRucGFxbHFxTjlKWA?oc=5",
+    "published": "2026-05-17T07:00:00+00:00",
+    "published_display": "May 17, 2026",
+    "query": "Vance president 2028",
+    "image": "https://scontent-atl3-2.xx.fbcdn.net/v/t15.5256-10/702604150_2717029945344649_5054975576076750025_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=596eb7&_nc_ohc=PXzZhBihL74Q7kNvwHHG2xB&_nc_oc=Adp8iqNIBKW5fd2XUpT4xnFKyeJEbqxwvlWLY3qqhUYeKaJApqIQ9EepQWDCKhdrU8M&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=16wgj7dq7_UoJWbhh7vPvA&_nc_ss=7020f&oh=00_Af-h6vEvjmxe0-bpRyXhFXijjWXf0Mk93h-LlQHmoL8Hfg&oe=6A2B779F",
+    "real_url": "https://www.facebook.com/SkyNewsAustralia/videos/he-will-not-run-against-him-rubio-reveals-he-would-endorse-jd-vance-for-presiden/1459135425517976/",
+    "bias": "?",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "2a62dbcbd7c7",
     "title": "Cassidy eliminated as Trump-backed Letlow advances to Senate GOP primary runoff in Louisiana",
     "source": "Just The News",
@@ -36078,6 +36174,22 @@
     "bias": "LL",
     "topic": "General",
     "region": "US"
+  },
+  {
+    "id": "70fb05319c94",
+    "title": "JD Vance continues to give speech even after medical emergency cuts Maine event short",
+    "source": "Irishstar.com",
+    "source_url": "https://www.irishstar.com",
+    "source_domain": "www.irishstar.com",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaUpSZ25DZHgtOEc5cjdhZUFkb0RZNVc4dU1QcWExNUtuN01VZ3V1bzlEdlZWUnloczVGQmRibFdQM3hSSFUxSUk3QlUyZU9URzdXQmI5b0R4UVpkQnBNQVFJNGk1S05DRm5MZWRadkUwdFpJQ3BIUHVoYmowWlJwX2NkeXh1Zw?oc=5",
+    "published": "2026-05-14T07:00:00+00:00",
+    "published_display": "May 14, 2026",
+    "query": "JD Vance speech",
+    "image": "https://i2-prod.irishstar.com/article37157854.ece/ALTERNATES/s1200d/0_US-POLITICS-VANCE.jpg",
+    "real_url": "https://www.irishstar.com/news/politics/jd-vance-continues-give-speech-37157556",
+    "bias": "?",
+    "topic": "General",
+    "region": "Europe"
   },
   {
     "id": "731d1585f1d8",
