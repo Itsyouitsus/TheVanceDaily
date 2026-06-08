@@ -1,5 +1,21 @@
 [
   {
+    "id": "81d9b816aebc",
+    "title": "Children&#x27;s wellbeing slips across the U.S.",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/06/08/us-kids-count-data-book-child-well-being",
+    "published": "2026-06-08T04:01:05+00:00",
+    "published_display": "Jun 08, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/06/08/us-kids-count-data-book-child-well-being",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "b560666f0352",
     "title": "llinois officials say Bears still may stay despite team statement",
     "source": "Just The News",
@@ -29,6 +45,38 @@
     "real_url": "https://www.facebook.com/SkyNewsAustralia/videos/david-lammy-tells-jd-vance-he-is-wrong-for-linking-henry-nowaks-murder-to-mass-m/988887920786273/",
     "bias": "?",
     "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "44a1ae4bc669",
+    "title": "Raman Overtakes Pratt, Advances to LA Mayor Runoff",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/karen-bass-spencer-pratt-nithya-raman/2026/06/07/id/1258873",
+    "published": "2026-06-07T21:01:51-04:00",
+    "published_display": "Jun 07, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/karen-bass-spencer-pratt-nithya-raman/2026/06/07/id/1258873",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "8b6cbab779f5",
+    "title": "Spencer Pratt\u2019s Runoff Hopes Take A Hit As Socialist Rival Surges",
+    "source": "The Daily Wire",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.dailywire.com/news/spencer-pratts-runoff-hopes-take-a-hit-as-socialist-rival-surges",
+    "published": "2026-06-07T20:47:01+00:00",
+    "published_display": "Jun 07, 2026",
+    "query": "direct_feed",
+    "image": "https://dw-wp-production.imgix.net/2026/05/GettyImages-2258667345-scaled.jpg?ar=16%3A9&auto=compress&crop=faces&cs=origin&fit=crop&w=1200&h=800&ixlib=react-9.11.0",
+    "real_url": "https://www.dailywire.com/news/spencer-pratts-runoff-hopes-take-a-hit-as-socialist-rival-surges",
+    "bias": "R",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -379,6 +427,22 @@
     "query": "JD Vance",
     "image": "https://assets.newsweek.com/wp-content/uploads/2026/06/GettyImages-2279508471.jpg?w=1200&crop=1",
     "real_url": "https://www.newsweek.com/jd-vance-wrong-about-henry-nowak-david-lammy-12041354",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "de748c071f9f",
+    "title": "Hegseth Criticizes Europe Over Migration \u2018Invasion\u2019 in D-Day Speech",
+    "source": "The New York Times",
+    "source_url": "https://www.nytimes.com",
+    "source_domain": "www.nytimes.com",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSmUxTmlOY0YydTVHb0RGcXZnRjhuRzlOUWNYQlFqaEhWdHNRbVpNZTZBUFJQeUxqdVFiNjMzNzJCTkhjeG5hWlNUTUt1cndYLUxvZ2QzcFg0Z0lSSWRqSkxHanp6QVNCOUEyQ2tWbXRWeVhYSTF5VmlHX3pjSUpNUXRhMlhURjd3OFE?oc=5",
+    "published": "2026-06-07T12:37:58+00:00",
+    "published_display": "Jun 07, 2026",
+    "query": "JD Vance speech",
+    "image": "",
+    "real_url": "https://www.nytimes.com/2026/06/07/us/politics/hegseth-europe-migration-d-day.html",
     "bias": "LL",
     "topic": "General",
     "region": "US"
@@ -1181,6 +1245,22 @@
     "real_url": "https://www.pbs.org/newshour/politics/whats-next-for-the-war-powers-resolution-on-iran-politifact-explains",
     "bias": "LL",
     "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "973af1e8c390",
+    "title": "LIVE: Trump Endorses Vance And Rubio For 2028, Won&#x27;t Run For Third Term? Firstpost America (3LkqOeokTg)",
+    "source": "Fathom Journal",
+    "source_url": "https://fathomjournal.org",
+    "source_domain": "fathomjournal.org",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvU2F6WndMQ1VwSWhJOXBJVUdCUE5KbTVJN1dpTUZfNU1VSVdwWVdaMGN4ZjRuZE1IclNkdVVVY3ZubHFuNW01Q092dmJrQ3ZMa1VBOUN6Mmd6QU5ia1loZHdqQmpYVjhEc0hZcFdCN3h6X2k5alE?oc=5",
+    "published": "2026-06-06T17:08:07+00:00",
+    "published_display": "Jun 06, 2026",
+    "query": "Vance president 2028",
+    "image": "",
+    "real_url": "https://fathomjournal.org/15c04f34smm/def6d78a-LC41DUIcHDUNOlY.html",
+    "bias": "?",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
