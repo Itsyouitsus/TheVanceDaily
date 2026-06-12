@@ -1,5 +1,37 @@
 [
   {
+    "id": "76025d036c2d",
+    "title": "Readers Write: Immigration enforcement, fraud, TACO Tuesday, Vance Boelter",
+    "source": "Star Tribune",
+    "source_url": "https://www.startribune.com",
+    "source_domain": "www.startribune.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZks5RzJKbG8zWlZ0VzlleGdwbE5leEJ2N1V4dWE1YWJwUGNDaGF1VUlLVEQ4WE01dXQ1eTIwbGFHVTBBejZpOFE1VjR1TmtJRkZzN1Y2ajFRcTNFSzdQUGdtSnJOQ2ZaNmtrT2szQTVDVGFMYzduNVFuaExjQ2gydjNRbEl4d2NnNU1tZXBNQUlWM2Y2QjJORGp2MnFkUlVuX0JLaDBnSTVmRHZ2?oc=5",
+    "published": "2026-06-12T23:00:00+00:00",
+    "published_display": "Jun 12, 2026",
+    "query": "Vance immigration",
+    "image": "https://arc.stimg.co/startribunemedia/5S3WXKLHY5H5TBKXE2LBG6HND4.JPG?&w=1200&ar=1.91:1&fit=crop",
+    "real_url": "https://www.startribune.com/readers-write-immigration-enforcement-fraud-taco-tuesday-vance-boelter/601856073",
+    "bias": "?",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "b9f3ce75a5f7",
+    "title": "Despite Trump Claims, Spencer Pratt Seems to Accept L.A. Mayor Results",
+    "source": "NYT &gt; U.S. News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.nytimes.com/2026/06/12/us/elections/spencer-pratt-la-mayor.html",
+    "published": "2026-06-12T21:59:38+00:00",
+    "published_display": "Jun 12, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.nytimes.com/2026/06/12/us/elections/spencer-pratt-la-mayor.html",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "117609b8efed",
     "title": "Democrat urges Comer to call Vance, White House officials for questioning over Epstein files report",
     "source": "The Hill",
@@ -13,6 +45,22 @@
     "real_url": "https://thehill.com/homenews/house/5922434-epstein-files-white-house-robert-garcia-house-testimony/",
     "bias": "C",
     "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "f48b67df9603",
+    "title": "US official reveals details of tentative Iran deal",
+    "source": "Santa Clarita Valley Signal",
+    "source_url": "https://signalscv.com",
+    "source_domain": "signalscv.com",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNck5iTUkyWGZHTGh6TGlkNFhlZWh2SF9WTjExaFNPdnZWUFpzZU05engyeEE3RWlNakExajBTWDRWbzQ0NVNjdE9VNldKWF91bHJvYkhSVjV1bGtkNDFxcGgtSTF2SHZRc1ZCUGxjZlBjcWJsZmJUeVlDcU1aYjg4cDVuSHhEU25T?oc=5",
+    "published": "2026-06-12T21:21:12+00:00",
+    "published_display": "Jun 12, 2026",
+    "query": "JD Vance",
+    "image": "https://signalscv.s3.us-west-1.amazonaws.com/wp-content/uploads/2026/06/12123201/061226_IRANDEAL_Pool_Islamabad.jpeg",
+    "real_url": "https://signalscv.com/2026/06/us-official-reveals-details-of-tentative-iran-deal/",
+    "bias": "?",
+    "topic": "Iran",
     "region": "US"
   },
   {
@@ -237,6 +285,22 @@
     "real_url": "https://noticias.foxnews.com/media/view-co-host-warns-against-vance-interview-becoming-free-for-all-sell-books",
     "bias": "R",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "07f63dcf14ca",
+    "title": "JD Vance was leading the White House cover-up",
+    "source": "House.gov",
+    "source_url": "https://ansari.house.gov",
+    "source_domain": "ansari.house.gov",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUjdNTUtjNWRCSGxNaXhaWndCMVRTdWo2WXVDc3dObExQc3B6ZWNkY2RZUE9HRUZxeFVBMVhydk9CSnp0ZUdha1VZa1E1eXkzOUhpdzdQVUROcWVqY0g3U2N4eEVHRXYzX3k4YVMxQzdBeDZFMDZzS2I5N1hKckZTSVFmekIteHFaMzZB?oc=5",
+    "published": "2026-06-12T17:29:28+00:00",
+    "published_display": "Jun 12, 2026",
+    "query": "JD Vance",
+    "image": "https://ansari.house.gov/themes/ansari/images/sharelogo.jpg",
+    "real_url": "https://ansari.house.gov/media/videos/jd-vance-was-leading-the-white-house-cover-up",
+    "bias": "?",
+    "topic": "Domestic",
     "region": "US"
   },
   {
@@ -610,6 +674,22 @@
   {
     "id": "418929db68ee",
     "title": "Hunter Biden Responds To Claims He Should Run For President",
+    "source": "The Daily Wire",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.dailywire.com/news/hunter-biden-responds-to-claims-he-should-run-for-president",
+    "published": "2026-06-12T14:32:31+00:00",
+    "published_display": "Jun 12, 2026",
+    "query": "direct_feed",
+    "image": "https://dw-wp-production.imgix.net/2026/06/GettyImages-2156356245-2.jpg?ar=16%3A9&auto=compress&crop=faces&cs=origin&fit=crop&w=1200&h=800&ixlib=react-9.11.0",
+    "real_url": "https://www.dailywire.com/news/hunter-biden-responds-to-claims-he-should-run-for-president",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "86250b621f61",
+    "title": "Hunter Biden Addresses What Democrats Knew About Dad\u2019s Brain",
     "source": "The Daily Wire",
     "source_url": "",
     "source_domain": "",
