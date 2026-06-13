@@ -1,5 +1,21 @@
 [
   {
+    "id": "dff84e218d02",
+    "title": "Cruz breaks with Trump on key endorsements as 2028 looms",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/06/13/ted-cruz-trump-endorsements-2028",
+    "published": "2026-06-13T20:44:02+00:00",
+    "published_display": "Jun 13, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/06/13/ted-cruz-trump-endorsements-2028",
+    "bias": "C",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "e4b68685e086",
     "title": "How Amazon and the White House ended Anthropic&#x27;s Fable",
     "source": "Axios",
@@ -125,6 +141,38 @@
     "real_url": "https://www.yahoo.com/news/politics/articles/poll-two-years-vance-remains-130000147.html",
     "bias": "C",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "960c53d66249",
+    "title": "J.T. Young: Vance and the GOP\u2019s golden political issue",
+    "source": "Alpha News MN",
+    "source_url": "https://alphanews.org",
+    "source_domain": "alphanews.org",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSHBZRlk4SGx4RUF5b1lkUmRGc3AyUjJPbUdmVk1xeVBYaFJFSS1jY200NWZpS3dkRlNZUTRIa1NFQ1RZeDhnM24wQ3hVOE0zOVg4UzF3YTBKTzBjOHRPdkJPYXhVdk1wLWU4NWVNSWZXYXhiOFVBWk1ZM2xkd3NWcEl5SGY3YWVxM0lMZ2VsMDBOQQ?oc=5",
+    "published": "2026-06-13T11:30:45+00:00",
+    "published_display": "Jun 13, 2026",
+    "query": "JD Vance",
+    "image": "https://alphanews.org/wp-content/uploads/2026/06/vance-1.jpeg",
+    "real_url": "https://alphanews.org/j-t-young-vance-and-the-gops-golden-political-issue-federal-fraud/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "b47079452904",
+    "title": "Pakistan PM says US-Iran peace deal signing expected within 24 hours",
+    "source": "Reuters",
+    "source_url": "https://www.reuters.com",
+    "source_domain": "www.reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRkRJSW8xc3RxTVJ0QnN0VnpIcHNGQUFnNGtKbDQ0bXY3b0F0TWs5U1ZoTVFvMnlQeHlWdDVHRjJobjl0RHd4RGd5LW1US3E5aWs1THNRRTRFbnVzTjZiUUMwb0gzZFlOTU0wWFI2SmRtVm1XcHJRQkR6QkxldVBnS01wclpLb01FMU9xOENLazdEdjdGWWwwYU9TRmUxUnpDRnlodU9qNzZEWXBHMjVQdTFEM29mWER1MUVhcl9Ic3g?oc=5",
+    "published": "2026-06-13T11:19:44+00:00",
+    "published_display": "Jun 13, 2026",
+    "query": "Vice President Vance",
+    "image": "",
+    "real_url": "https://www.reuters.com/world/asia-pacific/pakistan-pm-says-us-iran-peace-deal-signing-expected-within-24-hours-2026-06-13/",
+    "bias": "C",
+    "topic": "Iran",
     "region": "US"
   },
   {
