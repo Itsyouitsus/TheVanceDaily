@@ -1,5 +1,37 @@
 [
   {
+    "id": "d73c866728a6",
+    "title": "Vance vs. Rubio: Iran Edition",
+    "source": "The Atlantic",
+    "source_url": "https://www.theatlantic.com",
+    "source_domain": "www.theatlantic.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbVdmMDVWQlJISzVXWDRVTjM0Z2ljaUpudDhCUThyVDRiVDh4MDJXN08wdUZNaGNTRFp4ZWVaOFU5d3MyUC1xekV5cVR0R2ItRVo5YTFpU2pmVkR4TVZaV2NKMmtBZ3R4Tl9MRjY3SUN6YXl4c2c4d05sMG84N25NLUJJRVJZUkxzaU92ck9mQWt0RFc1UzlIbFg2QQ?oc=5",
+    "published": "2026-06-27T11:00:00+00:00",
+    "published_display": "Jun 27, 2026",
+    "query": "Vice President Vance",
+    "image": "https://cdn.theatlantic.com/thumbor/1VYGZhK4y2KftYb90NrYQB2Jvlc=/0x85:3994x2165/1200x625/media/img/mt/2026/06/2026_06_26_He_Said_He_Said_Vance_and_Rubio_Already_Disagree_on_Iran_Talks_Vivian_Salama/original.jpg",
+    "real_url": "https://www.theatlantic.com/national-security/2026/06/lebanon-israel-us-mou-vance-rubio/687715/",
+    "bias": "L",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "7bc569cf2d15",
+    "title": "US ally Bahrain claims Iran attacked navy base as Hormuz closed",
+    "source": "South China Morning Post",
+    "source_url": "https://www.scmp.com",
+    "source_domain": "www.scmp.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVEU2czJBR1dIemZQZUFvQzQ0TmRKdU1OWmQyYWtzTGQ4M0RycUl5V3Q1RzJQX21WQmI1OFc1OVN3UkMwNmpLODZxRWJYWElfQ0NORVpMdWVSYTZZWGtpbC15VUVyazJRRUpYRS1zdWQwNTNvS2h6cU5ybERKMTAzOEtaUmVLYUgxUkUxR1lBUThXZjU5NE9PekdhckI1SzkxMXZ3N2p3Rm9ZUk5CQl85SDU5d1VreWZYeWZRcdIBvAFBVV95cUxPeWJ2SEg3UkFyRkhiLWZrZ3NSUUwtSmtXZXg3ZmRXZHc3aDI3a0U1SF94UllWU05GYmdiNDlqdzAzODh3UzFKRmVJdzM0VmgtV25XckYxY0w0dEdEbzZGLUVrbHFwT3E5ZDFuZmxlaUV0WEJtd2NNWHpOSmg4NVBySW1jUDdiZU1qYUZJNTlINEJQbllPaE9PSUpENjRSWTFsdGpnQVgxckMwNm8tZzFQOFZadkxGSDNVbWJSZA?oc=5",
+    "published": "2026-06-27T10:13:12+00:00",
+    "published_display": "Jun 27, 2026",
+    "query": "Vice President Vance",
+    "image": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/06/27/2b9b9e4d-246d-4f91-b22b-5a8d9933f2c6_08d22859.jpg?itok=i-Wm2tzw&v=1782555191",
+    "real_url": "https://www.scmp.com/news/world/middle-east/article/3358609/us-ally-bahrain-claims-iran-attacked-navy-base-hormuz-closed",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "International"
+  },
+  {
     "id": "0fdfa4b9353f",
     "title": "Pro-Israel influencers criticize Vance, but evangelicals remain open to him",
     "source": "The Washington Post",
@@ -3725,6 +3757,22 @@
     "real_url": "https://latenighter.com/news/jd-vance-bill-maher-real-time/",
     "bias": "?",
     "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "403d6745099d",
+    "title": "The $8 Maternity Dress the Internet Can&#x27;t Stop Talking About",
+    "source": "Business Insider",
+    "source_url": "https://www.businessinsider.com",
+    "source_domain": "www.businessinsider.com",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUVFYaWNKNDE0ckphckxuLWNuV200T1J1QWdXV2ZNcTNsV0lUdklrb2dsUmxWZ1RGcUNpbTUzeUN1dGk1U2ZPc1R3c1JLSXhXUTdINS10NlczNFNJVHRCRGNEU3pLU3lpY2h1Ni10YUNnMy1GNWNuREJsT3c2cjk3ekdCSG0yTmIza21qQkFpVjFuTmlzc3JKeHJ5amVpZTZZSkFXWUp3?oc=5",
+    "published": "2026-06-25T15:45:00+00:00",
+    "published_display": "Jun 25, 2026",
+    "query": "Vance Republican",
+    "image": "https://i.insider.com/6a3d4a94a25092c74cc9f2ce?width=1200&format=jpeg",
+    "real_url": "https://www.businessinsider.com/old-navy-maternity-dress-viral-usha-vance-republican-pregnancies-2026-6",
+    "bias": "LL",
+    "topic": "General",
     "region": "US"
   },
   {
