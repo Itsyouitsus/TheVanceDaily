@@ -1,5 +1,21 @@
 [
   {
+    "id": "17b9371d3111",
+    "title": "California state senator running to succeed Pelosi calls out \u2018harassment\u2019 at trans march",
+    "source": "The Hill",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://thehill.com/homenews/state-watch/5944159-wiener-faces-protest-gaza-stance/",
+    "published": "2026-06-27T23:47:09+00:00",
+    "published_display": "Jun 27, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://thehill.com/homenews/state-watch/5944159-wiener-faces-protest-gaza-stance/",
+    "bias": "C",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
     "id": "0c22b8d66a9f",
     "title": "Vice President JD Vance Draws Supporters and Critics During Appearance at Nixon Library",
     "source": "Fullerton Observer",
@@ -16,6 +32,22 @@
     "region": "US"
   },
   {
+    "id": "85ad54a44031",
+    "title": "Letlow wins Louisiana GOP Senate runoff, AP projects",
+    "source": "CBS News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.cbsnews.com/news/louisiana-gop-senate-primary-runoff-letlow-fleming/",
+    "published": "2026-06-27T22:23:09-04:00",
+    "published_display": "Jun 27, 2026",
+    "query": "direct_feed",
+    "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/05/16/7b9a3342-5365-4f36-b63f-c13d5090b40c/thumbnail/1200x630g2/01297a2a7312f170172336e0d3ca89f3/letlow-fleming-runoff-1.jpg",
+    "real_url": "https://www.cbsnews.com/news/louisiana-gop-senate-primary-runoff-letlow-fleming/",
+    "bias": "LL",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
     "id": "91512c37d519",
     "title": "College student Marcus Johnson SCHOOLS Vice President JD Vance AGAIN",
     "source": "Modern Ghana",
@@ -29,6 +61,22 @@
     "real_url": "https://www.modernghana.com/videonews/nbc/1/673287",
     "bias": "?",
     "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "40966e9fb203",
+    "title": "England&amp;#039;s Jude Bellingham Makes Sweet Harry Kane Statement at World Cup",
+    "source": "Newsweek",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsweek.com/sports/england-jude-bellingham-makes-sweet-harry-kane-statement-at-world-cup-12131550",
+    "published": "2026-06-27T21:04:40-04:00",
+    "published_display": "Jun 27, 2026",
+    "query": "direct_feed",
+    "image": "https://assets.newsweek.com/wp-content/uploads/2026/06/GettyImages-2283628500.jpg?w=1200&crop=1",
+    "real_url": "https://www.newsweek.com/sports/england-jude-bellingham-makes-sweet-harry-kane-statement-at-world-cup-12131550",
+    "bias": "LL",
+    "topic": "General",
     "region": "US"
   },
   {
