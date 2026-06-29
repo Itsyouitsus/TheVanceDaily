@@ -16,6 +16,22 @@
     "region": "US"
   },
   {
+    "id": "cbece286c7b3",
+    "title": "Tension with unions shadows Moore&#x27;s run-up to 2028",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/06/28/maryland-wes-moore-union-problems-2028",
+    "published": "2026-06-28T21:30:04+00:00",
+    "published_display": "Jun 28, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/06/28/maryland-wes-moore-union-problems-2028",
+    "bias": "C",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "857bb8272487",
     "title": "Trump sets Sept. 1 start for overhaul of &quot;run down&quot; D.C. golf course",
     "source": "Axios",
@@ -4827,6 +4843,22 @@
     "query": "Vice President Vance",
     "image": "https://images.foxtv.com/static-media.fox.com/fmcv3/prod/fts/u2rovccsfzirr45w/1200/630/7mvh6vfm8mud1pza.jpg?ve=1&tl=1",
     "real_url": "https://www.livenowfox.com/video/fmc-b7urh56ebp0h433f",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "97e51fecc6eb",
+    "title": "JD Vance Downplays Watergate in Nixon Library Speech",
+    "source": "X.com",
+    "source_url": "https://x.com",
+    "source_domain": "x.com",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA1dUtpRG5nQ2xURnJqS3hXOEVSQ3p6WlNuZktFWXZDRnhkdHlrd3JkaUFIYm1ELVl3YUI3NEFhaGQxWERzeWx4bDltci1ORXJBX3ppSkhuVQ?oc=5",
+    "published": "2026-06-25T21:35:39+00:00",
+    "published_display": "Jun 25, 2026",
+    "query": "JD Vance speech",
+    "image": "https://abs.twimg.com/rweb/ssr/default/v2/og/image.png",
+    "real_url": "https://x.com/i/trending/2070259655029543279",
     "bias": "?",
     "topic": "General",
     "region": "US"
