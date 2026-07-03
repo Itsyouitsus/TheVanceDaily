@@ -1,5 +1,37 @@
 [
   {
+    "id": "fefe3c7090a9",
+    "title": "Trump reads a children&#x27;s book on Usha Vance&#x27;s podcast, then riffs on past presidents and himself",
+    "source": "San Francisco Chronicle",
+    "source_url": "https://www.sfchronicle.com",
+    "source_domain": "www.sfchronicle.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOVc5S0pYanlaejE1bEtTRnZ2SHNoekZxLUtGUllKTmliMDNtV0lTblBwaGRJU19PX1l6Tms3ZXQ0Z0NuWC1TeUdsQ29BUWhBeElrYzZkT3ZBeWpONjBtNFZQZ0xLUmpWaHJHcEdLZnBldUh1LWJ6bTV2MmdFSDFmYXlxTDVRamtqdkpzSUdwRkF0WWVGMnhtZ2RXTlpic0gxdE9fc2Jmc01lY3BH?oc=5",
+    "published": "2026-07-03T15:52:17+00:00",
+    "published_display": "Jul 03, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://www.sfchronicle.com/entertainment/article/trump-reads-a-children-s-book-on-usha-vance-s-22331678.php",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "5e2351571ffa",
+    "title": "Vance: Rep. Ocasio-Cortez will lead Democrat presidential race in 2028",
+    "source": "One America News Network",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.oann.com/newsroom/vance-rep-ocasio-cortez-will-lead-democrat-presidential-race-in-2028/",
+    "published": "2026-07-03T14:54:04+00:00",
+    "published_display": "Jul 03, 2026",
+    "query": "direct_feed",
+    "image": "https://www.oann.com/wp-content/uploads/2026/07/FOR-WEBSITE-ARTICLES-17.png",
+    "real_url": "https://www.oann.com/newsroom/vance-rep-ocasio-cortez-will-lead-democrat-presidential-race-in-2028/",
+    "bias": "R",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "a8e49c29f080",
     "title": "Why Gen Z bros are ditching their MAGA hats",
     "source": "Vox",
@@ -60,6 +92,22 @@
     "image": "https://i0.wp.com/www.nationalreview.com/wp-content/uploads/2023/06/Fed-Reserve-5.jpg?fit=2057%2C1200&ssl=1",
     "real_url": "https://www.nationalreview.com/2026/07/milton-friedman-was-right-about-monetary-fine-tuning/",
     "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "28cbfe90ff6a",
+    "title": "Trump roasts other presidents during children\u2019s book reading",
+    "source": "New York Post",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://nypost.com/2026/07/03/us-news/trump-roasts-other-presidents-during-childrens-book-reading/",
+    "published": "2026-07-03T10:18:29-04:00",
+    "published_display": "Jul 03, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://nypost.com/2026/07/03/us-news/trump-roasts-other-presidents-during-childrens-book-reading/",
+    "bias": "LR",
     "topic": "General",
     "region": "US"
   },
@@ -126,6 +174,22 @@
     "bias": "R",
     "topic": "General",
     "region": "US"
+  },
+  {
+    "id": "0a9d46eab5fd",
+    "title": "Active-duty Air Force officer under investigation after anti-Trump protest",
+    "source": "The Independent",
+    "source_url": "https://www.independent.co.uk",
+    "source_domain": "www.independent.co.uk",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTzBsYUVmVEo4dDg3R0stcEN2ZkJRNjVZNG4xRXNTU0pnaFhhMFMyMW5td21ISThjVnBydkVWNDY3VVAwNVVZUURUWjhZSXlWT3EwbnAtT2FuMjZ4QW14VlFMWXgxbkJNVEsyX0NZVzNIT0t2VnBkNE1LMnN4OFNfQ1pwR1dBNmltVDJYUEk4MF9UWFRZa0tleWNxT1JiWEtQT1RvMG5qYjZBNi05b0xFVDh6WGQ2WG9WNFhaVHViWHd4UUQ5c3cw?oc=5",
+    "published": "2026-07-03T07:29:00+00:00",
+    "published_display": "Jul 03, 2026",
+    "query": "Vice President Vance",
+    "image": "https://static.independent.co.uk/2025/06/22/06/Mideast_Wars_Trump_12537.jpg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+    "real_url": "https://www.independent.co.uk/news/world/americas/us-politics/air-force-major-jason-watson-trump-vance-impeachment-b3008131.html",
+    "bias": "LL",
+    "topic": "Immigration",
+    "region": "Europe"
   },
   {
     "id": "5eaf668499b2",
