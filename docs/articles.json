@@ -1,5 +1,37 @@
 [
   {
+    "id": "5eaf668499b2",
+    "title": "Is JD Vance more dangerous than Trump?",
+    "source": "Miningjournal.net",
+    "source_url": "https://www.miningjournal.net",
+    "source_domain": "www.miningjournal.net",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcXNqOUYzMzduODUtNDJBZDRYM1dNZmdybkRmN3htUzhKRHcwdGYtSjdPbEtOSzVVellxSGFlWk5SUWN6VlNRY3E1VGNoVU53aVJlU2JDTkN4aWQ5dldKM0hfZWUzZkRhTl8ydVFGSWIyUXFHVW1BYTJ0Y0YxYS1tLXJYVi1pRUluYV8wRQ?oc=5",
+    "published": "2026-07-03T05:59:55+00:00",
+    "published_display": "Jul 03, 2026",
+    "query": "Vance Republican",
+    "image": "https://ogden_images.s3.amazonaws.com/www.miningjournal.net/images/2026/06/24080358/Reich-Robert-1-601x840.jpg",
+    "real_url": "https://www.miningjournal.net/opinion/2026/07/is-jd-vance-more-dangerous-than-trump/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "9c16a5ce3d69",
+    "title": "JD Vance Cannot Tell The Truth",
+    "source": "HuffPost UK",
+    "source_url": "https://www.huffingtonpost.co.uk",
+    "source_domain": "www.huffingtonpost.co.uk",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNGx5b2FvRUo4eHBqMVh0UU1LZXZvRFE1NHBCcEtZUC14VlVIY08yVEpMU1ZVZi15Mlg2SDJLaWpuWVBoMXZ0dFJybEZmSnJoWlRZcU52Q1ZZczdNN3dFcmZaekNHTlpYb3Q3R290SmVrV0FkTkl2REo0a1kxcGVkci1HTURZRHJqTldVM2tOSGcxZXR3UVNodEc0Wnp3S2RUMXZuV3Rudw?oc=5",
+    "published": "2026-07-03T05:17:04+00:00",
+    "published_display": "Jul 03, 2026",
+    "query": "Vance policy",
+    "image": "https://img.huffingtonpost.com/asset/6a46a479180000e863454cad.jpeg?cache=FkUISxWsGq&ops=500_281%2Cscalefit_1200_630",
+    "real_url": "https://www.huffingtonpost.co.uk/entry/jd-vance-cannot-defend-trumps-cruelty_uk_6a474379e4b07748e75cbeb1",
+    "bias": "L",
+    "topic": "General",
+    "region": "Europe"
+  },
+  {
     "id": "f3d3de7aa904",
     "title": "\u2018I\u2019m blaming JD\u2019: Meet the \u2018outsider\u2019 in line for Trump\u2019s job",
     "source": "SMH.com.au",
@@ -77,6 +109,22 @@
     "real_url": "https://www.bloomberg.com/news/videos/2026-07-02/balance-of-power-late-edition-07-02-2026-video",
     "bias": "?",
     "topic": "Tech & AI",
+    "region": "US"
+  },
+  {
+    "id": "f13842981ac6",
+    "title": "JD Vance is attempting to write his political future. His boss has other ideas",
+    "source": "Monocle",
+    "source_url": "https://monocle.com",
+    "source_domain": "monocle.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14Yi1PdTdzRkZYdEp1OTZxczU0Ykd3RVNHZnNaQngzTjlXWGRpa1ZVR0ZBdEJRMW9hQ3RIUXdzaVRGeE9kV2w0RF9UaDg5NDVPNmRnTzZ1X0xVMVBkZ2xKNFJ0NGZDQ1Bld3V4ajFTUU9KNEQyenc?oc=5",
+    "published": "2026-07-02T23:12:57+00:00",
+    "published_display": "Jul 02, 2026",
+    "query": "JD Vance",
+    "image": "https://monocle.com/wp-content/uploads/2026/07/GettyImages-2282638678_CROP.jpg?fit=1280%2C960",
+    "real_url": "https://monocle.com/affairs/jd-vance-vice-president-book-communion/",
+    "bias": "?",
+    "topic": "General",
     "region": "US"
   },
   {
