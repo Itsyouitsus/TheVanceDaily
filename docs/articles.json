@@ -1,5 +1,37 @@
 [
   {
+    "id": "be22e83939f5",
+    "title": "How a third-generation Texas oilman transformed an organic farming company into a leading advanced nuclear startup at a small Christian college",
+    "source": "Fortune",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://fortune.com/2026/07/04/texas-oilman-transformed-organic-farming-leading-advanced-nuclear/",
+    "published": "2026-07-04T07:07:00+00:00",
+    "published_display": "Jul 04, 2026",
+    "query": "direct_feed",
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/07/DSC00304-e1783025621359.jpg?resize=1200,600",
+    "real_url": "https://fortune.com/2026/07/04/texas-oilman-transformed-organic-farming-leading-advanced-nuclear/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "63b981b9aa6d",
+    "title": "5\u00a0Myths About American Independence",
+    "source": "Newsweek",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsweek.com/american-independence-myths-declaration-1776-12150513",
+    "published": "2026-07-04T05:00:00-04:00",
+    "published_display": "Jul 04, 2026",
+    "query": "direct_feed",
+    "image": "https://assets.newsweek.com/wp-content/uploads/2026/07/07-02-26-5-Myths-About-American-Independence.png?w=1200&crop=1",
+    "real_url": "https://www.newsweek.com/american-independence-myths-declaration-1776-12150513",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "de59371167c5",
     "title": "On Wednesday, Air Force Maj. Jason Watson was arrested on the Capitol steps after calling for the impeachment of President Trump and Vice President JD Vance. The event was organized by the Removal Coalition, a group that lobbies Congress to impeach",
     "source": "Instagram.com",
@@ -365,6 +397,22 @@
     "real_url": "https://www.oann.com/newsroom/vance-rep-ocasio-cortez-will-lead-democrat-presidential-race-in-2028/",
     "bias": "R",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "d83f615717a0",
+    "title": "Trump Was Invited To Usha Vance&#x27;s Children&#x27;s Podcast. What Happened Next Was Peak Trump.",
+    "source": "Politics",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.huffpost.com/entry/trump-roasts-other-presidents-usha-vance-podcast_n_6a47eabbe4b07748e75d07c3",
+    "published": "2026-07-03T14:32:05-04:00",
+    "published_display": "Jul 03, 2026",
+    "query": "direct_feed",
+    "image": "https://img.huffingtonpost.com/asset/6a47ef881a00000a225800dd.jpg?cache=sedmSVkMMe&ops=500_281%2Cscalefit_1200_630",
+    "real_url": "https://www.huffpost.com/entry/trump-roasts-other-presidents-usha-vance-podcast_n_6a47eabbe4b07748e75d07c3",
+    "bias": "C",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -72925,6 +72973,22 @@
     "real_url": "https://www.msn.com/en-in/news/insight/jd-vance-booed-at-air-force-graduation-cancels-denver-event/gm-GMFA2C9C13?gemSnapshotKey=GMFA2C9C13-snapshot-3&uxmode=ruby",
     "bias": "C",
     "topic": "Military",
+    "region": "US"
+  },
+  {
+    "id": "cb313ae45981",
+    "title": "VP Vance Calls for Human Control Over Lethal Weapons in AI Era",
+    "source": "Americans for Responsible Innovation",
+    "source_url": "https://ari.us",
+    "source_domain": "ari.us",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUkFsZXh3NGxRODM1MFpWZjVPdnZpY3oybkNLYTdpT255THphdElYTUdsNkRWSGJGYnZ6aGstb09xcmtVMjhHd1JacTNwaHJqSUJjaE1xNEN4ZWtBdjVFNG83RWxnaGlrRmtOOWttX2ZPbEhTUHRuQ2drUFYzalZNYkNnVWY?oc=5",
+    "published": "2026-05-28T07:00:00+00:00",
+    "published_display": "May 28, 2026",
+    "query": "JD Vance speech",
+    "image": "https://ari.us/wp-content/uploads/2025/11/25-Social-Share-Image.png",
+    "real_url": "https://ari.us/vp-vance-calls-for-human-control-over-lethal-weapons-in-ai-era/",
+    "bias": "?",
+    "topic": "Tech & AI",
     "region": "US"
   },
   {
