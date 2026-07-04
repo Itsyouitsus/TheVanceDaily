@@ -1,5 +1,21 @@
 [
   {
+    "id": "c0263c3cfde8",
+    "title": "Trump sneaks in Nobel Prize jab while touting America\u2019s achievements",
+    "source": "The Hill",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://thehill.com/homenews/administration/5953598-trump-sneaks-in-nobel-prize-jab-while-touting-americas-achievements/",
+    "published": "2026-07-04T19:10:18+00:00",
+    "published_display": "Jul 04, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://thehill.com/homenews/administration/5953598-trump-sneaks-in-nobel-prize-jab-while-touting-americas-achievements/",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "d18746c6d1b4",
     "title": "&#x27;For 250 years America has..&#x27;: JD Vance delivers remarks aboard USS Kearsarge in New York Harbor",
     "source": "The Economic Times",
@@ -240,6 +256,22 @@
     "region": "US"
   },
   {
+    "id": "1107ec1b0a42",
+    "title": "&#x27;Who We Are As a People&#x27;: JD Vance Reenlists Sailors, Shares the Meaning of America 250 in NY Harbor",
+    "source": "RedState",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://redstate.com/beccalower/2026/07/04/jd-vance-sailors-speech-america-250-ny-harbor-n2203997",
+    "published": "2026-07-04T14:03:00-04:00",
+    "published_display": "Jul 04, 2026",
+    "query": "direct_feed",
+    "image": "https://media.townhall.com/cdn/hodl/2025/51/650c44ba-2533-40f6-8746-f76962a6e544.jpg",
+    "real_url": "https://redstate.com/beccalower/2026/07/04/jd-vance-sailors-speech-america-250-ny-harbor-n2203997",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "72586b11b28e",
     "title": "Robert B. Reich: Is Vance more dangerous than Trump?",
     "source": "NNY 360.com",
@@ -354,6 +386,22 @@
   {
     "id": "3bab89eb366d",
     "title": "JD Vance celebrates \u2018250 years of America facing the future without fear\u2019 and slalms \u2018loud voices\u2019 who drag US down",
+    "source": "New York Post",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://nypost.com/2026/07/04/us-news/jd-vance-celebrates-250-years-of-america-facing-the-future-without-fear-in-4th-of-july-address-in-nyc/",
+    "published": "2026-07-04T11:41:47-04:00",
+    "published_display": "Jul 04, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://nypost.com/2026/07/04/us-news/jd-vance-celebrates-250-years-of-america-facing-the-future-without-fear-in-4th-of-july-address-in-nyc/",
+    "bias": "LR",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "329efb769e3b",
+    "title": "JD Vance celebrates \u2018250 years of America facing the future without fear\u2019 and slams \u2018loud voices\u2019 who drag US down",
     "source": "New York Post",
     "source_url": "",
     "source_domain": "",
