@@ -1,5 +1,37 @@
 [
   {
+    "id": "646205ddac2e",
+    "title": "US Strikes Iran &amp; Blocks Oil Sales",
+    "source": "Daybreak Europe 7/8/2026",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.bloomberg.com/news/videos/2026-07-08/daybreak-europe-7-8-2026-video",
+    "published": "2026-07-08T06:59:07+00:00",
+    "published_display": "Jul 08, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.bloomberg.com/news/videos/2026-07-08/daybreak-europe-7-8-2026-video",
+    "bias": "?",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "d7642912200d",
+    "title": "Which god does JD Vance kneel to?",
+    "source": "New Statesman",
+    "source_url": "https://www.newstatesman.com",
+    "source_domain": "www.newstatesman.com",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ1BmdEtVMnZkWmtMcnVHdlhMRW5pcWdOcmxrd0x5Q2FrclFMVVBFajZDMlhZMDdNcHh4ZW80b2JCdmMtZ19UZV9wRVpkZ1pkMk5MRUszYTVvUzBtTGxIRVhFRHJMUm5JNXA3WWNfOVlUbEZ6bE5ZaWY3ZWR6eWZuYmtiT01DY0hWdU93?oc=5",
+    "published": "2026-07-08T05:02:41+00:00",
+    "published_display": "Jul 08, 2026",
+    "query": "JD Vance",
+    "image": "https://dl6pgk4f88hky.cloudfront.net/2026/07/08/202628vancemain-800x418.jpg?1783496103",
+    "real_url": "https://www.newstatesman.com/culture/books/2026/07/which-god-does-jd-vance-kneel-to",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "36671dfcd39e",
     "title": "Scoop: Trump administration lifts restrictions on OpenAI&#x27;s GPT 5.6",
     "source": "Axios",
@@ -5149,6 +5181,22 @@
     "real_url": "https://www.dailywire.com/news/team-usa-is-90-minutes-from-something-it-hasnt-done-in-decades",
     "bias": "R",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "409565e3fbdf",
+    "title": "AOC doesn&#x27;t deny plans for 2028 run",
+    "source": "Audacy",
+    "source_url": "https://www.audacy.com",
+    "source_domain": "www.audacy.com",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT0JvazhnNVhjSkFMdkdqUDlWLU84YjdHMnVybWIzQmU2c3BsTzJVS29ubTJ0VnBNZE9iWTQ3V0FQMVJnT0VJTk04T2c1VlRUaTF0QThrM3RWTkZjWFFLMmk0d3dBVHdMU3l1dmpMRUV1c2NPRDlQa0ljRkJTVHphZm1raldtME5qaVJqMEgzcEpEV29ISzhWdmpJanA5eWcyYUJHbmRUUm1MTTEzYnRIMQ?oc=5",
+    "published": "2026-07-02T19:46:53+00:00",
+    "published_display": "Jul 02, 2026",
+    "query": "Vance president 2028",
+    "image": "https://www.audacy.com/media-library/lawmakers-continue-work-on-capitol-hill-ahead-of-memorial-day-break.jpg?id=67087785&width=1200&height=600&coordinates=0%2C85%2C0%2C86",
+    "real_url": "https://www.audacy.com/national/news/aoc-doesn-t-deny-plans-for-2028-run-these-are-the-other-rumored-contenders",
+    "bias": "C",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
