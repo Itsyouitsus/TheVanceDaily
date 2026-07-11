@@ -1,5 +1,21 @@
 [
   {
+    "id": "45510cc3c3bc",
+    "title": "JD Vance is wiser than his libertarian friends",
+    "source": "Washington Examiner",
+    "source_url": "https://www.washingtonexaminer.com",
+    "source_domain": "www.washingtonexaminer.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcWY1QUJEQU9PaWpEU2NaM3FGNzdvQl9GQnVMWG9weFV3dmhSdjFwRVV1elRMc25qRWdYRVV0enVDeGgxdUdKMHNRMVAwV3A5R3dDNlpXeS1uZDNNVFM3U29fa0tPb2tyX0tBRjlFZ0I0SUdJVDZ3QUthYTgtOTRUQ3BONXp3SHFvVkhsVEYtc2NJYjVZQlRYZkZXd2cyOXpfeUtDZ0FjXzY2ZWtGR2RfOVFic09CaEJpbFE?oc=5",
+    "published": "2026-07-11T18:00:00+00:00",
+    "published_display": "Jul 11, 2026",
+    "query": "JD Vance",
+    "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/07/AP26182530133554.jpg?resize=1200,683",
+    "real_url": "https://www.washingtonexaminer.com/in_focus/4644020/jd-vance-is-wiser-than-his-libertarian-friends-alexander-hamilton/",
+    "bias": "LR",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "7ad4888006ea",
     "title": "Trump suggests a standing order to attack Iran if it assassinates him. But Vance would make the call",
     "source": "News4JAX",
@@ -13,6 +29,22 @@
     "real_url": "https://www.news4jax.com/news/politics/2026/07/11/trump-suggests-a-standing-order-to-attack-iran-if-it-assassinates-him-but-vance-would-make-the-call/",
     "bias": "?",
     "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "59f1104f724b",
+    "title": "For the Record: July 12, 2026",
+    "source": "Channel 3000",
+    "source_url": "https://www.channel3000.com",
+    "source_domain": "www.channel3000.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMWhmR0Ntdm9aN3dLOWNGUWJnQmh0MTZDampOZXJYZExHYjh1ZHk0YkU3WEdsRGxLeGRwdTlnZXdGODdUdUFqcGgtcDFZaVNNYTZHX2U1T1RLS1RDYmtqR0hoUC0tQlY4MHhkN2tNT0JydWhITlAwVFVuWFk5b3AxYms4NlJvRUQ3WmRiVTctRUJQd29KRFhqcHVtZ0ItSTJDaWJYNWFHd1ZiNmE4cEE?oc=5",
+    "published": "2026-07-11T16:45:00+00:00",
+    "published_display": "Jul 11, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://www.channel3000.com/video/for-the-record-july-12-2026/video_268ce8a0-56bd-5778-b7f0-d7c63bcf5aba.html",
+    "bias": "?",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -30,6 +62,22 @@
     "bias": "C",
     "topic": "2028 Race",
     "region": "US"
+  },
+  {
+    "id": "536e5730fa06",
+    "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz",
+    "source": "BBC",
+    "source_url": "https://www.bbc.com",
+    "source_domain": "www.bbc.com",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoS0hYU18weGNjTUZpSzBPTU83Z3lMV1g4YXdGSTM5Y0pjY2xQemxUeFAzX2pfb0xzZ0FzUXB4ZnBXdGxPMV9PaDJudTlCNEk3ZXZ1S3QxU2pSdw?oc=5",
+    "published": "2026-07-11T15:45:31+00:00",
+    "published_display": "Jul 11, 2026",
+    "query": "Vice President Vance",
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/8b9e/live/f34fa810-7cfd-11f1-926f-c90d1bcfbc84.jpg",
+    "real_url": "https://www.bbc.com/news/articles/crelyq79x71o",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "Europe"
   },
   {
     "id": "276c805c80c2",
