@@ -1,5 +1,21 @@
 [
   {
+    "id": "84c323bfc263",
+    "title": "Graham Leaves Lasting Mark on Senate",
+    "source": "Bloomberg",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.bloomberg.com/news/videos/2026-07-12/graham-leaves-lasting-mark-on-senate-video",
+    "published": "2026-07-12T13:39:34+00:00",
+    "published_display": "Jul 12, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.bloomberg.com/news/videos/2026-07-12/graham-leaves-lasting-mark-on-senate-video",
+    "bias": "LL",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
     "id": "fcc34fff34ba",
     "title": "When the U.S. Advocates for Political Prisoners Around the World, Freedom Wins",
     "source": "National Review",
@@ -587,6 +603,22 @@
     "query": "JD Vance",
     "image": "https://www.bostonherald.com/wp-content/uploads/2026/07/BHR-Z-MOORE-01.jpg?w=1024&h=683",
     "real_url": "https://www.bostonherald.com/2026/07/11/moore-jd-vance-sounding-like-economic-rino/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "a0576ecacfaf",
+    "title": "Why is Trump all but invisible in J.D. Vance\u2019s Communion?",
+    "source": "The Spectator",
+    "source_url": "https://spectator.com",
+    "source_domain": "spectator.com",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa2lqSzNCc0RuanRaT2xjQzlkV1Q3WEltV2l3VzhreTFLTXJJOFE3bVk5blBCY2FZZ216WVRXek1pVi02eWloLUNuNmpGbURveXNUT1pQSnRuT3h5UDYtNkx3OGJNRXNJTThLajNEQXpBNklxX3Y5bE9RQVVKVVprUDhfSmNWcHVPOUdBQ2xVMml5Zw?oc=5",
+    "published": "2026-07-11T07:00:00+00:00",
+    "published_display": "Jul 11, 2026",
+    "query": "JD Vance",
+    "image": "https://spectator.com/wp-content/uploads/2026/07/4J.D.-Vance-Getty.jpg",
+    "real_url": "https://spectator.com/article/how-does-the-catholic-j-d-vance-justify-trumpian-policies/",
     "bias": "?",
     "topic": "General",
     "region": "US"
