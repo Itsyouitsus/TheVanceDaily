@@ -352,6 +352,22 @@
     "region": "US"
   },
   {
+    "id": "daeb73927a0c",
+    "title": "Vice President JD Vance moves into new residence with family in Washington, DC metro area",
+    "source": "WLWT",
+    "source_url": "https://www.wlwt.com",
+    "source_domain": "www.wlwt.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXdBbUx6VVVSMXdMLVZIcFo0QkxYaUw0UkkxUGstbGpsWm1HT0p0ZFBYVjZPOW8wMi1heHF3dGRIbmo2ZzVpZDhaanVhWWUwcGlBcUlMeTUzN19CQ3hLdHI5bVRWODFNdUxEMWkxQnRfMldZWlUxSV9wS0lDTDBtRHNjb3dOeTFDU2lCNUJTcU9jNTlOYmZScUFOM2Qtdw?oc=5",
+    "published": "2026-07-11T16:12:00+00:00",
+    "published_display": "Jul 11, 2026",
+    "query": "JD Vance",
+    "image": "https://kubrick.htvapps.com/htv-prod/images/81562d60-ae6d-4483-835c-a31440affa33.png?crop=1.00xw:0.846xh;0,0.0147xh&resize=1200:*",
+    "real_url": "https://www.wlwt.com/article/vance-moves-into-new-residence-with-family-in-washington-dc/71906045",
+    "bias": "?",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "0def4e780e5c",
     "title": "The \u2018pragmatic\u2019 Democratic ticket the GOP does not want to face in 2028",
     "source": "The Hill",
@@ -235765,6 +235781,22 @@
     "real_url": "https://openthemagazine.com/world/vance-shines-at-trumps-expense",
     "bias": "?",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "db22769dcc07",
+    "title": "As polls show low approval for Trump on the economy, will taking his economic agenda to voters help?",
+    "source": "ABC News",
+    "source_url": "https://abcnews.com",
+    "source_domain": "abcnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMlgwcXlUWXhNbHl1QjlSSmRmS2trZjJFaXMzanRWOTNLMHBSSkJaaHZ2eExkRmtlUWY3dEhBYzhuZFpXbmtMay03OVNFMjNTU0VUQWphNHhReW9TQkNMdnNlR3ZQV3F4aVBUYnZXSUx1TnllbG54UDBUY2F3ZEItUVQ4UWZhUmU0NEhobG51Q3NiZEZtWDdSX0JtZGhHTXZ0V0Fz0gGoAUFVX3lxTE9rMDFHa2d4VTVHRkZ6XzZQRGNTVHVNRG5UUlpqQnpjelpsNk8ybGtXSVVmLW9kdFNMRklheE5lODFqNWJsclI1M19iNGNVS3daSTBUSHFkeGJuNHRQNVFnWHMxRFA0QVhPcVlYX0kyZEdLelZHZ1Y4eW9UT0tJUzhSTDQ1cnEwSVBaOV9SRVhIWHMxSHpWQURsRWhxdDl0TUY3VVY0OFZJVA?oc=5",
+    "published": "2025-12-19T08:00:00+00:00",
+    "published_display": "Dec 19, 2025",
+    "query": "Vance economy",
+    "image": "https://i.abcnewsfe.com/a/12920418-8638-4560-a90c-38029ba0a2bb/donald-trump-2-rt-gmh-251217_1766023690976_hpMain_16x9.jpg?w=1600",
+    "real_url": "https://abcnews.com/Politics/polls-show-low-approval-trump-economy-taking-economic/story?id=128428263",
+    "bias": "LL",
+    "topic": "Economy",
     "region": "US"
   },
   {
