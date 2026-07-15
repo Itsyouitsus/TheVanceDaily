@@ -1,5 +1,53 @@
 [
   {
+    "id": "58e73a606e2b",
+    "title": "Trump held Situation Room meeting on massive new Iran strikes",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/07/15/trump-situation-room-iran-bombing",
+    "published": "2026-07-15T02:46:23+00:00",
+    "published_display": "Jul 15, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/07/15/trump-situation-room-iran-bombing",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "45fc85857920",
+    "title": "Rubio to host diplomacy meeting \u2018critical to advancing\u2019 US economy",
+    "source": "The Hill",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://thehill.com/homenews/administration/5968796-marco-rubio-chairs-edag-meeting/",
+    "published": "2026-07-15T02:01:54+00:00",
+    "published_display": "Jul 15, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://thehill.com/homenews/administration/5968796-marco-rubio-chairs-edag-meeting/",
+    "bias": "C",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
+    "id": "e4aec34d5529",
+    "title": "\u2018Debt of gratitude\u2019: JD Vance offers support to Nick Shirley as influencer addresses \u2018death threats, false smears\u2019",
+    "source": "Hindustan Times",
+    "source_url": "https://www.hindustantimes.com",
+    "source_domain": "www.hindustantimes.com",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPSnptclI5U0VFMDZSNFh1cXlwUTc4ZG9MNlVLNkRRNWp5Y1lzWjNoYkRCOE9JOFpFY05UOFdLb3A1R09fN0d1SGRoXzI1TFp1MDVhdVNIajRsbC1abllwdnJuVVZTWk54M1Y4eGh2WTAwTXAwaGlCOG12Um1qeHZFbkpGcVlEcWIwYl9uRUc0LTdzUGw1ZUVJdWRCVlZlRmNsd2NSWjlFclJnUFlvTXJmRVZSOXJ6Q2xzNUhqVWdzNENTTDJJY2ZKQUpiZ2g4RkpySnYyZHZYUkRtMHh4TjZqUjJtZXBVaWZ5Q3F3RW9BX0xDY3NWM01UM2wzaTFnQXAxcXc1bHJUa0ZjeHfSAZACQVVfeXFMTWtsTnJ6UThEaWdQc2pjQU1kbV90cHpHQ1dsVzZyM3ZyVnk1dFluZVNaZmlWbEtKeU1MdlRDU0p4UzFFcjdaR2hFLXh6VUkyd2lBNDJQT3ZTNVhwUFN6eXZWUWo1WHM4RmtpNm9BMkw2d0x4RWJhaXRyWGNuWmtiazRkUFYxSlVEekkzbEdPR0E2Ql9XTEZpV2JVZjJ3TUtyQkdjWTZ1MHpnM0wzdWRXNkVQMkpyY2Ffb1UtNFJwLW1fUXZEOTd0UmpZRUh1bXZwVnBPZjN1MGt6WThoS1NTT1FsaXNrMDhGWE9OdDM3M3F0MWdPZUsxQVFyOGNlVVc4WkZXWnJmOUFaYXhxb2psSWY?oc=5",
+    "published": "2026-07-15T01:21:09+00:00",
+    "published_display": "Jul 15, 2026",
+    "query": "JD Vance",
+    "image": "https://www.hindustantimes.com/ht-img/img/2026/07/15/550x309/hhyjj_1784078326707_1784078336082_81a1fdb4-d22d-461a-97f0-fcfd3dbb7ea1.jpg",
+    "real_url": "https://www.hindustantimes.com/world-news/us-news/debt-of-gratitude-jd-vance-offers-support-to-nick-shirley-as-influencer-addresses-death-threats-false-smears-101784077838267.html",
+    "bias": "LL",
+    "topic": "General",
+    "region": "International"
+  },
+  {
     "id": "5c0bec904d35",
     "title": "Vance to meet with House Republicans Wednesday",
     "source": "Politico",
@@ -12,6 +60,22 @@
     "image": "https://www.politico.com/dims4/default/80af62e/2147483647/resize/1200x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F84%2F26%2F1613ff1446fe868f80fde89772f9%2Fvance-74838.jpg",
     "real_url": "https://www.politico.com/live-updates/2026/07/14/congress/jd-vance-house-republicans-00998124",
     "bias": "LL",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "ab11c9f75e51",
+    "title": "House GOP&#x27;s reconciliation 3.0 push hits early road bumps",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/07/14/mike-johnson-house-republicans-reconciliation",
+    "published": "2026-07-14T23:35:30+00:00",
+    "published_display": "Jul 14, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/07/14/mike-johnson-house-republicans-reconciliation",
+    "bias": "C",
     "topic": "Domestic",
     "region": "US"
   },
@@ -77,6 +141,22 @@
     "real_url": "https://time.com/article/2026/07/14/daylight-saving-time-permanent-bill-house/",
     "bias": "LL",
     "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "48d609cc3812",
+    "title": "Altman warns of &quot;hiccups&quot; with new flagship Sol model",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/07/14/sam-altman-chat-gpt-sol-ultra-warning",
+    "published": "2026-07-14T20:43:03+00:00",
+    "published_display": "Jul 14, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/07/14/sam-altman-chat-gpt-sol-ultra-warning",
+    "bias": "C",
+    "topic": "Military",
     "region": "US"
   },
   {
@@ -157,6 +237,22 @@
     "real_url": "https://thehill.com/policy/defense/5967878-senate-democrats-block-ndaa/",
     "bias": "C",
     "topic": "Military",
+    "region": "US"
+  },
+  {
+    "id": "f4980721e5d1",
+    "title": "House GOP breaks weeks-long standoff between Republican leaders and hardliners",
+    "source": "AOL News",
+    "source_url": "https://www.aol.com",
+    "source_domain": "www.aol.com",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB2RXlTdFREYW5IdTdiemRhQlBfYjd5N0stREMtNFN6eXZ2S0VudWR4b1gxb1dQYTFzSVNRYkhyOTMtUjhwS3ZSaVh0My0xM3hLY3c3NGgtQmVYQVV4bWVmU0I4WUNVQmxQeHZhSUpxSW5Za1NkYW5NQUVQaw?oc=5",
+    "published": "2026-07-14T19:13:12+00:00",
+    "published_display": "Jul 14, 2026",
+    "query": "Vance Republican",
+    "image": "https://s.yimg.com/cv/apiv2/aolfp/images/og-image.png",
+    "real_url": "https://www.aol.com/articles/house-gop-breaks-weeks-long-184429000.html",
+    "bias": "C",
+    "topic": "Domestic",
     "region": "US"
   },
   {
@@ -304,6 +400,22 @@
     "region": "US"
   },
   {
+    "id": "923002bf59d0",
+    "title": "Joe Rogan breaking bread with JD Vance move after bashing MAGA movement",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcW00N2dCa0lneGRuY0R6N1dsZ1c2RHVVd0ZqZGEzdnNKaVAydjZKZHhwb1VIMnJWQl9LUVNlS0Joak9Xa1MzTmlpd2FvcHlxQ1YzYWhodU5pc0ZNQVQ0dDIzRUdYRXpPZFJOSUZPYURTQkRWZ3FTdnNWZEMxMUVFTS1rWlRMV3lycVZJUkZsc3FTMkdSOU5LUXlscWpQQQ?oc=5",
+    "published": "2026-07-14T17:29:50+00:00",
+    "published_display": "Jul 14, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/98575bdf3c6bb77a7e23ada60e08a834ac792987accb84054d32023961884f7b/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_comeback_288%2Fc6cbee011e08c6d1180b71487401ecc5",
+    "real_url": "https://www.yahoo.com/entertainment/celebrity/articles/joe-rogan-breaking-bread-jd-172950173.html",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "a585f0beccb6",
     "title": "Is AI quietly deciding what you pay at the gas pump?",
     "source": "The Blaze",
@@ -381,6 +493,22 @@
     "real_url": "https://www.newsmax.com/newsfront/house-gop-legislative-standoff-save-america-act/2026/07/14/id/1262822",
     "bias": "R",
     "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "135fd9d818e3",
+    "title": "JD Vance&#x27;s chances of beating AOC and Newsom in new 2028 poll",
+    "source": "MSN",
+    "source_url": "https://www.msn.com",
+    "source_domain": "www.msn.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSk10NkEwUEljc2VfRHh5YTdrbjBhMXhQQW9oMlJuWlVZeDVoVEJpeGJtbDhTM2FZYURVeVRHa19FcVhWS0lZU1FmU1k5NnhlXzZCQnAyLTBkQTJJeTlSbzFUcmhCWUx1LWJhZ1ZKMjdzanhIYWZEZkVFRW0yQzNxdmtESVNGTkZxeURtY05ITkpPTzFkejZxSVY0NmNNdDkzUzlQaDYxcXJrT00tZ0d0TVFyWQ?oc=5",
+    "published": "2026-07-14T15:48:45+00:00",
+    "published_display": "Jul 14, 2026",
+    "query": "Vance Republican",
+    "image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA27TFq5.img?w=1200&h=712&m=4&q=89",
+    "real_url": "https://www.msn.com/en-us/news/politics/jd-vance-s-chances-of-beating-aoc-and-newsom-in-new-2028-poll/ar-AA27U1G7",
+    "bias": "C",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
