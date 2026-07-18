@@ -3033,7 +3033,7 @@
     "published": "2026-07-16T14:59:00+00:00",
     "published_display": "Jul 16, 2026",
     "query": "JD Vance",
-    "image": "",
+    "image": "https://www.al.com/resizer/v2/C3GKIN26WFG6DMBSF5LMB5VIIM.jpg?auth=3741949df70d37e3e635b00cae5e7eb8f2248c622da4daec14a75dc92ac26b88&width=1280&smart=true&quality=90",
     "real_url": "https://www.al.com/politics/2026/07/jd-vances-secret-service-request-spurs-outrage-gives-helicopter-parent-a-whole-new-meaning.html",
     "bias": "?",
     "topic": "Immigration",
@@ -159870,6 +159870,22 @@
     "bias": "L",
     "topic": "Economy",
     "region": "US"
+  },
+  {
+    "id": "d950a886c710",
+    "title": "Turning Point USA J.D. Vance Georgia",
+    "source": "Rev",
+    "source_url": "https://www.rev.com",
+    "source_domain": "www.rev.com",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuQ1JScUE1Smlnd1YzVUpzSV94TVQwT1FRM1ZPNU13Zy1sbk9nMGpsbFVZTzRERThWTGpFNXAxZ2Nibm9QZjVib2NiUWtEcnEtaVBJd1llVklmenVsbHpDbGcxTGlpQURhRnFj?oc=5",
+    "published": "2026-04-15T07:00:00+00:00",
+    "published_display": "Apr 15, 2026",
+    "query": "JD Vance speech",
+    "image": "https://cdn.prod.website-files.com/65e5ae1fb7482afd48d22155/69df8ec6dfbc8dbdcb924fa1_Vance%20TPUSA.jpg",
+    "real_url": "https://www.rev.com/transcripts/vance-speaks-at-tpusa-event",
+    "bias": "R",
+    "topic": "General",
+    "region": "International"
   },
   {
     "id": "2319de6e9262",
