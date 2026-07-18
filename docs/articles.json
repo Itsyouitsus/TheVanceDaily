@@ -1,5 +1,21 @@
 [
   {
+    "id": "88b104ba387b",
+    "title": "The hidden danger in Trump\u2019s drug-price plan",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/columns/opinion/the-hidden-danger-in-trumps-drug-price-plan",
+    "published": "2026-07-18T13:30:00+00:00",
+    "published_display": "Jul 18, 2026",
+    "query": "direct_feed",
+    "image": "https://www.theblaze.com/media-library/the-hidden-danger-in-trumps-drug-price-plan.jpg?id=67501254&width=1200&height=600&coordinates=0%2C85%2C0%2C86",
+    "real_url": "https://www.theblaze.com/columns/opinion/the-hidden-danger-in-trumps-drug-price-plan",
+    "bias": "R",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "f9ba52f5b606",
     "title": "&#x27;Very s***ty&#x27;: Gay couple sue surrogate mother who REFUSED to abort baby with minor birth defect: Report",
     "source": "The Blaze",
@@ -44,6 +60,22 @@
     "image": "https://assets.newsweek.com/wp-content/uploads/2026/07/Copy-of-32-Split-Screen-2026-07-18T102421-506.png?w=1200&crop=1",
     "real_url": "https://www.newsweek.com/donald-trump-legal-victory-mail-in-voting-12213708",
     "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "905506692886",
+    "title": "&#x27;The Week That Was:&#x27; J.D. Vance&#x27;s Fear of Eating Corn Dogs in Public; Schmucks of the Week Include Sen. Gary Peters.",
+    "source": "Deadline Detroit",
+    "source_url": "https://www.deadlinedetroit.com",
+    "source_domain": "www.deadlinedetroit.com",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVGdLZ1BsT251bnJyeHpwSS02Rndkd2cxWWtKUjdpQlpSV2g5YXFQdFB6YW1IUkxsMHJ4Y19rUlhaT01sRUxaWEE0bEpfdGlkOWFsY29xdFYzRjZRVUMyNGdTVXdUY25FNHF3U2tDN2YxNXFORXJfSFdfZHFUOWRIWFA0SVcza054UlJfRzRfR3hxNHJVV0ZpYXplQ1Qyclpnbl9sWmdwZU9FQ2dBMmllcUpVT25ZeWk5eDhvZEVpdWduOWNlSG1rbGtfOFNwakJxRFdqem53M0tnVXIzT1BPaGVzdXVFMlk3bUQ3dQ?oc=5",
+    "published": "2026-07-18T04:49:00+00:00",
+    "published_display": "Jul 18, 2026",
+    "query": "JD Vance",
+    "image": "https://d2nyfqh3g1stw3.cloudfront.net/photos/featured_Screenshot_2026-07-18_at_10.26.52_AM_59984.png",
+    "real_url": "https://www.deadlinedetroit.com/articles/34835/the_week_that_was_j_d_vance_s_fear_of_eating_corn_dogs_in_public_schmucks_of_the_week_include_sen_gary_peters",
+    "bias": "?",
     "topic": "General",
     "region": "US"
   },
@@ -665,7 +697,7 @@
     "published": "2026-07-17T15:46:57+00:00",
     "published_display": "Jul 17, 2026",
     "query": "direct_feed",
-    "image": "",
+    "image": "https://static01.nyt.com/images/2026/08/16/multimedia/16xp-coldcase/16xp-coldcase-facebookJumbo.jpg",
     "real_url": "https://www.nytimes.com/2026/07/17/us/california-millionaire-remains-found-thelma-gaston.html",
     "bias": "?",
     "topic": "General",
