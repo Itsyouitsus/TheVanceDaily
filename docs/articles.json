@@ -1,5 +1,21 @@
 [
   {
+    "id": "b9422d91edaa",
+    "title": "Latino voters want the SAVE Act",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/columns/opinion/latino-voters-want-the-save-act",
+    "published": "2026-07-18T19:00:00+00:00",
+    "published_display": "Jul 18, 2026",
+    "query": "direct_feed",
+    "image": "https://www.theblaze.com/media-library/latino-voters-want-the-save-act.jpg?id=67156476&width=1200&height=600&coordinates=0%2C85%2C0%2C86",
+    "real_url": "https://www.theblaze.com/columns/opinion/latino-voters-want-the-save-act",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "94c63bbface0",
     "title": "EA on LBC: Trump Camp\u2019s Plots to Undermine UK, Canada, and US Elections",
     "source": "EA WorldView",
@@ -4322,6 +4338,22 @@
   {
     "id": "14377addf99b",
     "title": "Secret Service agents reportedly \u2018fed up\u2019 with JD Vance over last-minute travel demands",
+    "source": "The Independent",
+    "source_url": "https://www.independent.co.uk",
+    "source_domain": "www.independent.co.uk",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaHVpcDlqY251bE9BcmlRcVBQT1ZmYm5ubF8wR1RCUDRLZ1NOdFloOW9tS2JjQlRIeUlvQWl2MmZyS0czTmVrSk92Vi1kNVNCMnVJOHhTSHlieE1UWTNoNW04RGFqZ3Q2QW1XZkxoc0lxRmNyZVRzWVhaOS0zX3JESEk0bDAzQ2JKdFIwN0I3aXdpOUxhUEo0ZjBRV3ZYQkoxS1hBTEw3Nk1ZdGFVVnFCWA?oc=5",
+    "published": "2026-07-16T06:17:00+00:00",
+    "published_display": "Jul 16, 2026",
+    "query": "JD Vance",
+    "image": "https://static.independent.co.uk/2026/07/15/20/2285251072..?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+    "real_url": "https://www.independent.co.uk/bulletin/news/jd-vance-secret-service-kash-patel-travel-frustration-b3015898.html",
+    "bias": "LL",
+    "topic": "Immigration",
+    "region": "Europe"
+  },
+  {
+    "id": "12bdc8ee71ff",
+    "title": "Secret Service agents reportedly \u2018fed up\u2019 with JD Vance over last-minute demands",
     "source": "The Independent",
     "source_url": "https://www.independent.co.uk",
     "source_domain": "www.independent.co.uk",
@@ -21101,6 +21133,22 @@
     "real_url": "https://www.breitbart.com/politics/2026/07/01/report-kamala-harris-courts-mamdani-pro-palestinian-activists-ahead-of-possible-2028-run/",
     "bias": "R",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "af045f96080d",
+    "title": "Vance says he hopes Pope has learned from him and Trump on immigration",
+    "source": "AOL News",
+    "source_url": "https://www.aol.com",
+    "source_domain": "www.aol.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0ydXZ6b19MbURXbWE3YzhpOEpHU1gwSkJsYkZrOFBPUGlacTkxUDR1SWZoTWZNX2lpbkhIYk0zT3docE1nQURRUnpPaHc0d3NJUjJGSWlpbmd1UVZ4blVzbVV0NzBXeWRhenFGT05WcnJWSE40bjAxMDBKSXpQVWM?oc=5",
+    "published": "2026-07-01T22:01:53+00:00",
+    "published_display": "Jul 01, 2026",
+    "query": "Vance immigration",
+    "image": "https://s.yimg.com/cv/apiv2/aolfp/images/og-image.png",
+    "real_url": "https://www.aol.com/articles/catholic-convert-jd-vance-says-215011104.html",
+    "bias": "C",
+    "topic": "Immigration",
     "region": "US"
   },
   {
