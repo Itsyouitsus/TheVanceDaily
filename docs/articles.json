@@ -192,6 +192,22 @@
     "region": "Europe"
   },
   {
+    "id": "9717e929ccee",
+    "title": "JD Vance\u2019s Remarks on Epstein and Israel Echo Conspiracy Theories",
+    "source": "The New York Times",
+    "source_url": "https://www.nytimes.com",
+    "source_domain": "www.nytimes.com",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN2p5TjJITUdMaWdXSU0tQndVTWVnQmRLc3FyZ3oweHlfd1UzY0tEaFQ4bnlGVVN4UnlBZmVPWjBsQXdUU2xDWV9pdWVQSGhJenlwXy1hQlBlR3hPWXZqYUlwN0ZmNmdGN1J4VzUyaF9zcVQxQVlZcDJoejE1TjczR3pGTEEzVlJhQXhObQ?oc=5",
+    "published": "2026-07-19T02:12:44+00:00",
+    "published_display": "Jul 19, 2026",
+    "query": "JD Vance",
+    "image": "https://static01.nyt.com/images/2026/07/18/multimedia/18pol-Vance-epstein-kpwb/18pol-Vance-epstein-kpwb-facebookJumbo.jpg",
+    "real_url": "https://www.nytimes.com/2026/07/18/us/vances-epstein-israel-conspiracy-theories.html",
+    "bias": "LL",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
     "id": "840c7663d40b",
     "title": "Vance\u2019s Remarks on Epstein and Israel Echo Conspiracy Theories",
     "source": "The New York Times",
@@ -254,6 +270,22 @@
     "bias": "C",
     "topic": "Foreign Policy",
     "region": "Middle East"
+  },
+  {
+    "id": "0ef93b31fc78",
+    "title": "Tucker Carlson Blames \u2018Weak\u2019 Trump For Why GOP Will Get &#x27;Spanked&#x27; In Midterms",
+    "source": "HuffPost",
+    "source_url": "https://www.huffpost.com",
+    "source_domain": "www.huffpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPemQ3UHdZTGNySWpIZGk5SFRLMWhoWGZYZDk3NkZXNjdaNEhVVnZQM0RMdGo0dFZIckszbHJIUGFrZjRPYW0zcFdzb3BPcVA0WVpaY1kyRGVzdmNEZG50T2F2U3piS3N5TkFPc1IzSFZBMWU1ODVfUWRUaGZsb01IazZxY2o4bG01bFpzdFpBTXM3Uzg2ZGRUR2Y4WEtMai1YV19obTVxNm7SAa4BQVVfeXFMUHNTX2lDbFF1ZTdfRHJNRHpfN1lpdUV2Nm00VFNweFhDUjlzbzBVU0dSa3ozVzlMMjFQUnZyVXJwbmhPUmVaMDd1NVd5ZkpvVkJ3dzVrbDJ4ZmE0VENKc24zQmR6NmJjRVVHamJNdTMyZUkwSmlCTFB5ZEoyMk1IUnhyalIwdFpiNWdkRDRXaFcwMENoOF9WajQ5TWowckV6REp0NHcxaWRfcE05OFRB?oc=5",
+    "published": "2026-07-18T19:35:25+00:00",
+    "published_display": "Jul 18, 2026",
+    "query": "Vance Republican",
+    "image": "https://img.huffingtonpost.com/asset/6a5bc46a160000ea7c398d41.png?cache=mWddHXAuNH&ops=500_281%2Cscalefit_1200_630",
+    "real_url": "https://www.huffpost.com/entry/tucker-carlson-gop-spanked-midterms-trump-vance_n_6a5bc04fe4b0dbc76587a15f",
+    "bias": "L",
+    "topic": "General",
+    "region": "US"
   },
   {
     "id": "b9422d91edaa",
