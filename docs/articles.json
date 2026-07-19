@@ -1,5 +1,37 @@
 [
   {
+    "id": "02c75d15f0c3",
+    "title": "Bill Maher torches the left with three-word mic drop and says JD Vance is in play",
+    "source": "The Independent",
+    "source_url": "https://www.independent.co.uk",
+    "source_domain": "www.independent.co.uk",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNFUwQktCUTZTYUpqRzg3M2xiUlNiQS1QQUFWOU5zeHUyMHFCeVNvMnNObU80Z2tMMU5ELU5rRFRIMGtGbDhwcDh2M0lyb1BqTjlKM3ZjSFY5M3QxTEFqSDR0TnlaTXhZWi0xSll6Y1hkZHBGSHB3QkpEMlNid3dtY3NNanFuSDliWnhPVS1hUGI1aUQxTkYwN2FNaENEQlV2ZmxCeEoxV01HVzQ?oc=5",
+    "published": "2026-07-19T19:23:00+00:00",
+    "published_display": "Jul 19, 2026",
+    "query": "JD Vance",
+    "image": "https://static.independent.co.uk/2026/06/29/07/2026-06-29T020834Z_136873214_RC263MA2C5PB_RTRMADP_3_PEOPLE-BILLMAHER.JPG?trim=0,35,0,35&width=1200&height=800&crop=1200:800",
+    "real_url": "https://www.independent.co.uk/news/world/americas/us-politics/bill-maher-2028-democrats-vance-b3017749.html",
+    "bias": "LL",
+    "topic": "Domestic",
+    "region": "Europe"
+  },
+  {
+    "id": "d0616de38c84",
+    "title": "J.D. Vance Roasted by &#x27;The Daily Show&#x27; After Bizarre Joe Biden Ice Cream Confession",
+    "source": "Yahoo Lifestyle Canada",
+    "source_url": "https://ca.style.yahoo.com",
+    "source_domain": "ca.style.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hcW1iQk9OZldoaHBnRklmVmtoWlV4ZVFJTXowX2dwOTdFZm9VZTdPU2hsZmx6U1JiVGRlbDE0SGp2TjBxdGhaS0hkcVdPUU5qeWZXM3J4VlBEdHVXaHV1eGoweDJyWmRlVi15VFNZWWFqOFU?oc=5",
+    "published": "2026-07-19T18:50:00+00:00",
+    "published_display": "Jul 19, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/d27da3a4ad8ccc0da5ea9adf986c5974bf911a7f3bcdea7c9a3cb5a8e30ee449/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fradar_online_557%2Fe146b58c1acd495b37e5bfd07a0967e0",
+    "real_url": "https://ca.style.yahoo.com/j-d-vance-roasted-daily-185000341.html",
+    "bias": "C",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "494dc44dd123",
     "title": "Vance\u2019s remarks on Epstein and Israel echo conspiracy theories",
     "source": "Inquirer.com",
@@ -157,6 +189,22 @@
     "real_url": "https://www.yahoo.com/news/videos/bill-maher-opens-door-voting-161327018.html",
     "bias": "C",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "756f20d8b965",
+    "title": "In Milwaukee, J.D. Vance Ties Trump&#x27;s Fraud Task Force to Medicaid and SNAP Crackdowns",
+    "source": "The Fulcrum",
+    "source_url": "https://thefulcrum.us",
+    "source_domain": "thefulcrum.us",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPXzlzNm50SXdYWXFVWHBOQVg0SkhNZUQ5OHpmbUdJRVJ4b1VNNE5HT1owLS1nUm9fMGR0RGJKTGVNeGhhRkZodjAxQmN5Z2JYYWY1MkRwT2hHY2ZqVmpKOUV0X1VsRldaSHhrOE5xbGF0OWtLaWhXOHBTTHNuUHI0RzBSSQ?oc=5",
+    "published": "2026-07-19T13:21:22+00:00",
+    "published_display": "Jul 19, 2026",
+    "query": "JD Vance",
+    "image": "https://thefulcrum.us/media-library/u-s-vice-president-jd-vance-speaks-at-the-128th-air-refueling-wing-hangar-on-july-08-2026-in-milwaukee-wisconsin-vance-trav.jpg?id=67505253&width=1200&height=600&coordinates=0%2C85%2C0%2C86",
+    "real_url": "https://thefulcrum.us/health/jd-vance-milwaukee-fraud-crackdown-medicaid-snap",
+    "bias": "?",
+    "topic": "Healthcare",
     "region": "US"
   },
   {
@@ -1309,6 +1357,22 @@
     "real_url": "https://baptistnews.com/article/jd-vance-further-explains-alien-demon-beliefs-to-joe-rogan-such-a-weird-conversation/",
     "bias": "C",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "104c8e0a9263",
+    "title": "Trump\u2019s Delusional Election Fraud Speech Sparks 25th Amendment Calls",
+    "source": "The New Republic",
+    "source_url": "https://newrepublic.com",
+    "source_domain": "newrepublic.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQU9NbjVKWkVMYjdhZmR2eTFlZVU3YXZkVG95aEt0NVRMOVVGZGtpT1JCYnBnMkdYOXBZbnc4T2QwRVZzNy05RkJpZldYY0lZalhWNWpYbURUODdFN3I1VG93T051MndzbHJXdG9nOHBWWDhOQ3pScDYzUkNBQVNQeGdDZHA?oc=5",
+    "published": "2026-07-17T14:53:06+00:00",
+    "published_display": "Jul 17, 2026",
+    "query": "JD Vance speech",
+    "image": "https://images.newrepublic.com/621f68b47407c9b5b006048e1b4f28ec1563870f.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg",
+    "real_url": "https://newrepublic.com/post/213193/trump-election-fraud-speech-25th-amendment",
+    "bias": "L",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
