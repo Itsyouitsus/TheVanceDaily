@@ -192,6 +192,22 @@
     "region": "US"
   },
   {
+    "id": "d8bfbc11232d",
+    "title": "A MAGA Voter Wants To &quot;Switch Parties&quot; After Trump&#x27;s Cuts Harmed Their Grandchild",
+    "source": "AOL News",
+    "source_url": "https://www.aol.com",
+    "source_domain": "www.aol.com",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYUtKWkN6RkF6c0J6cjVzcWNKUDN4ZDUweElad1FNX1hwdnRlT2tjeVFaVC1IM1FxQXhpRmlmU2VMaWw0Q1ZEc3c4VWFzYTc4QmR2Vk5rWnlodXhyNEJmb2VkUndsbW9kWF9KNHVhZ0tQZ3VYbUM1NzlYaFZRMDdnMQ?oc=5",
+    "published": "2026-07-19T15:52:12+00:00",
+    "published_display": "Jul 19, 2026",
+    "query": "Vance Republican",
+    "image": "https://s.yimg.com/cv/apiv2/aolfp/images/og-image.png",
+    "real_url": "https://www.aol.com/articles/maga-voter-wants-switch-parties-153453000.html",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "756f20d8b965",
     "title": "In Milwaukee, J.D. Vance Ties Trump&#x27;s Fraud Task Force to Medicaid and SNAP Crackdowns",
     "source": "The Fulcrum",
@@ -2733,6 +2749,22 @@
     "real_url": "https://www.thefp.com/p/rod-dreher-jd-vances-time-for-choosing-israel",
     "bias": "LR",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "869fb7be3c0c",
+    "title": "JD Vance Tells Joe Rogan that Jeffrey Epstein had \u2018Connections\u2019 to Israeli Intelligence",
+    "source": "Baltimore Jewish Times",
+    "source_url": "https://www.jewishtimes.com",
+    "source_domain": "www.jewishtimes.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUTZrSmhjdG5ZbElwZHQ0dEt0cl93NGI5YVdxMURJa2psQS1leDB0cjk5Q3Y4a0w4bDZhcmNqWFpvN1VOS3daT1ZiS1hUVm5pcHFrUlRNbkV3cU56d2NPZzlXMHF0OURQdWYtbjNWV1JENDRoRjB6dHBwQ0Y3OXZrbVRBclNnLUt5ai1CWnN2YWVuVEM4bmNxRlUtUWlQMjVFZm5ta015SGgtM3VTLTZXY09ncTA?oc=5",
+    "published": "2026-07-16T20:28:44+00:00",
+    "published_display": "Jul 16, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://www.jewishtimes.com/jd-vance-tells-joe-rogan-that-jeffrey-epstein-had-connections-to-israeli-intelligence/",
+    "bias": "LL",
+    "topic": "Foreign Policy",
     "region": "US"
   },
   {
