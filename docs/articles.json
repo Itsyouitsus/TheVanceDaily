@@ -1,5 +1,21 @@
 [
   {
+    "id": "bb09561da7a4",
+    "title": "Bill Maher on if he would vote for JD Vance in 2028",
+    "source": "Central Oregon Daily",
+    "source_url": "https://www.centraloregondaily.com",
+    "source_domain": "www.centraloregondaily.com",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNV25PTXNEX0VIXzhkN2RXaGtjRmZxdERheGF2M1lhSGx2RUVWWF94OTBfRlJjTGJfTHIwOXp6clNmRmJHWTd1NEk1eHdURWV6aFhjMEE2OC0tVG9RU0dnWENCbnlyZGs2VE9FX1ViQllWTlJ4cldMMEhpWEFXTEtONUtjVkQxb1R4Xy1zMjhBaDRnQ0ZEQ3hjeUozQjJ0Y2J5SHpaQk5iNDZwWmZXbi1Mc2hJa3hsTXhmNEs5ZC1uOVhzQzIyUW5Vc0xWTTNQN3NQWjJub2ZOMnkwVW9Wb3RmOTBNNTdJQkE?oc=5",
+    "published": "2026-07-19T16:23:30+00:00",
+    "published_display": "Jul 19, 2026",
+    "query": "JD Vance",
+    "image": "https://bloximages.chicago2.vip.townnews.com/centraloregondaily.com/content/tncms/assets/v3/editorial/2/01/2017ad4e-535f-525b-8bb8-c0c670b8e23f/6a5cfb8e0115b.preview.jpg?crop=1280%2C672%2C0%2C23&resize=1200%2C630&order=crop%2Cresize",
+    "real_url": "https://www.centraloregondaily.com/news/nation-world/bill-maher-on-if-he-would-vote-for-jd-vance-in-2028/video_2017ad4e-535f-525b-8bb8-c0c670b8e23f.html",
+    "bias": "?",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "ffebd4c27302",
     "title": "J.D. Vance in Milwaukee: Administration pushes new crackdown on Medicaid and SNAP fraud.",
     "source": "The Fulcrum",
@@ -13,6 +29,22 @@
     "real_url": "https://thefulcrum.us/health/jd-vance-milwaukee-fraud-crackdown-medicaid-snap",
     "bias": "?",
     "topic": "Healthcare",
+    "region": "US"
+  },
+  {
+    "id": "22eea40e79ac",
+    "title": "Bill Maher: Dems &#x27;Cowardly&#x27;; Could Support Vance in 2028",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/bill-maher-support-jd-vance/2026/07/19/id/1263336",
+    "published": "2026-07-19T12:25:48-04:00",
+    "published_display": "Jul 19, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/bill-maher-support-jd-vance/2026/07/19/id/1263336",
+    "bias": "R",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
@@ -240,6 +272,22 @@
     "region": "US"
   },
   {
+    "id": "1578d8908504",
+    "title": "Kudlow: Vance Needs &#x27;Reset&#x27; of His Statements",
+    "source": "Breitbart News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.breitbart.com/clips/2026/07/18/kudlow-vance-needs-reset-of-his-statements/",
+    "published": "2026-07-19T00:54:59+00:00",
+    "published_display": "Jul 19, 2026",
+    "query": "direct_feed",
+    "image": "https://media.breitbart.com/media/2025/11/VP-JD-Vance-July31-25-Roosevelt-Room-wh-flickr-640x335.jpg",
+    "real_url": "https://www.breitbart.com/clips/2026/07/18/kudlow-vance-needs-reset-of-his-statements/",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "3b82bbac7401",
     "title": "MAGA Stars\u2019 Vance Bets Spark Insider Trading Concerns",
     "source": "The Daily Beast",
@@ -364,6 +412,22 @@
     "image": "https://www.theblaze.com/media-library/very-s-ty-gay-couple-sue-surrogate-mother-who-refused-to-abort-baby-with-minor-birth-defect-report.jpg?id=67148583&width=1200&height=600&coordinates=0%2C43%2C0%2C44",
     "real_url": "https://www.theblaze.com/news/very-sty-gay-couple-sue-surrogate-mother-who-refused-to-abort-baby-with-minor-birth-defect-report",
     "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "18ebca250a1a",
+    "title": "Ben Shapiro denounces Marco Rubio\u2019s socialist policies",
+    "source": "Washington Examiner",
+    "source_url": "https://www.washingtonexaminer.com",
+    "source_domain": "www.washingtonexaminer.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUkN6WUZQbDNaVjdwb3kzVVl3OE5fT0ItRVhlUUNYZFR6UVRtWGoxSHlRLTlIbFJXS3hDQVpDTGMzQk9jYmd1YjZoeE5KS3BRWXpDRFFBbml4RS11OTl2ZE5qQ0FQNDREX0dvSDBGdHB6ZmRNdGtXakwyT0t2Z0tfeExiMzVoZVZCQ3RYeVlEUDVwQnhsWlpEVEQ2QQ?oc=5",
+    "published": "2026-07-18T10:00:00+00:00",
+    "published_display": "Jul 18, 2026",
+    "query": "Vance policy",
+    "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/04/AP25322643579438.jpg?resize=1200,683",
+    "real_url": "https://www.washingtonexaminer.com/in_focus/4654212/ben-shapiro-marco-rubio-socialist-policies/",
+    "bias": "LR",
     "topic": "General",
     "region": "US"
   },
