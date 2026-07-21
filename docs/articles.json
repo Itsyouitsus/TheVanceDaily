@@ -1,5 +1,21 @@
 [
   {
+    "id": "2a6e40f03cfc",
+    "title": "Vice President Vance and second lady Usha welcome 4th child",
+    "source": "CBS News",
+    "source_url": "https://www.cbsnews.com",
+    "source_domain": "www.cbsnews.com",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcllKV3FLbzNQN2ExZi1FdlNoZk1OLWVWUFM5ZlZCZ2p4Z0RHSEYzMEZMYnJQVWpldjYyNEpscm5xM2NaSGlraDhIZHhqejYyNHYzWDR2N2VJTGdoSGZvY1VPdnBSSGVpM29RYWNUc1VoZGloRXBhYXFlQUJ3bllaM1plM1B2blBXblFULVhjaw?oc=5",
+    "published": "2026-07-20T21:42:00+00:00",
+    "published_display": "Jul 20, 2026",
+    "query": "JD Vance",
+    "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/07/20/fe6f0832-aef0-43cf-b008-1e55531bd05a/thumbnail/1200x630/1ebc1c6f1fcd0f341616d8dd990774ec/cbsn-fusion-vice-president-vance-second-lady-usha-welcome-4th-child-thumbnail.jpg",
+    "real_url": "https://www.cbsnews.com/video/vice-president-vance-second-lady-usha-welcome-4th-child/",
+    "bias": "LL",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "60d82357eb4b",
     "title": "JD Vance becomes first VP in over 150 years to welcome baby while in office",
     "source": "TribLIVE.com",
@@ -160,6 +176,22 @@
     "region": "US"
   },
   {
+    "id": "0bbb4f22483f",
+    "title": "Iran war hurting U.S. allies in region, former Jordanian foreign minister says",
+    "source": "PBS News Hour",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.pbs.org/newshour/show/iran-war-hurting-u-s-allies-in-region-former-jordanian-foreign-minister-says",
+    "published": "2026-07-20T18:52:05-04:00",
+    "published_display": "Jul 20, 2026",
+    "query": "direct_feed",
+    "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/warirandiss-1024x683.jpg",
+    "real_url": "https://www.pbs.org/newshour/show/iran-war-hurting-u-s-allies-in-region-former-jordanian-foreign-minister-says",
+    "bias": "LL",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
     "id": "14d7b5cf5a4e",
     "title": "JD Vance and Bishop Barron discuss faith, politics and Catholic social teaching",
     "source": "The Catholic Herald",
@@ -201,7 +233,7 @@
     "published": "2026-07-20T18:00:00+00:00",
     "published_display": "Jul 20, 2026",
     "query": "JD Vance",
-    "image": "",
+    "image": "https://www.nj.com/resizer/v2/SVHLLTYYTBD2VHGE4FI3EHF6F4.jpg?auth=0b2b8e3f2fe2912e7d737928e487f2cc595d8fe986db9fb2ec16aaf0b8014e1b&width=1280&smart=true&quality=90",
     "real_url": "https://www.nj.com/politics/2026/07/hunter-biden-trolls-jd-vance-with-ice-cream-photos-heres-why.html",
     "bias": "?",
     "topic": "Immigration",
@@ -441,7 +473,7 @@
     "published": "2026-07-20T15:42:00+00:00",
     "published_display": "Jul 20, 2026",
     "query": "Vance president 2028",
-    "image": "",
+    "image": "https://www.nj.com/resizer/v2/FIGFQOQUHNE3LOBIAUSLSJ7LIU.jpg?auth=dd48e79581957a5608272f3380caf337480b1c0e83655e4e0bb9f02935306cf9&width=1280&smart=true&quality=90",
     "real_url": "https://www.nj.com/politics/2026/07/in-brutal-takedown-anti-trump-host-open-to-jd-vance-in-2028.html",
     "bias": "?",
     "topic": "2028 Race",
