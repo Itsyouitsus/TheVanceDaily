@@ -16,6 +16,22 @@
     "region": "US"
   },
   {
+    "id": "d6bb78325f5d",
+    "title": "Vance Calls on Sens. Booker, Kim to Pass SAVE Act After New Jersey Admits to Uncovering Non-Citizen Voters",
+    "source": "Breitbart News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.breitbart.com/politics/2026/07/21/vance-calls-pass-save-act-new-jersey-admits-uncovering-non-citizen-voters/",
+    "published": "2026-07-22T02:04:33+00:00",
+    "published_display": "Jul 22, 2026",
+    "query": "direct_feed",
+    "image": "https://media.breitbart.com/media/2026/07/July-8-2026-vp-Vice-President-JD-Vance-ap-640x335.jpg",
+    "real_url": "https://www.breitbart.com/politics/2026/07/21/vance-calls-pass-save-act-new-jersey-admits-uncovering-non-citizen-voters/",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "937b5d5f71ef",
     "title": "Senior WH official says Vance\u2019s reported attempt to scuttle Netanyahu-Trump meeting is \u2018completely false\u2019",
     "source": "Jewish Insider",
@@ -76,6 +92,22 @@
     "image": "",
     "real_url": "https://www.axios.com/2026/07/22/senate-lindsey-graham-committtee-assignments",
     "bias": "C",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "f6194c343a50",
+    "title": "House Advances Stopgap Funding Measure, but Senate Showdown Looms",
+    "source": "RedState",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://redstate.com/sister-toldjah/2026/07/21/stopgap-measure-passes-the-house-n2204610",
+    "published": "2026-07-21T23:20:30-04:00",
+    "published_display": "Jul 21, 2026",
+    "query": "direct_feed",
+    "image": "https://media.townhall.com/cdn/hodl/2026/180/5a0b2d11-508c-4a99-b711-7399ec9e6a2c.jpg",
+    "real_url": "https://redstate.com/sister-toldjah/2026/07/21/stopgap-measure-passes-the-house-n2204610",
+    "bias": "R",
     "topic": "Domestic",
     "region": "US"
   },
