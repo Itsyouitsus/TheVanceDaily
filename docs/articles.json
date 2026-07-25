@@ -1,5 +1,37 @@
 [
   {
+    "id": "53a534ddde86",
+    "title": "Food banks confront growing SNAP gap",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/07/25/food-banks-snap-cuts-obbb",
+    "published": "2026-07-25T11:10:05+00:00",
+    "published_display": "Jul 25, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/07/25/food-banks-snap-cuts-obbb",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "1b2bea4cb740",
+    "title": "JD Vance\u2019s Coalitions Are Coming to Blows",
+    "source": "National Review",
+    "source_url": "https://www.nationalreview.com",
+    "source_domain": "www.nationalreview.com",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTlRfQ3oyWHdXa1h1a04tcGhJd3dyYjZaMC1rV1FiVzFXSEFsandtOF9nZ1dVTm00aVY0dU5wV2JEZk5HZVJ1LUlRd0dpVC1MNHFsVWsyWGR1Wnp0b0hJc3h4NEtka2hqT2JNZU5rSk1ka01VenJaX2FTdkFnazdUZV9fRExPdXfSAYwBQVVfeXFMUDl2Y1M1dW9pVFRvcHNKR1V0Zm9QdW1KMUVlQ0xLWTcwME9jcTNJZnhtMUN0RGdWVlBpN003SVBJQ3FGZlJ5dk1BMV96ckpQbzFxeUZjOWI4TkRIb2J5Z1lVaTM3a2ZlRURFVFdoQlFPUWdsTTZCblFFRU40ZG13NTc4cHN3WlpBUDNNSzM?oc=5",
+    "published": "2026-07-25T10:30:35+00:00",
+    "published_display": "Jul 25, 2026",
+    "query": "JD Vance",
+    "image": "https://i0.wp.com/www.nationalreview.com/wp-content/uploads/2026/07/vance-1.jpg?fit=2057%2C1200&ssl=1",
+    "real_url": "https://www.nationalreview.com/2026/07/jd-vances-coalitions-are-coming-to-blows/",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "7499c3fd1949",
     "title": "JD Vance and Usha Vance share first pictures with newborn son Alec Neel Vance",
     "source": "Indulge Express",
@@ -110,6 +142,22 @@
     "bias": "LL",
     "topic": "Domestic",
     "region": "International"
+  },
+  {
+    "id": "37b74605b298",
+    "title": "This MAGA Front-Runner Is &quot;Dropping Like A Rock&quot; In Early 2028 Polling",
+    "source": "AOL News",
+    "source_url": "https://www.aol.com",
+    "source_domain": "www.aol.com",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcVR6Z1hDQkFQeVlHeW1RS25VWU9ZOTdTOVZPY1dnTlVvSENQMGNIbkdaTnFoNk0zeHoySC1vb0tSaEROV2hRRnpfdklSWXlEaWNRX0tKcXl4cWpnUGdBeUZ5VV9lMHF1dEVUeXhkZnpvN1ctZVBNSC1PWmZxeXNfUQ?oc=5",
+    "published": "2026-07-24T23:16:18+00:00",
+    "published_display": "Jul 24, 2026",
+    "query": "Vance president 2028",
+    "image": "https://s.yimg.com/cv/apiv2/aolfp/images/og-image.png",
+    "real_url": "https://www.aol.com/articles/maga-front-runner-dropping-rock-230101000.html",
+    "bias": "C",
+    "topic": "2028 Race",
+    "region": "US"
   },
   {
     "id": "6c060cdbaf64",
