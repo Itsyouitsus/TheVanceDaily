@@ -1,5 +1,37 @@
 [
   {
+    "id": "b99358cfb4ea",
+    "title": "Trump\u2019s New Grievance With Canada: The Weather",
+    "source": "Mother Jones",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.motherjones.com/politics/2026/07/why-trump-wants-smoke-with-canada-but-not-from-it/",
+    "published": "2026-07-25T11:30:00+00:00",
+    "published_display": "Jul 25, 2026",
+    "query": "direct_feed",
+    "image": "https://www.motherjones.com/wp-content/uploads/2026/07/GettyImages-2285898952.jpg?w=1200&h=630&crop=1",
+    "real_url": "https://www.motherjones.com/politics/2026/07/why-trump-wants-smoke-with-canada-but-not-from-it/",
+    "bias": "L",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "b71aa071dafa",
+    "title": "Why can\u2019t Trump persuade US women to have more children?",
+    "source": "The Times",
+    "source_url": "https://www.thetimes.com",
+    "source_domain": "www.thetimes.com",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaGkyblNpVkw4MFdOd3Q3YUlZbmtVUlk5R0R6bVQzZ1FEY3lPdGRmZjJQcVQ3R21aTGFYVkFJN1ZoNDh3M3Fuem1DZHlvNDlmMkRCS0pKM29SUGd3X2NGRGlwb2pzY1ZrbHJSNmJTU2wtamktclBscEN6bnZWM2pVQVJXR0h0X19wVVVwRDdUMFNkdU9NdWgxcWpldW0?oc=5",
+    "published": "2026-07-25T11:22:10+00:00",
+    "published_display": "Jul 25, 2026",
+    "query": "JD Vance",
+    "image": "https://www.thetimes.com/imageserver/image/bead04fb-9c41-4454-a0da-7e52b61c120d.jpg?strip=all&format=webp&crop=2048px%2C1152px%2C0px%2C107px&resize=1200",
+    "real_url": "https://www.thetimes.com/life-style/parenting/article/trump-us-birthrate-falling-women-s3tf5qjcv",
+    "bias": "C",
+    "topic": "General",
+    "region": "Europe"
+  },
+  {
     "id": "53a534ddde86",
     "title": "Food banks confront growing SNAP gap",
     "source": "Axios",
@@ -13,6 +45,22 @@
     "real_url": "https://www.axios.com/2026/07/25/food-banks-snap-cuts-obbb",
     "bias": "C",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "8f917588bf03",
+    "title": "Vice President\u2019s mother to speak at Jonesboro Recovery Service",
+    "source": "KTLO",
+    "source_url": "https://www.ktlo.com",
+    "source_domain": "www.ktlo.com",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEFZN1p1MHo1TERaWUFKREw5YnRmdDhfQTA5V280QzFfTXRDNGltRWlqZTNYUTQ4RmFTRDhtbE5HaHVwaHMzZ1pDcHBLQnNuUWh4S2o2b0NhOVBvcjdPZkpQS0tJTlE5bVdGQUtBS2lhZnN6WC1ScTV4My1ReEEwLVluS2dnR0R2Mi1Xc1J2eVBWcjhRV3l2OXB3?oc=5",
+    "published": "2026-07-25T10:32:22+00:00",
+    "published_display": "Jul 25, 2026",
+    "query": "Vice President Vance",
+    "image": "https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/2786/2026/07/24215012/Wireready_07-24-2026-21-50-12_09229_VanceRegional-1024x576.jpg",
+    "real_url": "https://www.ktlo.com/2026/07/25/vice-presidents-mother-to-speak-at-jonesboro-recovery-service/",
+    "bias": "?",
+    "topic": "Immigration",
     "region": "US"
   },
   {
@@ -2171,6 +2219,22 @@
     "query": "JD Vance",
     "image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/07/marco-rubio-jd-vance.jpg",
     "real_url": "https://www.foxnews.com/politics/poll-complicates-vance-status-trump-likely-2028-heir-apparent",
+    "bias": "R",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "aa04c4866109",
+    "title": "Una nueva encuesta complica la posici\u00f3n Vancecomo probable sucesor de Trump para 2028",
+    "source": "Fox News",
+    "source_url": "https://noticias.foxnews.com",
+    "source_domain": "noticias.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPc3NMZ0VhR21RX25GZU9Vd2drdEN0OWRuRHFYX3BNVEljVndmTkhaM210SE5YR0d0M0hKam9FV2pOWFVmT2pFQ1dwdzAtZTNUcGFQQ1VuajRvd1ZySDg5Zmp5SG1ncDRYaEFXaS1mOXFBYkcyTFFyMW9DVTF5WkYzTklYaE91RF81a19zZDBpNGlnS05EemxISjNJU2pZNHEw0gGmAUFVX3lxTE5iUzhvUVVfbUdVZkhrMlVhMF9meVp1YnlhUHpYcVh5QjgzMGZpZEZEVUdmeldkQ0FHd0g1bExWS3NYTGdFN2M1elpMeHB6X1J0WU1yMXdCRmZObVRDZ3lZcm8zc0M5ZzJQc0ZvUmRXZThOR0FlUVBVLVBkS2N4bVFvVkV6MTI4R29mZWxjZ1FlSnVFdjlrYTRuOUROa18wVUZTeGxvc0E?oc=5",
+    "published": "2026-07-23T18:34:07+00:00",
+    "published_display": "Jul 23, 2026",
+    "query": "Vance Republican",
+    "image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/07/marco-rubio-jd-vance.jpg",
+    "real_url": "https://noticias.foxnews.com/politics/poll-complicates-vance-status-trump-likely-2028-heir-apparent",
     "bias": "R",
     "topic": "2028 Race",
     "region": "US"
