@@ -1,5 +1,21 @@
 [
   {
+    "id": "5f091f96d208",
+    "title": "JD Vance has some valid questions about space colonies",
+    "source": "The Hill",
+    "source_url": "https://thehill.com",
+    "source_domain": "thehill.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fT0hDTHVMX2x0ZnkwM2RGekZ2dDFydTFDMk9UVDRPU0xhZExrSzByYmE2Y2VucTRBRWJRdk1hY1RaT2ZkZllnekJ0T3d1NG92ZE8xM3o3ck82dHA5SUVTMkowOVRfdlI5RUN0VGNVVnU4WWlGVjhsdTdUM3lMdTjSAYQBQVVfeXFMTzFxM2hWMHFkSktyUXM0V0Q5V19OcTBlZGFOX2FPc3pVeUNyV3ZTODZvX0JXSWo2WUlhd1hBMzI0d0N3MEJ0Y2VfWUtBeUFfdkFzbGduN3lFaFhjbUI0Yk01elk4aU5qY2tEVnYtMVlnRUdzYXlmaThjbk5HRUdoNkJmQmMy?oc=5",
+    "published": "2026-07-26T14:00:00+00:00",
+    "published_display": "Jul 26, 2026",
+    "query": "JD Vance",
+    "image": "https://thehill.com/wp-content/uploads/sites/2/2026/07/vance_jd_musk_elon_10062024_AP24279760491706-1.jpg?w=1280",
+    "real_url": "https://thehill.com/opinion/technology/5988866-vance-mars-colony-concerns/",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "b1aa1c1b6bd1",
     "title": "Why it took so long to talk about perimenopause",
     "source": "Vox",
@@ -12,6 +28,22 @@
     "image": "https://platform.vox.com/wp-content/uploads/sites/2/2026/07/gettyimages-151055681.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
     "real_url": "https://www.vox.com/health/496667/perimenopause-womens-health-history",
     "bias": "L",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "a5ebbbfdeffe",
+    "title": "To save capitalism from Gen Z, Republicans must steal socialism",
+    "source": "Washington Examiner",
+    "source_url": "https://www.washingtonexaminer.com",
+    "source_domain": "www.washingtonexaminer.com",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUFBEem41dkh3alBnb3NIWU1zX0FFSFV4M3VVdlhRWFN4SjRJQ2QxcFVsVERmdFF0ZFBrSlIySDZjalQxYUUzZ1BpY2F2T20zX3BuOFZZdEY0XzRHdFI1N3c5emZTV3hiR0hsN20tdlpYOWxUMjlzaVJYUy1uWGxsVXBhbkFfU3prVnJFRnl1M3pqQQ?oc=5",
+    "published": "2026-07-26T12:00:00+00:00",
+    "published_display": "Jul 26, 2026",
+    "query": "Vance Republican",
+    "image": "https://www.washingtonexaminer.com/wp-content/uploads/2025/09/wex_yoast_1200_v4.png?resize=1200,683",
+    "real_url": "https://www.washingtonexaminer.com/op-eds/4661910/gop-bismarck-strategy-gen-z-socialism/",
+    "bias": "LR",
     "topic": "General",
     "region": "US"
   },
@@ -178,6 +210,22 @@
   {
     "id": "58ade1466695",
     "title": "Editorial | No PR campaign can conceal the reality Israel has created",
+    "source": "Haaretz",
+    "source_url": "https://www.haaretz.com",
+    "source_domain": "www.haaretz.com",
+    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPaV8xdWt3OXJwUGsxd2FnRlNfQ0NZblRaTFNVWEJTaks0TXZZREF5SUNVSTdIdGsydXFnNVYyQVgzbVBGZUNvYUlEV2ZVa3RSaFE1V19wQXdPRElXUWJhSzF4SmM3UHJRWXpJZnpXX1NBU1h5QS03M0NxdTg4dDZ6eTRxV3kyQ1BiLUxzNldySFJjSW02VUdMR0pnYnVwWG1MTEJVcURBNktRb0lEZkdRMEdPSVdUNktlY0tVeGZfVHJJdXUzdEZ3UWFiTWlrbjdweWd1WHFSazVTV3g2Y2dlTFZzSmh0a2ZMZ3NiRHk0YUxWaHdCU09fME1BZERfaVVGSFRoV2tVbV9kOXJfaWJabDhxcU9kSlE?oc=5",
+    "published": "2026-07-25T23:39:00+00:00",
+    "published_display": "Jul 25, 2026",
+    "query": "Vice President Vance",
+    "image": "https://img.haarets.co.il/bs/0000019f-9aed-db22-a5df-ffffe6ea0000/68/90/ade514d74734870a28424567cd7f/874753-3.jpg?precrop=1874,1089,x326,y59&width=1200&height=630&cmsprod",
+    "real_url": "https://www.haaretz.com/opinion/editorial/2026-07-26/ty-article-opinion/end-the-hasbara-campaigns-israel-needs-accountability-not-more-public-relations/0000019f-9aed-db22-a5df-ffffe6ea0000",
+    "bias": "?",
+    "topic": "Foreign Policy",
+    "region": "International"
+  },
+  {
+    "id": "01d8ed3049fc",
+    "title": "Editorial | Stop the U.S. influence ops: No PR can conceal the reality Israel has created",
     "source": "Haaretz",
     "source_url": "https://www.haaretz.com",
     "source_domain": "www.haaretz.com",
@@ -34461,6 +34509,22 @@
     "real_url": "https://nypost.com/2026/07/01/us-news/jd-vance-says-aoc-has-got-to-be-dem-candidate-in-2028-she-fires-back-with-i-hope-he-is-gop-pick/",
     "bias": "LR",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "cb9169354812",
+    "title": "Vance Says the Vatican&#x27;s Views on Immigration Are &#x27;Troubling&#x27;",
+    "source": "GV Wire",
+    "source_url": "https://gvwire.com",
+    "source_domain": "gvwire.com",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb0xsdlFLQnRhZU16S3RwLVRZbFBFV1lxeTY5dGNxNVB5OFk3dlRoWVZmdnNoSFhpcE5CWFpTQzNBZVVSaXJCNWV5YXMzM29pLXVPOTJmZjFaRkJ6Nmt6ZnpUZ3ZfcnRUYmZZQV82NWVQaUVBUlVrUFNNSklDamVaSEZEQ19HTEpsamJVTjVNOVB4ZmM?oc=5",
+    "published": "2026-07-01T07:00:00+00:00",
+    "published_display": "Jul 01, 2026",
+    "query": "Vance immigration",
+    "image": "",
+    "real_url": "https://gvwire.com/2026/07/01/vance-says-the-vaticans-views-on-immigration-are-troubling/",
+    "bias": "?",
+    "topic": "Immigration",
     "region": "US"
   },
   {
