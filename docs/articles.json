@@ -1,5 +1,21 @@
 [
   {
+    "id": "f6676126944b",
+    "title": "Vance, top US general urged Trump against major Iran escalation",
+    "source": "TRT World",
+    "source_url": "https://www.trtworld.com",
+    "source_domain": "www.trtworld.com",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBORnhRNEdLcmxDSkU3S2hkd1hld3lOa1pQbExaUDl3TlJZamU2b2FfdXRpN2toVDl1eThmTEFkYUN1MTkxSXhZa2hOWmp3b1BzOExMczBEMWc?oc=5",
+    "published": "2026-07-26T22:28:11+00:00",
+    "published_display": "Jul 26, 2026",
+    "query": "JD Vance",
+    "image": "https://d341l694dl30ad.cloudfront.net/images/ap/2026/05/19/6a0cb1e8ee37f65f266ca9c4/original/5ce925ce-5880-428d-a2a4-c727b4fb378a-1779216872507.jpg?width=1080&format=jpg&quality=80",
+    "real_url": "https://www.trtworld.com/article/3fcece33d78d",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "International"
+  },
+  {
     "id": "e00cd9796cd2",
     "title": "Some Democrats tout their version of &quot;America First&quot;",
     "source": "Axios",
@@ -493,6 +509,22 @@
     "real_url": "https://www.dailywire.com/news/democrat-party-bosses-crown-new-nominee-to-replace-graham-platner",
     "bias": "R",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "f6512ca7e294",
+    "title": "Marco Rubio Gains on JD Vance in 2028 GOP Race",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNalB2a1lYMzFNeFJaUTlFbjhOb1R4OTN3aFZ5SkRPZzZZNlA5TjV6NlhxSHZuQXd4SUpGQTFhWG41MS0zZjN0elZNenE5UjlMV1ZZdmNfWENHVDFSbEppMUZHS3pqTkRNbE1uMFBlUE1uRTItOFZSek1kQUVDM3ZGVFRteFVocnJ5OFlfUzcwYw?oc=5",
+    "published": "2026-07-25T17:27:41+00:00",
+    "published_display": "Jul 25, 2026",
+    "query": "Vice President Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/36ba7caafcdda60305770904f11761a3757dcbe504c8e40521ff9a40eb7c6323/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthedailybeast.com%2Fd7172a1f69d8071e920f861e9537593f",
+    "real_url": "https://www.yahoo.com/news/politics/articles/marco-rubio-gains-jd-vance-172741446.html",
+    "bias": "C",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
