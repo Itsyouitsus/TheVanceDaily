@@ -1,5 +1,37 @@
 [
   {
+    "id": "0f2a1f1121a5",
+    "title": "A diminished Bibi arrives for his moment with Trump",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/07/28/trump-netanyahu-white-house-iran-war-meeting",
+    "published": "2026-07-28T09:00:08+00:00",
+    "published_display": "Jul 28, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/07/28/trump-netanyahu-white-house-iran-war-meeting",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "7825ba2c3124",
+    "title": "Why Vance still trumps Rubio in 2028",
+    "source": "The Berkshire Eagle",
+    "source_url": "https://www.berkshireeagle.com",
+    "source_domain": "www.berkshireeagle.com",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUl80dHRVa0JlUm5JRlFUV21MRFduSnhwVjdXR0tuTC01clVzQi1raS1EODhrWks5YUNwZnlFTGZBekZFUTkyTHBEWm42Y2FSbE53UFZIWlprbW8xNFhaM2Z5RG01ZWkxWkZndTdGM1FxTzNheG1mRDBTWV9MUVIyZU1NRGVwYTk2VHZadG1TYmFaQjNsSW1zeW9xamJ6Z0Y1T0F3U3dGQzJsbVF3NS1NcnlwTmJLZGZZLUFyeG8zTHg0a1JMMVAzazRR?oc=5",
+    "published": "2026-07-28T09:00:00+00:00",
+    "published_display": "Jul 28, 2026",
+    "query": "Vance president 2028",
+    "image": "https://bloximages.newyork1.vip.townnews.com/berkshireeagle.com/content/tncms/assets/v3/editorial/2/90/290a973b-733c-4f6c-b05d-a8e62e8d08aa/6a67a453921d2.image.jpg?crop=1736%2C911%2C0%2C141&resize=1200%2C630&order=crop%2Cresize",
+    "real_url": "https://www.berkshireeagle.com/opinion/wire/why-vance-still-trumps-rubio-in-2028/article_d9c991f0-ee45-57e3-a8a5-2faa229509b7.html",
+    "bias": "?",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "0db7c2ebeb52",
     "title": "Netanyahu&#x27;s first meeting with Trump since the Iran war began is a chance to smooth over strains",
     "source": "WSLS",
@@ -1773,6 +1805,22 @@
     "real_url": "https://www.oann.com/newsroom/the-vance-family-shares-new-photos-of-newborn-baby-alec/",
     "bias": "R",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "8e25670f37e0",
+    "title": "Usha Vance, wife of the Vice President, shares new family photos in social media post",
+    "source": "WTHR",
+    "source_url": "https://www.wthr.com",
+    "source_domain": "www.wthr.com",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQRE5mQjhKUC11Y3JfbGxURjhBYy1BVzA2SkJuQ2FURW9xRl9OQlJ5NkJXOXplWWpYOG4tVi1KRVNJeXFwZW1HU0wtd3NSQXMwQ2YtandYWHNvX0t1SElTSi1meTV4X21MaWVlYUl3eWF6Q0lzbTUyenRzb2wzdTU4d3JhUHhPZUdTc0tJUlh0ODRwSzlBT3h1NDNRc085NnNrcXRuNVhvRVYwR0NXS2ZubTlpUi1XN2VBRUtaOHA3M2RJdW1tRmxDT2dob29zN0x4MkhONDlrRlM5V1pWUldJcnVWQk5YNlhzREw0U3Bhajlvb1ZFa1V0aw?oc=5",
+    "published": "2026-07-24T20:53:00+00:00",
+    "published_display": "Jul 24, 2026",
+    "query": "Vice President Vance",
+    "image": "",
+    "real_url": "https://www.wthr.com/video/news/national/usha-vance-wife-of-the-vice-president-shares-new-family-photos-in-social-media-post/531-9a4458df-a6fb-4856-8fbb-4edc58103cc7",
+    "bias": "?",
+    "topic": "Immigration",
     "region": "US"
   },
   {
