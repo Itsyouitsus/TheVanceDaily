@@ -1,5 +1,21 @@
 [
   {
+    "id": "b0c298aec82e",
+    "title": "Biden audio tapes have just been released",
+    "source": "And It&#x27;S Not Good For Joe",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/news/joe-biden-tapes-release-classified",
+    "published": "2026-07-27T23:04:50+00:00",
+    "published_display": "Jul 27, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/news/joe-biden-tapes-release-classified",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "69024db6a59c",
     "title": "Anthropic CEO Dario Amodei says he does not support open-weight AI ban",
     "source": "Axios",
@@ -93,6 +109,22 @@
     "real_url": "https://www.theblaze.com/news/hawaii-lt-gov-indicted-bribery",
     "bias": "R",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "08ab8560d8cc",
+    "title": "Senate Advances Clayton for Top Spy Post",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/jay-clayton-dni-nomination/2026/07/27/id/1264223",
+    "published": "2026-07-27T19:30:57-04:00",
+    "published_display": "Jul 27, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/jay-clayton-dni-nomination/2026/07/27/id/1264223",
+    "bias": "R",
+    "topic": "Domestic",
     "region": "US"
   },
   {
