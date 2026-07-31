@@ -1,5 +1,37 @@
 [
   {
+    "id": "bdb5b8c94c12",
+    "title": "Netanyahu confronted JD Vance over his criticism of Israel on US trip, says report",
+    "source": "The Independent",
+    "source_url": "https://www.independent.co.uk",
+    "source_domain": "www.independent.co.uk",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ01oZmZJVHNCUTlWNy14czZvWkdDZTZvdmlRUnZXZVVtdWRtc0VrTmlNWUlkRWdiTWZEc2V5aVJvWjZaeEVaaXhMWmd5Um9nTmVNZGo5aUZ4YzJrd0EzM19ybmxQUHV4WXlTODRaZG1MTDBEQVAydlNrZGdjSUwtOXZnZ3hWNWZleXc2VVBNdnNLMmRFVWZ5Sk5NZVhjUFNwM2FMU05EbGs1bFMxUmxWSnJydklWYlhDbi1z?oc=5",
+    "published": "2026-07-31T12:19:00+00:00",
+    "published_display": "Jul 31, 2026",
+    "query": "JD Vance",
+    "image": "https://static.independent.co.uk/2026/06/11/15/2242216582..?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+    "real_url": "https://www.independent.co.uk/news/world/americas/us-politics/netanyahu-vance-israel-confronted-criticism-b3025236.html",
+    "bias": "LL",
+    "topic": "Foreign Policy",
+    "region": "Europe"
+  },
+  {
+    "id": "7d25b6c817bb",
+    "title": "JD Vance &amp; Israel PM Netanyahu Air Iran Rift in Blunt \u2018No Bulls**t\u2019 Meeting",
+    "source": "AOL News",
+    "source_url": "https://www.aol.com",
+    "source_domain": "www.aol.com",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBya2lXNHA0VDdDSE5fMklMa2FIbGh5dUtrcEl0VVBWTXFPeEZ4endsWi1wTVVXZGFDT3hISEZvSXVVb2REbVpQMVhOVzRWQzh3NW1XRUdob3JnanZncmo3UnlLVXJXRXRvTXpIQXJsaFpwZU1sdnVqWWFjR0w?oc=5",
+    "published": "2026-07-31T12:07:24+00:00",
+    "published_display": "Jul 31, 2026",
+    "query": "JD Vance",
+    "image": "https://hermes.media.static.aol.com/media/2026/07/31/79e5acf2-60f8-31d4-8312-d1ca612f565e/8a5568ec-a795-4379-af29-410f96645269.jpg",
+    "real_url": "https://www.aol.com/articles/jd-vance-israel-pm-netanyahu-110815000.html",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
     "id": "70baa01255cd",
     "title": "Axios: Reported rift between Vance and Netanyahu deepened over Iran diplomacy and war",
     "source": "Middle East Monitor",
@@ -176,6 +208,22 @@
     "region": "US"
   },
   {
+    "id": "46b5df2e2c46",
+    "title": "Pentagon Seeks $18.2 Billion in War Funds for Interceptors",
+    "source": "Bloomberg",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-07-31/pentagon-seeks-18-2-billion-in-iran-war-funds-for-interceptors",
+    "published": "2026-07-31T04:00:02+00:00",
+    "published_display": "Jul 31, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.bloomberg.com/news/articles/2026-07-31/pentagon-seeks-18-2-billion-in-iran-war-funds-for-interceptors",
+    "bias": "LL",
+    "topic": "Military",
+    "region": "US"
+  },
+  {
     "id": "010862765055",
     "title": "Vance, Netanyahu hold frank Washington meeting to address Iran war rift",
     "source": "Eciks.org",
@@ -269,6 +317,22 @@
     "real_url": "https://www.chicagotribune.com/2026/07/30/medicare-costs/",
     "bias": "LL",
     "topic": "Healthcare",
+    "region": "US"
+  },
+  {
+    "id": "2dd6f4c58174",
+    "title": "Vance and Netanyahu had &quot;cordial and productive conversation,&quot; says U.S. official",
+    "source": "WDEF",
+    "source_url": "https://www.wdef.com",
+    "source_domain": "www.wdef.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV3hGWW91QjI5Y2tDZW9ZekFrcmhQS2JDWG1td1V1WkhFQUs2MmhSZzJVdXJkS0hlWVU4eS1BWnlncEo3M21PMFVGYXpxaGVPd0Z5WTcwWVJCaWU4cDdpNURhTGYyNk9xcFBQT0R6c2NBeUtRSDBDTnB6U0JmMVpSaVl4N2xpVWJCUUl3NlpTNzB4cHRBU2doNjBTUDRwTlB2?oc=5",
+    "published": "2026-07-30T22:51:33+00:00",
+    "published_display": "Jul 30, 2026",
+    "query": "JD Vance",
+    "image": "https://www.wdef.com/content/uploads/2026/04/l/p/mgn-1280x960-50922p00-gwiyw.jpg",
+    "real_url": "https://www.wdef.com/vance-and-netanyahu-had-cordial-and-productive-conversation-says-u-s-official/",
+    "bias": "?",
+    "topic": "General",
     "region": "US"
   },
   {
