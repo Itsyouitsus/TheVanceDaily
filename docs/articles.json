@@ -1,5 +1,21 @@
 [
   {
+    "id": "bc27354dfbfd",
+    "title": "Harris cites JFK, Obama among \u2018most effective\u2019 presidents, omitting Biden",
+    "source": "The Hill",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://thehill.com/blogs/in-the-know/6003719-harris-omits-biden-effective-presidents-conference-appearance/",
+    "published": "2026-08-01T16:17:37+00:00",
+    "published_display": "Aug 01, 2026",
+    "query": "direct_feed",
+    "image": "https://thehill.com/wp-content/uploads/sites/2/2026/04/AP26100566713143-e1775836725756.jpg?w=1280",
+    "real_url": "https://thehill.com/blogs/in-the-know/6003719-harris-omits-biden-effective-presidents-conference-appearance/",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "3224920ca0aa",
     "title": "Tillis says Blanche won&#x27;t be confirmed as AG amid Trump fund fight",
     "source": "Axios",
@@ -60,6 +76,22 @@
     "image": "",
     "real_url": "https://myrgv.com/local-news/2026/08/01/vp-vance-expected-at-port-of-brownsville-on-tuesday/",
     "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "e62b167c241e",
+    "title": "Denver: Antisemitism Concerns Now Mounting As DSA\u2019s Melat Kiros Advances",
+    "source": "RedState",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://redstate.com/wardclark/2026/08/01/denver-antisemitism-concerns-now-mounting-as-dsas-melat-kiros-advances-n2205049",
+    "published": "2026-08-01T12:00:34-04:00",
+    "published_display": "Aug 01, 2026",
+    "query": "direct_feed",
+    "image": "https://media.townhall.com/cdn/hodl/2026/182/86fde264-1374-41d1-82bd-27eb767ad20c.jpeg",
+    "real_url": "https://redstate.com/wardclark/2026/08/01/denver-antisemitism-concerns-now-mounting-as-dsas-melat-kiros-advances-n2205049",
+    "bias": "R",
     "topic": "General",
     "region": "US"
   },
