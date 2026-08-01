@@ -1,5 +1,37 @@
 [
   {
+    "id": "0ffa72508262",
+    "title": "Why the tradwife trend is totally logical",
+    "source": "SMH.com.au",
+    "source_url": "https://www.smh.com.au",
+    "source_domain": "www.smh.com.au",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUVU5OHhhVDRqRGJicnZfMllBZEdZTzdhVE9KeVFpeFZ3WHg4SlRwVERyMGNrSzVERmtadExjLUhXUjdIWTNZMUdhTTJOZWpaUHpKTWxkVUVkX2pPSmVmUkV4bEpsajhYRERKbE5PT1gyUHNsUm9SS1M4dTh0V2ZaTHlsVkZxbG1kZHJQSWpXcnVsRVpxTFdrRUFKSmYtOHZOOS14OQ?oc=5",
+    "published": "2026-08-01T19:00:00+00:00",
+    "published_display": "Aug 01, 2026",
+    "query": "JD Vance",
+    "image": "https://static.ffx.io/images/$zoom_0.36519607843137253%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_4%2C$y_0/t_crop_custom/q_86%2Cf_auto/t_metro_opinion_no_age_social_wm/42806f5b6a04e2088fa13787862361264248a182",
+    "real_url": "https://www.smh.com.au/politics/federal/why-the-tradwife-trend-is-totally-logical-20260731-p60ka9.html",
+    "bias": "?",
+    "topic": "General",
+    "region": "Asia"
+  },
+  {
+    "id": "f3a69afab9c2",
+    "title": "My son\u2019s disease progressed while the FDA waited",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/columns/opinion/my-sons-disease-progressed-while-the-fda-waited",
+    "published": "2026-08-01T19:00:00+00:00",
+    "published_display": "Aug 01, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/columns/opinion/my-sons-disease-progressed-while-the-fda-waited",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "bc27354dfbfd",
     "title": "Harris cites JFK, Obama among \u2018most effective\u2019 presidents, omitting Biden",
     "source": "The Hill",
@@ -12,6 +44,22 @@
     "image": "https://thehill.com/wp-content/uploads/sites/2/2026/04/AP26100566713143-e1775836725756.jpg?w=1280",
     "real_url": "https://thehill.com/blogs/in-the-know/6003719-harris-omits-biden-effective-presidents-conference-appearance/",
     "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "5a6d2f9ede52",
+    "title": "WATCH: Kamala Harris Ignores Joe Biden and Names FDR, JFK, and LBJ as &#x27;Most Effective&#x27; Presidents",
+    "source": "Breitbart News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.breitbart.com/politics/2026/08/01/watch-kamala-harris-ignores-joe-biden-and-names-fdr-jfk-and-lbj-as-most-effective-presidents/",
+    "published": "2026-08-01T15:41:17+00:00",
+    "published_display": "Aug 01, 2026",
+    "query": "direct_feed",
+    "image": "https://media.breitbart.com/media/2026/08/GettyImages-2194893909-640x335.png",
+    "real_url": "https://www.breitbart.com/politics/2026/08/01/watch-kamala-harris-ignores-joe-biden-and-names-fdr-jfk-and-lbj-as-most-effective-presidents/",
+    "bias": "R",
     "topic": "General",
     "region": "US"
   },
@@ -350,6 +398,22 @@
     "bias": "R",
     "topic": "2028 Race",
     "region": "US"
+  },
+  {
+    "id": "af9c44d8a1a8",
+    "title": "Capitol\u2019s Credibility Circus: Epstein Testimony Turns Congress into the World\u2019s Most Awkward Group Therapy Session",
+    "source": "T.co",
+    "source_url": "https://t.co",
+    "source_domain": "t.co",
+    "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9RTmN3eHpwTWRObXFITXRjRVBTaXVuOFVldFN5OThqLVZUclJ5cEIyQUZJazA3UkFIcTNr?oc=5",
+    "published": "2026-07-31T20:30:00+00:00",
+    "published_display": "Jul 31, 2026",
+    "query": "Vance Congress",
+    "image": "https://ogmnews.com/wp-content/uploads/2026/07/Epstein-e1785526582569.jpeg",
+    "real_url": "https://t.co/olH2YGl601",
+    "bias": "LR",
+    "topic": "Military",
+    "region": "Americas"
   },
   {
     "id": "d5db5974b25e",
