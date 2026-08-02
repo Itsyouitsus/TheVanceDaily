@@ -1,5 +1,37 @@
 [
   {
+    "id": "f8a3da5d0026",
+    "title": "Lid blown off of Trump\u2019s defiant new midterm strategy",
+    "source": "Alternet.org",
+    "source_url": "https://www.alternet.org",
+    "source_domain": "www.alternet.org",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDT2ZWZkVCRWdxd1VWb0lGdm5YVURjUjhDUVdfMVRiQzVWMDN0U1VYUUZNamVoZzN0WEk4eFFEYWlJU0V1TC1MVHo5SmJ5QVBwbFVwSFY5NWFFdk5PMG5OMw?oc=5",
+    "published": "2026-08-02T17:20:00+00:00",
+    "published_display": "Aug 02, 2026",
+    "query": "Vance Republican",
+    "image": "https://www.alternet.org/media-library/image.jpg?id=66845523&width=1200&height=600&coordinates=0%2C417%2C0%2C417",
+    "real_url": "https://www.alternet.org/trump-midterms-2677647395/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "6d482fa0c32d",
+    "title": "China Bracing for Contentious Trade Talks With Trump, EU",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/china-trade-talks/2026/08/02/id/1264804",
+    "published": "2026-08-02T13:05:10-04:00",
+    "published_display": "Aug 02, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/china-trade-talks/2026/08/02/id/1264804",
+    "bias": "R",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
     "id": "0b2ae1b30c8d",
     "title": "Trump&#x27;s final act begins",
     "source": "Axios",
@@ -61,6 +93,22 @@
     "real_url": "https://www.nationalreview.com/corner/america-is-more-than-an-idea/",
     "bias": "R",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "fbed3f020e0a",
+    "title": "Eric Trump Advises Company at Forefront of Army Robots in Race with China",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/robots-military-foundation-future-industries/2026/08/02/id/1264797",
+    "published": "2026-08-02T11:50:12-04:00",
+    "published_display": "Aug 02, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/robots-military-foundation-future-industries/2026/08/02/id/1264797",
+    "bias": "R",
+    "topic": "Foreign Policy",
     "region": "US"
   },
   {
