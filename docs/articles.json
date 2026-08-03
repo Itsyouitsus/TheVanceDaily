@@ -464,6 +464,22 @@
     "region": "US"
   },
   {
+    "id": "59ae81b58e09",
+    "title": "Kamala Harris Introduces &#x27;Controversial&#x27; Plan For Democrats To Beat &#x27;Cheating&#x27; Republicans",
+    "source": "Politics",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.huffpost.com/entry/kamala-harris-democrats-plan_n_6a709d65e4b07f032143cd78",
+    "published": "2026-08-03T11:57:30-04:00",
+    "published_display": "Aug 03, 2026",
+    "query": "direct_feed",
+    "image": "https://img.huffingtonpost.com/asset/6a70acba1b00003cd3939fd4.jpeg?cache=VKu1AFY9Jm&ops=500_281%2Cscalefit_1200_630",
+    "real_url": "https://www.huffpost.com/entry/kamala-harris-democrats-plan_n_6a709d65e4b07f032143cd78",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "8538304018dc",
     "title": "JD Vance has Iran completely backward: Continuity is chaos",
     "source": "Washington Examiner",
@@ -594,6 +610,22 @@
   {
     "id": "6c2d498bb9f1",
     "title": "Blanche Strikes Deal With GOP Holdouts to Advance His Nomination",
+    "source": "Bloomberg",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-08-03/blanche-strikes-deal-with-cornyn-kills-anti-weaponization-fund",
+    "published": "2026-08-03T05:00:24+00:00",
+    "published_display": "Aug 03, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.bloomberg.com/news/articles/2026-08-03/blanche-strikes-deal-with-cornyn-kills-anti-weaponization-fund",
+    "bias": "LL",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "f57272e85d2a",
+    "title": "Blanche Strikes Deal With Holdouts to Advance His Nomination",
     "source": "Bloomberg",
     "source_url": "",
     "source_domain": "",
