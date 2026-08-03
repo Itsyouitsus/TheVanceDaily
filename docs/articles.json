@@ -1,5 +1,21 @@
 [
   {
+    "id": "4f6a262bb6ef",
+    "title": "House Ethics Committee recommends censure for Rep. Chuck Edwards",
+    "source": "Just The News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://justthenews.com/government/congress/house-ethics-committee-recommends-rep-chuck-edwards-censure-over-sexual?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "published": "2026-08-03T21:12:14.384386+00:00",
+    "published_display": "Aug 03, 2026",
+    "query": "direct_feed",
+    "image": "https://justthenews.com/sites/default/files/styles/social_media_share/public/2026-08/GettyImages-2286054945.jpg?h=f184258e&itok=lqHm_GxT",
+    "real_url": "https://justthenews.com/government/congress/house-ethics-committee-recommends-rep-chuck-edwards-censure-over-sexual?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "bias": "LR",
+    "topic": "Military",
+    "region": "US"
+  },
+  {
     "id": "07f708e80d8f",
     "title": "GOP Senators Giving Trump His Carte Blanche Are Responsible for What Comes Next",
     "source": "WhoWhatWhy",
@@ -77,6 +93,22 @@
     "real_url": "https://thehill.com/homenews/house/6006362-house-ethics-censure-chuck-edwards/",
     "bias": "C",
     "topic": "Military",
+    "region": "US"
+  },
+  {
+    "id": "a3b28a0e3d1f",
+    "title": "When It Comes to Iran, the Trump Administration Leaks Like a Sieve",
+    "source": "National Review",
+    "source_url": "https://www.nationalreview.com",
+    "source_domain": "www.nationalreview.com",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT3pfa0VPUEc0dVZTT0I2ZGhscll5eGxaZTA3OVhPdFZhb1FfcnhaS21veEYzUDVGY3JWMS1CVGVIMFFyeHJQTEhvVGthUEJtVHF0N1B5c092RTl2amhYaXFLQ2ZpZFByTmdnaExCejZpYXFrbk9rRHQ5VVhCWTdLc0xJUUtOVVdIMGEwcy13MmV4a2xTS2pKNjFnYzBlcFVFNXd2UHo4VdIBrAFBVV95cUxNYzZUSjl3NzJ5RS1QcjJUS29PZ1hUNC00ZzM0MXRzMGx0SWNndEk0OS02d1l1ZndYQWlTSmg4TUlTUURVOFlKSkZDTXJfZFY1UWczQWs0c2lzX0JSd3V1aERwQ0NrSXpNYVFMdVNpNTBRT2F5ZU8ybkRNZWpCWGZ5ODlSQ0xmSUZBMmxOdXhaWDR6NDE4eXRXQUZiSmNTTTVTRkRGRGR4cDFRdXRR?oc=5",
+    "published": "2026-08-03T19:10:48+00:00",
+    "published_display": "Aug 03, 2026",
+    "query": "JD Vance",
+    "image": "https://i0.wp.com/www.nationalreview.com/wp-content/uploads/2026/08/trump-admin.jpg?fit=2057%2C1200&ssl=1",
+    "real_url": "https://www.nationalreview.com/corner/when-it-comes-to-iran-the-trump-administration-leaks-like-a-sieve/",
+    "bias": "R",
+    "topic": "Iran",
     "region": "US"
   },
   {
@@ -173,6 +205,38 @@
     "real_url": "https://thehill.com/video-clips/6005068-watch-live-trump-signs-executive-order/",
     "bias": "C",
     "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "2e4558e3a026",
+    "title": "DOJ: Never Investigated Rep. Luna Over Insider Trading",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/doj-anna-paulina-luna-polymarket/2026/08/03/id/1264913",
+    "published": "2026-08-03T16:08:25-04:00",
+    "published_display": "Aug 03, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/doj-anna-paulina-luna-polymarket/2026/08/03/id/1264913",
+    "bias": "R",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "1e43514ef005",
+    "title": "Kamala Harris Urges Rethinking Electoral College",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/kamala-harris-electoral-college-supreme-court-expansion/2026/08/03/id/1264910",
+    "published": "2026-08-03T15:58:29-04:00",
+    "published_display": "Aug 03, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/kamala-harris-electoral-college-supreme-court-expansion/2026/08/03/id/1264910",
+    "bias": "R",
+    "topic": "General",
     "region": "US"
   },
   {
