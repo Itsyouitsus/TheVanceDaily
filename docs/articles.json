@@ -1,5 +1,21 @@
 [
   {
+    "id": "6f3060af80e1",
+    "title": "All the Vice President\u2019s Critics",
+    "source": "The American Conservative",
+    "source_url": "https://www.theamericanconservative.com",
+    "source_domain": "www.theamericanconservative.com",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kbmo2SXl6a2dVN3kwekt1UXRfYnRoVXlnWVhYNW9IMVdmbHl0OFVNakRFVFhEY1VKdVV1X2J4QWUxMnVMRDRfYnBBOTF1QWh6aGpiMWZwS0RLWDM5M096OWJRVHBmWWs1OHVDRE1iV0VGODJxa3BqLUNnM2Y?oc=5",
+    "published": "2026-08-08T04:05:00+00:00",
+    "published_display": "Aug 08, 2026",
+    "query": "Vance Republican",
+    "image": "https://www.theamericanconservative.com/wp-content/uploads/2026/03/GettyImages-2251976540-scaled.jpg",
+    "real_url": "https://www.theamericanconservative.com/all-the-vice-presidents-critics/",
+    "bias": "?",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "003726203a16",
     "title": "White House: Vance\u2019s task force finds $229B in fraud",
     "source": "Santa Clarita Valley Signal",
@@ -1933,6 +1949,22 @@
     "real_url": "https://www.politico.com/live-updates/2026/08/06/congress/jd-vance-senate-gop-lunch-01027445",
     "bias": "LL",
     "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "bc88d080bb9d",
+    "title": "J.D. Vance Gushes Over WNBA Star Sophie Cunningham Following Transgender Comments: &#x27;Keep Speaking Your Mind&#x27;",
+    "source": "Yahoo Lifestyle Canada",
+    "source_url": "https://ca.style.yahoo.com",
+    "source_domain": "ca.style.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13Nnh0ak9acjctRlJWTjNIbHhpOHBxcHRhRFVfazdfU2xoMlNIUkJ4ZHMtTUdwQkp1RllxQjZELWlwOWpRM2h0dHF1ZHVZYWcyMnF3aTlrVmYzVGdXaXVhUzg5aHl4ZGR0R2xRclBScl8?oc=5",
+    "published": "2026-08-06T17:19:27+00:00",
+    "published_display": "Aug 06, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/033c5537f75a05291a458349ec0ce8c6987fef93dcd5ebb478ddda85d05b7a39/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fok_magazine_ca_677%2Fc12342fc874c6d727ded34a07ebdfdf7",
+    "real_url": "https://ca.style.yahoo.com/j-d-vance-gushes-over-171927672.html",
+    "bias": "C",
+    "topic": "General",
     "region": "US"
   },
   {
