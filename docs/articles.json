@@ -32,6 +32,22 @@
     "region": "US"
   },
   {
+    "id": "cd02dd0da249",
+    "title": "Letter: Where pronatalists and proponents of immigration can agree",
+    "source": "Financial Times",
+    "source_url": "https://www.ft.com",
+    "source_domain": "www.ft.com",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Nc1dIaHZjYUgzbExBb01MQV80OVY4bmwxeTYwbTk0RlNxRkt3RGlYQTV0VDZabktaS2dOTFJJZ1pGeUVHNjlCX2M5LUk3Znd5WXRjSi10dEg3alRvTW02SGt1ajBUVDdMZDhjUVRQMXM?oc=5",
+    "published": "2026-08-08T00:13:08+00:00",
+    "published_display": "Aug 08, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://www.ft.com/content/0c14057a-71d9-4d15-b1fe-1e5ed0bd728d",
+    "bias": "LL",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "003726203a16",
     "title": "White House: Vance\u2019s task force finds $229B in fraud",
     "source": "Santa Clarita Valley Signal",
@@ -2188,6 +2204,22 @@
     "image": "",
     "real_url": "https://www.basketballnetwork.net/off-the-court/jd-vance-supports-sophie-cunningham-as-backlash-continues-over-anti-trans-comments",
     "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "35ad8f4490b1",
+    "title": "Megyn Kelly Says Joe Kent Called J.D. Vance \u2018Too Tainted\u2019 for Some Republicans",
+    "source": "Yahoo.com",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONTJkMzVIWnVpVlhNclBnUWJ3MGpUS1FXVGJNM1BSSWN2WXVzTDY1LVBlUjJpVzBVUU5aQTVDRU9VNUZSZ2JOZXVHeG1ONnV0aWVraS1fU1F3WjllbHFhQ1pOclA5TW13Y1d3S3pfQ3pfdDFyOVJrTG5pLUlhemplbkxEQTF0N1BpYXYxTS1n?oc=5",
+    "published": "2026-08-06T15:52:56+00:00",
+    "published_display": "Aug 06, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/4a918697a5391437d6406149e57d12eae3880b6ec581751353a57713ac8d7d36/lightyear_networkapi/resizefill_w640_h360%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmandatory_995%2Fe6c95549739f2babdc3326c287159b6b",
+    "real_url": "https://www.yahoo.com/news/politics/articles/megyn-kelly-says-joe-kent-155256200.html",
+    "bias": "C",
     "topic": "General",
     "region": "US"
   },
