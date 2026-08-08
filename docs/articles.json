@@ -1,5 +1,21 @@
 [
   {
+    "id": "81617337c73d",
+    "title": "JD Vance slams blue states for failing to verify welfare eligibility",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44NVVSX2I5Z0ZoZGVIUFZHdFpQZTJYY29fTEJGR0lBdzV1V3MtZHpvT3VZNGNCTURWaGtPSzN4WGJZa0REeXUxTnlTWE5qSnhTWmtaUWFR?oc=5",
+    "published": "2026-08-08T15:30:23+00:00",
+    "published_display": "Aug 08, 2026",
+    "query": "JD Vance",
+    "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/201e152f-7dc3-484d-b37b-f014d2d8e0b0/a5faf355-54af-4071-a884-ca2012f1bdb3/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+    "real_url": "https://www.foxnews.com/video/6403054464112",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "a272fe16ea8b",
     "title": "US expects Iran to ensure safe oil flow through Strait of Hormuz: Vance",
     "source": "Anadolu Ajans\u0131",
@@ -14,6 +30,38 @@
     "bias": "C",
     "topic": "Iran",
     "region": "International"
+  },
+  {
+    "id": "cf2c7f98fce2",
+    "title": "JD Vance Attacks Michigan Senate Primary Winner Abdul El-Sayed as Fake &#x27;Working-Class Hero&#x27; Backed By &#x27;Wealthy White Liberals&#x27;",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQjgtX3ZlWXBNT1FTUmlPZVJUdjE1cUN0cGFfUGlKcF9vdzB3Rjh5TUszZkg3Z00yUXFYb2tqbHVQTDlTdFl4VnQtbEVtOTNwbzdJc0swVkNrMld3dUxQYXFicXl1T1dhQVU4cXZLT2JLbXlZdl9jVlE5STVQS3RKMVRGV2ZSOFczQzN0WEFhUTB5MWV3czFV?oc=5",
+    "published": "2026-08-08T15:15:16+00:00",
+    "published_display": "Aug 08, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/172729d2b8a584d95b83795971b0675f23c80db24bda58a47f5762ad30dcb0f4/lightyear_networkapi/resizefill_w1000_h667%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2F5b77dfb0f0df0094b4ab818042dd8fe4",
+    "real_url": "https://www.yahoo.com/news/politics/articles/jd-vance-attacks-michigan-senate-151516029.html",
+    "bias": "C",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "2c09beebdee2",
+    "title": "JD Vance expects oil flows from Gulf to return to pre-conflict levels",
+    "source": "Crypto Briefing",
+    "source_url": "https://cryptobriefing.com",
+    "source_domain": "cryptobriefing.com",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fUFp6aTI3R3U2QWtkcGpCbTA0bW9DMXlNZEdTd1BKZjg1ZTk5akdBQXRCWUNfODdGdHRSWGtveW12R3pDem11NmsyZm51bmdTeG52Nk9zbU1teUY0eWxXNkpVQ25WRkhRc1hZRHAya3BMRTRiY1M5dQ?oc=5",
+    "published": "2026-08-08T15:03:59+00:00",
+    "published_display": "Aug 08, 2026",
+    "query": "JD Vance",
+    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/08105223/vice-president-jd-vance-participates-in-naval-review-in-new--800x420.jpeg",
+    "real_url": "https://cryptobriefing.com/vance-oil-flows-strait-of-hormuz-iran-mou/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
   },
   {
     "id": "4830482e16f3",
@@ -41,7 +89,7 @@
     "published": "2026-08-08T14:39:28+00:00",
     "published_display": "Aug 08, 2026",
     "query": "JD Vance",
-    "image": "",
+    "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i9NuxS9LYCu4/v1/1200x800.jpg",
     "real_url": "https://www.bloomberg.com/news/articles/2026-08-08/vance-says-us-in-middle-of-the-game-in-iran-conflict",
     "bias": "LL",
     "topic": "Iran",
@@ -93,6 +141,22 @@
     "real_url": "https://www.axios.com/2026/08/08/senate-government-funding-shutdown-stopgap",
     "bias": "C",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "b78aee909aea",
+    "title": "Vance Reveals The \u2018Delicate Dance\u2019 Holding Up Iran Talks",
+    "source": "The Daily Wire",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.dailywire.com/news/live-updates-iranian-protests-intensify-as-citizens-demand-end-to-ayatollah-rule",
+    "published": "2026-08-08T11:20:33+00:00",
+    "published_display": "Aug 08, 2026",
+    "query": "direct_feed",
+    "image": "https://dw-wp-production.imgix.net/2026/06/Untitled-design-2026-06-29T080137.146.jpg?ar=16%3A9&auto=compress&crop=faces&cs=origin&fit=crop&w=1200&h=800&ixlib=react-9.11.0",
+    "real_url": "https://www.dailywire.com/news/live-updates-iranian-protests-intensify-as-citizens-demand-end-to-ayatollah-rule",
+    "bias": "R",
+    "topic": "Iran",
     "region": "US"
   },
   {
