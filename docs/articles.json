@@ -1,5 +1,21 @@
 [
   {
+    "id": "6d687880f729",
+    "title": "Netanyahu says Trump&#x27;s new Gaza plan is unacceptable",
+    "source": "Al-Monitor",
+    "source_url": "https://www.al-monitor.com",
+    "source_domain": "www.al-monitor.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb1VxU2tFZ2pfcFBUUFJ2SnMzeDRhdHMtazI2VGtaOG5sdFFKOE9neWRZM3lkQS1VUW5lbXJkUTlVVHNubW5ZWUdRMHdlOUZ0RFZ0aGs5OGR2ZlZsdkZpWEo4YWNsNkFxMG1wN3RUa0ctZGpIVTJNQmxRaVpLeFZ5QXJRWGZjd3JGakJMMFY2ck5BZTRmdFJFM25tU3Y2ZlpH?oc=5",
+    "published": "2026-08-09T19:33:48+00:00",
+    "published_display": "Aug 09, 2026",
+    "query": "JD Vance",
+    "image": "https://www.al-monitor.com/sites/default/files/styles/social_media_share/public/2026-08/2026-08-09T111909Z_2_LYNXMPEM7805L_RTROPTP_4_USA-TRUMP-NETANYAHU-IRAN.JPG?h=955717ed&itok=r3dPLmkt",
+    "real_url": "https://www.al-monitor.com/originals/2026/08/netanyahu-says-israel-wont-pull-out-gaza-hamas-disarms",
+    "bias": "?",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
     "id": "8351260488cb",
     "title": "Sen. Cassidy: Trump should speak forcefully on Iran",
     "source": "Breakingthenews.net",
@@ -61,6 +77,22 @@
     "real_url": "https://www.theblaze.com/tech/we-need-more-microchips-to-beat-china-you-won-t-believe-where-apple-has-turned-to-get-them",
     "bias": "R",
     "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
+    "id": "9d5b3b35c223",
+    "title": "Iran rejects U.S. talks for now as wait for Hormuz deal drags on",
+    "source": "Fortune",
+    "source_url": "https://fortune.com",
+    "source_domain": "fortune.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMlVJVlIwWDFSTGJyMC1yRXdrbG5ESFlhM290UlAtWFphdVU0Zk1FQ0lIenQwTF9ONHFDeF8zMWxDMXBUYWoxb1ZCSFNubkJDUmM3M0duQkwxSEtjZHd4RVR0SWFobFF3emJJUVVSMW0tZVFOWmdRYTRMaFRXYnVkekhPQ28?oc=5",
+    "published": "2026-08-09T15:15:00+00:00",
+    "published_display": "Aug 09, 2026",
+    "query": "JD Vance",
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/08/GettyImages-2283047061-e1786288281345.jpg?resize=1200,600",
+    "real_url": "https://fortune.com/2026/08/09/iran-us-talks-hormuz-deal-mou-trump-vance-oman/",
+    "bias": "?",
+    "topic": "Iran",
     "region": "US"
   },
   {
