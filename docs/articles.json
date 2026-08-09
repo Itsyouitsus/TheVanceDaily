@@ -1,5 +1,21 @@
 [
   {
+    "id": "ecd5a0cfdc83",
+    "title": "Pentagon tells defense execs to submit plans in 3 weeks to boost weapons production dramatically. \u2018Years-long development cycles are not acceptable\u2019",
+    "source": "Fortune",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://fortune.com/2026/08/09/pentagon-deputy-defense-steve-feinberg-weapons-production-delivery-development-cycles-munitions-shortage/",
+    "published": "2026-08-09T14:06:26+00:00",
+    "published_display": "Aug 09, 2026",
+    "query": "direct_feed",
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/08/GettyImages-2279501312-e1786283917343.jpg?resize=1200,600",
+    "real_url": "https://fortune.com/2026/08/09/pentagon-deputy-defense-steve-feinberg-weapons-production-delivery-development-cycles-munitions-shortage/",
+    "bias": "?",
+    "topic": "Military",
+    "region": "US"
+  },
+  {
     "id": "de2636715982",
     "title": "Shiloh Hendrix took the bait",
     "source": "Prosecutors Took It Too Far",
@@ -29,6 +45,22 @@
     "real_url": "https://www.today.com/video/joe-biden-s-cancer-has-spread-hunter-biden-says-268007493565",
     "bias": "LL",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "1d1a68195820",
+    "title": "Pentagon Pressures Defense Giants to Fast-Track Weapons as Stocks Dwindle",
+    "source": "Newsweek",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsweek.com/pentagon-pressures-defense-giants-to-fast-track-weapons-as-stocks-dwindle-12301673",
+    "published": "2026-08-09T11:25:32-04:00",
+    "published_display": "Aug 09, 2026",
+    "query": "direct_feed",
+    "image": "https://assets.newsweek.com/wp-content/uploads/2026/08/AP26059762628051.jpg?w=1200&crop=1",
+    "real_url": "https://www.newsweek.com/pentagon-pressures-defense-giants-to-fast-track-weapons-as-stocks-dwindle-12301673",
+    "bias": "LL",
+    "topic": "Economy",
     "region": "US"
   },
   {
