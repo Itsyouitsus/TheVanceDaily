@@ -1,5 +1,21 @@
 [
   {
+    "id": "debdf6988f4b",
+    "title": "Hunter Biden Says Joe Biden\u2019s Cancer Has Spread Further",
+    "source": "NBC News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.today.com/video/joe-biden-s-cancer-has-spread-hunter-biden-says-268007493565",
+    "published": "2026-08-09T12:24:35+00:00",
+    "published_display": "Aug 09, 2026",
+    "query": "direct_feed",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/mpx/2704722219/2026_08/1786278269790_tdy_sun_tsirkin_joe_biden_cancer_260809_S3_1920x1080-bmcgb6.jpg",
+    "real_url": "https://www.today.com/video/joe-biden-s-cancer-has-spread-hunter-biden-says-268007493565",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "cdb22e2bf724",
     "title": "Grand Old Plan: Why Republicans Are Tapping Kitchen Table For Its Midterm Playbook",
     "source": "International Business Times",
@@ -190,6 +206,22 @@
     "bias": "?",
     "topic": "Iran",
     "region": "Asia"
+  },
+  {
+    "id": "9596e0b87024",
+    "title": "Iran Issues List of Demands, Complicating Efforts to Reopen Strait",
+    "source": "ASHARQ AL-AWSAT English",
+    "source_url": "https://english.aawsat.com",
+    "source_domain": "english.aawsat.com",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbzYyTVA2UGluMlpHNnJpWWM3OWpNUkUtaGFSRkRrY1p5LW1uTG1UVTVmak5SXzRSMVQ1Rjc3OC11Qlk2c3FQUVBpQU5ESkFPa0UtOV9UUDRsWTRMWDBNRXI1X3VWeDJrQy1TUWRBWU1xMmx2WEdlcFNxYVBWVzE0UnpKNU9fdC1jY3pDbS1hOTV3OUZZMkI5ZjhaM3BaY1BfQXc?oc=5",
+    "published": "2026-08-09T06:12:33+00:00",
+    "published_display": "Aug 09, 2026",
+    "query": "JD Vance",
+    "image": "https://static.srpcdigital.com/styles/1200x600/public/2026-08/1709898_0.jpeg.webp",
+    "real_url": "https://english.aawsat.com/world/5304913-iran-issues-list-demands-complicating-efforts-reopen-strait",
+    "bias": "?",
+    "topic": "Iran",
+    "region": "US"
   },
   {
     "id": "91fcc3be1168",
@@ -6009,7 +6041,7 @@
     "published": "2026-08-05T16:14:00+00:00",
     "published_display": "Aug 05, 2026",
     "query": "Vice President Vance",
-    "image": "",
+    "image": "https://www.silive.com/resizer/v2/WMITRX44PZDCLPWEMMHDQVF2UE.jpg?auth=53a6c2df166bdffcd6ff72b23146ae9ccfcf0a759a91b47b89f78098e79c4548&width=1280&smart=true&quality=90",
     "real_url": "https://www.silive.com/politics/2026/08/rubio-dominates-vance-in-2028-straw-poll-stunner.html",
     "bias": "?",
     "topic": "2028 Race",
