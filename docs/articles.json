@@ -1,5 +1,21 @@
 [
   {
+    "id": "de2636715982",
+    "title": "Shiloh Hendrix took the bait",
+    "source": "Prosecutors Took It Too Far",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/columns/opinion/shiloh-hendrix-took-the-bait-prosecutors-took-it-too-far",
+    "published": "2026-08-09T13:30:00+00:00",
+    "published_display": "Aug 09, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/columns/opinion/shiloh-hendrix-took-the-bait-prosecutors-took-it-too-far",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "debdf6988f4b",
     "title": "Hunter Biden Says Joe Biden\u2019s Cancer Has Spread Further",
     "source": "NBC News",
@@ -1324,6 +1340,22 @@
     "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/f979c9c0-99df-4e64-9e76-45b3ad09884e/c877ccc5-bb9c-4285-acdc-151ef3f75b60/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
     "real_url": "https://www.foxnews.com/video/6403054912112",
     "bias": "R",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "39b9129a9f96",
+    "title": "Vance says Iran told US it has no plans to toll Strait of Hormuz",
+    "source": "Iran International",
+    "source_url": "https://www.iranintl.com",
+    "source_domain": "www.iranintl.com",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Uc0JsR3RyTmdDbFU2VFNYUnFkdVhwb1dxUUdzR052dDNtRk9xRkRseE9FdVo0WDhOenN4Q1J1UUNyUDVzcm1MdExuXzYyUkZobmc?oc=5",
+    "published": "2026-08-08T14:41:37+00:00",
+    "published_display": "Aug 08, 2026",
+    "query": "Vance economy",
+    "image": "",
+    "real_url": "https://www.iranintl.com/en/202608083127",
+    "bias": "?",
     "topic": "Iran",
     "region": "US"
   },
