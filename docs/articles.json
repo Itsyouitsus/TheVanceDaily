@@ -1,5 +1,21 @@
 [
   {
+    "id": "05d1892e8489",
+    "title": "Heir to the Chief: Trump Hints at Vance in &#x27;28",
+    "source": "News Radio 1200 WOAI",
+    "source_url": "https://woai.iheart.com",
+    "source_domain": "woai.iheart.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYkFKZ1k0WHJraDZQX3p2MTYxZDZIcy13bTZ5N2RhN3RqNmR0Q1FYdnJkbGVJWUs4Q3E5SzM2UDMwZ2VVTjBrVXY0TUdUbmh4QVZaOHhXWFFtSHhzX0NNSTgybWRzTXhFbUo5ZzFTRnR3dnE5V3NjQWtObXdKaXVIbndOcUJjcmFjRU9IWjY2bGNLR253SDI0UXZMVWp4TXBqX25sb09qNnNZNk1pTXU1VEFfTGx1NnVQdGdoQmtR?oc=5",
+    "published": "2026-08-10T08:30:00+00:00",
+    "published_display": "Aug 10, 2026",
+    "query": "JD Vance",
+    "image": "https://i.iheart.com/v3/re/new_assets/67d4223fdad89dc9e0e0f775?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+    "real_url": "https://woai.iheart.com/featured/san-antonios-first-news/content/2026-08-07-heir-to-the-chief-trump-hints-at-vance-in-28/",
+    "bias": "?",
+    "topic": "General",
+    "region": "International"
+  },
+  {
     "id": "53ff6eef8eae",
     "title": "Vance: We Don\u2019t Trust Iran and We Will Verify its Actions",
     "source": "ASHARQ AL-AWSAT English",
@@ -510,6 +526,22 @@
     "bias": "?",
     "topic": "General",
     "region": "US"
+  },
+  {
+    "id": "25597a786634",
+    "title": "Vance dials PM Modi day after Senate clears 100% tariff bill, discusses ways to expand India-US partnership",
+    "source": "Telegraph India",
+    "source_url": "https://www.telegraphindia.com",
+    "source_domain": "www.telegraphindia.com",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGN3WElWbWRkYk13eG5JTEdMRWxfd3A3X0xIcHYwak9kQThpU19fcUEzNWRWRVVTeUtBNjdpZU4zX0YzdVE1RkRXdzE5MTJmb25TQ183amIzUzVrOXlXelRtRVlqem1wNHppV0p2NjNLRzdEOG8xN1IwY0NLTWpUbVg3b1U0UzZvVHVFNU1tRjVCQzg0V2JnZ3pEbFpWQWExSTlKSk50YTdwVWVKb2RIN3NHV1ZFSVl6Rm9DcGl3SWlpbndOdy13MHJDNG3SAdIBQVVfeXFMTnRQb0ZZa2hIVVpVRmJIcDQ3N2N1aXozVWozWGZodk4wa1JmSEV4bkEtNkFlWXlPWlQ3clhRajN0cUJDTFo2ZG1JQ0hrcTEwSzlJUUpWQkdNQnJ4cUc0VWttVTRKblJrS2JIU0NuQy1LT0dNSHdVZnJYWnFpQUtiWm91Tlh5d1JCWlBILUI5dzgyazhPUWh0UmJ4RVo2bzRwNXJtWEx4ZzdReVh3YzByb2lnaFlrUzU1Rkp0MFZ3TW1zUHFFVG5iRm1xemc2UzZpWHlB?oc=5",
+    "published": "2026-08-09T04:49:50+00:00",
+    "published_display": "Aug 09, 2026",
+    "query": "Vice President Vance",
+    "image": "",
+    "real_url": "https://www.telegraphindia.com/world/us-vice-president-vance-dials-pm-modi-discusses-ways-to-expand-india-us-partnership/cid/2174130",
+    "bias": "C",
+    "topic": "Foreign Policy",
+    "region": "Asia"
   },
   {
     "id": "4e4215142965",
