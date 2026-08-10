@@ -1,5 +1,21 @@
 [
   {
+    "id": "5d16cd59ea81",
+    "title": "Modi, JD Vance Discuss India-US Strategic Partnership",
+    "source": "IndiaWest",
+    "source_url": "https://indiawest.com",
+    "source_domain": "indiawest.com",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE81T05lSnZHWTR4em51blBsRjlmR0dqc3g2dUV5NkhreU05WTVBeFVVTDNTbHBraXppeHhTdm1WS0VQZEpTN1ZzTzFEZmpZVTFjaXdLaHl2R0N0TTZhelZnTFJoRFI0QU0?oc=5",
+    "published": "2026-08-10T16:36:30+00:00",
+    "published_display": "Aug 10, 2026",
+    "query": "JD Vance",
+    "image": "https://indiawest.com/wp-content/uploads/2026/08/Phone-Call.jpg",
+    "real_url": "https://indiawest.com/modi-gets-a-phone-call-from-vance/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "034390e3e4fe",
     "title": "Vance calls El-Sayed \u2018crazy\u2019 after being mocked as \u2018Peter Thiel\u2019s boy\u2019",
     "source": "The Hill",
@@ -2057,7 +2073,7 @@
     "published": "2026-08-08T11:00:00+00:00",
     "published_display": "Aug 08, 2026",
     "query": "Vance economy",
-    "image": "",
+    "image": "https://www.al.com/resizer/v2/LRAAUW2GVZGXPPVWRURSHZJ564.jpg?auth=d470f3a477935a4f1847fe00b61dd3ca875e417d6d2cfc901800985d96257426&width=1280&smart=true&quality=90",
     "real_url": "https://www.al.com/politics/2026/08/trump-claims-his-poll-numbers-on-major-issue-are-at-dictator-levels-and-still-too-low.html",
     "bias": "?",
     "topic": "2028 Race",
@@ -4189,6 +4205,22 @@
     "real_url": "https://ca.style.yahoo.com/j-d-vance-gushes-over-171927672.html",
     "bias": "C",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "18cea534fe94",
+    "title": "Dan Crenshaw Draws Backlash Over \u2018Eat Ramen\u2019 Comment in Burrito Price Debate",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQzJmOW1fbnk5ODc5ZDRaeG9KOVBCRnQwdVVlS2MwZXpKTTQ4dnRGUERRY3BPcHRBQnVwSWtkN0hfN1VJUW1jWVl5NXdkakFfV0t4N2JQRU5Xa3pBeVU2M19GaWRwazhmbVlxeEZKYktyMHp0SWsxNWRmOG04cFl5b3R2anp1eDVaX0wwQmdDWG9qSk1XQlZR?oc=5",
+    "published": "2026-08-06T16:57:57+00:00",
+    "published_display": "Aug 06, 2026",
+    "query": "Vance Republican",
+    "image": "https://s.yimg.com/lo/mysterio/api/b5eeeb2c72c6883ca90a739a87db0d68cd52f0ac88164b9e6409b2b3fb690c91/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthedailybeast.com%2F0599e192f3926bd1acdf4e9f9a73ff23",
+    "real_url": "https://www.yahoo.com/news/politics/articles/dan-crenshaw-draws-backlash-over-165757004.html",
+    "bias": "C",
+    "topic": "Immigration",
     "region": "US"
   },
   {
