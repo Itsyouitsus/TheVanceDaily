@@ -1,5 +1,37 @@
 [
   {
+    "id": "57a90726cdf2",
+    "title": "How Trumpism Rejects Sea-Power",
+    "source": "The National Interest",
+    "source_url": "https://nationalinterest.org",
+    "source_domain": "nationalinterest.org",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nSHFRd0NnZ2FoTVU5dm9MQUhQUWxpQnlNZnl5UUtrcEh0SXEtZmV5eENGcGRleTZ4XzBadWpJU1huVHN3TnBSTG5laFFmOS1rNF9zYm1jWVA3c1JYbURDeUNmOUwzQXBzRC13c2RtRERrUDNkbUE?oc=5",
+    "published": "2026-08-10T22:22:27+00:00",
+    "published_display": "Aug 10, 2026",
+    "query": "JD Vance",
+    "image": "https://nationalinterest.org/wp-content/uploads/2026/08/US-Navy-08102026-SS-scaled-e1786399618246.jpg",
+    "real_url": "https://nationalinterest.org/feature/how-trumpism-rejects-sea-power",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "ea6745417246",
+    "title": "JD Vance calls El-Sayed \u2018crazy,\u2019 says he\u2019d be a \u2018terrible\u2019 senator",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPTjh5U01iMUk4MnJGQzNjMjdOSjZJWVhIUzJVTXppVU96X2xJMXphajlTQWFtMXlaRHZMNW5vS3E1NUp4ekxzelo5NzkzNUdGRGhBZjZB?oc=5",
+    "published": "2026-08-10T22:00:45+00:00",
+    "published_display": "Aug 10, 2026",
+    "query": "JD Vance",
+    "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/a800bebe-bba8-4bc7-a451-9eb6cd06939a/5706d738-dec8-4601-b9cd-962052847c12/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+    "real_url": "https://www.foxnews.com/video/6403177917112",
+    "bias": "R",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
     "id": "62f511efd5e4",
     "title": "In Dangerous Times, There Is Progress on Munitions Procurement",
     "source": "National Review",
@@ -157,6 +189,22 @@
     "real_url": "https://thenationaldesk.com/news/americas-news-now/vance-on-el-sayed-calling-him-peter-thiels-boy-crazy-would-be-terrible-senator-michigan-democrat-senate-nominee-trump",
     "bias": "?",
     "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
+    "id": "077e35e093fe",
+    "title": "OpenAI introduces a new cyber model amid fears of AI cyberattacks",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/08/10/openai-gpt-astra-restrictions-safety-hacking-defenders",
+    "published": "2026-08-10T17:00:30+00:00",
+    "published_display": "Aug 10, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/08/10/openai-gpt-astra-restrictions-safety-hacking-defenders",
+    "bias": "C",
+    "topic": "Tech & AI",
     "region": "US"
   },
   {
