@@ -1,5 +1,37 @@
 [
   {
+    "id": "c770a3e8a552",
+    "title": "Donald Trump keeps military option open amid US, Iran talks on Hormuz",
+    "source": "The Jerusalem Post",
+    "source_url": "https://www.jpost.com",
+    "source_domain": "www.jpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FWllPSER5cllBVnVpSjlaZHpPRVlYdFp3dVgxVVRCU21wRDVINjVnbUdRRXM2UzBCUlp0bnpxYTd1a1d4OUZZNk9rR0c4bThpMjFBb1pIeHRfenNYVC00?oc=5",
+    "published": "2026-08-10T00:18:12+00:00",
+    "published_display": "Aug 10, 2026",
+    "query": "JD Vance",
+    "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/715489",
+    "real_url": "https://www.jpost.com/international/article-905026",
+    "bias": "LR",
+    "topic": "Iran",
+    "region": "International"
+  },
+  {
+    "id": "8772914e2664",
+    "title": "Vance reveals $230 billion in fraud uncovered by Trump task force",
+    "source": "Eciks.org",
+    "source_url": "https://eciks.org",
+    "source_domain": "eciks.org",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rLWVZbVFaUEVXSFBUUmN4VUM1djZiYjdXaDFTM2xaWmV0NFFJdE9QZHRENktHVDE4U1RVdEpZSVVRczlFbUJYRUVRQkNiaXA4bzZXRzRvUjJRMkJYU3ZKeGhmbkVzeWhxYlE?oc=5",
+    "published": "2026-08-09T22:36:39+00:00",
+    "published_display": "Aug 09, 2026",
+    "query": "JD Vance",
+    "image": "https://eciks.org/wp-content/uploads/2026/08/vance-fraud-230-billion-task-force-scaled.webp",
+    "real_url": "https://eciks.org/19981-vance-fraud-230-billion-task-force",
+    "bias": "?",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
     "id": "2735923f9f17",
     "title": "Pro-science group urges Mark Kelly to run for president in 2028",
     "source": "Axios",
@@ -96,6 +128,22 @@
     "region": "US"
   },
   {
+    "id": "2544af4c8cf3",
+    "title": "Trump to Axios: &quot;We are low-keying it&quot; with Iran",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/08/09/trump-iran-interview",
+    "published": "2026-08-09T16:55:12+00:00",
+    "published_display": "Aug 09, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/08/09/trump-iran-interview",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
     "id": "887ce5f7ebd3",
     "title": "We need more microchips to beat China. You won&#x27;t believe where Apple has turned to get them.",
     "source": "The Blaze",
@@ -141,6 +189,22 @@
     "real_url": "https://fortune.com/2026/08/09/pentagon-deputy-defense-steve-feinberg-weapons-production-delivery-development-cycles-munitions-shortage/",
     "bias": "?",
     "topic": "Military",
+    "region": "US"
+  },
+  {
+    "id": "58abe6b6f767",
+    "title": "Vance Says U.S. In \u2018Middle Of The Game\u2019 With Iran; Talks Focus On Demining Strait Of Hormuz",
+    "source": "AOL News",
+    "source_url": "https://www.aol.com",
+    "source_domain": "www.aol.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jTFRSR0laSEFoVTFDb3laNkhLZkEySF9IUGQ4NklzZEpXSkJTc1FwUnNJXzRNNk9JYXRFUXNaWUFGdjhsRGc5NEU1M004WkxxSmJvN0dwVE9DWVgxTzVDdktFVmhsXzRtb1VoRDFVbGYxVkJ3U3JB?oc=5",
+    "published": "2026-08-09T13:36:01+00:00",
+    "published_display": "Aug 09, 2026",
+    "query": "Vance Republican",
+    "image": "https://hermes.media.static.aol.com/media/2026/08/09/f179ce7d-095b-33dd-9d95-d159fd81c01e/e6484662-060e-468c-885e-a6710762f962.jpg",
+    "real_url": "https://www.aol.com/articles/vance-says-u-middle-game-130829000.html",
+    "bias": "C",
+    "topic": "Iran",
     "region": "US"
   },
   {
