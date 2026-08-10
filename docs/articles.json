@@ -1,5 +1,21 @@
 [
   {
+    "id": "549d2466ad2f",
+    "title": "AOC joins thousands of women putting fertility on ice",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/08/10/aoc-egg-freezing-women-fertility",
+    "published": "2026-08-10T19:48:41+00:00",
+    "published_display": "Aug 10, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/08/10/aoc-egg-freezing-women-fertility",
+    "bias": "C",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "582e5191810f",
     "title": "China&#x27;s hottest start-up thinks it can beat the West\u00a0with a new idea of freedom",
     "source": "The Blaze",
@@ -29,6 +45,22 @@
     "real_url": "https://www.washingtontimes.com/news/2026/aug/10/book-review-communion-finding-way-back-faith/",
     "bias": "LR",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "e03eacd55664",
+    "title": "Vance on El-Sayed calling him \u2018Peter Thiel\u2019s boy\u2019: \u2018Crazy, would be terrible senator\u2019",
+    "source": "Baltimore Sun",
+    "source_url": "https://www.baltimoresun.com",
+    "source_domain": "www.baltimoresun.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTmx1M21xMEdTZ0ExNXRhVk4wX0VaWjRoXzFHcmt2dV9EbmxYRmJGYVoxTFlVX3B6SkF1akdmVFhNM01Ua3hidk9KUDh1YWVtM0l1R3NmSlZGU1V4TjFsN2lveEZ3b1FlbTNOYnpySjhKNmtRUzU2QnQwXzhURFFCVW9uTXBYMTBwaUhxM0R0cEZ1dVBMMEhKX1FOakNPOXl3dElEN2ExSXlickdYbWpwLXR2S25xczltM3o0?oc=5",
+    "published": "2026-08-10T18:27:37+00:00",
+    "published_display": "Aug 10, 2026",
+    "query": "JD Vance",
+    "image": "https://www.baltimoresun.com/wp-content/uploads/2026/07/Vance_Fraud_Task_Force_3_553.jpg?w=1999&h=1333",
+    "real_url": "https://www.baltimoresun.com/2026/08/10/vance-on-el-sayed-calling-him-peter-thiels-boy-crazy-would-be-terrible-senator/",
+    "bias": "?",
+    "topic": "Foreign Policy",
     "region": "US"
   },
   {
@@ -125,6 +157,22 @@
     "real_url": "https://indiawest.com/modi-gets-a-phone-call-from-vance/",
     "bias": "?",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "3fbe0e9064aa",
+    "title": "Rasmussen: Harris Widens 2028 Democrat Primary Lead",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/rasmussen-survey-kamala-harris/2026/08/10/id/1265643",
+    "published": "2026-08-10T14:34:07-04:00",
+    "published_display": "Aug 10, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/rasmussen-survey-kamala-harris/2026/08/10/id/1265643",
+    "bias": "R",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
@@ -301,6 +349,22 @@
     "real_url": "https://www.galvnews.com/news_reuters/politics/file-photo-vice-president-vance-in-wisconsin/image_addafec3-fcfb-5981-a9f9-1ae01123f504.html?block_id=531919",
     "bias": "?",
     "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "5ef3419085c9",
+    "title": "Is the K-shaped economy over?",
+    "source": "Marketplace.org",
+    "source_url": "https://www.marketplace.org",
+    "source_domain": "www.marketplace.org",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RSVYtRC1wMXZJS2FUbGt4cVdZVHV0Z2RMYzlKRjl5QVRnMG4tN3ZjXzZhSDR1RHljekZJMWI5QUJhRlpSVGdwWVhuTmFhTGVHQnpDY2ZIaUhhVjRoU3V1NmNhTVIwYnpOcHRyT3IwYm5JaGx4QkdOVngtZVM?oc=5",
+    "published": "2026-08-10T10:33:00+00:00",
+    "published_display": "Aug 10, 2026",
+    "query": "Vance economy",
+    "image": "https://img.apmcdn.org/e83fdaf890231737ceb7205c57452b00830b518b/widescreen/80d4ab-20260807-scott-bessent-sitting-next-to-jd-vance-at-a-table-with-others-2000.jpg",
+    "real_url": "https://www.marketplace.org/story/2026/08/10/is-the-kshaped-economy-over",
+    "bias": "?",
+    "topic": "Economy",
     "region": "US"
   },
   {
