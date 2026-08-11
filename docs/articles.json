@@ -1,5 +1,21 @@
 [
   {
+    "id": "000515c7f9de",
+    "title": "Trump admin cuts Medicaid funds for youth trans care",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/08/11/trump-medicaid-youth-transgender-health-care",
+    "published": "2026-08-11T21:39:29+00:00",
+    "published_display": "Aug 11, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/08/11/trump-medicaid-youth-transgender-health-care",
+    "bias": "C",
+    "topic": "Healthcare",
+    "region": "US"
+  },
+  {
     "id": "8d1ce955adab",
     "title": "Milwaukee Mayor Johnson defends election workers, slams fraud claims",
     "source": "Milwaukee Journal Sentinel",
@@ -45,6 +61,22 @@
     "real_url": "https://www.bloomberg.com/news/videos/2026-08-11/dems-offering-platform-voters-aren-t-looking-for-short-video",
     "bias": "LL",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "7d8fd219ef38",
+    "title": "Trump&#x27;s secret plane switch: How Air Force One protects the president from threats",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/08/11/trump-air-force-one-security-secret-plane-switch",
+    "published": "2026-08-11T18:40:25+00:00",
+    "published_display": "Aug 11, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/08/11/trump-air-force-one-security-secret-plane-switch",
+    "bias": "C",
+    "topic": "Military",
     "region": "US"
   },
   {
