@@ -1,5 +1,37 @@
 [
   {
+    "id": "c328461a7bb4",
+    "title": "Tenacious AI agents expose dark side of machine autonomy",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/08/11/ai-agents-rogue-autonomy-hugging-face",
+    "published": "2026-08-11T09:00:05+00:00",
+    "published_display": "Aug 11, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/08/11/ai-agents-rogue-autonomy-hugging-face",
+    "bias": "C",
+    "topic": "Tech & AI",
+    "region": "US"
+  },
+  {
+    "id": "1a0ec21e5685",
+    "title": "VP Duterte Used Confidential Funds on Christmas Events, Witness Says",
+    "source": "Bloomberg",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-08-11/vp-duterte-used-confidential-funds-on-christmas-events-witness-says",
+    "published": "2026-08-11T08:35:33+00:00",
+    "published_display": "Aug 11, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.bloomberg.com/news/articles/2026-08-11/vp-duterte-used-confidential-funds-on-christmas-events-witness-says",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "6d59013870ca",
     "title": "Can We Fire Hegseth Yet?",
     "source": "The Fulcrum",
@@ -21725,6 +21757,22 @@
     "real_url": "https://fpif.org/pakistan-the-country-both-sides-call-when-the-bombing-starts/u-s-vice-president-jd-vance-leads-u-s-delegation-in-peace-talks-with-iran-in-pakistan/",
     "bias": "?",
     "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "36a027c77d2f",
+    "title": "AOC responds as polls put her among Democrats\u2019 top picks for 2028",
+    "source": "USA Today",
+    "source_url": "https://www.usatoday.com",
+    "source_domain": "www.usatoday.com",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQXzg3Y2RQM0o4bGhaMkVjQ0FzWUVxOXVFN3ZGT3loVGxnaktIUlNKYllUTnpTMWFXdVg2YVAzcXE4d3NRRlUybjl2SmRhVTh5a292aXA0YTJRelcwYlBENFNKTzBrY3RNZGgya0had182T3R6Sk8yVDNyLU04TmFiQWxWLWRXRVAxc2MxZHNidTNYbUMydUJPblhhUEo1T21CbDVXUDUtWnFlRldvNXljRW1XQmNYRTVwOGMtZkJKVVJfSGYxZUlkT2NBZHhZSHVhbktCRS1BRWFfVTZXdXRGX0tzeTUtTkFtRmJVNGhBNjdJUQ?oc=5",
+    "published": "2026-07-23T07:00:00+00:00",
+    "published_display": "Jul 23, 2026",
+    "query": "Vance president 2028",
+    "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2025/09/18/USAT/86216056007-2220579738.jpg?crop=4999,2813,x0,y192&width=3200&height=1801&format=pjpg&auto=webp",
+    "real_url": "https://www.usatoday.com/story/news/state/new-york/new-york-city/2026/07/23/aoc-2028-congresswoman-responds-as-polls-place-her-high-for-dem-nominee/91020185007/",
+    "bias": "C",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
