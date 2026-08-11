@@ -1,5 +1,21 @@
 [
   {
+    "id": "d4859551f104",
+    "title": "The House Democratic money machine is coming for GOP Rep. Max Miller",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/08/11/max-miller-ohio-brian-poindexter-democrats-2026",
+    "published": "2026-08-11T21:57:11+00:00",
+    "published_display": "Aug 11, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/08/11/max-miller-ohio-brian-poindexter-democrats-2026",
+    "bias": "C",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
     "id": "000515c7f9de",
     "title": "Trump admin cuts Medicaid funds for youth trans care",
     "source": "Axios",
@@ -13,6 +29,22 @@
     "real_url": "https://www.axios.com/2026/08/11/trump-medicaid-youth-transgender-health-care",
     "bias": "C",
     "topic": "Healthcare",
+    "region": "US"
+  },
+  {
+    "id": "59da95c30d69",
+    "title": "Lara Trump Refuses to Pick Between J.D. Vance and Marco Rubio, Says Both Would Be &#x27;Incredible Presidents&#x27;",
+    "source": "Yahoo Lifestyle Canada",
+    "source_url": "https://ca.style.yahoo.com",
+    "source_domain": "ca.style.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CX2VVMDNmRHAyaXFsNDNkejRuNGV6UGQxWGNYT3ZweHgyRWY2Slg0eUlPVllDbWJvemZ2dkxYNWF3WEl0bk9yZ2FLc2gxRHlpNEpKT3VLRERoYk9UMWNpNy16b2g1bTlJNVc1Z0pxUzJFaXNLWXNtSGl4eTFBdw?oc=5",
+    "published": "2026-08-11T20:47:31+00:00",
+    "published_display": "Aug 11, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/697f3eaee72ea779af267e4d976c0c1df9703e9b378fab895792433e468c30df/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fok_magazine_ca_677%2Fc4f612a0def5c93c4f1c528f06fb71c8.jpg",
+    "real_url": "https://ca.style.yahoo.com/lara-trump-refuses-pick-between-204731549.html",
+    "bias": "C",
+    "topic": "General",
     "region": "US"
   },
   {
