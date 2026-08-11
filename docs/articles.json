@@ -256,6 +256,22 @@
     "region": "US"
   },
   {
+    "id": "4aaa52446739",
+    "title": "Turkey Advances Kurdish Peace Talks With Law Offering Amnesty",
+    "source": "Bloomberg",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-08-10/turkey-passes-law-to-achieve-peace-with-kurdish-separatists",
+    "published": "2026-08-10T20:12:59+00:00",
+    "published_display": "Aug 10, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.bloomberg.com/news/articles/2026-08-10/turkey-passes-law-to-achieve-peace-with-kurdish-separatists",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "549d2466ad2f",
     "title": "AOC joins thousands of women putting fertility on ice",
     "source": "Axios",
