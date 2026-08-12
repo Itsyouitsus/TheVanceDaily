@@ -1,5 +1,53 @@
 [
   {
+    "id": "a191c93bfa39",
+    "title": "Hillbilly economics",
+    "source": "The Argument",
+    "source_url": "https://www.theargumentmag.com",
+    "source_domain": "www.theargumentmag.com",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9oaWlLQTl6NWZCZnlTd0hNSlV0enhtaVAtSXVUenpxX21YUEZtYTEtMWZZWkp1M2UzYUJTVm5EcGJ2WjlrS0didnV4d2UxVE1BaFNyZHJPSjR2WXladHZoUXF3?oc=5",
+    "published": "2026-08-12T10:03:51+00:00",
+    "published_display": "Aug 12, 2026",
+    "query": "Vance economy",
+    "image": "https://substackcdn.com/image/fetch/$s_!BJxg!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F319b10b3-b7a8-4f1c-bcaf-6474e9f3211e_1536x1024.png",
+    "real_url": "https://www.theargumentmag.com/p/hillbilly-economics",
+    "bias": "?",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "ff3873407d38",
+    "title": "What Is Usha Vance Thinking?",
+    "source": "Vanity Fair",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.vanityfair.com/story/usha-vance-profile",
+    "published": "2026-08-12T10:00:00+00:00",
+    "published_display": "Aug 12, 2026",
+    "query": "direct_feed",
+    "image": "https://media.vanityfair.com/photos/6a7b874859dc8f22d2deebf2/16:9/w_1280,c_limit/260727_vance_cz.jpg",
+    "real_url": "https://www.vanityfair.com/story/usha-vance-profile",
+    "bias": "L",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "35da5734be99",
+    "title": "Vance Personally Asked Zelensky to Halt CPC-Linked Tanker Strikes, FT Reports",
+    "source": "The Times Of Central Asia",
+    "source_url": "https://timesca.com",
+    "source_domain": "timesca.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZFV3S1B1RmRNalVxMzRUQlFvajc3RWtYZmZWYWl0cUhkVnl0RG03NlpPeXNRRGVCQjFYNDBzaHdPQ2J2NTlLaXhRcjI2ckpHaGhmM0xzeGstZklXYU9FajFidGxvTXl2OFJIT1dmVldfNXZ0QTd0UFM2TS1weXV4T3ZqdVkwNWJ1RUk4Y2tqUDJ3cFhfUVp2MnVZeTJEQQ?oc=5",
+    "published": "2026-08-12T09:27:27+00:00",
+    "published_display": "Aug 12, 2026",
+    "query": "JD Vance",
+    "image": "https://timesca.com/wp-content/uploads/2026/08/Image-TCA-Aleksandr-Potolitsyn-120826-1jpg.jpg",
+    "real_url": "https://timesca.com/vance-personally-asked-zelensky-to-halt-cpc-linked-tanker-strikes-ft-reports/",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "7712ee5371fb",
     "title": "Ukraine stopped attacks on tankers using Novorossiysk port at Vance&#x27;s request",
     "source": "The New Voice of Ukraine",
@@ -557,6 +605,22 @@
     "real_url": "https://www.ft.com/content/7cd5f1c5-1097-4bd4-bd00-8006759da28d?syn-25a6b1a6=1",
     "bias": "LL",
     "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
+    "id": "16b2ec27c55c",
+    "title": "Lara Trump Refuses to Pick Between J.D. Vance and Marco Rubio as She Weighs in on 2028 Presidential Election",
+    "source": "AOL News",
+    "source_url": "https://www.aol.com",
+    "source_domain": "www.aol.com",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQy1oU3BmOTU5QXNLQldmaG9BQldMNVJZdjBHZDVHYzJ6cTVaUVFDcWZvd0llZUlLaVhhZElVb25WRGJFZ3I5ME40REo2S0NwTEJncnVrM0pLbjkweHAzWUVOak43YW9qdmtzM2l3N2k5QW1tQTNhRnF0WEFOR0hJZg?oc=5",
+    "published": "2026-08-11T21:29:53+00:00",
+    "published_display": "Aug 11, 2026",
+    "query": "Vice President Vance",
+    "image": "https://hermes.media.static.aol.com/media/2026/08/11/9e85c2de-2aa1-3d84-980c-0b7917f897fd/796187bc-a1b7-4bc1-a45d-8c1da83b6cab.jpg",
+    "real_url": "https://www.aol.com/articles/lara-trump-refuses-pick-between-204731000.html",
+    "bias": "C",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
@@ -2190,6 +2254,22 @@
     "bias": "?",
     "topic": "Iran",
     "region": "International"
+  },
+  {
+    "id": "43a2a66d20e6",
+    "title": "Tucker Carlson could derail the GOP\u2019s 2028 plans",
+    "source": "Salon",
+    "source_url": "https://www.salon.com",
+    "source_domain": "www.salon.com",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcHpTQ2Jsd0J3akhhX2ZqWFVLb0pNZ244Qzhodi0xR1dQZU1sRUJDc1lvSmw5N24xVllZUDgzME5YVnlOT2RheUtCcENDd2VQWTU0VFJGV3pyM0owSGs5SnZwSGlSUUpoRExlcDBlWC1fOHRpV3p2VkdTSlc1Y0dFUFZlOXdQdVJl?oc=5",
+    "published": "2026-08-09T10:30:49+00:00",
+    "published_display": "Aug 09, 2026",
+    "query": "Vance Republican",
+    "image": "https://www.salon.com/app/uploads/2026/08/Tucker-Carlson-2285706061.jpg",
+    "real_url": "https://www.salon.com/2026/08/09/tucker-carlson-could-derail-the-gops-2028-plans/",
+    "bias": "L",
+    "topic": "2028 Race",
+    "region": "US"
   },
   {
     "id": "fa5e6557107d",
@@ -55373,6 +55453,22 @@
     "real_url": "https://www.cp24.com/news/world/2026/07/01/jd-vance-believes-aoc-will-be-leading-democratic-candidate-in-2028/?taid=6a44c91af1ddc500011ebc73&utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter",
     "bias": "?",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "3a04054be32d",
+    "title": "U.S. Supreme Court Declines Trump-Vance Administration\u2019s Shadow-Docket Request, Leaving Protections for Copyright Office Leadership in Place",
+    "source": "Democracy Forward",
+    "source_url": "https://democracyforward.org",
+    "source_domain": "democracyforward.org",
+    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQX0JDWGM3S01KdmY3QW8tMlVOcG5FTVZ3U2liVFFxQmJ6TEZTTUZYM2k0TGdjMm96NEhoeXAwV2FFMmVJNE1aSV9zMWFrWHNGRU9iM2UzRlBSOXdqTkpuZm5zNUhQR3lRamEtRHE3cWdUbWR5V0pNc254SzdqS2lTNm1EV2tXajRVWWgxekJHa0lKRDIyMXVqWHB4WjFIQ3lkSjFMTVltQWt0bXZ6d1dlV2R2YWZXRHJhcFpSNUMwYnNQTkUzUEc4NGVnOTRuZDM3WkpDWlY2aHl4Vjd4ejg4R183MUY3T1NqUlpaWnpwY2drSHczeG1QSFZIZ1FlQ3hCRmt5Tm1GU2NqU1lkVXNxQ3lJSXFHZw?oc=5",
+    "published": "2026-06-30T07:00:00+00:00",
+    "published_display": "Jun 30, 2026",
+    "query": "Vance Congress",
+    "image": "",
+    "real_url": "https://democracyforward.org/news/press-releases/u-s-supreme-court-declines-trump-vance-administrations-shadow-docket-request-leaving-protections-for-copyright-office-leadership-in-place/",
+    "bias": "?",
+    "topic": "Immigration",
     "region": "US"
   },
   {
