@@ -1,5 +1,37 @@
 [
   {
+    "id": "5b0866122419",
+    "title": "Trump announces new White House press secretary",
+    "source": "RBC-Ukraine",
+    "source_url": "https://newsukraine.rbc.ua",
+    "source_domain": "newsukraine.rbc.ua",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU2YxT2k1aGNRV3pDMU1EUE9FNHZXSEgycTRQdlQtUl92Q1l6MHRxSkpUZUsxRHVWQTJGallxRFloUkc3ZS1kTXJLajhjNFI1OW1ibFhtOGJTOXlOR2tidmZHeE5qRzgzZWR3cjNIWTE1REUyb1kwZjJMYlBpaUpEUEJGOUpNd1NQQTRMT0F2WkgyTWgtTXJEeGYtOA?oc=5",
+    "published": "2026-08-12T21:40:51+00:00",
+    "published_display": "Aug 12, 2026",
+    "query": "Vance Republican",
+    "image": "https://newsukraine.rbc.ua/static/img/_/l/_livitt__gettyimages_2205096958_dd570ab30c52b6da361112734cd57ec5_1300x820_8b775b3fb081ce140aeba317549c2b4c_650x410.jpg",
+    "real_url": "https://newsukraine.rbc.ua/news/trump-announces-new-white-house-press-secretary-1786569542.html",
+    "bias": "?",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "0772a970f335",
+    "title": "Vance, Modi discuss U.S.-India strategic ties",
+    "source": "Diya TV",
+    "source_url": "https://diyatvusa.com",
+    "source_domain": "diyatvusa.com",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkbWVsNXdVS0NoV18tbTJWWmlxN2hjeTJJU1cwc1ktanFoMlMydGNtdmhTNlNGbXlCVGNXVU9lME5YaUxBeFdoVU1zVXJhZFdQREFMcXFvZUREOWVxUjBZaFd6X1VEY0NIbUxXZXBOREZpYUp5?oc=5",
+    "published": "2026-08-12T21:24:00+00:00",
+    "published_display": "Aug 12, 2026",
+    "query": "JD Vance",
+    "image": "https://diyatvusa.com/wp-content/uploads/2026/08/Red-Professional-Gradients-University-Education-LinkedIn-Single-Image-Ad-2026-08-13T020211.672.jpg",
+    "real_url": "https://diyatvusa.com/vance-modi-discuss-u-s-india-strategic-ties/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "c2244b6c8534",
     "title": "Trump admin urges SCOTUS to nix Obama judge&#x27;s attempt to &#x27;run out the clock&#x27; on election security initiative",
     "source": "The Blaze",
@@ -365,6 +397,22 @@
     "real_url": "https://www.thedailybeast.com/vice-president-jd-vances-secret-plea-to-ukraine-exposed-as-trumps-iran-crisis-spirals/",
     "bias": "L",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "f1c3856acc57",
+    "title": "Vice President JD Vance\u2019s Secret Plea to Ukraine Exposed as Trump\u2019s Iran Crisis Spirals",
+    "source": "The Daily Beast",
+    "source_url": "https://www.thedailybeast.com",
+    "source_domain": "www.thedailybeast.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNakFCenRiWGVkcWFrTG9ycnBEVnVTVlozV29EOXNuRkgtWGlCcGpZQlZGenFuS2lOaDlLLTNwZGdyQXhrYXJXOUlZZm5ySVVYcVo0NmFjUTN2bUlXbkdHUFBXT19hZWhfWldicEtYWXBNNHo1UXlxRXl0QWNLWERXSHRnNHZ2WWttVkptVFpybWtHT05TYjBSb1JjcnRNbHJhYk10emFZeTg3LWltbm5lajlJUExYaWc?oc=5",
+    "published": "2026-08-12T12:12:00+00:00",
+    "published_display": "Aug 12, 2026",
+    "query": "JD Vance",
+    "image": "https://www.thedailybeast.com/resizer/v2/IDNP2TDUTNA6HEHNGXRRIA6OTM.JPG?smart=true&auth=6c0c2382d57e3cf49bab4843e685dbe46ccf318c87ed50d21596ccf079a10dae&width=1200&height=630",
+    "real_url": "https://www.thedailybeast.com/vice-president-jd-vances-secret-plea-to-ukraine-exposed-as-trumps-iran-crisis-spirals/",
+    "bias": "L",
+    "topic": "Iran",
     "region": "US"
   },
   {
