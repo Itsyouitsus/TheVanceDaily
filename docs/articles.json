@@ -1,5 +1,21 @@
 [
   {
+    "id": "9cec12ff131a",
+    "title": "Ukraine pauses strikes on tankers after JD Vance request and Russian threats",
+    "source": "Washington Examiner",
+    "source_url": "https://www.washingtonexaminer.com",
+    "source_domain": "www.washingtonexaminer.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaGZHN0kzSlVVVW01UW16aXNYVU9IdHhYbGpMNXBtNjRTZ01fZ1JFTFp2OW9tRGJPV0w2Q215a29tS1ExZG13c3pDczhMdVlMRVJ6NUtJLVBySk5oTFpleDY4eGFiSUxGYUx0YUF2LTdrdldpYlZBU0g5U3hKTTZWTzdVSE5kYXppWXBSQ0JIYTBadzBQVGRGYmFHWHlIbE1UbzBaWXB3ZFBiYXk1NXF1N2pIdDc3bEhQUFE?oc=5",
+    "published": "2026-08-12T17:21:00+00:00",
+    "published_display": "Aug 12, 2026",
+    "query": "JD Vance",
+    "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/08/AP25316184713361.jpg?resize=1200,683",
+    "real_url": "https://www.washingtonexaminer.com/news/world/4684383/ukraine-pauses-strikes-tankers-jd-vance-request-russian-threats/",
+    "bias": "LR",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
     "id": "bf3d75ddc300",
     "title": "Trump sued over Truth Social advance access sale",
     "source": "Politics",
@@ -93,6 +109,22 @@
     "real_url": "https://wfin.com/fox-political-news/trump-brushes-off-reporter-question-about-running-for-third-term-in-2028-the-law-is-very-strong/",
     "bias": "?",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "6498b42a93a8",
+    "title": "JD and Usha Vances\u2019 College Friends Talk About Them in Private Signal Group",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU3F2bFhjaGpPbzFDLXBuSVMzdzB4aG1UNWloU2dZOGhFOGs3OU1wNVFfNnFPSVYySXlyOEFIMTc1V0RRX3U3bk05UFRiRjRfeDRQRmozOUZTbC1ZbGtOVUxTWmJYMC1NR2FaWGdDb3pSTDBGdzFLRkJ1OVNuN2JIa2ZNTHNDajVacnEwckxSY2VtaERK?oc=5",
+    "published": "2026-08-12T14:57:15+00:00",
+    "published_display": "Aug 12, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/a12d173a3027e938a9c489f9c3b0b4664c09262dcc0691fa878e466e386f7776/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthedailybeast.com%2Feef2a836d967d21943bdb957f897911e.jpg",
+    "real_url": "https://www.yahoo.com/news/politics/articles/jd-usha-vances-college-friends-145715441.html",
+    "bias": "C",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -610,6 +642,22 @@
   {
     "id": "8eec12777505",
     "title": "Democratic Socialist Advance Hits a Wall in Wisconsin Primary",
+    "source": "Bloomberg",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-08-12/crowley-wins-wisconsin-dem-governor-primary-ddhq-projects",
+    "published": "2026-08-12T06:23:12+00:00",
+    "published_display": "Aug 12, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.bloomberg.com/news/articles/2026-08-12/crowley-wins-wisconsin-dem-governor-primary-ddhq-projects",
+    "bias": "LL",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "2f9446c04c5f",
+    "title": "Democratic Socialist Advance Hits Wall in Wisconsin Primary",
     "source": "Bloomberg",
     "source_url": "",
     "source_domain": "",
