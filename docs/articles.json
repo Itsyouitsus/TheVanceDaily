@@ -1,5 +1,21 @@
 [
   {
+    "id": "66c727e50d77",
+    "title": "The Jonestown Style of Politics",
+    "source": "The Atlantic",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theatlantic.com/ideas/2026/08/jonestown-cult-radical-politics/688257/?utm_source=feed",
+    "published": "2026-08-13T11:53:40.399866+00:00",
+    "published_display": "Aug 13, 2026",
+    "query": "direct_feed",
+    "image": "https://cdn.theatlantic.com/thumbor/EHylNssd2YQGqugVHnopAdz7SCk=/0x77:3606x1955/1200x625/media/img/mt/2026/08/2026_08_11_The_Jonestown_Style_of_Politics/original.jpg",
+    "real_url": "https://www.theatlantic.com/ideas/2026/08/jonestown-cult-radical-politics/688257/?utm_source=feed",
+    "bias": "L",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "509e2f692cfc",
     "title": "Musk and Zuckerberg claw back into AI race with new model momentum",
     "source": "Axios",
@@ -13,6 +29,22 @@
     "real_url": "https://www.axios.com/2026/08/13/grok-elon-musk-ai-zuckerberg-and-meta",
     "bias": "C",
     "topic": "Tech & AI",
+    "region": "US"
+  },
+  {
+    "id": "7812ecfff9a8",
+    "title": "Politicians used to be boring in public. It was better then",
+    "source": "Washington Examiner",
+    "source_url": "https://www.washingtonexaminer.com",
+    "source_domain": "www.washingtonexaminer.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ2cwc3NFQXFzQ21tZTVZb1huTlNpeUg1ZC1XbzgxMXgzMGU0Qk9GbDBvYm1IZG5LckpSUEpxYVpOakxEZDBVSGJfeHdtMGNleERmb01jLXFPWlA2WFhwTUUxbC12M3B4bTZSY0o0MFUtby14cDFrWEtobVMxRGNITklZckxiSGZRUUZqbGQtZjdBMFVtcm8wT1ZibHF1eVlLX2lsMTNfQVFjNTRVem85Zko5VDFoUHJJV2RZZERxYTdjUQ?oc=5",
+    "published": "2026-08-13T10:00:00+00:00",
+    "published_display": "Aug 13, 2026",
+    "query": "Vice President Vance",
+    "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/08/AP26189685585889.jpg?resize=1200,683",
+    "real_url": "https://www.washingtonexaminer.com/restoring-america/patriotism-unity/4682994/better-when-politicians-were-boring-in-public/",
+    "bias": "LR",
+    "topic": "General",
     "region": "US"
   },
   {
