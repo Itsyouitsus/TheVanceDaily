@@ -16,6 +16,22 @@
     "region": "US"
   },
   {
+    "id": "ae586670011e",
+    "title": "US justice department shifts focus to government programme fraud",
+    "source": "Financial Times",
+    "source_url": "https://www.ft.com",
+    "source_domain": "www.ft.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTEtqWXJ5eGlTZmZmUlJzRkczcWJMaFJuVmppQ0h4LU5oRjlidHk0Z3lUVTdDUzkwaFo2REQ3R3dWWV82a0txS0hBTThVYXI0cE9URm1TX0IwMW5RZUZRVW02YlpyV21LU1ZfV21hMjhSaEdvaVA3NnIzQ2ZNQ0Vncm56Vnc?oc=5",
+    "published": "2026-08-13T04:02:10+00:00",
+    "published_display": "Aug 13, 2026",
+    "query": "Vice President Vance",
+    "image": "",
+    "real_url": "https://www.ft.com/content/145f1b61-0a68-45b4-afb8-62fc74381ce4?syn-25a6b1a6=1",
+    "bias": "LL",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "f2e77a313da1",
     "title": "JD Vance Reacts to Karoline Leavitt\u2019s Exit: \u2018We\u2019re Sad to See Her Go\u2019",
     "source": "Breitbart News",
@@ -523,6 +539,22 @@
     "query": "direct_feed",
     "image": "",
     "real_url": "https://www.axios.com/2026/08/12/wisconsin-primary-crowley-hong-socialist-takeaways",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "bc68a5e2a13d",
+    "title": "Trump on third term: \u2018The law is very strong\u2019",
+    "source": "The Hill",
+    "source_url": "https://thehill.com",
+    "source_domain": "thehill.com",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYU1QenJLWTN2Y01QQ3BmRko4WnQ1TXE0VU5Qbkx3a2RrZG9NcmJLT3AySWljOXhxZ2xPOGdtdlBRT29zSmxPSG5vMVZjTkRqelRSVVB3TGt6TmlpTXhUZEpucVREckw1WmlPTm9YaExaRnNlUWpOMURkNUVyR0lvcGZuWGlVSkFOUXRoUDBqZ9IBlAFBVV95cUxQWHRnUlZ3YVJ6S0RoR0QzaUI0YmJGQ1RDNDJaWFcwWUxkNFc1dFRmUElQNURQZXVIUXluSWk3NXBTUUhjc09zWm1ic19FUGFPWDNuTFI0LUQtT21PaDJ0cjZINFRfVFNpaFBpTEpHUzJHUDhTOGJaMkh2bHRBbS1kV3NHWjdveFFiZENLS2N0RmFlVEJh?oc=5",
+    "published": "2026-08-12T12:42:00+00:00",
+    "published_display": "Aug 12, 2026",
+    "query": "Vance Republican",
+    "image": "",
+    "real_url": "https://thehill.com/homenews/administration/6024436-donald-trump-third-term-talk-ohio/",
     "bias": "C",
     "topic": "General",
     "region": "US"
