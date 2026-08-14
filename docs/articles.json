@@ -1,5 +1,53 @@
 [
   {
+    "id": "b563edd24f7f",
+    "title": "Top White House National Security adviser to leave administration in coming weeks",
+    "source": "Just The News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://justthenews.com/government/security/top-white-house-advisor-leave-admin-coming-weeks?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "published": "2026-08-14T16:00:02.410074+00:00",
+    "published_display": "Aug 14, 2026",
+    "query": "direct_feed",
+    "image": "https://justthenews.com/sites/default/files/styles/social_media_share/public/2026-07/GettyImages-2160926255.jpg?h=46d19779&itok=cKWjX4Yp",
+    "real_url": "https://justthenews.com/government/security/top-white-house-advisor-leave-admin-coming-weeks?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "bias": "LR",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "9208a5b1057d",
+    "title": "Trump administration live updates: Cheaper gas prices are the No. 1 Iran war goal, Vance says",
+    "source": "NBC News",
+    "source_url": "https://www.nbcnews.com",
+    "source_domain": "www.nbcnews.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWTNPV2U3Vl9qZGxBWWptR3ZNalp3dDJheUxpNUIwSVVub1pSc2xqZEgtN2lPOGlqaUVEYlJuV1RyM2EtM1R2N1AxZ08xdXFWUjhCd2Ewa25UaGhSblpVcHYyc0RMZUpPdm5ZR1RVaDMxWHQ5MXE4MWJ5Z3NfTGJWb2EwN21TNXMtMDRzS1NvM2hRaU9TYW4yNVhCZFN2a0JYc1FxN2pnQ25LdzVrTHFxdWlrSDZMVWs1QkNRVTFB?oc=5",
+    "published": "2026-08-14T15:27:02+00:00",
+    "published_display": "Aug 14, 2026",
+    "query": "JD Vance",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-08/260813-president-trump-vsb-2145-53d894.jpg",
+    "real_url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-congress-2026-elections-doj-live-updates-rcna592467",
+    "bias": "LL",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "693139a6c250",
+    "title": "Andy Baker, key Vance ally, to leave the White House",
+    "source": "The Washington Post",
+    "source_url": "https://www.washingtonpost.com",
+    "source_domain": "www.washingtonpost.com",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUUNFa0FtNDhUczJVcE43NkpWRGtoVWtfRy12OHdwQWlBd3hwNDJYdUl5QmZXVWtEZlNRamZKS2RZTWdoQUR2TXdJRURfMUdMTDRZVllCd1VFdnJ1MFRIaFBoUHZ6VFNCb2Vtd0FFY3o3QTJMNzlWRndFQnFPbmxwOXlzcnppYkVwcGZrVjdrd2Q4NFZKT2Y2SVA4N3E5bi1jVlhUQ01Yaw?oc=5",
+    "published": "2026-08-14T15:12:10+00:00",
+    "published_display": "Aug 14, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://www.washingtonpost.com/national-security/2026/08/14/andy-baker-key-vance-ally-leave-white-house/",
+    "bias": "LL",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
     "id": "f6b51933ffd1",
     "title": "Top White House advisor to leave admin in coming weeks",
     "source": "Just The News",
@@ -13,6 +61,22 @@
     "real_url": "https://justthenews.com/government/security/top-white-house-advisor-leave-admin-coming-weeks?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
     "bias": "LR",
     "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "1c0e784c2e50",
+    "title": "JD Vance reveals &#x27;goal number one&#x27; with Iran",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Ka09NX0ctTl9ib2xoMnp2U0hCN0lvNGYwM3pCUDktSkpXdjQ2aFNCNzNmcW5aVm16eGlna193TFRYNVBDR1o2LWlVVGktX1BWVllVeGpR?oc=5",
+    "published": "2026-08-14T14:56:13+00:00",
+    "published_display": "Aug 14, 2026",
+    "query": "JD Vance",
+    "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/61122b05-65d6-4a71-b707-015ae3709f91/1c1917ea-9a71-47a1-a4ae-bf4ee795a549/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+    "real_url": "https://www.foxnews.com/video/6403395602112",
+    "bias": "R",
+    "topic": "Iran",
     "region": "US"
   },
   {
@@ -400,6 +464,22 @@
     "region": "US"
   },
   {
+    "id": "a4c438c0533b",
+    "title": "Jim DeMint: The Wall Street Journal\u2019s Outbreak Of \u2018Vance Derangement\u2019",
+    "source": "The Daily Wire",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.dailywire.com/news/jim-demint-the-wall-street-journals-outbreak-of-vance-derangement",
+    "published": "2026-08-14T10:56:46+00:00",
+    "published_display": "Aug 14, 2026",
+    "query": "direct_feed",
+    "image": "https://dw-wp-production.imgix.net/2026/08/GettyImages-2285249534.jpg?ar=16%3A9&auto=compress&crop=faces&cs=origin&fit=crop&w=1200&h=800&ixlib=react-9.11.0",
+    "real_url": "https://www.dailywire.com/news/jim-demint-the-wall-street-journals-outbreak-of-vance-derangement",
+    "bias": "R",
+    "topic": "Economy",
+    "region": "US"
+  },
+  {
     "id": "48426e351e9e",
     "title": "JD Vance calls for DOJ investigation into alleged fraud in transgender care for minors",
     "source": "PinkNews",
@@ -638,6 +718,22 @@
     "bias": "C",
     "topic": "Immigration",
     "region": "Middle East"
+  },
+  {
+    "id": "6af6173d56ec",
+    "title": "COMMENTARY: Vance&#x27;s remark just well-timed joke",
+    "source": "The Facts",
+    "source_url": "https://thefacts.com",
+    "source_domain": "thefacts.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTjFrTHpVcjc4MnVENjZzdldxVXdtNmwxSGFBdl82eVlQWGlCaDA4NUFhRUdPTkdWazBEbm1HLUhUTkFDYlZiOVRrY1NUaEQ2UmJlcTdSdGlrakg0dnIySlBMZTREZWYtMWZxWnFUbHQyRE1BZDZzM0FCN0FscENKeGs0WFJEVTVnaFpONlJQLUZUQlpCUlRNMkxsUzlBbXJpTVlHX1VSY2ZNWl96SUFOdlhLNmJDcS1wdFJkbUJETTJyQQ?oc=5",
+    "published": "2026-08-14T07:00:00+00:00",
+    "published_display": "Aug 14, 2026",
+    "query": "Vice President Vance",
+    "image": "https://bloximages.chicago2.vip.townnews.com/thefacts.com/content/tncms/assets/v3/editorial/6/80/6808bbb0-b727-483b-8825-c2422ddbd8c1/6a3560cd6a23c.image.jpg?crop=1762%2C926%2C0%2C124&resize=1200%2C631&order=crop%2Cresize",
+    "real_url": "https://thefacts.com/opinion/commentary-vances-remark-just-well-timed-joke/article_8c62f4d6-62db-4f1a-b8a4-be4f2e37880b.html",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
   },
   {
     "id": "b108408d0d6f",
