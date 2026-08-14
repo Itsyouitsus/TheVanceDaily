@@ -1,5 +1,37 @@
 [
   {
+    "id": "2b5af027ea16",
+    "title": "Trump dismisses rising gas prices as \u2018OK\u2019 while Vance calls lower prices top goal",
+    "source": "MS NOW",
+    "source_url": "https://www.ms.now",
+    "source_domain": "www.ms.now",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcVpzaHRpTDRGNjJncUl2aXhYUXRNZTFHMWF2VElSQkJLVDJ6QlV3TVNNT3JwdTVQNi03X1dkbkQyMDhaM1hLOVVZcVVzLXBvRnNyYlhOT01kSmo4OVJVNGQ2S2xzVUpIN1UxbUJvV0Jqam15cGhyMV83SC1iek5qLWpQQ0Z0ZTN2WEZDTWtMZ2FJRE9xRDdQdHpIT20zeDFicW5UeElR?oc=5",
+    "published": "2026-08-14T22:02:14+00:00",
+    "published_display": "Aug 14, 2026",
+    "query": "JD Vance",
+    "image": "https://www.ms.now/wp-content/uploads/2026/08/260814-president-donald-trump-nassau-county-police-academy-garden-city-new-york-crime-report-gas-prices-es.webp?crop=0px,191px,1600px,840px&w=1200&h=630",
+    "real_url": "https://www.ms.now/news/trump-dismisses-rising-gas-prices-as-ok-while-vance-calls-lower-prices-top-goal",
+    "bias": "?",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "4c8086b88af6",
+    "title": "JD Vance\u2019s \u2018Fatphobic\u2019 Comment About What Someone Eats Has Experts Raising An Important Concern",
+    "source": "HuffPost",
+    "source_url": "https://www.huffpost.com",
+    "source_domain": "www.huffpost.com",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTUtUdkFaTmswVEZCX2tnQlFpQTExcWctXzhaaHZZWVhacFBrNjNCZllnb1FSeFJHZ2hpeklZTFloRUxPRzZ5cmtfUExnZzEyeC1MQmhhbkt6SDVnR1dIUVBDdVZISVotRFl3YzluQWgyM0hhQ2gtZEF2SEUtSDNxYnFkWmd0eTNfTUEydNIBkgFBVV95cUxPS1EwRHhSRjdUZUxUalpscWE1Vk12M2dJMkZqYU04dGlldzVSZWxVSldMSmdCYjRPNW1mby12eXpWaEtxUURVZVFaQy13Mm1LOVhrWkVVSkV2blhGbGNQSXBvMjY1dHpNWExOQXY4UzZKclZhMndfUkNrOGtXcVFBX2xqeHRWU1h1WXBRM3VoUkdtUQ?oc=5",
+    "published": "2026-08-14T21:21:48+00:00",
+    "published_display": "Aug 14, 2026",
+    "query": "JD Vance",
+    "image": "https://img.huffingtonpost.com/asset/6a7f5c3e230000cd017c9692.jpeg?cache=EXxgl1PP4E&ops=1200_630",
+    "real_url": "https://www.huffpost.com/entry/jd-vance-fatphobia-burrito_n_6a7df93de4b0c90844000c93",
+    "bias": "L",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "4021d54c1f21",
     "title": "Trump says he will soon declare the Strait of Hormuz a U.S. territory",
     "source": "NBC News",
@@ -45,6 +77,22 @@
     "real_url": "https://www.foxnews.com/video/6403408572112",
     "bias": "R",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "23f3f51ebf10",
+    "title": "Fox\u2019s Mark Levin Takes a Veiled Swipe At JD Vance\u2019s New Iran Objectives",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQUVuRExyVEFfaXlwYkZNMUw2NnIwc3llN0VISHBJVkxodmtPTEFRQnFHT1BYbkhqMW1jaVdnalp2NVRMOWdQc0VaaG1CbW5TeFB4eFFWaURtTTRHZUhWWjVBbnFqeHpFVGhkWXFVekJ1TmlGaUY3Z0UzVzllLVdNN1JLVHRNUlpsQ2dfQzZUMVc?oc=5",
+    "published": "2026-08-14T19:33:21+00:00",
+    "published_display": "Aug 14, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/4975d74c7a8ac82e5bfd131b570f99ad66b33719c004c7d7e5704f8eacdb21ce/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmediaite_845%2F9ba424ddebeeffc56a14807121fb06da.jpg",
+    "real_url": "https://www.yahoo.com/news/politics/articles/fox-mark-levin-takes-veiled-193321643.html",
+    "bias": "C",
+    "topic": "Iran",
     "region": "US"
   },
   {
@@ -907,6 +955,22 @@
     "query": "Vice President Vance",
     "image": "",
     "real_url": "https://www.axios.com/2026/08/14/andy-baker-national-security-needham-sims",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "ffe2a78fb7d4",
+    "title": "A convergence of biological risks",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/08/14/biological-threats-ai-lab-research",
+    "published": "2026-08-14T09:00:05+00:00",
+    "published_display": "Aug 14, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/08/14/biological-threats-ai-lab-research",
     "bias": "C",
     "topic": "General",
     "region": "US"
