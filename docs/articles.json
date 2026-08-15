@@ -1,5 +1,21 @@
 [
   {
+    "id": "f37ddfe1193f",
+    "title": "Peltola distances herself from Kamala Harris endorsement ahead of Alaska primary",
+    "source": "The Hill",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://thehill.com/homenews/campaign/6031348-peltola-distancing-harris-endorsement/",
+    "published": "2026-08-15T14:38:10+00:00",
+    "published_display": "Aug 15, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://thehill.com/homenews/campaign/6031348-peltola-distancing-harris-endorsement/",
+    "bias": "C",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "def61db9b5db",
     "title": "Trump changed Republican economics. Now the GOP has to figure out how to sell it.",
     "source": "Politico",
@@ -13,6 +29,22 @@
     "real_url": "https://www.politico.com/news/2026/08/15/trump-changed-republican-economics-now-the-gop-has-to-figure-out-how-to-sell-it-01037239",
     "bias": "LL",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "5c077d28d080",
+    "title": "Water, watts, and workers: 3 persistent myths about AI and data centers",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/columns/opinion/water-watts-and-workers-3-persistent-myths-about-ai-and-data-centers",
+    "published": "2026-08-15T13:30:00+00:00",
+    "published_display": "Aug 15, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/columns/opinion/water-watts-and-workers-3-persistent-myths-about-ai-and-data-centers",
+    "bias": "R",
+    "topic": "Tech & AI",
     "region": "US"
   },
   {
@@ -269,6 +301,22 @@
     "real_url": "https://www.aol.com/articles/cnn-host-points-glaring-contradiction-030505000.html",
     "bias": "C",
     "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "37da63306cdc",
+    "title": "Andy Baker, one of Vance\u2019s closest foreign policy advisors, to depart White House",
+    "source": "Jewish Insider",
+    "source_url": "https://jewishinsider.com",
+    "source_domain": "jewishinsider.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZXNmTnRBNFd3UTd0cU9WbW0zNDcyY1VyZGJmZWVRZFNIYlZnMUljRVRyNG42NjBIcktRbnFGMFljSm5WdmNDNVRxeWVoSzdtTXRMQzdmQ3hKUHFnSjRyN2VHMG5WbHZ1QjhZdU0td05TQnFjdm9WRDdqNFc5MzNhcXotQ3hzV0N6Xy1qTFNUV3k1b2YyaWNLTlZlYUppSTVSblQ5RWdxUHFrQU1SVGpaanpiY0pvRmE0aVJEZWxR?oc=5",
+    "published": "2026-08-15T03:10:03+00:00",
+    "published_display": "Aug 15, 2026",
+    "query": "JD Vance",
+    "image": "https://image.jewishinsider.com/wp-content/uploads/2026/08/14230007/GettyImages-2199567799-scaled.jpg",
+    "real_url": "https://jewishinsider.com/2026/08/andy-baker-one-of-jd-vances-closest-foreign-policy-advisors-is-leaving-the-white-house/",
+    "bias": "LL",
+    "topic": "Foreign Policy",
     "region": "US"
   },
   {
