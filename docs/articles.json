@@ -1,5 +1,21 @@
 [
   {
+    "id": "def61db9b5db",
+    "title": "Trump changed Republican economics. Now the GOP has to figure out how to sell it.",
+    "source": "Politico",
+    "source_url": "https://www.politico.com",
+    "source_domain": "www.politico.com",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNS0I0UHBaYWtjYjVmWXdweGw2YU8ybGgzamhpeE9uNGlpc0syT0VHbm1hYWxZR1ByMV9kLS1uQzIyX0pIMXpHSEFyRWdxdl9XemlHdGp1Nm5xeXRvV0twV3llSFFFTWlkSWszM2lRVENiNnFhVXpiZnZscjdlMzE5UjdBdG9UUjZqdjZCeFQ5TnNoSlpWQ2tNTW9iV0ktZVhJenFBdWZra0p5SlVMeEN5c0xxcFJlR2RJVVN5SG54N0dWbVoxMndiNw?oc=5",
+    "published": "2026-08-15T14:00:00+00:00",
+    "published_display": "Aug 15, 2026",
+    "query": "Vance Republican",
+    "image": "",
+    "real_url": "https://www.politico.com/news/2026/08/15/trump-changed-republican-economics-now-the-gop-has-to-figure-out-how-to-sell-it-01037239",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "884abf0acee6",
     "title": "Deputy national security adviser Andy Baker to leave White House: Report",
     "source": "The Hill",
@@ -206,6 +222,22 @@
     "bias": "?",
     "topic": "Foreign Policy",
     "region": "US"
+  },
+  {
+    "id": "5cd42de833dc",
+    "title": "US won\u2019t allow Iran develop nuclear weapon",
+    "source": "Daily Post Nigeria",
+    "source_url": "https://dailypost.ng",
+    "source_domain": "dailypost.ng",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR2JPLTRHanVMYndDQm13QWlJQUJIQ0ZyakliMFVHNzNEVWZvTjVRUU1ZTTJ6TU5obGdlN192LVhvdWNsZkRLZW1tVkR6VHA4am55SG1OZ3RMYnc1cy15SEx1cUZSWUNRU3VaMHE0eTdZNTNpT2FzZXdSWjNvUk9BLVdDR0hQYjg?oc=5",
+    "published": "2026-08-15T05:42:44+00:00",
+    "published_display": "Aug 15, 2026",
+    "query": "Vance policy",
+    "image": "https://dailypost.ng/wp-content/uploads/2026/04/JD-Vance.jpg",
+    "real_url": "https://dailypost.ng/2026/08/15/us-wont-allow-iran-develop-nuclear-weapon-vance/",
+    "bias": "?",
+    "topic": "Iran",
+    "region": "Africa"
   },
   {
     "id": "cbf62a847062",
