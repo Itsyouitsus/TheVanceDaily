@@ -1,5 +1,37 @@
 [
   {
+    "id": "778429b99f46",
+    "title": "Charles G. Dawes: An Accidental Music Sensation",
+    "source": "National Review",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.nationalreview.com/2026/08/charles-g-dawes-an-accidental-music-sensation/",
+    "published": "2026-08-15T10:30:04+00:00",
+    "published_display": "Aug 15, 2026",
+    "query": "direct_feed",
+    "image": "https://i0.wp.com/www.nationalreview.com/wp-content/uploads/2026/08/charles-dawes.jpg?fit=2057%2C1200&ssl=1",
+    "real_url": "https://www.nationalreview.com/2026/08/charles-g-dawes-an-accidental-music-sensation/",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "c13d9c8072cb",
+    "title": "Is Tucker Carlson a plausible 2028 presidential candidate?",
+    "source": "Washington Examiner",
+    "source_url": "https://www.washingtonexaminer.com",
+    "source_domain": "www.washingtonexaminer.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdXBrN2c5aFZOcWRINVQ1VFAzOU8tbHlwb0wzR010VWtwVmkySDhwaEpJb1ZCMV9JUzVncmVvOE5YUWlCamd1YWo3SkttdjdMbUJzVXNMSl9XTHAwYTY1RXZ5MU5oWU1UaGpzOTZKWmNrZTF6S0JZV0VEcDQ0T1FWRHY3a1h4c0k2YmRxZjVpdjMwOWJhempBUFNuazNfMVBvQUhoeXJnSmg?oc=5",
+    "published": "2026-08-15T10:27:00+00:00",
+    "published_display": "Aug 15, 2026",
+    "query": "Vance Republican",
+    "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/06/GettyImages-2252102624.jpg?resize=1200,683",
+    "real_url": "https://www.washingtonexaminer.com/magazine/4681174/tucker-carlson-plausible-2028-presidential-candidate/",
+    "bias": "LR",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "89f3783b43ea",
     "title": "Washington Roundup: Leavitt to step down, Vance urges DOJ investigation over \u2018gender ideologies\u2019",
     "source": "OSV News",
