@@ -1,5 +1,37 @@
 [
   {
+    "id": "d3ae57c0feab",
+    "title": "YouTube \u201928 &amp; The Search for the Swing Voter",
+    "source": "PUCK.news",
+    "source_url": "https://puck.news",
+    "source_domain": "puck.news",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QME1BTkJPNVcyMkJKdVRvZ01GbXBGSndZQ0IxYnBPbnJCa18tZGtxQzlSaUlIMkw1QTBwZlIwa25jSi11TlhjazJfMUlRZE5CenhGLTRhU1ZRaFdlY3c4dHRTS1Y4VWFZMTl3?oc=5",
+    "published": "2026-08-16T21:45:00+00:00",
+    "published_display": "Aug 16, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://puck.news/how-is-ai-data-mined-to-influence-voters/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "45c4083b5dea",
+    "title": "Vance and Trump clash over Iran war as &#x27;skeptical&#x27; VP prioritizes goal president outright denied",
+    "source": "Irish Star",
+    "source_url": "https://www.irishstar.com",
+    "source_domain": "www.irishstar.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10TGNLMFVyYmJhSVRteER1Nkwtbzl1YTdCWktTeFYtMzI1UnNuVEpnUHNoUmV3ZHhrRFdvYkVSNUd5WTlNaUliNjI0X2xSajhTb2FONGFJT2RLbmtyTGQ0aE9TODRvanVCemJaNUxKcnVfVVdEMUZ5SU50WFBFUTTSAYQBQVVfeXFMTlhZbnJaUTdOcXFoN3BrYmV5V3d1a0pwNy1MZ1cycnQ4UEExXzhhMEtGNUYzaEQ5dV8wWHB5LVVxUjd5Ny03NzFYckxORzdJSF9rMDltMlZlUjdSZXRXaTdjV3ByN1dueUx0UURxczdUWmdHWGdLS2NlV3NhM3RuZ2cxUnZl?oc=5",
+    "published": "2026-08-16T18:35:00+00:00",
+    "published_display": "Aug 16, 2026",
+    "query": "Vice President Vance",
+    "image": "https://i2-prod.irishstar.com/article37557065.ece/ALTERNATES/s1200d/0_BESTPIX-Late-Senator-Lindsey-Graham-Memorialized-In-Washington-DC.jpg",
+    "real_url": "https://www.irishstar.com/news/us-news/jd-vance-donald-trump-iran-37557021",
+    "bias": "?",
+    "topic": "Iran",
+    "region": "Europe"
+  },
+  {
     "id": "89cdc97fab5e",
     "title": "Is Kamala Harris turning into a political liability?",
     "source": "UnHerd",
@@ -187325,6 +187357,22 @@
     "real_url": "https://www.washingtonpost.com/ripple/2026/04/18/harris-leads-democrats-2028/",
     "bias": "LL",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "a9ef042ac827",
+    "title": "JD Vance Spoke To A Mostly Empty Arena &amp; The Excuses Are Something Else",
+    "source": "LittleThings.com",
+    "source_url": "https://littlethings.com",
+    "source_domain": "littlethings.com",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzOUJvMS1BTUxyeGtKQTJ0anB2NF9UUmhVSE5KelU1V09BbURJdHNETDAzZW12LVFLTHJkWWhLTGxiOUNlRzJtcXF3ZDFWTjdSaHNFREp6cVMza2lnekFuSnh4RnN4azBZQXVV?oc=5",
+    "published": "2026-04-18T07:00:00+00:00",
+    "published_display": "Apr 18, 2026",
+    "query": "JD Vance speech",
+    "image": "https://littlethings.com/wp-content/uploads/2026/04/GettyImages-2271364078-scaled-e1776271140535.jpg",
+    "real_url": "https://littlethings.com/entertainment/jd-vance-empty-arena",
+    "bias": "?",
+    "topic": "General",
     "region": "US"
   },
   {
