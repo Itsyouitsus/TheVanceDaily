@@ -64,6 +64,22 @@
     "region": "US"
   },
   {
+    "id": "3112610f802b",
+    "title": "SCOFF LIMITS: Trump-trashing \u2018South Park\u2019 somehow skipped Biden",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/lifestyle/scoff-limits-trump-trashing-south-park-somehow-skipped-biden",
+    "published": "2026-08-15T20:00:00+00:00",
+    "published_display": "Aug 15, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/lifestyle/scoff-limits-trump-trashing-south-park-somehow-skipped-biden",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "ff77a7f4ad70",
     "title": "Dem Senate Hopeful Runs From Kamala Harris Support",
     "source": "The Daily Wire",
@@ -877,6 +893,22 @@
     "real_url": "https://truthout.org/articles/dems-warn-new-federal-guidance-may-harm-nursing-home-residents-voting-rights/",
     "bias": "?",
     "topic": "Military",
+    "region": "US"
+  },
+  {
+    "id": "f30a55a92b21",
+    "title": "White House national security official Andy Baker to depart administration",
+    "source": "Reuters",
+    "source_url": "https://www.reuters.com",
+    "source_domain": "www.reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdVZWYTBDM3BfQVJhWmZkVXI5YW03RHUwT214QkNrYTZrdkxEWU9GamsxUy11T3F5ekxRUFE2cG9xVGFhYUFXcXF4YmdCYlRfTEt0RXJacUp2SERuT1UtOWhqdjB4elRPcWh4bkw5NWs0akk1ekxlZlJDQ01FelJkcnpWZXJRMkFmQTdUZ1lxUE1WYW9ucHRfS201dWs4YXMxd2N4MmUwS0lveWtMeEk4SDlXLXJIQ0k?oc=5",
+    "published": "2026-08-14T16:23:03+00:00",
+    "published_display": "Aug 14, 2026",
+    "query": "Vice President Vance",
+    "image": "",
+    "real_url": "https://www.reuters.com/world/us/white-house-national-security-official-andy-baker-depart-administration-2026-08-14/",
+    "bias": "C",
+    "topic": "Domestic",
     "region": "US"
   },
   {
