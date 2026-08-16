@@ -1,5 +1,21 @@
 [
   {
+    "id": "20da005e887b",
+    "title": "How \u2018Psychopath\u2019 Trump\u2019s Mayhem Will Backfire in 2028 for Republicans",
+    "source": "Zeteo",
+    "source_url": "https://zeteo.com",
+    "source_domain": "zeteo.com",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zc2x3MVE0b2pvSWk2cnR1MjBoV3ctRzdPdUVYQjlhc19SVnZtWGhTaDFILU1fYzJQbFAyN2RnUDl2bnhWWE1LbVVnZGNTWU9PNWxVeVNFUTM2VDNPYXpaSEtLRQ?oc=5",
+    "published": "2026-08-16T13:04:14+00:00",
+    "published_display": "Aug 16, 2026",
+    "query": "Vance Republican",
+    "image": "https://substackcdn.com/image/fetch/$s_!pcgW!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F210977996%2Fdd264799-3d49-4c25-8ff6-89ef6b383d9c%2Ftranscoded-00000.png",
+    "real_url": "https://zeteo.com/p/how-psychopath-trumps-mayhem-will",
+    "bias": "?",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "98d81eadb09f",
     "title": "A Win for Dark Money",
     "source": "The Atlantic",
@@ -13,6 +29,38 @@
     "real_url": "https://www.theatlantic.com/ideas/2026/08/trump-business-dark-money/688290/",
     "bias": "L",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "8034ba48598b",
+    "title": "Trump\u2019s Last Loyal Constituency",
+    "source": "The Atlantic",
+    "source_url": "https://www.theatlantic.com",
+    "source_domain": "www.theatlantic.com",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObWlKN18yNmZoT1hLd3ZGYmhKaS1sX2VtRlFUNjYzZkFBN0xCeFVWTlhQY1hqdWhsRTVJVWtodzBhV1BPc3dVc3FWS0NZUV8yY0xVa21tejFMYmpGM0RYMlBWUDNFN0t0SlVrMlQwN1g0cGFJNUo2aDZqQlpoQmRSaw?oc=5",
+    "published": "2026-08-16T10:00:00+00:00",
+    "published_display": "Aug 16, 2026",
+    "query": "JD Vance",
+    "image": "https://cdn.theatlantic.com/thumbor/ffz6eqXiEwgG3JfgdSyDBkT1Aq8=/0x61:2876x1559/1200x625/media/img/mt/2026/08/2026_08_14_Trump_Makes_Life_Harder_for_Honest_Business_Owners_2288053818/original.jpg",
+    "real_url": "https://www.theatlantic.com/ideas/2026/08/trump-business-dark-money/688290/",
+    "bias": "L",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "038306f9e143",
+    "title": "Can Republicans Hold the Senate? Chances Less Than 85 Days From Midterms",
+    "source": "Newsweek",
+    "source_url": "https://www.newsweek.com",
+    "source_domain": "www.newsweek.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcmVOT1BwMnlRb0hSNjA5a1E4UTJoTHJxXzJubFVGZVh6NGVWaGUzdHlmYlhMcXM3R2FnOUNYV2F2aU44WlJPV0VHM25RYW8xajBGRnZYNzNDbnlqSzBucEtoTnY3SHBqbks2MGZvSUhTWExKd045UTR1M3lSdW5acExaZ0ZLRWRDT2FKQWJMX2JqbnZDNXFJTnBVWEtKdEVZRENyS1hvX2k?oc=5",
+    "published": "2026-08-16T09:00:00+00:00",
+    "published_display": "Aug 16, 2026",
+    "query": "Vance Republican",
+    "image": "https://assets.newsweek.com/wp-content/uploads/2026/08/Copy-of-32-image-2026-08-13T142554-886.png?w=1200&crop=1",
+    "real_url": "https://www.newsweek.com/can-republicans-hold-the-senate-chances-less-than-85-days-from-midterms-12318269",
+    "bias": "LL",
+    "topic": "Domestic",
     "region": "US"
   },
   {
