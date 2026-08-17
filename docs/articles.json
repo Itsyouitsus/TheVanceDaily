@@ -1,5 +1,21 @@
 [
   {
+    "id": "49e66ab80af1",
+    "title": "JD Vance&#x27;s mother speaks at Selma sober living gala",
+    "source": "CBS 17",
+    "source_url": "https://www.cbs17.com",
+    "source_domain": "www.cbs17.com",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbVkxRDU2dzhqNzk3VWtYekxqQUtURTljY1J1ZEVTMlZNZmlWVXo4Qzk2X0N2T3pYbmFDWjB3c3ZCX1R3RzBnbHhCV2h4VWphaUhTM0xnOG9yZFpDMEpVbl94Yk1NdlJFYXM5VFByekFpRFBVYkJaLTAxaG9LUFBDakFaeWNBNm1wcEZXMjA1UnJMQQ?oc=5",
+    "published": "2026-08-17T10:58:59+00:00",
+    "published_display": "Aug 17, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://www.cbs17.com/video/jd-vances-mother-speaks-at-selma-sober-living-gala/12075032/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "ed1129c67747",
     "title": "Contradicting Vance, Trump vows \u2018number one goal\u2019 is stopping Iran going nuclear",
     "source": "The Times of Israel",
@@ -382,6 +398,22 @@
     "bias": "LL",
     "topic": "Iran",
     "region": "US"
+  },
+  {
+    "id": "cddf3a25273e",
+    "title": "How the pro-Trump right is rehabilitating Richard Nixon",
+    "source": "Lemonde.fr",
+    "source_url": "https://www.lemonde.fr",
+    "source_domain": "www.lemonde.fr",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMEdTOEdQV1NkcVFzd0pCLU5OSXY1VTJGaDhjbG85ZmxqYkgteDZqM2c5d2xVZkgxNVJwOFMtTDNGTHV5WWVZdXduQWo1VlhHaEgxWlhVYmxhX1NEUmlQU0xnYXVhbEtIVEhsblRTMnpuTDlPd0ZxMGotRFk4U1dBaXNoNUtUdjN1WjJReTBuemlCRmRzWG54Rm9DRTE2NEl3dld4bjFSMlVHaGJmUTlYa0t5Q2FWWXBxWGtZOEtHdHpzN2xpUmpxRg?oc=5",
+    "published": "2026-08-16T03:21:37+00:00",
+    "published_display": "Aug 16, 2026",
+    "query": "JD Vance",
+    "image": "https://img.lemde.fr/2026/08/05/0/2/1959/1306/1440/960/60/0/86e4e7e_upload-1-q43hoi9veayx-000-sapa981221083380.jpg",
+    "real_url": "https://www.lemonde.fr/en/international/article/2026/08/16/how-the-pro-trump-right-is-rehabilitating-richard-nixon_6756570_4.html",
+    "bias": "?",
+    "topic": "General",
+    "region": "Europe"
   },
   {
     "id": "2cb48e870dcc",
