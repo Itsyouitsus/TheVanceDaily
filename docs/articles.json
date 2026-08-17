@@ -1,5 +1,37 @@
 [
   {
+    "id": "5d3bde5fc00a",
+    "title": "This new list of possible Democrat presidential candidates for 2028 is a TOTAL JOKE",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/shows/the-glenn-beck-program/this-new-list-of-possible-democrat-presidential-candidates-for-2028-is-a-total-joke",
+    "published": "2026-08-17T21:00:00+00:00",
+    "published_display": "Aug 17, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/shows/the-glenn-beck-program/this-new-list-of-possible-democrat-presidential-candidates-for-2028-is-a-total-joke",
+    "bias": "R",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "6f3fb240999a",
+    "title": "&#x27;Expert witness&#x27; humiliated in $61 million lawsuit after lawyers discover one insane detail",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/tech/expert-witness-3m-explosion-case",
+    "published": "2026-08-17T20:20:00+00:00",
+    "published_display": "Aug 17, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/tech/expert-witness-3m-explosion-case",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "31f1dbd45989",
     "title": "Majority of Americans say they\u2019re worse off financially since Trump took office again: Poll",
     "source": "Denver Gazette",
@@ -142,6 +174,22 @@
     "bias": "LR",
     "topic": "2028 Race",
     "region": "US"
+  },
+  {
+    "id": "0d00e4e32282",
+    "title": "&quot;The Nerd Reich&quot;: Author Gil Dur\u00e1n on Big Tech Fascism, Peter Thiel, JD Vance &amp; the War on Democracy",
+    "source": "YouTube",
+    "source_url": "https://youtu.be",
+    "source_domain": "youtu.be",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jZzEtTVBFa0F4YTdNTm1aUlk3b0d2ei1rbkFoUUd1WjlOTDlvbTU3WXpZalpYVlkyWmtsZWUtZjZrMEhpMEdtU1duNzlyX0piSVdPT2U5THVqNGNL?oc=5",
+    "published": "2026-08-17T14:57:50+00:00",
+    "published_display": "Aug 17, 2026",
+    "query": "JD Vance",
+    "image": "https://i.ytimg.com/vi/sg7YNUbaV-8/maxresdefault.jpg",
+    "real_url": "https://youtu.be/sg7YNUbaV-8?si=gNymtQUsg_jJqMHy",
+    "bias": "?",
+    "topic": "Tech & AI",
+    "region": "Europe"
   },
   {
     "id": "0bbfbf8aceca",
@@ -493,6 +541,22 @@
     "real_url": "https://puck.news/how-is-ai-data-mined-to-influence-voters/",
     "bias": "?",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "85029228b739",
+    "title": "GOP anxiety builds over Iran war",
+    "source": "PressReader",
+    "source_url": "https://www.pressreader.com",
+    "source_domain": "www.pressreader.com",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVlhuNG9adERZQkhVLW9JQlQ4N2M1dWtWYlloeWQya3RDME9uUUFiZ1R3Z2pIV0xjOG9sR2RGczlVR3pPOC1aTXlNUnZCcEhuM2xiTWZ0UVFVd1NMcFREM3pDRWstU3B2YWZrNDRtZE5mWGJ6RGRJQXQtTV9GTVdaYTZnSjI3U2NhZXJB?oc=5",
+    "published": "2026-08-16T20:56:28+00:00",
+    "published_display": "Aug 16, 2026",
+    "query": "Vance Republican",
+    "image": "https://t.prcdn.co:443/img?regionKey=DehR4w0lwpsydwiuZuS%2BBw%3D%3D&scale=400",
+    "real_url": "https://www.pressreader.com/usa/the-topeka-capital-journal/20260817/281586657429297",
+    "bias": "?",
+    "topic": "Iran",
     "region": "US"
   },
   {
