@@ -1,5 +1,37 @@
 [
   {
+    "id": "0088edf1b3e6",
+    "title": "&#x27;Threats will not stop us&#x27;: Lila Rose&#x27;s pro-life group tells radicals to pound sand after legal threat over calling abortion &#x27;killing&#x27;",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/news/threats-will-not-stop-us-live-action-tells-radicals-to-pound-sand-following-legal-threat-for-calling-abortion-killing",
+    "published": "2026-08-18T17:15:00+00:00",
+    "published_display": "Aug 18, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/news/threats-will-not-stop-us-live-action-tells-radicals-to-pound-sand-following-legal-threat-for-calling-abortion-killing",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "a94c11e5508a",
+    "title": "Trump attacks \u2018fake Republican\u2019 Drummond in fiery Oklahoma gubernatorial runoff",
+    "source": "The Hill",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://thehill.com/homenews/campaign/6035465-trump-attacks-drummond-oklahoma-governor-runoff/",
+    "published": "2026-08-18T16:57:59+00:00",
+    "published_display": "Aug 18, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://thehill.com/homenews/campaign/6035465-trump-attacks-drummond-oklahoma-governor-runoff/",
+    "bias": "C",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
     "id": "a882c2ba64e1",
     "title": "Vance Pitches a New Objective for the Iran War",
     "source": "Foreign Policy",
