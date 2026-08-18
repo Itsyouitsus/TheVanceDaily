@@ -1,5 +1,21 @@
 [
   {
+    "id": "1e00f5848fcb",
+    "title": "JD Vance mocked for backing Trump on Iran because US has lots of &#x27;tools at our disposal&#x27;",
+    "source": "AOL News",
+    "source_url": "https://www.aol.com",
+    "source_domain": "www.aol.com",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1XYjlZNlpnX1U0WFMxNHBxaXJHdlhkQUVpcjhJZ2tYNy1HeG5xQXdDQkpBR2R4djR2U2NwMEZSVWZPQ0x1R2xsZnJSRlJxZlZweFZfX0o1amdId3VONkYxOU0wZ2lPMDd4dkVzalVMN1A0X0t6SVpzakp6Z3pXZw?oc=5",
+    "published": "2026-08-18T03:00:12+00:00",
+    "published_display": "Aug 18, 2026",
+    "query": "JD Vance",
+    "image": "https://hermes.media.static.aol.com/media/2026/08/14/371ef6b8-86da-316a-a7e4-5fcdfcb7f044/083542ef-c31e-4118-b5ad-5f3a6d065e67.jpg",
+    "real_url": "https://www.aol.com/articles/jd-vance-mocked-backing-trump-050445000.html",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
     "id": "43fb99cd7791",
     "title": "&#x27;Clock is moving&#x27;: US sanctions pose a threat to Iran&#x27;s economy, analyst says",
     "source": "KRCR",
@@ -10141,6 +10157,22 @@
     "real_url": "https://www.aol.com/articles/donald-trump-subtly-trashes-jd-070325000.html",
     "bias": "C",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "ca3f049d8274",
+    "title": "ICYMI: Bresnahan Joins Vice President Vance at White House Anti-Fraud Task Force Roundtable",
+    "source": "Representative Rob Bresnahan",
+    "source_url": "https://bresnahan.house.gov",
+    "source_domain": "bresnahan.house.gov",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMEhDN3NIQ0VFT0FTanF6eS1lOVJvdkFQMlFCSTZEa0hScERSbDA2cVUzdXZ0Z1otM3hidFEtUXJhemlUcGxUbkpudWtDVVlORzA1am9VQjg5Vzk3VE82TjF0eE1hX2hGbmowckhtY2lZYjJQV1Mzb3YxWl9NaGtXU081RlppMjltbDhrMmgxS0lqUDBDUTNhbG0zb0RSQlZlQWNFX0RJbTNyQkFUZFcwbVF5Z0lYOVlBTDJJSHIzdDdyS1U?oc=5",
+    "published": "2026-08-07T07:00:00+00:00",
+    "published_display": "Aug 07, 2026",
+    "query": "Vice President Vance",
+    "image": "https://bresnahan.house.gov/profiles/evo/assets/images/Seal_of_the_United_States_House_of_Representatives.png",
+    "real_url": "https://bresnahan.house.gov/media/press-releases/icymi-bresnahan-joins-vice-president-vance-white-house-anti-fraud-task-force",
+    "bias": "?",
+    "topic": "Immigration",
     "region": "US"
   },
   {
