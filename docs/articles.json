@@ -1,5 +1,21 @@
 [
   {
+    "id": "65f2218a2727",
+    "title": "Women are missing out on the AI jobs boom",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/08/18/ai-women-jobs-hiring",
+    "published": "2026-08-18T07:46:05+00:00",
+    "published_display": "Aug 18, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/08/18/ai-women-jobs-hiring",
+    "bias": "C",
+    "topic": "Economy",
+    "region": "US"
+  },
+  {
     "id": "a4da26a9ecee",
     "title": "Donald Trump &amp; JD Vance Can\u2019t Agree on What Comes First in Iran",
     "source": "Yahoo",
@@ -93,6 +109,22 @@
     "real_url": "https://www.cnn.com/2026/08/17/politics/video/ebof-air-force-jason-watson-trump-impeachment-removal-us-capitol-arrest",
     "bias": "LL",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "f94a34bf788e",
+    "title": "JD Vance emphasizes strategic importance of Bitcoin for US government",
+    "source": "Crypto Briefing",
+    "source_url": "https://cryptobriefing.com",
+    "source_domain": "cryptobriefing.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4R0VPSFVYeTl6TXhnQm9nR0RUSnlOUHUyZEY1Z2htRWRRVE1jVEFhb1hwM1ZhcmduejIxbG9wU21oMEVpbWRxaHVwN010M3F5S3ZKNUZhRDBjZHBmSnVNcERiUjFyR0FKNDIzN2o5aGtGc1BLVVFn?oc=5",
+    "published": "2026-08-17T22:50:28+00:00",
+    "published_display": "Aug 17, 2026",
+    "query": "JD Vance",
+    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/17184347/j-d-vance-smiling-and-giving-a-thumbs-up-3-800x420.jpeg",
+    "real_url": "https://cryptobriefing.com/jd-vance-bitcoin-strategic-importance-us/",
+    "bias": "?",
+    "topic": "Tech & AI",
     "region": "US"
   },
   {
