@@ -1,5 +1,21 @@
 [
   {
+    "id": "0d92f4a9be22",
+    "title": "Drain the swamp? Meet the refill.",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/columns/opinion/drain-the-swamp-meet-the-refill",
+    "published": "2026-08-18T15:00:00+00:00",
+    "published_display": "Aug 18, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/columns/opinion/drain-the-swamp-meet-the-refill",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "0a26c9ef98cb",
     "title": "Alaska Democratic Senate candidate Peltola fires campaign staff ahead of Tuesday&#x27;s primary",
     "source": "Just The News",
@@ -926,6 +942,22 @@
     "bias": "?",
     "topic": "Iran",
     "region": "US"
+  },
+  {
+    "id": "4080216ee3f7",
+    "title": "I tried the Maga diet",
+    "source": "The Times",
+    "source_url": "https://www.thetimes.com",
+    "source_domain": "www.thetimes.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOREtyaXJhazA5VEF6a0NyZF9GUG9GY2Uwdkhvei1VS3hNb05qcUJrMUM1OU5mODd1V09xTmUtVHdLZmtEQ0hNZUZLSGVoQnZDNkxRcmZwRHU4eE1pMkljMGNPWEI3amhQYVRvWWgzdEV3MkRJOXh1bENkRmVJNjZZckk2Q0dwbkp6dG1wd3JXWDh2V19QN3BKQVpWTHhoOE42TDRLRlo2dFFTRWoySWZyQ3FOVk0xa24wVEdZRQ?oc=5",
+    "published": "2026-08-16T19:00:00+00:00",
+    "published_display": "Aug 16, 2026",
+    "query": "JD Vance",
+    "image": "https://www.thetimes.com/imageserver/image/84c4b53b-3a1b-43e5-983d-f9446e91a2c6.jpg?strip=all&format=webp&crop=5595px%2C3147px%2C0px%2C0px&resize=1200",
+    "real_url": "https://www.thetimes.com/life-style/health-fitness/article/maga-diet-steak-sauerkraut-experience-kennedy-vance-l5d59xsv0",
+    "bias": "C",
+    "topic": "General",
+    "region": "Europe"
   },
   {
     "id": "45c4083b5dea",
