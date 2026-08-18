@@ -1,5 +1,21 @@
 [
   {
+    "id": "a4da26a9ecee",
+    "title": "Donald Trump &amp; JD Vance Can\u2019t Agree on What Comes First in Iran",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSFhVVjR1QVd1VmZLcEM2UVFXdU1oU1AxRjkwei1CcHpESDF3UHhfUnlZcklEWFJwMVFHMVZ0V0dUUi1SSWhqQUhZY05JV2N1dHlHbjRDczRHMGlpQjFFZUFpaFBWNHF4VlhsQWg3T1FyQUROWW9sQnZCS0EyY1pseXB4aFU2NXB4cVBR?oc=5",
+    "published": "2026-08-18T07:08:01+00:00",
+    "published_display": "Aug 18, 2026",
+    "query": "Vice President Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/6e98c038f8359ecbcd5a54d3e1e1dabcc5ace061698d343a0d9008aa5938bf73/lightyear_networkapi/resizefill_w640_h360%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freality_tea_694%2Ff5622629204057d5add6bbaffb4df442.jpg",
+    "real_url": "https://www.yahoo.com/news/politics/articles/donald-trump-jd-vance-t-070801829.html",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
     "id": "8a7f66f3ca2e",
     "title": "Are Democrats Paving the Way for a President Vance?",
     "source": "Counterpunch.org",
@@ -293174,6 +293190,22 @@
     "image": "https://wehco.media.clients.ellingtoncms.com/imports/adg/photos/211265365_211264426-17f5942c6f3942e6bb014be5ae3cc577_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
     "real_url": "https://www.arkansasonline.com/news/2025/oct/11/vance-visits-indiana-to-push-new-districts/",
     "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "2a76428cce37",
+    "title": "Playbook: Inside JD Vance\u2019s redistricting rescue mission",
+    "source": "Politico",
+    "source_url": "https://www.politico.com",
+    "source_domain": "www.politico.com",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZzJPb1FwV0t2elBrX0tXMFEwRmpmTWcydS16RWxnU2F6X28zNmN3bm4tbkhOM1NBcldTemlTZEU1M3V1RHZmWkRreW9HM0gwdnBhd1FaWmQ3NERvbXlWMS1Nby05RTlaVGtXU21KTDBhSWZHZXoybEtlSmV3MzJKWllPWmVtUW5SRlkzRW5VYVZfdjNSNk5kSk1objdZNGNtSF8xVEl1ZTUxQUdwdGRsdw?oc=5",
+    "published": "2025-10-11T07:00:00+00:00",
+    "published_display": "Oct 11, 2025",
+    "query": "Vance Congress",
+    "image": "",
+    "real_url": "https://www.politico.com/newsletters/playbook/2025/10/11/inside-jd-vances-redistricting-rescue-mission-00604422",
+    "bias": "LL",
     "topic": "General",
     "region": "US"
   },
