@@ -1,5 +1,21 @@
 [
   {
+    "id": "29bc63903a21",
+    "title": "GOP Sen. Dan Sullivan, Democrat Mary Peltola advance to Alaska Senate race",
+    "source": "NBC News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.nbcnews.com/now/video/gop-sen-dan-sullivan-democrat-mary-peltola-advance-to-alaska-senate-race-268516933953",
+    "published": "2026-08-19T05:58:06+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "direct_feed",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_08/1787119080722_now_brk_election_primary_results_alaska_260818_S3_1920x1080-fvsyel.jpg",
+    "real_url": "https://www.nbcnews.com/now/video/gop-sen-dan-sullivan-democrat-mary-peltola-advance-to-alaska-senate-race-268516933953",
+    "bias": "LL",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
     "id": "0359616611e5",
     "title": "Tight Alaska Primary Previews Race That May Tip Senate Majority",
     "source": "Bloomberg",
@@ -141,6 +157,22 @@
     "real_url": "https://justthenews.com/politics-policy/holdmoskowitz-faces-challenger?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
     "bias": "LR",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "8f4f91fd61b7",
+    "title": "Former state rep tops ranked-choice slugfest as Alaska advances nominees for governor",
+    "source": "Fox News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.foxnews.com/politics/former-state-rep-tops-ranked-choice-slugfest-alaska-advances-nominees-governor",
+    "published": "2026-08-19T01:38:51-04:00",
+    "published_display": "Aug 19, 2026",
+    "query": "direct_feed",
+    "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/Alaska-flag.jpg",
+    "real_url": "https://www.foxnews.com/politics/former-state-rep-tops-ranked-choice-slugfest-alaska-advances-nominees-governor",
+    "bias": "R",
+    "topic": "Immigration",
     "region": "US"
   },
   {
