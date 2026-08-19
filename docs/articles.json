@@ -1,5 +1,21 @@
 [
   {
+    "id": "afe16382ed4b",
+    "title": "Trump\u2019s egocentric indifference is sinking the Republican Party",
+    "source": "The Hill",
+    "source_url": "https://thehill.com",
+    "source_domain": "thehill.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15NWpZT3I1V3BsOTBLSHI2cFAyNnVuMmNnbGRPZjlqRW4wV1J6dzEtamQ3TVlQNWRSM2hhQmF4bTRLZnZhZWdnMHhTWkpOSC05aF9BWjR5NmVWeDhFdy13Sm9hWXVaRGQ1d2F5UlBLYXAzRWtxdDg3TXF1bzVralnSAYQBQVVfeXFMTkUxVkFNQjdoeUhtUlRVU2o4SWdtamtkRlBOcDN3YlZRRElleWVPd0hFb2dHemdfYnpaTDRlczA5WXVwd0M5NnlpcktNYzdMOU50WEd6N0tNdV9kcWdBWlNJY005T3djanhJb2V3bUpCVTZwUDU5MGNiYVBwbUFvb3lZT2Yt?oc=5",
+    "published": "2026-08-19T13:00:00+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "Vance Republican",
+    "image": "",
+    "real_url": "https://thehill.com/opinion/campaign/6035993-trump-poll-numbers-cratering/",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "957a4521346f",
     "title": "Democracy Forward Reports Fourth Circuit Upholds Order Protecting Houses of Worship From Unlawful Immigration Enforcement by the Trump-Vance Administration",
     "source": "Sierra Sun Times",
@@ -205,6 +221,22 @@
     "real_url": "https://www.realclearmarkets.com/2026/08/19/jd_vances_policies_run_counter_to_his_middle_class_embrace_1201141.html",
     "bias": "?",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "bd03d866dc31",
+    "title": "Report shows Trump orders halt to Iran talks",
+    "source": "Madhyamamonline.com",
+    "source_url": "https://madhyamamonline.com",
+    "source_domain": "madhyamamonline.com",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUF9qTW5nTzQ1R2FKeEsxSy0wZnJha2VXNnUwMkFjTTJnMlhlSUNOMEU2d2dfTTlsamFQV1U1MUQ5eFdscmxsOWdrQ0wtaENYLWpxTVE3RUMzU2loMkcxY2JRaGNCRnZwdzdQbnU1V01OWHRhSDVHYV9ZZnA0OEF5YWdTNnhicVBnaVJ5bE5FMNIBlAFBVV95cUxOUGpXMmhQcnRrUVNrUXJTZUtBWXpVQ1dsMGpYZVQ1Q3ViclZMZDJYakpldFNDcHliRHdEYVVpVTZFSm1rdUYxT3g2bU1YUHpDVHJ5MEJiQnRLZHh0M3ZSZGhaY0dSaTd1bS1mR0Q4QUFmN2ZYdVZRSTVZemRTTFZiaTZoeUtzdmRrVGlRWkxMemF3ZHpD?oc=5",
+    "published": "2026-08-19T07:28:33+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "Vice President Vance",
+    "image": "https://madhyamamonline.com/h-upload/2026/08/19/2901027-202608193909788.jpg",
+    "real_url": "https://madhyamamonline.com/world/report-shows-trump-orders-halt-to-iran-talks-1547201",
+    "bias": "?",
+    "topic": "Iran",
     "region": "US"
   },
   {
@@ -3737,7 +3769,7 @@
     "published": "2026-08-14T09:09:43+00:00",
     "published_display": "Aug 14, 2026",
     "query": "JD Vance",
-    "image": "",
+    "image": "https://static-cdn.toi-media.com/www/uploads/2026/08/AFP__20260805__C3ZZ94Q__v1__HighRes__UsVicePresidentJdVanceHoldsACongressionalRoundt-e1786695981800.jpg",
     "real_url": "https://www.timesofisrael.com/vance-preventing-nuclear-iran-is-the-number-two-us-goal-after-ensuring-cheap-oil/",
     "bias": "C",
     "topic": "Iran",
