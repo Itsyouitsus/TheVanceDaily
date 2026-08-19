@@ -1,5 +1,21 @@
 [
   {
+    "id": "ecc0a460ae5e",
+    "title": "Cory Mills goes down in flames in Republican primary",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/news/cory-mills-goes-down-in-flames-in-republican-primary",
+    "published": "2026-08-19T01:44:57+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/news/cory-mills-goes-down-in-flames-in-republican-primary",
+    "bias": "R",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "2b67d86050b8",
     "title": "Florida Democrat Jared Moskowitz advances to November midterms",
     "source": "Just The News",
@@ -13,6 +29,22 @@
     "real_url": "https://justthenews.com/politics-policy/holdmoskowitz-faces-challenger?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
     "bias": "LR",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "a45c31448bbb",
+    "title": "JD Vance returning to hometown for economic speech amid tense primary season",
+    "source": "FOX19",
+    "source_url": "https://www.fox19.com",
+    "source_domain": "www.fox19.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa0NqdmlWS21xTVB3dGxZQnhNODFlQlJCd3dFTVdNeUhYS0RGd2pCTllIdktFTVVWSlM4LU1lVjlKWEdra2VUakdoM3NwamR4Y3h1N2RoSjRmY1AwQ3RfQnBOV1pRX3hfc1g5WmVMa1FsVW1FTThoLTJuaEFXVUlrX2RybjRKNVpxSktFM2YwejdMc0pySzRSTWdVOENRekFYaWdMblFpbTNSaUNZSlE?oc=5",
+    "published": "2026-08-19T01:38:03+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "JD Vance",
+    "image": "https://gray-wxix-prod.gtv-cdn.com/resizer/v2/https%3A%2F%2Fdo0bihdskp9dy.cloudfront.net%2F08-19-2026%2Ft_4704e362cec24a37b0ce71678b9b75be_name_file_1280x720_2000_v3_1_.jpg?auth=93f336a7b44f8ae86c886528ab814b44ee505d54385706f76a86f6789eccef6e&width=1200&height=600&smart=true",
+    "real_url": "https://www.fox19.com/video/2026/08/19/jd-vance-returning-hometown-economic-speech-amid-tense-primary-season/",
+    "bias": "?",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
