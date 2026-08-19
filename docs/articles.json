@@ -1,5 +1,37 @@
 [
   {
+    "id": "35ba0251490d",
+    "title": "China is building power. America is still debating it.",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/columns/opinion/china-is-building-power-america-is-still-debating-it",
+    "published": "2026-08-19T20:00:00+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/columns/opinion/china-is-building-power-america-is-still-debating-it",
+    "bias": "R",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
+    "id": "106f16ee4128",
+    "title": "Trump, Carney Optimistic on Trade Deal | Radio Balance of Power: Early Edition 8/19/2026",
+    "source": "Bloomberg",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.bloomberg.com/news/videos/2026-08-19/radio-balance-of-power-early-edition-8-19-2026-video",
+    "published": "2026-08-19T19:24:24+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.bloomberg.com/news/videos/2026-08-19/radio-balance-of-power-early-edition-8-19-2026-video",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "95d3e97be45a",
     "title": "Who gets the GOP when Trump is gone?",
     "source": "The Blaze",
@@ -221,6 +253,22 @@
     "real_url": "https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/",
     "bias": "C",
     "topic": "Tech & AI",
+    "region": "US"
+  },
+  {
+    "id": "ced946e2d238",
+    "title": "Trans radical reaps the whirlwind for failed Bessent assassination plot",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/news/trans-radical-reaps-the-whirlwind-for-failed-bessent-assassination-plot",
+    "published": "2026-08-19T15:15:00+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/news/trans-radical-reaps-the-whirlwind-for-failed-bessent-assassination-plot",
+    "bias": "R",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -1501,6 +1549,22 @@
     "real_url": "https://www.yahoo.com/news/politics/articles/donald-trump-jd-vance-t-070801829.html",
     "bias": "C",
     "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "8bb51ee185a3",
+    "title": "JD Vance takes on Marine Corps obstacle course in new video",
+    "source": "USA Today",
+    "source_url": "https://www.usatoday.com",
+    "source_domain": "www.usatoday.com",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcm9rR091Y3l0dXhYZnZidHNjdHZSd1A2TFdNRi1UXzFLRXliYXZNeHhpQnZjUnBVSkJjRk9rbDZjVUpBODVfaVBqWFJ0SWZVN1F1QmlJSm1aa1RZZGRveG9hZlZZaGtibmVBb2d1TDJ6RTMwWW42UmlldExtdzJIa3pOb2JJZHlTZkJVUFEtcTVBNXM4WHl2MXpzOVVYZlV6dGlZdWRrUGpiNE1HUWJKZHhB?oc=5",
+    "published": "2026-08-18T07:00:00+00:00",
+    "published_display": "Aug 18, 2026",
+    "query": "JD Vance",
+    "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/19/USAT/91374895007-getty-images-2289201634.jpg?crop=1023,576,x0,y53&width=1023&height=576&format=pjpg&auto=webp",
+    "real_url": "https://www.usatoday.com/story/news/politics/2026/08/19/jd-vance-marine-corps-obstacle-course-video/91374893007/",
+    "bias": "C",
+    "topic": "General",
     "region": "US"
   },
   {
