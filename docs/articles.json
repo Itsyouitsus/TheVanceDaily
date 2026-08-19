@@ -1,5 +1,21 @@
 [
   {
+    "id": "d3c77dda653a",
+    "title": "Times Opinion: Trump and Co. should be careful stoking another Red Scare",
+    "source": "Chattanooga Times Free Press",
+    "source_url": "https://www.timesfreepress.com",
+    "source_domain": "www.timesfreepress.com",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUkRKLXlkRTZUbTZyU29BTnBUZmdGN2dhSTUxa0VmZzVaeXFKM0NFc1JhM0ZRbzFwd05IOWU1WjFVVlp5NURQeU53dUNndFZ0TFprZHVybHIzOXdFOHdhdHM1LW5mUGg4ZEgyTDNJX3hMRV9fQ0piODJDdmtjNVlWREhTZW4xMGRIZzNqVVpMZUxRXzR3X0x6Xw?oc=5",
+    "published": "2026-08-19T22:01:00+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "JD Vance",
+    "image": "https://wehco.media.clients.ellingtoncms.com/imports/adg/img/2026/08/20/104117684_AP26056180256518_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
+    "real_url": "https://www.timesfreepress.com/news/2026/aug/19/times-opinion-trump-and-co-should-be-careful/",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "dcc789e69725",
     "title": "JD Vance Is Right About The Dollar. Bitcoin Solves The Triffin Dilemma",
     "source": "Forbes",
@@ -13,6 +29,22 @@
     "real_url": "https://www.forbes.com/sites/davidbirnbaum/2026/08/19/jd-vance-is-right-about-the-dollar-bitcoin-solves-the-triffin-dilemma/",
     "bias": "C",
     "topic": "Tech & AI",
+    "region": "US"
+  },
+  {
+    "id": "6623c5ed370b",
+    "title": "We should talk about how fraud is enabled",
+    "source": "Baltimoresun.com",
+    "source_url": "https://www.baltimoresun.com",
+    "source_domain": "www.baltimoresun.com",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1waVNFMjVhZVg5dm1VWWZFUUROSUV6Nkpxc2Rja3hiVkdKa19IVkduanc5T1ZIOEhKV3E4MGNnYl9SWmhQZjJPYmUyNlNzeUYxSzV1V3hDWVdSWXlKWjdnRjRuQUZyTVNUQV8xVVlR?oc=5",
+    "published": "2026-08-19T20:08:58+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "JD Vance",
+    "image": "https://www.baltimoresun.com/wp-content/uploads/2026/07/America_25__Independence_Day_Vance_8474_.jpg?w=4975&h=3509",
+    "real_url": "https://www.baltimoresun.com/2026/08/19/how-fraud-is-enabled/",
+    "bias": "?",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -64,6 +96,22 @@
     "region": "US"
   },
   {
+    "id": "dc24f89f08be",
+    "title": "Opinion: Is a dramatic change in politics imminent?",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT1phNmxzdE9OMHVLY2hxOHp1dW9aczFXeDNfWVR5NkFUeDhQc2Z3STdTM01nenpuWWdpSDdiY0ZDekpUZG9tRHpubzFldXhrQzhCU2l0T2d0MHhDTFpUSHIyRE9CeUZiWVRwUGVfcW5tNENqUnhqa2NOcmN3RjNtY1R3cU5xS183RThNOHhMb0EzY09FUGo1TjU0MW90RWpNWkNB?oc=5",
+    "published": "2026-08-19T19:00:00+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "Vance Republican",
+    "image": "https://s.yimg.com/lo/mysterio/api/685c38bcbedeef946996ad369a9218849c5a5a1aea3be94f1730972660e22dad/lightyear_networkapi/resizefill_w800_h452%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdeseret_news_992%2F74625e9cecc984ce237adfae877c700a.jpg",
+    "real_url": "https://www.yahoo.com/news/politics/articles/opinion-dramatic-change-politics-imminent-190000854.html",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "34567ec188da",
     "title": "Lindsey Graham&#x27;s sister ridiculed over embarrassing admission: &#x27;Not my thing&#x27;",
     "source": "The Blaze",
@@ -92,6 +140,22 @@
     "image": "",
     "real_url": "https://www.theblaze.com/tech/china-space-mission-vs-nasa",
     "bias": "R",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
+    "id": "f1cdfe6d7ba7",
+    "title": "Israel&#x27;s deadly Gaza strikes cast doubt on ceasefire progress days after Kushner visit",
+    "source": "PBS News Hour",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.pbs.org/newshour/world/israels-deadly-gaza-strikes-cast-doubt-on-ceasefire-progress-days-after-kushner-visit",
+    "published": "2026-08-19T18:14:52-04:00",
+    "published_display": "Aug 19, 2026",
+    "query": "direct_feed",
+    "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/08/2026-08-18T165048Z_1770703936_RC2Z0NALRONW_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-1024x691.jpg",
+    "real_url": "https://www.pbs.org/newshour/world/israels-deadly-gaza-strikes-cast-doubt-on-ceasefire-progress-days-after-kushner-visit",
+    "bias": "LL",
     "topic": "Foreign Policy",
     "region": "US"
   },
@@ -157,6 +221,22 @@
     "real_url": "https://www.aol.com/articles/jd-vance-labeled-pathetic-poser-171853000.html",
     "bias": "C",
     "topic": "Tech & AI",
+    "region": "US"
+  },
+  {
+    "id": "31971539ee69",
+    "title": "JD Vance&#x27;s $20 burrito clapback showed his Ohio roots",
+    "source": "AOL News",
+    "source_url": "https://www.aol.com",
+    "source_domain": "www.aol.com",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5aeXhnQXZ1NVJZdV93SHgyQ1hJVllmV1ZGYVduOVpmMXNpYUh6TVRiTTNmMUJpMzlidDIteHloTHVoaUxIZlQ3bjdDRWFfYkZZWm91b3g1VE5yd0VGS3JXZzk5U2lJYWVQZE9MUmpqMjJ3LXZBWHg0ajVqdU9LZw?oc=5",
+    "published": "2026-08-19T17:08:04+00:00",
+    "published_display": "Aug 19, 2026",
+    "query": "JD Vance",
+    "image": "https://hermes.media.static.aol.com/media/2026/08/19/fb520395-7751-3802-82de-9a2942b9d470/fde15bec-9795-4e33-89b0-44d491222f0e.jpg",
+    "real_url": "https://www.aol.com/articles/jd-vances-20-burrito-clapback-164614000.html",
+    "bias": "C",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -1917,6 +1997,22 @@
     "real_url": "https://www.edgemedianetwork.com/Story/169312/jd-vance-asks-justice-department-to-investigate-hospitals-over-alleged",
     "bias": "?",
     "topic": "Healthcare",
+    "region": "US"
+  },
+  {
+    "id": "2608680e5c09",
+    "title": "Ossoff in 2028? Georgia senator isn&#x27;t running, he says repeatedly",
+    "source": "USA Today",
+    "source_url": "https://www.usatoday.com",
+    "source_domain": "www.usatoday.com",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWWZHaWRHMXRzSWJrTkRJcFdzOEtTQi1qX3V2bnBVeEtQN0JNN2xEM1ZaRkQzR0hfT1VTSEVFOFFieVJsYVhEUTdmbktxVmNLRFJaMEk1c1pSZWoxa245bEhoSjBDUTVRZ2NUdmdCVktCYW5neWl5anAzakJXbGtRS3o2XzBkSjR0UXVvTXpMMzlIWmFpVWkyRWp6VkVVT3hQSml6Y0F3TFplM0dOaEMxbzZ6UVJ5LWlGbkpBNVBlTEJPOU4wR1ZWZTNQSWZGMjNrc2xv?oc=5",
+    "published": "2026-08-17T15:28:00+00:00",
+    "published_display": "Aug 17, 2026",
+    "query": "Vance president 2028",
+    "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/17/USAT/91336489007-dsc-9156.JPG?crop=4927,2772,x0,y0&width=3200&height=1801&format=pjpg&auto=webp",
+    "real_url": "https://www.usatoday.com/story/news/state/georgia/2026/08/17/no-ossoff-wont-run-for-president-in-2028-would-he-have-a-chance/91336356007/",
+    "bias": "C",
+    "topic": "Foreign Policy",
     "region": "US"
   },
   {
