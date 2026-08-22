@@ -1,5 +1,21 @@
 [
   {
+    "id": "f80345d36de7",
+    "title": "Trump wants more economic pressure on Iran. What are his options?",
+    "source": "The Detroit News",
+    "source_url": "https://www.detroitnews.com",
+    "source_domain": "www.detroitnews.com",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdXFQUW9BeWlKdUZ5SVNNbzd5Q0tISkVMNWRkZDd5bTZFMXpOYWhVOHBPbTJQRlhvaTdFN2tpb3FGSnQxLS1oWkowb29mdEpWM1NqdndXX1p4WGN3XzhTVjU1ZmRIY0dNRkpyTnFiSUtoY3VNc1F5VmY1ZGh6cURiWWxxdE4zNzBHVTB0VmFGNXhOZGRaTGVpam5ZVVhqa2taYWNKWV82NVRLOG5SVHQ3SUNRdnJnTEFHU1dMN2VWTm9kM2tKUnR1dEhuWmM?oc=5",
+    "published": "2026-08-22T21:52:00+00:00",
+    "published_display": "Aug 22, 2026",
+    "query": "Vance economy",
+    "image": "",
+    "real_url": "https://www.detroitnews.com/story/news/world/2026/08/22/trump-wants-more-economic-pressure-on-iran-what-are-his-options/91425879007/",
+    "bias": "?",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
     "id": "72a6c2f641a2",
     "title": "JD Vance stops by Eastgate Waffle House, with new baby in tow",
     "source": "Cincinnati Enquirer",
@@ -41,10 +57,26 @@
     "published": "2026-08-22T18:22:00+00:00",
     "published_display": "Aug 22, 2026",
     "query": "Vance policy",
-    "image": "",
+    "image": "https://img.biggo.com/rt7vN6BgG-2SLUkiOaUKYyu9Y6bH4pKW6c4a8pgegBA/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTA4LzBjYzVmOTgxLWUyZjMtNDc2OS1hYjg1LTczNTJlNTk2MmQxNl8xNzg3NDI0MzUxX2RlZmF1bHQuanBn.jpg",
     "real_url": "https://finance.biggo.com/news/0cc5f981-e2f3-4769-ab85-7352e5962d16",
     "bias": "?",
     "topic": "Tech & AI",
+    "region": "US"
+  },
+  {
+    "id": "5839003e7fb9",
+    "title": "US Official: &#x27;Zero&#x27; Chance of Blocking E1 Settlement",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/eq-israel-trump/2026/08/22/id/1267007",
+    "published": "2026-08-22T17:40:18-04:00",
+    "published_display": "Aug 22, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/eq-israel-trump/2026/08/22/id/1267007",
+    "bias": "R",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -237,6 +269,22 @@
     "real_url": "https://www.breitbart.com/politics/2026/08/22/sen-ron-johnson-enters-the-fight-club-ring-august-31-fighting-fauci-and-government-corruption/",
     "bias": "R",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "b02214d9bc7e",
+    "title": "Trump, Vance warn voters against radical Democrats ahead of midterms",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81ZHNseWFOQ2FzRDNWYm8tbENQTUtENzZlVHlJMV9BdVpfRUV1TDBSU2ptSUZjR1A4aTNaMzlLbXF5WTlOS29JNTlqZlFTS0s5Q0JrQVF3?oc=5",
+    "published": "2026-08-22T11:38:08+00:00",
+    "published_display": "Aug 22, 2026",
+    "query": "Vice President Vance",
+    "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/27556689-f057-46db-96ce-1345ac74f687/5c66e7ee-6993-44ad-ad84-04b14cb9da60/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+    "real_url": "https://www.foxnews.com/video/6403871730112",
+    "bias": "R",
+    "topic": "Military",
     "region": "US"
   },
   {
