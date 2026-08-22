@@ -1,5 +1,21 @@
 [
   {
+    "id": "3190aa5c24ab",
+    "title": "WATCH: Vance steps behind bar to serve customers in Ohio",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1leDF4THh1V29xdTYzTjB5ZDc2ZG1iMFZCN2JQeXg0bjktZVFRcnRDYTVBWmhUaG9vSC01Qm9LMXYxNFdTRXJIU1NNczRJMXNhWEhITjZR?oc=5",
+    "published": "2026-08-22T16:03:07+00:00",
+    "published_display": "Aug 22, 2026",
+    "query": "JD Vance",
+    "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/5dc9ed27-a63c-4f5c-92bd-2eafc41be546/6f92b1ce-63a3-460b-96d1-2a07e67d5696/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+    "real_url": "https://www.foxnews.com/video/6403882080112",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "6ebc223ab7e2",
     "title": "Vance accused of being \u2018divorced from reality\u2019 with home ownership comments",
     "source": "Indy100",
@@ -12,6 +28,22 @@
     "image": "https://www.indy100.com/media-library/jd-vance-speaks-behind-his-vice-presidential-lectern.png?id=67660935&width=1200&height=600&coordinates=0%2C26%2C0%2C307",
     "real_url": "https://www.indy100.com/politics/jd-vance-home-ownership-affordability",
     "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "0bf47cea5f21",
+    "title": "Who Was Huey Long, The Depression-Era Populist Democrat Vance Just Quoted?",
+    "source": "The Daily Caller",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://dailycaller.com/2026/08/22/who-was-huey-long-vance-quote-ohio",
+    "published": "2026-08-22T14:03:51+00:00",
+    "published_display": "Aug 22, 2026",
+    "query": "direct_feed",
+    "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https://cdn01.dailycaller.com/wp-content/uploads/2026/08/GettyImages-2290795348_2.jpg",
+    "real_url": "https://dailycaller.com/2026/08/22/who-was-huey-long-vance-quote-ohio/",
+    "bias": "R",
     "topic": "General",
     "region": "US"
   },
@@ -125,6 +157,22 @@
     "real_url": "https://www.voiceofemirates.com/en/politics/2026/08/22/j-d-vance-returns-to-ohio-a-campaign-rally-and-an-early-test-of-his-2028-ambitions/",
     "bias": "?",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "7ea35bc9530b",
+    "title": "U.S.-Iran Live Updates: Iran declares it has won the war as U.S. turns to economic warfare",
+    "source": "CBS News",
+    "source_url": "https://www.cbsnews.com",
+    "source_domain": "www.cbsnews.com",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Kam8wUzBnbm9NT3lVYWFjNFhIS1hXaEhlWVVtTkF6SEtVeXk4WXhEZjFTcWdUaXZxQS1RZFYyOFcyZFNocVVVdWhrT3EtbnUtdzBWdUswZ2VDX1FmX1MwTHQybXZDSE82YzFJb185UXRUZlFkeHRlZGFKcw?oc=5",
+    "published": "2026-08-22T10:38:00+00:00",
+    "published_display": "Aug 22, 2026",
+    "query": "Vance economy",
+    "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/08/22/6c8f548b-1857-4e27-a9c4-d7d88560e5a6/thumbnail/1200x630/a2e50be78d3a440a515133871fd5aae7/gettyimages-2290599211.jpg",
+    "real_url": "https://www.cbsnews.com/live-updates/iran-war-trump-economic-crackdown/",
+    "bias": "LL",
+    "topic": "Iran",
     "region": "US"
   },
   {
@@ -685,6 +733,22 @@
     "real_url": "https://www.wlwt.com/article/vp-jd-vance-middletown-ohio-expected-to-speak-steel-plant/73493267",
     "bias": "?",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "02dfbe9e3328",
+    "title": "VP JD Vance warns of Democratic-controlled Congress during Ohio visit",
+    "source": "WKYC",
+    "source_url": "https://www.wkyc.com",
+    "source_domain": "www.wkyc.com",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOOVdWaEs5bnhTT1E0a0R0cWZIMm9KVWp2NDQ5cS1BNVJseWpEVVBSRTNNM1dBMTZKRmVjWjMxS1JqLXBFenhoRjdWLXl3UGM4U1hobHlySkNvOVNyc2hzWDJocldWOFpnOXU5OVNhRWd1NG1fZW50TXZvR1JJVFFRR1BkUmJLekdNd1hPLTlyTm9JbUk0ZFlObkowNFFMY3FMRmNYS0R4MU5FRU44cE1oV1FrclVTRUs3SXZ5WkdmR2hDZVkyYm5GNVAwMy13VHpYRDlPdEdUY1paX0JNend6LUI5eDZDNGs?oc=5",
+    "published": "2026-08-21T22:06:00+00:00",
+    "published_display": "Aug 21, 2026",
+    "query": "Vance Congress",
+    "image": "",
+    "real_url": "https://www.wkyc.com/video/news/local/ohio/vp-jd-vance-warns-of-democratic-controlled-congress-during-ohio-visit/95-b1adc3f4-c589-4ddf-a9e9-d4acab85ea67",
+    "bias": "?",
+    "topic": "Military",
     "region": "US"
   },
   {
