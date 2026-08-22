@@ -1,5 +1,21 @@
 [
   {
+    "id": "39d5c559661b",
+    "title": "Steve Deace: Young men\u2019s energy will go somewhere",
+    "source": "The Right Must Decide Where",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/shows/steve-deace-show/deace-young-mens-energy-will-go-somewhere-right-must-decide",
+    "published": "2026-08-22T09:00:00+00:00",
+    "published_display": "Aug 22, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/shows/steve-deace-show/deace-young-mens-energy-will-go-somewhere-right-must-decide",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "da336cf31443",
     "title": "Centre Red-Flagged Revanth Reddy&#x27;s US Visit Over Plans To Meet JD Vance, Zohran Mamdani",
     "source": "NDTV",
@@ -155,6 +171,22 @@
     "query": "Vance immigration",
     "image": "https://media.telanganatoday.com/wp-content/uploads/2026/08/Vivek.jpeg",
     "real_url": "https://telanganatoday.com/vance-endorses-vivek-ramaswamy-for-ohio-governor",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "e825a9101759",
+    "title": "wire -",
+    "source": "Morning Journal",
+    "source_url": "https://www.morningjournalnews.com",
+    "source_domain": "www.morningjournalnews.com",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwYjcweGk5LXdON01JT2MxSUR1M2tLTzB6QmlDZEh3WGZsc3pLUjlDSHMzUXpISFcxMElFdWdvNVBGNkNvRkJDRnJpOVg4aVBjS0xkNXV2MkkzLW54Z2cyUGpCc3RxanRSUTN1Q1ZGSUFZQQ?oc=5",
+    "published": "2026-08-22T03:16:59+00:00",
+    "published_display": "Aug 22, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://www.morningjournalnews.com/wire/?category=5266&ID=398062",
     "bias": "?",
     "topic": "General",
     "region": "US"
@@ -556,6 +588,22 @@
     "image": "https://s.yimg.com/lo/mysterio/api/9313c05ebbdfe6b8cb85abfc92bf39041cc8ff0714819c78e7dd7b76676386ed/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fvideo.wmtw.hearstnews.com%2Fb8e0b2355fdd0cef1a94dd0820715a9e.jpg",
     "real_url": "https://ca.news.yahoo.com/vice-president-jd-vance-return-213509740.html",
     "bias": "C",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "c8c27e4cf3be",
+    "title": "Vice President JD Vance on the potential of a 2028 presidential run",
+    "source": "WKYC",
+    "source_url": "https://www.wkyc.com",
+    "source_domain": "www.wkyc.com",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNM0xqekpxVUpUejF4WmRpQml6Zm9zQkpQVHY1blhoR1BWZm5UTWEwNWxvcWstSHQtTV9yMHJxMklhTXR5aE9EYUNfejlDNGpCTEFkZEh0VXNLT3lmS1FUeVlPSEJxQVFkdjNnSl8wQXA0cFFyRGlNZEhGYWF3dFNCei05Sy0xVF9EaG12T2hRcFNWTUhIOElzQVc3aTFJNEhiLUMtZzFQb1p5MzRIT3VQVTZrMzZlWVJVZWRuc1NUc3VTQV9kNzNwbWtCUXNacEJQRkI5UlkyWnNadG1mZ1k3eURB?oc=5",
+    "published": "2026-08-21T21:35:00+00:00",
+    "published_display": "Aug 21, 2026",
+    "query": "Vance president 2028",
+    "image": "",
+    "real_url": "https://www.wkyc.com/video/news/politics/vice-president-jd-vance-on-the-potential-of-a-2028-presidential-run/95-9a46d7f3-28dc-48e1-9a7c-2622c20eb556",
+    "bias": "?",
     "topic": "Immigration",
     "region": "US"
   },
