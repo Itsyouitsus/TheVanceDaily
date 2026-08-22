@@ -64,6 +64,38 @@
     "region": "US"
   },
   {
+    "id": "e15970c45e95",
+    "title": "Tropical Storm Moke advances toward Hawaii as winds strengthen",
+    "source": "PBS News Hour",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.pbs.org/newshour/nation/tropical-storm-moke-advances-toward-hawaii-as-winds-strengthen",
+    "published": "2026-08-22T15:15:24-04:00",
+    "published_display": "Aug 22, 2026",
+    "query": "direct_feed",
+    "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/08/AP26234623249040-2-1024x683.jpg",
+    "real_url": "https://www.pbs.org/newshour/nation/tropical-storm-moke-advances-toward-hawaii-as-winds-strengthen",
+    "bias": "LL",
+    "topic": "Military",
+    "region": "US"
+  },
+  {
+    "id": "a0893caac4e8",
+    "title": "Vance Unloads on El-Sayed Over Sharia Remarks - His Reply to the VP Gets Personal",
+    "source": "RedState",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://redstate.com/nick-arama/2026/08/22/jd-vance-remarks-about-el-sayed-n2205935",
+    "published": "2026-08-22T15:08:00-04:00",
+    "published_display": "Aug 22, 2026",
+    "query": "direct_feed",
+    "image": "https://media.townhall.com/cdn/hodl/2025/350/1548ff7c-0c75-4400-8345-d10cdab5becc.jpg",
+    "real_url": "https://redstate.com/nick-arama/2026/08/22/jd-vance-remarks-about-el-sayed-n2205935",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "6ebc223ab7e2",
     "title": "Vance accused of being \u2018divorced from reality\u2019 with home ownership comments",
     "source": "Indy100",
@@ -237,6 +269,22 @@
     "real_url": "https://www.wjcl.com/article/georgia-jon-ossoff-2028-presidential-poll/73500721",
     "bias": "?",
     "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
+    "id": "8199722c5b3a",
+    "title": "Top Trump official dead set on not running for president: \u2018I\u2019m sure\u2019",
+    "source": "NJ.com",
+    "source_url": "https://www.nj.com",
+    "source_domain": "www.nj.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOTdIZy16UEtFS1dOVnZTU29xR21aZlVxd3V6c3VuZGhrNHBTNER4SVVUTXllc3hwUl9PbXlKaU9fTnVILUl6U1lRbTVBeHhya0VBTXkzcmdHUUstemFnRkdZczhTSm1tempiaUF5ZDdnTDNkdWYxMG5sQzR3WUh6M2JtSTJmWVFSVV82OXFHZ3pJa29ZUjNKVHZ6VkthRWV5dWtsNW5WYmvSAbwBQVVfeXFMT3pJWmdRTkdELTZnbk9MNU5DNEpBN25qaE1JWWVYZ2x1cGhpeHppNWhWclpEMUljbUlUMlVUSTZ6Tl9sQ2pnbF81VVRUQUJMUmtMOTI4Y3lGZUdJdklYdnhmRFNaU0liQXJ6U2N5V0ZoRGRCVFZ0VzFwS05XNU5BQlZtdnRXZ1VsOTFKdE5IR2hvQXo2YlFkbDRiYlIxZTdBV2pjT3kxTWw2dDVMSkVMM1JXOG9BQi02SVFOVTA?oc=5",
+    "published": "2026-08-22T10:05:00+00:00",
+    "published_display": "Aug 22, 2026",
+    "query": "Vice President Vance",
+    "image": "",
+    "real_url": "https://www.nj.com/politics/2026/08/top-trump-official-dead-set-on-not-running-for-president-im-sure.html",
+    "bias": "?",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -1024,6 +1072,22 @@
     "region": "US"
   },
   {
+    "id": "db06c8d2d2ba",
+    "title": "Vance Demolishes Wall Street Journal, Globalization in Middletown",
+    "source": "Breitbart News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.breitbart.com/politics/2026/08/21/vance-demolishes-wall-street-journal-globalization-in-middleto/",
+    "published": "2026-08-21T21:10:53+00:00",
+    "published_display": "Aug 21, 2026",
+    "query": "direct_feed",
+    "image": "https://media.breitbart.com/media/2026/08/JD-Vance-Ohio-Defend-Our-Future-640x335.jpeg",
+    "real_url": "https://www.breitbart.com/politics/2026/08/21/vance-demolishes-wall-street-journal-globalization-in-middleto/",
+    "bias": "R",
+    "topic": "Economy",
+    "region": "US"
+  },
+  {
     "id": "29d06a951399",
     "title": "JD Vance Slams Wall Street Journal, Democrats for Pushing Open Border Policies",
     "source": "Breitbart News",
@@ -1694,6 +1758,22 @@
     "bias": "?",
     "topic": "General",
     "region": "International"
+  },
+  {
+    "id": "7b544ed86c0b",
+    "title": "VP JD Vance speaks at Ohio steel plant",
+    "source": "LiveNOW from FOX",
+    "source_url": "https://www.livenowfox.com",
+    "source_domain": "www.livenowfox.com",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CV2kyNVBjOGh1T0FpTmdVaE55QkdKV1B0bmFrQklwZHVBZzhNUE5FZFNEUUxGLXZnZlBVRnlrV1V6NTJ5Z09lZkExa2w0SkI3LXhIbkNjQnlnN1pod2FQYkFQVdIBaEFVX3lxTE5uM1Q2ODhiWXlyQ1M3ejNoZTkyVHpxU2lxOW1RVWphN1hIVUFUak52VU5hQi1wZndYazhvdDNYeG9vb2pLMTZWdkluaUlCRlZSaXdWUjN5Q3hSSEZuYXROWVh0UnQwRW5f?oc=5",
+    "published": "2026-08-21T18:12:26+00:00",
+    "published_display": "Aug 21, 2026",
+    "query": "JD Vance",
+    "image": "https://images.foxtv.com/static-media.fox.com/fmcv3/prod/fts/yeo4v08ochdkb7wl/1200/630/odygwxuj08fw5s0p.jpg?ve=1&tl=1",
+    "real_url": "https://www.livenowfox.com/video/fmc-ksp3uqz8v04zducj",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
   },
   {
     "id": "c4db7de62f56",
