@@ -5072,6 +5072,22 @@
     "region": "US"
   },
   {
+    "id": "83f0bf357667",
+    "title": "Jon Ossoff vs. Pete Buttigieg&#x27;s chances of defeating JD Vance in 2028",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOazBDNlVWOThqZjRqTTktN1czNV9LbW1JNnhEUHVhNGdxM2J1d0N5UF9waEozbkpCQmJDWnFDazZPWmgwbGg2cnRRLTNpaDlUbTFrUmlKSHo0SmVKay1IZ2l0RWozS01OUERpa21YRU9mX1BEYzBUM3hHMkhCRVBoeWtVS2VKQkUyVjUtMTFGYmlKWGs?oc=5",
+    "published": "2026-08-20T18:54:31+00:00",
+    "published_display": "Aug 20, 2026",
+    "query": "Vance president 2028",
+    "image": "https://s.yimg.com/lo/mysterio/api/d9684c137421640706b393b4898e80673c57449186dccd2c7cb2d46ac57a6a5b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnewsweek_sports_200%2Fe682d60131e6b45b1967d247d507e18f.png",
+    "real_url": "https://www.yahoo.com/news/politics/articles/jon-ossoff-vs-pete-buttigiegs-185431259.html",
+    "bias": "C",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "6ff5a92ac633",
     "title": "Jon Ossoff vs. Pete Buttigieg\u2019s Chances of Defeating JD Vance in 2028",
     "source": "Newsweek",
@@ -313269,6 +313285,22 @@
     "image": "https://foreignpolicy.com/wp-content/uploads/2025/02/vance-europe-munich-GettyImages-2198855039.jpg",
     "real_url": "https://foreignpolicy.com/2025/02/14/vance-speech-munich-msc-russia-ukraine-censorship-free-speech/",
     "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "c76a5716fb5e",
+    "title": "In Munich, Vance accuses European politicians of censoring free speech",
+    "source": "Reuters",
+    "source_url": "https://www.reuters.com",
+    "source_domain": "www.reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUVQxMXViNk11aEpsQkRDd0cxaG9LaVZuRDFWWWZHa2RFR1RGU2hFUDJkM2x2U0dhQ3dkbjdnUHJOTEdpMXhzMmZkNExTOEEzUnM0RklZV2J1RzctQnpkTTBRaXh4ZmFLNFFMcEZMRkQ2OVJaRWdpaEc1N1U5WE1wV0NJTnQzNzFZYjhPa0t1QUNGdDFrWU9rV1I2eFpyQUZWRTRqVU12VHptYXNFLTU4YWtn?oc=5",
+    "published": "2025-02-14T08:00:00+00:00",
+    "published_display": "Feb 14, 2025",
+    "query": "JD Vance speech",
+    "image": "",
+    "real_url": "https://www.reuters.com/world/europe/vance-uses-munich-speech-criticize-europe-censoring-free-speech-2025-02-14/",
+    "bias": "C",
     "topic": "General",
     "region": "US"
   },
