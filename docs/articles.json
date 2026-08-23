@@ -1,5 +1,21 @@
 [
   {
+    "id": "b679e66bef7d",
+    "title": "U.S. envoy says Israel gave no warning before Syria air base strike",
+    "source": "Just The News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://justthenews.com/world/middle-east/us-envoy-says-israel-gave-no-warning-syria-air-base-strike?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "published": "2026-08-23T17:26:30.393583+00:00",
+    "published_display": "Aug 23, 2026",
+    "query": "direct_feed",
+    "image": "https://justthenews.com/sites/default/files/styles/social_media_share/public/2021-07/Thomas%20Barrack%20GettyImages-578544906.jpg?h=69f2b9d0&itok=6WdH0HKa",
+    "real_url": "https://justthenews.com/world/middle-east/us-envoy-says-israel-gave-no-warning-syria-air-base-strike?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "bias": "LR",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
     "id": "27ba4188d2b7",
     "title": "El-Sayed under fire online after taking aim at Usha Vance, female Trump aide in weekend social media posts",
     "source": "Fox News",
@@ -61,6 +77,22 @@
     "real_url": "https://thehill.com/business/6045613-pence-last-thing-us-economy-needs-is-trade-war-with-canada/",
     "bias": "C",
     "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
+    "id": "1779721939b1",
+    "title": "Abdul El-Sayed Directly Responds To JD Vance&#x27;s Attacks With 1 Simple Question",
+    "source": "HuffPost",
+    "source_url": "https://www.huffpost.com",
+    "source_domain": "www.huffpost.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWWRhTjNseGV2STUwcU1PVm1yb0RPVTYtR0VrWWp6YTNKLTRaY0E2NzdqY1VlTjQyQ0I2U1M1M21GdGRFMnd3QnV5X2hReW94WmtBNUZvWnpScjFtQU81aWlhSDhNZHU1a29uT2xwNk1WZ214Zlpoa2xQbGZ5eTc0Z2R6Q1JNMUR4Tlp4UWZmVTNVdUd2S3NrYnVOMNIBoAFBVV95cUxNQTdtUVNqMkdmTzJxWkhDTlFlcXg2MUZaNWJvdlQ5UldPdTdqSC1iQXItcHhyY3ZqMXlhRWVaQ3RZcnBtNncxWk53ekREeU1jT2ViQ2wya0k3azhtbUV6ZVdIUWNCTkhSdVFyQ1lLNkpKNEtndUZ2YzBPT1FnaUVrLWFBbm9qb0ZaU0FjV3E4SEl2MjBmNHVoX1VPemFZZUQz?oc=5",
+    "published": "2026-08-23T14:51:41+00:00",
+    "published_display": "Aug 23, 2026",
+    "query": "JD Vance",
+    "image": "https://img.huffingtonpost.com/asset/6a8b035a1900000c356bb0e6.jpeg?cache=1bcGgKKtMw&ops=500_281%2Cscalefit_1200_630",
+    "real_url": "https://www.huffpost.com/entry/abdul-el-sayed-jd-vance-papaw-attacks_n_6a8ade18e4b0a833ba42d180",
+    "bias": "L",
+    "topic": "General",
     "region": "US"
   },
   {
