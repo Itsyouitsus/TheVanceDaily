@@ -1,5 +1,21 @@
 [
   {
+    "id": "46c58bdfd012",
+    "title": "Rubio holds advantage over Vance in matchups against Democratic presidential candidates",
+    "source": "The Jerusalem Post",
+    "source_url": "https://www.jpost.com",
+    "source_domain": "www.jpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RaWROQ2xwLUhxaTlPZjZMYWlpSGw1NThFUzhBNjJJZFpTVUFpTWNYejEzTEpIY2hUTDBUSzZCU3RuNF80WWpTckVVdnV3TGFmcTlmZ1B0dnRLQkc4TGJYNmw3OWg?oc=5",
+    "published": "2026-08-23T07:49:37+00:00",
+    "published_display": "Aug 23, 2026",
+    "query": "JD Vance",
+    "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734886",
+    "real_url": "https://www.jpost.com/american-politics/article-906291",
+    "bias": "LR",
+    "topic": "2028 Race",
+    "region": "International"
+  },
+  {
     "id": "79b15741e4d5",
     "title": "Telangana CM Revanth Reddy planned to meet JD Vance, Zohran Mamdani on US trip: Centre",
     "source": "The Times of India",
@@ -473,7 +489,7 @@
     "published": "2026-08-22T10:05:00+00:00",
     "published_display": "Aug 22, 2026",
     "query": "Vice President Vance",
-    "image": "",
+    "image": "https://www.nj.com/resizer/v2/LRYK7NV2VVG2TAUNVK5XKANBAQ.jpg?auth=a2e99d6981967c1d352f06d8c692d08c6b2911958dda7f6ba3a6eb44ae913616&width=1280&smart=true&quality=90",
     "real_url": "https://www.nj.com/politics/2026/08/top-trump-official-dead-set-on-not-running-for-president-im-sure.html",
     "bias": "?",
     "topic": "General",
