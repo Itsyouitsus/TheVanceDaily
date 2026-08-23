@@ -1,5 +1,21 @@
 [
   {
+    "id": "0baec7430dc7",
+    "title": "US pressure needs to be directed at Russia, not Ukraine",
+    "source": "The Hill",
+    "source_url": "https://thehill.com",
+    "source_domain": "thehill.com",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQkl0cjl6dlY5SEw4UndhVHJMdFVtLTY2X00yc3VPLWFjbkFzRUlHRDZsdkd0dWFqMVhNQzB6OVFvYnpiSHVKZVhNVmQ3SC1XLUJaWVZpaGY5UFRXaG90UllOeXBsYjFIemR2Qm5kM2tKemREdkZ2SDRGNU05cHlpUmhEQkdHT3k3ZHd1akJ30gGTAUFVX3lxTFBtUmo0aE92MEcxWGZNYmVnTDlFWEo2dWFfbS1ET3FCaGF4T3dGcFNUVmRPd24xZi01SmdydGdUWktKYWR6dElwTm45LXJoYW5WcnF4UnNEbUd1VTJxQVlTYTU5c2NRSkFYUVg4djhuUnJreXpKRlBCUVJWNGdPY0tYNm03LTVhMEdQdlBHdUZxSEx2MA?oc=5",
+    "published": "2026-08-23T18:00:00+00:00",
+    "published_display": "Aug 23, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://thehill.com/opinion/international/6044866-vance-urges-ukraine-energy-strikes/",
+    "bias": "C",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
     "id": "b679e66bef7d",
     "title": "U.S. envoy says Israel gave no warning before Syria air base strike",
     "source": "Just The News",
@@ -13,6 +29,22 @@
     "real_url": "https://justthenews.com/world/middle-east/us-envoy-says-israel-gave-no-warning-syria-air-base-strike?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
     "bias": "LR",
     "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
+    "id": "e551a885fe57",
+    "title": "This team accidentally let AIs loose to attack companies \u2014 and won&#x27;t share how bad the problem is",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/tech/this-team-accidentally-let-ais-loose-to-attack-companies-and-won-t-share-how-bad-the-problem-is",
+    "published": "2026-08-23T16:30:00+00:00",
+    "published_display": "Aug 23, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/tech/this-team-accidentally-let-ais-loose-to-attack-companies-and-won-t-share-how-bad-the-problem-is",
+    "bias": "R",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -92,6 +124,22 @@
     "image": "https://img.huffingtonpost.com/asset/6a8b035a1900000c356bb0e6.jpeg?cache=1bcGgKKtMw&ops=500_281%2Cscalefit_1200_630",
     "real_url": "https://www.huffpost.com/entry/abdul-el-sayed-jd-vance-papaw-attacks_n_6a8ade18e4b0a833ba42d180",
     "bias": "L",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "c30bad889541",
+    "title": "WATCH: Abdul El-Sayed Again Attacks JD Vance&#x27;s Marriage After VP Criticizes MI Democrat&#x27;s Stance on Sharia Law",
+    "source": "Breitbart News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.breitbart.com/midterm-election/2026/08/23/watch-abdul-el-sayed-again-attacks-jd-vances-marriage-after-vp-criticizes-mi-democrats-stance-on-sharia-law/",
+    "published": "2026-08-23T14:24:09+00:00",
+    "published_display": "Aug 23, 2026",
+    "query": "direct_feed",
+    "image": "https://media.breitbart.com/media/2026/08/Abdul-El-Sayed-2-640x335.jpg",
+    "real_url": "https://www.breitbart.com/midterm-election/2026/08/23/watch-abdul-el-sayed-again-attacks-jd-vances-marriage-after-vp-criticizes-mi-democrats-stance-on-sharia-law/",
+    "bias": "R",
     "topic": "General",
     "region": "US"
   },
