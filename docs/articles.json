@@ -1,5 +1,21 @@
 [
   {
+    "id": "4108616af28b",
+    "title": "Does Israel still have a biblical claim on the Middle East? The only honest answer is &#x27;yes&#x27;",
+    "source": "The Blaze",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.theblaze.com/lifestyle/does-israel-still-have-a-biblical-claim-on-the-middle-east-the-only-honest-answer-is-yes",
+    "published": "2026-08-23T08:30:00+00:00",
+    "published_display": "Aug 23, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.theblaze.com/lifestyle/does-israel-still-have-a-biblical-claim-on-the-middle-east-the-only-honest-answer-is-yes",
+    "bias": "R",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
     "id": "46c58bdfd012",
     "title": "Rubio holds advantage over Vance in matchups against Democratic presidential candidates",
     "source": "The Jerusalem Post",
@@ -14,6 +30,22 @@
     "bias": "LR",
     "topic": "2028 Race",
     "region": "International"
+  },
+  {
+    "id": "76e1a676aefd",
+    "title": "Fetterman aligns with Trump on AI push, warns China benefits from US \u2018overreaction\u2019",
+    "source": "New York Post",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://nypost.com/2026/08/23/us-news/fetterman-sides-with-trump-on-ai-national-security-push-with-chinese-warning/",
+    "published": "2026-08-23T05:03:47-04:00",
+    "published_display": "Aug 23, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://nypost.com/2026/08/23/us-news/fetterman-sides-with-trump-on-ai-national-security-push-with-chinese-warning/",
+    "bias": "LR",
+    "topic": "Foreign Policy",
+    "region": "US"
   },
   {
     "id": "79b15741e4d5",
