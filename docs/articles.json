@@ -1,5 +1,21 @@
 [
   {
+    "id": "bcf0d26fbfe3",
+    "title": "Pence denies that Iran war hurting Ukraine by depleting US stockpiles",
+    "source": "The Hill",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://thehill.com/policy/international/6045828-pence-denies-that-iran-war-hurting-ukraine-by-depleting-us-stockpiles/",
+    "published": "2026-08-23T18:44:19+00:00",
+    "published_display": "Aug 23, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://thehill.com/policy/international/6045828-pence-denies-that-iran-war-hurting-ukraine-by-depleting-us-stockpiles/",
+    "bias": "C",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
     "id": "0baec7430dc7",
     "title": "US pressure needs to be directed at Russia, not Ukraine",
     "source": "The Hill",
@@ -1424,6 +1440,22 @@
     "region": "US"
   },
   {
+    "id": "0cea4556c86a",
+    "title": "Vance campaigns at Mid\u00addletown steel plant; announces $500 million federal in\u00advestment",
+    "source": "Spectrum News",
+    "source_url": "https://spectrumnews1.com",
+    "source_domain": "spectrumnews1.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVjE2SmdiZ3dldUhqNHE0emc1Qzl1ZnRDd1dLdzM0ckE0NFFDalBPU3RPSFdURWE5U3dJTTN4R3JXc1VNRVpmY1NPbUl4dDVJTmNSVDlSTDJRVFBUUWVhSmdORjBJRVpkRlBRVmNyVERLWGprbjFvYU5qSFNZNHdGZExXRlk3TFNyS2JoMmJtYVROMTM2bWV5YlhfM1pIM1hyUnA2M1Z5MzU2SWlGZ1NMTmhFVVk3NVlPZUF5QWpR?oc=5",
+    "published": "2026-08-21T21:46:00+00:00",
+    "published_display": "Aug 21, 2026",
+    "query": "Vice President Vance",
+    "image": "https://s7d2.scene7.com/is/image/TWCNews/OH_vance_visits_Ohio_AP_082126",
+    "real_url": "https://spectrumnews1.com/oh/cincinnati/politics/2026/08/21/middletown-steel-plant-receives-00-million-federal-investment",
+    "bias": "?",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "4d4c3e23668b",
     "title": "JD Vance recounts story of American worker who trained his foreign replacement",
     "source": "And Then Did The Unthinkable",
@@ -2169,7 +2201,7 @@
     "published": "2026-08-21T18:29:00+00:00",
     "published_display": "Aug 21, 2026",
     "query": "Vance economy",
-    "image": "",
+    "image": "https://images.mktw.net/im-42027181/social",
     "real_url": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378",
     "bias": "C",
     "topic": "General",
