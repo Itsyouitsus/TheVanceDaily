@@ -1,5 +1,21 @@
 [
   {
+    "id": "26696a30d5ff",
+    "title": "China\u2019s Fighter Jet Gets Rare Chance to Face Rafales in Exercise",
+    "source": "Bloomberg",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-08-24/china-s-fighter-jet-gets-rare-chance-to-face-rafales-in-exercise",
+    "published": "2026-08-24T05:21:32+00:00",
+    "published_display": "Aug 24, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.bloomberg.com/news/articles/2026-08-24/china-s-fighter-jet-gets-rare-chance-to-face-rafales-in-exercise",
+    "bias": "LL",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
     "id": "b2c43162753e",
     "title": "Oil falls as Trump pledges economic war on Iran",
     "source": "Yahoo Finance Singapore",
@@ -13,6 +29,22 @@
     "real_url": "https://sg.finance.yahoo.com/news/oil-falls-trump-pledges-economic-030019225.html",
     "bias": "C",
     "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "2e508753e449",
+    "title": "Ted Cruz positions himself as 2028 Republican alternative",
+    "source": "Eciks.org",
+    "source_url": "https://eciks.org",
+    "source_domain": "eciks.org",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SMTdvU0pmQjIwWVdwcEVVY3pCMTRrbjh6UzhMbEhvdEREY1BYOXpjNnR3X1lXNU1sMzd2LTl3SUc3OHVsa0t5TlpHLXFFTkpMa0pNaGhKX0J1MUFvcTg0OWQ0UlJLdw?oc=5",
+    "published": "2026-08-24T01:40:40+00:00",
+    "published_display": "Aug 24, 2026",
+    "query": "JD Vance",
+    "image": "https://eciks.org/wp-content/uploads/2026/08/ted-cruz-2028-presidential-race.webp",
+    "real_url": "https://eciks.org/22935-ted-cruz-2028-presidential-race",
+    "bias": "?",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
@@ -322,6 +354,22 @@
   {
     "id": "fd66744ff29b",
     "title": "El-Sayed to Vance: If I&#x27;m &quot;Less American&quot; Because &quot;Your Papaw Was Here Earlier,&quot; &quot;How Do You Look Your Parents-in-Law in the Eye?&quot;",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNc09KNTJiUGZfZFN2S3RrWnp6SUljaVliVVlEX1QxeEhSaDRrR1A2OTdrZnhHWm0zOVlQRXotdUkzRUlxM2RiYmNlcEtLcGp1eWgtWXdTcGhpZVdGTmlYLUVjc2dJZ1hnQ2gtUFpOZl9FaXY4ZlEzaE1fTUg1UEhibHExbXZKMlQtSXc?oc=5",
+    "published": "2026-08-23T13:00:00+00:00",
+    "published_display": "Aug 23, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/0a4fc8c2f38464bbbc32000f2d3744ca7b7ab4810685ef5a68d5ce9aab31e8b8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freal_clear_politics_2_851%2F50877ba1f16896ac4808edad732a4cbb.jpg",
+    "real_url": "https://www.yahoo.com/news/politics/articles/el-sayed-vance-im-less-130000244.html",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "51ed897e89f2",
+    "title": "El-Sayed to Vance: If I&#x27;m &quot;Less American&quot; Because &quot;Your Papaw Was Here,&quot; &quot;How Do You Look Your Parents-in-Law in the Eye?&quot;",
     "source": "Yahoo",
     "source_url": "https://www.yahoo.com",
     "source_domain": "www.yahoo.com",
