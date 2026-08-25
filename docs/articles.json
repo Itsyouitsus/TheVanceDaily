@@ -1,5 +1,21 @@
 [
   {
+    "id": "30ab434d69a6",
+    "title": "Transcript: Vice President JD Vance Remarks in Brewer, ME",
+    "source": "The Singju Post",
+    "source_url": "https://singjupost.com",
+    "source_domain": "singjupost.com",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZER5dDl3aUlvd1dPMy1hX09tOFdtS3p2TlJ0S0lUeHpEUFJrcmdfY3BPVGpLbFNLZ3R6aEJMNmRXZ1luZzFYN0xsbHJxMWZCelRySmpOWkNGUjduN09PV2w3b3BHd1ctVWZEdktHc0pUM2tZaF80Wk9FRDAxZzU3blFkQTVkZzBZTDhWUGhBVE5fT3NqY0E?oc=5",
+    "published": "2026-08-25T06:03:54+00:00",
+    "published_display": "Aug 25, 2026",
+    "query": "JD Vance",
+    "image": "https://singjupost.com/wp-content/uploads/2026/08/Vice-President-JD-Vance-Delivers-Remarks-in-Brewer-ME-1.jpg",
+    "real_url": "https://singjupost.com/transcript-vice-president-jd-vance-remarks-in-brewer-me-aug-24-2026/",
+    "bias": "?",
+    "topic": "Immigration",
+    "region": "Asia"
+  },
+  {
     "id": "b2eb0da85cc6",
     "title": "Trump\u2019s trade war with Canada could rattle economies in states with key Senate races",
     "source": "SRN News",
@@ -169,7 +185,7 @@
     "published": "2026-08-24T23:05:20+00:00",
     "published_display": "Aug 24, 2026",
     "query": "direct_feed",
-    "image": "",
+    "image": "https://static.time.com/v3/assets/bltea6093859af6183b/blt097747d9feb86ce6/6a8ccc5cf9cfdf15937a9771/Vance-Canada.jpg?branch=production&width=1024&quality=75&auto=webp&crop=16:9",
     "real_url": "https://time.com/article/2026/08/24/vance-canada-state-freudian-slip-us-trade-trump-carney-ford/",
     "bias": "LL",
     "topic": "General",
