@@ -1,5 +1,37 @@
 [
   {
+    "id": "3ab3a7dc3ff0",
+    "title": "President Donald Trump\u2019s trade war with Canada could rattle economies in states with key Senate races",
+    "source": "Chicago Tribune",
+    "source_url": "https://www.chicagotribune.com",
+    "source_domain": "www.chicagotribune.com",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GdWJBOGtBbEpaUTZ6UllQakxmNkY3RUUtVG9sN202Ti14Qm91OGlRdjNTOGZ0eU9aSmtCLThOcGN5cHBxbFRFcGFOVXVMZWlTM2hhYlU0Sk5PUk42WEctclpqZFA3ZWxJUVJ3Nl9vUndxUGNy?oc=5",
+    "published": "2026-08-25T12:30:40+00:00",
+    "published_display": "Aug 25, 2026",
+    "query": "Vice President Vance",
+    "image": "https://www.chicagotribune.com/wp-content/uploads/2026/08/Trump_468_7-1.jpg?w=8640&h=5760",
+    "real_url": "https://www.chicagotribune.com/2026/08/25/trumps-trade-war-canada/",
+    "bias": "LL",
+    "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
+    "id": "b0753b676acb",
+    "title": "Trump Threatens to Rename Lake Ontario as He Spirals Over Canada Feud",
+    "source": "The New Republic",
+    "source_url": "https://newrepublic.com",
+    "source_domain": "newrepublic.com",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWHQ1Z2xoNWFkS2RxVHVaU2o5VjNCVkR0bUUtRXRmdjZHbGhTcUVncjkyUVY0TVFrOXdxbHVwZmM5bzI3d0N0dFZWcjhva25QYzhtaXVVQWZlYmxyVm9FVzBzQTF0eVY2aTg3MG55dVNVc2dfNm1TcHVOTHMybmJLU2FpaGZLSnFnM0pWSkJvU0pMdw?oc=5",
+    "published": "2026-08-25T12:22:01+00:00",
+    "published_display": "Aug 25, 2026",
+    "query": "Vance Republican",
+    "image": "https://images.newrepublic.com/3ffbf3163202f909dd587ac22d74133b25670fda.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg",
+    "real_url": "https://newrepublic.com/post/214694/trump-threatens-rename-lake-ontario-canada-trade-war",
+    "bias": "L",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "accdda2b4145",
     "title": "Mass. social media influencer critical of JD Vance sues to attend his Maine rally",
     "source": "WBUR",
@@ -221,6 +253,22 @@
     "real_url": "https://www.realclearmarkets.com/2026/08/25/after_spitting_on_milton_friedman_jd_vance_praises_huey_long_1202170.html",
     "bias": "?",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "0585b3ac5820",
+    "title": "Vance\u2019s Anti-Fraud Task Force Gets New Enforcement Muscle With DOJ\u2019s National Fraud Detection Center",
+    "source": "RedState",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://redstate.com/rc-maxwell/2026/08/25/vances-anti-fraud-task-force-gets-new-enforcement-muscle-with-dojs-national-fraud-detection-center-n2206018",
+    "published": "2026-08-25T08:05:00-04:00",
+    "published_display": "Aug 25, 2026",
+    "query": "direct_feed",
+    "image": "https://media.townhall.com/cdn/hodl/2026/189/d2e35ef5-003c-41c6-a05c-952033e1f42c.jpg",
+    "real_url": "https://redstate.com/rc-maxwell/2026/08/25/vances-anti-fraud-task-force-gets-new-enforcement-muscle-with-dojs-national-fraud-detection-center-n2206018",
+    "bias": "R",
+    "topic": "Domestic",
     "region": "US"
   },
   {
