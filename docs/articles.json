@@ -1,5 +1,37 @@
 [
   {
+    "id": "d79ee2b5b0cb",
+    "title": "JD Vance, Huey Long, and 2028",
+    "source": "Washington Examiner",
+    "source_url": "https://www.washingtonexaminer.com",
+    "source_domain": "www.washingtonexaminer.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTjVWSkpQNk11T0hhdHpPWGJjMXNLUVV0ZVVfNm9PX3ZOT0NPTl84bzlDZWYyQlYwczU3bERkeDUyeWthcnNkY255U3VIVWlKVnN3c3VqOEJpWWF3Q1N0dFh4cVItblNWMHRfVkVwLUtjdzZob0FBRzMzQUxpUXZGb1R2TmxGZU50VVd4c1ppSHZVSDd3UDVpck1KSkhlb2ZW?oc=5",
+    "published": "2026-08-25T14:41:00+00:00",
+    "published_display": "Aug 25, 2026",
+    "query": "JD Vance",
+    "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/08/AP26236608719439.jpg?resize=1200,683",
+    "real_url": "https://www.washingtonexaminer.com/daily-memo/4699275/jd-vance-ohio-speech-huey-long-populism-2028/",
+    "bias": "LR",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "fc30514519d2",
+    "title": "Cruz says GOP hasn\u2019t coalesced behind Vance for 2028 nomination: \u2018Oh, no\u2019",
+    "source": "The Hill",
+    "source_url": "https://thehill.com",
+    "source_domain": "thehill.com",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa3ViUzF5cW9oMjl1MldXWDNwTThYa1dtSktvQVFtRzkydW9OZTlQVmpMaVJYQktseng1eXhtcXkzREhHTlEwSzREYmM5VGVvSXVfYlFjRmxPeE9XZWk1VU9aQjMya3NCb2FTQnVTTFB1aGZUR1F0Yy1XckFwQll2N0Z6dUthSXVQQ05MM9IBkgFBVV95cUxOd3pHX3NwVl9vakFPN3gxcVRMRDJzTThoU3FjMGhxenhtajlucmM0SkhubDhlZGtLMGRrVC1JZHRldTB4cEh5aVZOT1p4eFloNkRzeGd6Tlo1UlBUbXcxaHNackNaMUlYNWloTWVBY1d5N0Izb1ZZUnJFVGlNbjBKRUE0SmpHdEJrRlhjT1FPUjQ2Zw?oc=5",
+    "published": "2026-08-25T14:38:00+00:00",
+    "published_display": "Aug 25, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://thehill.com/homenews/senate/6049018-cruz-vance-2028-presidential-nomination/",
+    "bias": "C",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "1bd79924c947",
     "title": "Video: Opinion | Which JD Vance Will We See in 2028?",
     "source": "The New York Times",
@@ -1920,6 +1952,22 @@
     "region": "US"
   },
   {
+    "id": "02066afcd2a7",
+    "title": "JD Vance campaigns with Paul LePage\u2014Ex-governor&#x27;s chances of Maine comeback",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQy0tZzZqaFo5TzNicVAwOC0ySlZfcGRIT0owb3dKYU52N1I2NU5VTVUwdDRfSURjWHMzd1NRR2RMQ05nWV9sRjF0UVJwVWtJT0pvN0tJMUJ4S1VLa0toVXZTWVlfdm5sYmZpelA1aTZ6MEF1S1hIcF9tY3lRZFZQeEl4VVZ4VEFqZlZwempBeFFqYmxE?oc=5",
+    "published": "2026-08-24T18:00:13+00:00",
+    "published_display": "Aug 24, 2026",
+    "query": "Vice President Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/4d9db854b285e6d8de25119041c0ba189ef5515f5a489efaa5b3830708d4b18e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnewsweek_sports_200%2F5343b2c03128396cb50de7599043017a.jpg",
+    "real_url": "https://www.yahoo.com/news/politics/articles/jd-vance-campaigns-paul-lepage-180013563.html",
+    "bias": "C",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "5098caf417e7",
     "title": "JD Vance Campaigns With Paul LePage\u2014Ex-Governor\u2019s Chances of Maine Comeback",
     "source": "Newsweek",
@@ -2685,6 +2733,22 @@
     "real_url": "https://www.bangordailynews.com/2026/08/24/bangor/bangor-police-courts/brewer-maine-amanda-mcgonigle-cats-on-a-couch-preliminary-injunction-denied/",
     "bias": "?",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "fd43e1082e2b",
+    "title": "Vice President JD Vance Touts Republican Candidates In Maine Visit",
+    "source": "The Pulse of NH",
+    "source_url": "https://thepulseofnh.com",
+    "source_domain": "thepulseofnh.com",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzIxRUNHc05PcXZRbWhkRkpaWFNxeTQ2T1RwU2p5Zncxb2NTQzRwakNQSFo5WUlJb0tzNUxGS3pWY0dwVnRpSlM3RkZWWmNuQVl2ZmpJODhiMjZSLTgxMWY2RzFGWjhXNU8wRlZ3Nkk2NkhMZGpQWjBPSGZ0ZjluYjBHdlp4RElaUmN0N1FFeEVhdFJ1bTZz?oc=5",
+    "published": "2026-08-24T14:01:21+00:00",
+    "published_display": "Aug 24, 2026",
+    "query": "Vance Republican",
+    "image": "https://thepulseofnh.com/wp-content/uploads/sites/43/2026/02/News-Update-scaled.jpg",
+    "real_url": "https://thepulseofnh.com/vice-president-jd-vance-touts-republican-candidates-in-maine-visit/",
+    "bias": "?",
+    "topic": "Immigration",
     "region": "US"
   },
   {
