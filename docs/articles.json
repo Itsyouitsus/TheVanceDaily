@@ -96,6 +96,22 @@
     "region": "US"
   },
   {
+    "id": "498a308c4af2",
+    "title": "Republican Daniel Sullivan advances to the general election for U.S. Senate in Alaska",
+    "source": "Politics",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://abcnews.com/Politics/wireStory/republican-daniel-sullivan-advances-general-election-us-senate-135960000",
+    "published": "2026-08-26T01:40:42-04:00",
+    "published_display": "Aug 26, 2026",
+    "query": "direct_feed",
+    "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
+    "real_url": "https://abcnews.com/Politics/wireStory/republican-daniel-sullivan-advances-general-election-us-senate-135960000",
+    "bias": "C",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "01ebe8d5e7e8",
     "title": "Darline Graham wins South Carolina GOP Senate runoff",
     "source": "Axios",
