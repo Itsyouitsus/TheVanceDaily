@@ -1,5 +1,21 @@
 [
   {
+    "id": "9bb1da860c75",
+    "title": "Trump endorsed Mike Mazzei secures Republican nomination for Oklahoma governor: AP",
+    "source": "Just The News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://justthenews.com/politics-policy/elections/results-oklahoma-governor-republican-primary?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "published": "2026-08-26T03:12:24.580237+00:00",
+    "published_display": "Aug 26, 2026",
+    "query": "direct_feed",
+    "image": "https://justthenews.com/sites/default/files/styles/social_media_share/public/2024-06/GettyImages-73068855.jpg?h=c58fa036&itok=U6RVme4X",
+    "real_url": "https://justthenews.com/politics-policy/elections/results-oklahoma-governor-republican-primary?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
+    "bias": "LR",
+    "topic": "2028 Race",
+    "region": "US"
+  },
+  {
     "id": "01ebe8d5e7e8",
     "title": "Darline Graham wins South Carolina GOP Senate runoff",
     "source": "Axios",
@@ -108,6 +124,22 @@
     "image": "https://www.mediaite.com/wp-content/uploads/2025/11/AP25316670974125.jpg",
     "real_url": "https://www.mediaite.com/politics/rnc-send-bizarre-fundraising-text-purporting-to-be-from-jd-vance-groceries-cost-what-they-cost/",
     "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "b3934c02e5f6",
+    "title": "Trump and Vance to keynote Republicans\u2019 midterm convention in Texas",
+    "source": "AP News",
+    "source_url": "https://apnews.com",
+    "source_domain": "apnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYTR5YlRhQ3M4UEk0aGNtMjdmUzBhaUxhWm4xbWY0TnB1dUJmSVNUNzNFZjZKVXp6RGlTTDl0dmRxdldkemRCQkRCYzhROFJjUFVpZm9MN3l6UlluSzl1UVE0WmNhSlUwc0NRaTJENW9vaGo5R2hXNUFVdksxTlNZbm9PYzRRT3VyWTJ0Wm01UDFBX0ktUkF3MWJmXzk0N2VLYTVKVm5hUzZDdjVlWGxPU1RsNA?oc=5",
+    "published": "2026-08-25T22:55:00+00:00",
+    "published_display": "Aug 25, 2026",
+    "query": "Vance Republican",
+    "image": "https://dims.apnews.com/dims4/default/4633739/2147483647/strip/true/crop/8640x5757+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fda%2F46%2Ff357d29d4a8d94e705bfd8d54889%2F86064881aa8640adaa87ba884b22b037",
+    "real_url": "https://apnews.com/article/trump-convention-republicans-texas-primetime-schedule-db78d52ae09aca605306d755ea789ece",
+    "bias": "C",
     "topic": "General",
     "region": "US"
   },
