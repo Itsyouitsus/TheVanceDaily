@@ -1,5 +1,21 @@
 [
   {
+    "id": "5a29b50e65a6",
+    "title": "Usha Vance reveals the best advice she gave husband JD Vance",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wMmtESWFXTEU2UDEyMzVqbXFFZ0h6bXVOc3VGakpoYThZdHhVMzVCYUtxRDVqRGJfZ0wtODhGdHctdHRZN2VHbVpaVDJNc0JnOUVfLThR?oc=5",
+    "published": "2026-08-26T12:39:57+00:00",
+    "published_display": "Aug 26, 2026",
+    "query": "JD Vance",
+    "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6dfaed63-6d08-4a08-bee1-8b0739122391/b060aa7d-fb57-470b-8fbe-ee08a7671da3/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+    "real_url": "https://www.foxnews.com/video/6404070897112",
+    "bias": "R",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "51fbc6321204",
     "title": "Senate Hopeful Abdul El-Sayed Takes Aim at JD Vance, Highlights His Children\u2019s Ethnicity: \u2018A Cognitive Dissonance\u2019",
     "source": "The Mary Sue",
@@ -18,6 +34,22 @@
   {
     "id": "f1957bf1a61c",
     "title": "\u2018JD Vance is a dirtbag\u2019: A bumpy ride for US vice president on Maine road trip",
+    "source": "The Irish Times",
+    "source_url": "https://www.irishtimes.com",
+    "source_domain": "www.irishtimes.com",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdU9EMEFVWFhhdUF2UndZTVNPVWxFcXotRUgyTHo1aDRDVldvSy1XR2hNUy1yVGlJdzVMQllOcUVhZVh0d0hnMlJrSl9pRVBMWDNudE1XSTIzQXdUbHlNNFVoOVVxOEZWdk9RSmJOVUFPVW1rU0RtMTQ2VlNmOVRfTjRiQlhaYnladW5yWUo5ZXUyTi1pZExZ?oc=5",
+    "published": "2026-08-26T11:01:03+00:00",
+    "published_display": "Aug 26, 2026",
+    "query": "JD Vance",
+    "image": "https://www.irishtimes.com/resizer/v2/T2BG3W65SOPTO5KRI2R65K5SOY.jpg?smart=true&auth=42dc35143f9e42137e5482077a213897dbc42612b7bdaa9351a046ac9794d421&width=1200&height=630",
+    "real_url": "https://www.irishtimes.com/world/us/2026/08/26/a-bumpy-ride-for-jd-vance-on-maine-road-trip/",
+    "bias": "C",
+    "topic": "Immigration",
+    "region": "International"
+  },
+  {
+    "id": "524a5c335612",
+    "title": "\u2018JD Vance is a dirtbag\u2019: A bumpy ride for US vice-president on Maine road trip",
     "source": "The Irish Times",
     "source_url": "https://www.irishtimes.com",
     "source_domain": "www.irishtimes.com",
@@ -1358,6 +1390,22 @@
     "bias": "R",
     "topic": "2028 Race",
     "region": "US"
+  },
+  {
+    "id": "096f69a9c895",
+    "title": "JD Vance accidentally says the quiet part out loud about Canada",
+    "source": "The Independent",
+    "source_url": "https://www.independent.co.uk",
+    "source_domain": "www.independent.co.uk",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbWxSdnhfenRlNWdyeElhdzZDUFBoWWpocGtMNk1UMkNjNDVwc1NkSkVReWhyOVI2M3MtZklZTElOVVVvUjlsX1pRWGJrTlFzdlB4TnpHQ2FWYTRkR1JyYy1tU09HRHFaZzB3N3ozRU15SVNjLUZoMUh6bnBnN1l3Tk91b1Uxb0RGVWpmRF9TMlJ0am81bUE?oc=5",
+    "published": "2026-08-25T12:04:00+00:00",
+    "published_display": "Aug 25, 2026",
+    "query": "JD Vance",
+    "image": "https://static.independent.co.uk/2026/08/24/18/2026-08-24T175328Z_197079767_RC255NAJ0LMY_RTRMADP_3_USA-VANCE.JPG?trim=3,0,3,0&width=1200&height=800&crop=1200:800",
+    "real_url": "https://www.independent.co.uk/bulletin/news/vance-canada-state-carney-tariffs-b3038850.html",
+    "bias": "LL",
+    "topic": "General",
+    "region": "Europe"
   },
   {
     "id": "f19b2464c8f7",
