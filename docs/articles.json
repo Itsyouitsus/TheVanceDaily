@@ -1,5 +1,37 @@
 [
   {
+    "id": "47b91166b250",
+    "title": "Canada&#x27;s retaliation tests the limit of American power under Trump",
+    "source": "BBC",
+    "source_url": "https://www.bbc.com",
+    "source_domain": "www.bbc.com",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04MnZCREtJWDliTW9ubEVja2oyN2dFMGZsNzZJN3hscUNORVZZZlo1R2J6ZjVOOGg4b3FVZzB5OVk2QlF1TDRISk1CNWlIaUZSUi1LTl9rcHBDdw?oc=5",
+    "published": "2026-08-26T08:47:18+00:00",
+    "published_display": "Aug 26, 2026",
+    "query": "Vance economy",
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/239d/live/98ae3c90-a12a-11f1-8c37-3f30331ac537.jpg",
+    "real_url": "https://www.bbc.com/news/articles/ce8xd5k1krpo",
+    "bias": "C",
+    "topic": "General",
+    "region": "Europe"
+  },
+  {
+    "id": "c51dd6113b07",
+    "title": "JD Vance\u2019s Wife Has 8-Word Reaction to Abdul El-Sayed\u2019s Comment on Her",
+    "source": "AOL News",
+    "source_url": "https://www.aol.com",
+    "source_domain": "www.aol.com",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1bWlOOF82Rjk1ekktX2hGeTB1RzVWdWhYMTgyRHRfRWNhRTBJSTBFXzMtNURyMWJTeF9QYXRIN2N4Sk1UMVdIdVRxcVNFU0Q0eFVmXzQ2SUxsX0taV1RhanpMVHFIdTBoWXJYczlRSDh2Zw?oc=5",
+    "published": "2026-08-26T08:19:14+00:00",
+    "published_display": "Aug 26, 2026",
+    "query": "Vice President Vance",
+    "image": "https://hermes.media.static.aol.com/media/2026/08/26/a305cb89-9139-3e70-8804-04c45fc3e33f/ad5264e6-54ae-4506-ab4c-9d5a38f7b228.jpg",
+    "real_url": "https://www.aol.com/articles/jd-vance-wife-8-word-072934000.html",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "d2bc097d76df",
     "title": "Iran and Oman Discuss Strait of Hormuz Deal",
     "source": "Daybreak Europe 8/26/2026",
@@ -109,6 +141,22 @@
     "real_url": "https://justthenews.com/politics-policy/elections/results-oklahoma-governor-republican-primary?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
     "bias": "LR",
     "topic": "2028 Race",
+    "region": "US"
+  },
+  {
+    "id": "f5f20cd73c97",
+    "title": "Dan Sullivan",
+    "source": "Will Advance To General Election",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.huffpost.com/entry/alaska-primaries-dan-sullivan_n_6a8e7c14e4b0bc51108cdc83",
+    "published": "2026-08-26T01:45:36-04:00",
+    "published_display": "Aug 26, 2026",
+    "query": "direct_feed",
+    "image": "https://img.huffingtonpost.com/asset/6a8e7c16190000037f6bb4bf.jpeg?cache=lFxTkjcy34&ops=1200_630",
+    "real_url": "https://www.huffpost.com/entry/alaska-primaries-dan-sullivan_n_6a8e7c14e4b0bc51108cdc83",
+    "bias": "?",
+    "topic": "General",
     "region": "US"
   },
   {
