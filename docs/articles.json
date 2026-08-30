@@ -16,6 +16,22 @@
     "region": "US"
   },
   {
+    "id": "48dc58f7ede3",
+    "title": "Report \u2014 Democrat Candidates Avoid Kamala Harris as Midterms Loom: &#x27;She Is a Huge Liability&#x27;",
+    "source": "Breitbart News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.breitbart.com/politics/2026/08/29/report-democrat-candidates-avoid-kamala-harris-as-midterms-loom-she-is-a-huge-liability/",
+    "published": "2026-08-29T19:53:45+00:00",
+    "published_display": "Aug 29, 2026",
+    "query": "direct_feed",
+    "image": "https://media.breitbart.com/media/2026/08/GettyImages-2281851902-640x335.png",
+    "real_url": "https://www.breitbart.com/politics/2026/08/29/report-democrat-candidates-avoid-kamala-harris-as-midterms-loom-she-is-a-huge-liability/",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "538929a6a80c",
     "title": "JD Vance&#x27;s 2028 Plan Exposed? SLOTUS Drops Bombshell as Rubio &amp; Hegseth Join Trump\u2019s Succession Race",
     "source": "The Times of India",
@@ -45,6 +61,22 @@
     "real_url": "https://thehill.com/opinion/technology/6056562-ai-consciousness-societal-impact/",
     "bias": "C",
     "topic": "Tech & AI",
+    "region": "US"
+  },
+  {
+    "id": "95ff855737a3",
+    "title": "Report: El-Sayed Swipe at Usha Vance Risks Michigan Voters",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/vance-michigan-voters/2026/08/29/id/1267744",
+    "published": "2026-08-29T17:54:33-04:00",
+    "published_display": "Aug 29, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/vance-michigan-voters/2026/08/29/id/1267744",
+    "bias": "R",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -330058,6 +330090,22 @@
     "image": "https://static.time.com/v3/assets/bltea6093859af6183b/bltde093bcdab65f2d0/6988d9b9bc6cfc69913e2a3c/time-logo.jpg?branch=production",
     "real_url": "https://time.com/",
     "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "cc8c9b245127",
+    "title": "Vance Marchbanks&#x27; Contribution to Public Health Policy on Sickle Cell Disease",
+    "source": "Air and Space Museum",
+    "source_url": "https://airandspace.si.edu",
+    "source_domain": "airandspace.si.edu",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc2tMSHdNWXpoU1R3WE02eHJiRjY5d0toSjdKNHNWTnpSREdqUnBsTWVFaVBJWGt4UldscGRqbVYzTVRGazhJQzFYV19hSkVVZDhhQXRFUGFTWkxEaFg4dm1td1hPNWZJS2c3Rkx2MHR3NS1yTXF0TEpCdV81WVJ5dEZmNXJGcTlpSzFTT3RmWjBidWZIRHJrQ0JMRE9uZE1KbFFyQmdXcmVENHBobWFRMzlBMFZFQQ?oc=5",
+    "published": "2021-11-04T07:00:00+00:00",
+    "published_display": "Nov 04, 2021",
+    "query": "Vance policy",
+    "image": "https://airandspace.si.edu/sites/default/files/2022-10/NASM%20Social%20Card%20Default.jpg",
+    "real_url": "https://airandspace.si.edu/stories/editorial/vance-marchbanks-contribution-public-health-policy-sickle-cell-disease",
+    "bias": "?",
     "topic": "General",
     "region": "US"
   },
