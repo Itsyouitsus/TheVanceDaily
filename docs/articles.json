@@ -1,5 +1,53 @@
 [
   {
+    "id": "cbf408eac600",
+    "title": "Vance to give White House\u2019s first press briefing in over 40 days",
+    "source": "The Hill",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://thehill.com/homenews/administration/6067880-vance-to-host-white-house-briefing/",
+    "published": "2026-09-02T23:44:46+00:00",
+    "published_display": "Sep 02, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://thehill.com/homenews/administration/6067880-vance-to-host-white-house-briefing/",
+    "bias": "C",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "ab9dba7b6680",
+    "title": "Trump to speak on both nights of Republican convention amid low turnout fears",
+    "source": "South China Morning Post",
+    "source_url": "https://www.scmp.com",
+    "source_domain": "www.scmp.com",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ0VaSElIZVVXRWRTdWhJSkViV2JnMFB1TzBqN2xrMERDYTVRTWt3VGpBRktTMFRiLVJYS2c1RDRLdThWVU5Md0ZTOWRsMk9oZ2xBbVdpbFE0b3B3bnF3Ylk2T3ItZmx4azhHd1QzeWtTZDQxb0FBcmJrZi01NFZjR1IzVzdJMTR1T3U1VW15UkFseDl1OGxuRGpWdUZ2YVF5aGpHcUh3Z3VBQy1mN0pHWXVIcVQ1M3kxY0tJY3JWZnJ0TGEyc25XVUxWZ1BiZ2Z5ZWNpLTB4azluR2NI0gHcAUFVX3lxTFBSRzJqTEdTellBS3NiOFZrcXQ5VG45bXBGZUQxQUI2d0h1d1F1bjZKQTJJYlhiOHpaYUlHTHhCMVpsNGpoUGhXV0NDSXNzOG1GV2I5bEF4eXppYmd6MjJiVThDbnEzel9hanlQLVZLNHhFOTA2bjNJOVVJN3hIdFNCVFk4TkpmUnhJaUJSTFFDdW5sUDhhWTBjLXN5cXB1X3hnNmpUZ1VaNEVqV1ZLVi1wdnZKYkNObDJOVU9JeE9RanJVT2RtSVZrcXhXYk1iTW5zYVREYUlWcWswaDQ?oc=5",
+    "published": "2026-09-02T23:43:48+00:00",
+    "published_display": "Sep 02, 2026",
+    "query": "JD Vance",
+    "image": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/09/03/628bf8d5-7627-4257-83bf-dac0811ad9cb_e9483ee7.jpg?itok=hC7spOH7&v=1788392618",
+    "real_url": "https://www.scmp.com/news/world/united-states-canada/article/3366163/trump-speak-both-nights-republican-midterm-convention-amid-turnout-concerns",
+    "bias": "C",
+    "topic": "General",
+    "region": "International"
+  },
+  {
+    "id": "0cbc3b886011",
+    "title": "Beverly Vance: \u201cHillbilly Elegy 2\u201d Would Be a JD Decision",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43Q1hNcXhYR2FrMEp2ZEdVRWJ5ZC1oOGVNaVNtN0FlRThhWG5BV3RzcXhzV0tic3JGdjNzWVVCV1c2RjQ3Z1RrS1FMN1VvdnpZMms1bEt3?oc=5",
+    "published": "2026-09-02T21:49:07+00:00",
+    "published_display": "Sep 02, 2026",
+    "query": "JD Vance",
+    "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/af5bfdcc-31db-434f-b91a-de90e2944bc9/4c5cac1c-f732-4c52-97de-54f0c7567e9c/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+    "real_url": "https://www.foxnews.com/video/6404510634112",
+    "bias": "R",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
     "id": "902e34d637b7",
     "title": "House Democrats consider changes to party rules after lawmakers cross aisle to advance GOP bills",
     "source": "Just The News",
@@ -13,6 +61,38 @@
     "real_url": "https://justthenews.com/government/congress/house-democrats-consider-changes-party-rules-after-lawmakers-cross-aisle?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators",
     "bias": "LR",
     "topic": "Domestic",
+    "region": "US"
+  },
+  {
+    "id": "d05f56120cfd",
+    "title": "JD Vance&#x27;s Mom FIRES Back At Family Bully Abdul El Sayed",
+    "source": "Fox News",
+    "source_url": "https://www.foxnews.com",
+    "source_domain": "www.foxnews.com",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fRy1aODVvd0VWeGVaTktnVG4ydkVJd0FpNFE0V1lMZEk3VjhwbGw0UTlGYWlaOUVfODhweXR1ZTdNeVhjcTk4NWhHdmhKLVVWQ2dVdjdR?oc=5",
+    "published": "2026-09-02T21:35:30+00:00",
+    "published_display": "Sep 02, 2026",
+    "query": "JD Vance",
+    "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/8b373b41-055d-45df-bbfb-eb0ce3b9d179/dad4688e-d577-4f89-b112-c6f6b949c8d4/1280x720/match/1024/512/image.jpg?ve=1&tl=1",
+    "real_url": "https://www.foxnews.com/video/6404509515112",
+    "bias": "R",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "019c7cfa242f",
+    "title": "JD Vance Tries His Best To Take Shots At Abdul El-Sayed, But He Just Isn\u2019t Good At It [Op-Ed]",
+    "source": "NewsOne",
+    "source_url": "https://newsone.com",
+    "source_domain": "newsone.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMSVRSWnhSSkk0VW41VjhoOWU5RzRWV0lONU1sSVZQZ25vemtRUUpacnNUR3RnQy1BNHRjWmEzaU9pbjZQTFNYTm9RVXlMTG80WHI2Q2RERlI2SzFQdUoxOXBrcm1CNDhkM3NGYlhZX3EyUlZ3Vkxz?oc=5",
+    "published": "2026-09-02T20:25:06+00:00",
+    "published_display": "Sep 02, 2026",
+    "query": "Vance Republican",
+    "image": "https://newsone.com/wp-content/uploads/sites/22/2026/09/image-collage.jpg?quality=80&strip=all&w=1680&crop=0,0,100,960px",
+    "real_url": "https://newsone.com/6870891/jd-vance-taking-shots-at-abdul-el-sayed/",
+    "bias": "?",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -80,6 +160,22 @@
     "region": "US"
   },
   {
+    "id": "3b1672e8751c",
+    "title": "House Panel Moves to Shield US Firms From EU Rules",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/protect-usa-act-house-republicans-european-union/2026/09/02/id/1268191",
+    "published": "2026-09-02T18:46:53-04:00",
+    "published_display": "Sep 02, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/protect-usa-act-house-republicans-european-union/2026/09/02/id/1268191",
+    "bias": "R",
+    "topic": "Domestic",
+    "region": "US"
+  },
+  {
     "id": "6216d1724a19",
     "title": "JD Vance talks end times, Antichrist and AI on faith podcast",
     "source": "NBC News",
@@ -110,6 +206,38 @@
     "bias": "C",
     "topic": "General",
     "region": "US"
+  },
+  {
+    "id": "742c91c1a078",
+    "title": "Canada Gave Contracts to Iranian Ex-Vice President\u2019s Jihadi Engineer Son",
+    "source": "PJ Media",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://pjmedia.com/catherinesalgado/2026/09/02/canada-gave-contracts-to-iranian-ex-vice-presidents-jihad-engineer-son-n4956832",
+    "published": "2026-09-02T18:10:41-04:00",
+    "published_display": "Sep 02, 2026",
+    "query": "direct_feed",
+    "image": "https://media.townhall.com/cdn/hodl/pj/images/up/2024/86/2d6f8698-39e2-488b-ab1f-74ee4a41f2e8.jpg",
+    "real_url": "https://pjmedia.com/catherinesalgado/2026/09/02/canada-gave-contracts-to-iranian-ex-vice-presidents-jihad-engineer-son-n4956832",
+    "bias": "R",
+    "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "e2093b704763",
+    "title": "The Antichrist may walk among us, warns JD Vance",
+    "source": "The Times",
+    "source_url": "https://www.thetimes.com",
+    "source_domain": "www.thetimes.com",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOEg2RnNYQS0zN1JVR3JUVm5QcHlGWWl2MmoxYWNUNl85UmJDeHZZSFRkWUZ6SElhbEVVeW92NERBODd0YUF4aWVlSTU2NFdzWVBOWUpHWHlVS0xGd2psdExMS2psSGNjSGJjVDluN0l3dmV4dXhVUzN2SEFEWkpfdE9ka21SLXN6YUpBek4ySV8xZ3E1dGVfcEduTll6UldteC1R?oc=5",
+    "published": "2026-09-02T18:09:20+00:00",
+    "published_display": "Sep 02, 2026",
+    "query": "JD Vance",
+    "image": "https://www.thetimes.com/imageserver/image/40e894cf-2eaa-4666-911c-15371618b692.jpg?strip=all&format=webp&crop=1431px%2C805px%2C0px%2C212px&resize=1200",
+    "real_url": "https://www.thetimes.com/us/american-politics/article/jd-vance-antichrist-may-walk-among-us-fct8kxt6j",
+    "bias": "C",
+    "topic": "Military",
+    "region": "Europe"
   },
   {
     "id": "d4281b252506",
@@ -157,6 +285,22 @@
     "real_url": "https://kyma.com/news/national-world/2026/09/02/cincinnati-man-convicted-of-vandalizing-vice-president-jd-vances-home/",
     "bias": "?",
     "topic": "Immigration",
+    "region": "US"
+  },
+  {
+    "id": "12d513383292",
+    "title": "Rep. Golden: Broke With Dems to Protect Lobstermen",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/jared-golden-house-lobster-protection-act/2026/09/02/id/1268178",
+    "published": "2026-09-02T17:02:10-04:00",
+    "published_display": "Sep 02, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/jared-golden-house-lobster-protection-act/2026/09/02/id/1268178",
+    "bias": "R",
+    "topic": "General",
     "region": "US"
   },
   {
@@ -256,6 +400,22 @@
     "region": "US"
   },
   {
+    "id": "2defc01f5572",
+    "title": "Wall Street Ends Higher, Stocks Reclaim Some Shine",
+    "source": "Newsmax",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.newsmax.com/newsfront/stocks-dell-brown-forman/2026/09/02/id/1268170",
+    "published": "2026-09-02T16:01:19-04:00",
+    "published_display": "Sep 02, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.newsmax.com/newsfront/stocks-dell-brown-forman/2026/09/02/id/1268170",
+    "bias": "R",
+    "topic": "Economy",
+    "region": "US"
+  },
+  {
     "id": "35ae8978f055",
     "title": "Lutnick: Anthropic is &quot;back on the right side&quot; with Trump administration",
     "source": "Axios",
@@ -285,6 +445,22 @@
     "real_url": "https://www.aol.com/articles/nikki-haley-demands-jd-vance-150300000.html",
     "bias": "C",
     "topic": "Foreign Policy",
+    "region": "US"
+  },
+  {
+    "id": "b72737680e00",
+    "title": "Ohio man pleads guilty to vandalizing JD Vance\u2019s house with a hammer",
+    "source": "614NOW",
+    "source_url": "https://614now.com",
+    "source_domain": "614now.com",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVUt0dmNQSGVxcHJBWjdaYk9GOThlVlRtcmxjeENwaTFxZzBxS2ViUEYySVpXcXo3RUYzTzY5dHNBM2lqRXJvNzNpRWdQWWtvZXc4NUpDcFIzQ1JpU2I5OTR2OXB0XzBJTkctVnNiZ0hsMUk2cENrY2N1MGpENHFVMmxGTzlNbHBoWGxTQmIwUi1TUy0xYURaa3dlV0ZZTkRhR3hOc0J0eW1uZDg?oc=5",
+    "published": "2026-09-02T15:09:44+00:00",
+    "published_display": "Sep 02, 2026",
+    "query": "JD Vance",
+    "image": "https://614now.com/wp-content/uploads/2026/09/Screenshot-2026-09-02-at-11.12.31-AM.png",
+    "real_url": "https://614now.com/2026/hot-topics/news/ohio-man-pleads-guilty-to-vandalizing-jd-vances-house-with-a-hammer",
+    "bias": "?",
+    "topic": "Domestic",
     "region": "US"
   },
   {
@@ -2352,6 +2528,22 @@
     "region": "US"
   },
   {
+    "id": "834e23316cfc",
+    "title": "El-Sayed Accuses Vance Of \u2018Hypocrisy\u2019 In Defending Usha Vance Digs",
+    "source": "Forbes",
+    "source_url": "https://www.forbes.com",
+    "source_domain": "www.forbes.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbXFFOTdMSkM5cGJPN0FENmxtcTMxdXBiQmRJcXh5d0RKTnNGcXc1NWtfUTVOejRsOFZjV0ljU1JxUmMtRlM4c28tUlViNF9KUTJPQ1FuYkpaVFduc1R6MXRKMFJYMHdmckNmT0ozLVRFWmxGT2ZNSXhZYndGVFFtc1V6VjRvaEVyV0wwYkliVXFCdFVBUW9peWpJbHE4aGh1MVk4NFctaVNfV0wzOFk3LWY3Z3VhSFl3U3FOUQ?oc=5",
+    "published": "2026-09-01T15:02:00+00:00",
+    "published_display": "Sep 01, 2026",
+    "query": "JD Vance",
+    "image": "",
+    "real_url": "https://www.forbes.com/sites/saradorn/2026/09/01/el-sayed-accuses-trump-and-vance-of-hypocrisy-in-feud-over-their-wives/",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "cbbf87883bf7",
     "title": "JD Vance Warns of \u2018Dark Spiritual\u2019 Forces After Encounters With World Leaders",
     "source": "Charisma Magazine Online",
@@ -2366,6 +2558,22 @@
     "bias": "?",
     "topic": "Military",
     "region": "US"
+  },
+  {
+    "id": "d6de3c85d8de",
+    "title": "Vance courts Jewish Republicans, but declines to clarify stance on Tucker Carlson",
+    "source": "The Times of Israel",
+    "source_url": "https://www.timesofisrael.com",
+    "source_domain": "www.timesofisrael.com",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPakwwWGVhemRiVXU0cm1pNmFqdGNhRmdpZ3JxU2RZWS1ra0RwWm5CUkF1Wm9NTU1aTEI5aF9uZ2RDUlF4Y0QtRWx2djF5bVpiY0NLUW0zOEZzYlB3bXhwbTR0U3NWZEUxQ29IM1BnQnItX1dOdm4tQkJQTGtkXzRHV2ZNbDh6N3pVVzdTTnB4UUpwQlZCQkh3blpQUm9HLThpc3FaMUpWc2UtdnNIQlVwRtIBtgFBVV95cUxPVTlrSVRtbTczOXlnZWpCS1BYanYzSGQxRGJvVlFhS3NGMC10dFM2dUJRVkRhTy1QR25wVFpwU21QSk8xTUFyRlJnWkxFNGVudGhpbmJZaXFCUkdlTFBMSkc2bmpfT195cHdsZUc2X1QyYTBTM3FTTV9WQXZHeWxMX3lqcFZKa2VOTGZJZ0RtUVVQWmJKaFo3QThKNWtUVlpYM281Z2dfM0N0djJ3czlYYVBrVUVPUQ?oc=5",
+    "published": "2026-09-01T14:49:00+00:00",
+    "published_display": "Sep 01, 2026",
+    "query": "Vance immigration",
+    "image": "https://static-cdn.toi-media.com/www/uploads/2026/09/AP26243685608250.jpg",
+    "real_url": "https://www.timesofisrael.com/vance-courts-jewish-republicans-but-declines-to-clarify-stance-on-tucker-carlson/",
+    "bias": "C",
+    "topic": "General",
+    "region": "Middle East"
   },
   {
     "id": "a5a049eb4fca",
@@ -3469,6 +3677,22 @@
     "real_url": "https://redstate.com/ben-smith/2026/09/01/jd-vance-eviscerates-abdul-el-sayed-the-guy-is-a-bit-of-a-joke-n2206327",
     "bias": "R",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "9f75159c1f5e",
+    "title": "Vance courts Jewish Republicans in closed-door Las Vegas speech as Israel tensions swirl",
+    "source": "JournalArta",
+    "source_url": "https://journalarta.com",
+    "source_domain": "journalarta.com",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeGVwLTVJSExGaHpjRklSNnBpMHdQU3lVaVU0R3Jhck1Hc2JyX2pjcUs2anhXQTJNVDhWVlFHU2FBcFFjRXotR1daOW0xSDdoNTlCVDE4SE13OUczNk1ZU2hBcVJNblc3ZGJXVlRjcDc4NlZ3OU83eFVHNkozZDdVWmlZVi1Lc0xrTExLN0ZzYXpKUHhHQ3ZsT2JuWHBvNHNPbFc0U0gteU9sWlVGRTRvd0liU3lnUFQ5cTA5UlM2c0xFU0FYTHc?oc=5",
+    "published": "2026-09-01T07:23:56+00:00",
+    "published_display": "Sep 01, 2026",
+    "query": "JD Vance speech",
+    "image": "https://journalarta.com/wp-content/uploads/2026/09/claw-1788247300-640x360.jpg",
+    "real_url": "https://journalarta.com/en/2026/09/01/vance-courts-jewish-republicans-in-closed-door-las-vegas-speech-as-israel-tensions-swirl/",
+    "bias": "?",
+    "topic": "Foreign Policy",
     "region": "US"
   },
   {
@@ -19965,6 +20189,22 @@
     "real_url": "https://english.nepalnews.com/s/international/economic-pressure-a-delicate-dance-against-iran-most-effective-tool-jd-vance/",
     "bias": "?",
     "topic": "Iran",
+    "region": "US"
+  },
+  {
+    "id": "f0f21a2b45f1",
+    "title": "Vance Campaigns at the Ohio Steel Plant Where His Grandfather Worked",
+    "source": "U.S. News & World Report",
+    "source_url": "https://www.usnews.com",
+    "source_domain": "www.usnews.com",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQlVRRUVTWmNMb002dmxhcGR3dEV6SWZpLVh1UlVsWDNnOGZxRzduaDJsUUdIeFByRlJRUTVFT1RZc2E2elllTF80VkpRQ2JlbWcyOEczaHVHeW9BSlZVNU90ZUN3bTNzQnd4NzVCZHFUU1hkcGJ3MmJkQ0NsUjJpQVpOQUdZSTRFYXdQUFNNOFJKd0h4ZTYzZkxjaFpqU2U4TlpEdk5MUXRxTTJDZjNvTE9GR1JhaW5Ca3hjM0ctczVHTV84LXVOOTd0SkFxeC1JemxHOHB0RnhJZw?oc=5",
+    "published": "2026-08-21T07:00:00+00:00",
+    "published_display": "Aug 21, 2026",
+    "query": "Vance Republican",
+    "image": "",
+    "real_url": "https://www.usnews.com/news/best-states/ohio/articles/2026-08-21/vance-will-campaign-at-the-ohio-steel-plant-where-his-grandfather-once-worked",
+    "bias": "?",
+    "topic": "2028 Race",
     "region": "US"
   },
   {
@@ -48619,6 +48859,22 @@
     "query": "JD Vance",
     "image": "",
     "real_url": "https://www.aei.org/commentary/why-vance-still-trumps-rubio/",
+    "bias": "?",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "246b1737204d",
+    "title": "Vance&#x27;s Evolving Role in Trump&#x27;s Presidency",
+    "source": "GV Wire",
+    "source_url": "https://gvwire.com",
+    "source_domain": "gvwire.com",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLcloyT1pDUTlxeVlrVHdIbkdrbDA5V1ZEcUxBUFdRdEs4XzVHSnFuUVAwQzVfU3JLa3BjNGV1WUlUZThzMURaM0d1eGtDSzRKVWF2UHlPQkt1ZjRNRUlSMHNyeXU4Q1A1cGlPSzl1ZDZoOE0?oc=5",
+    "published": "2026-07-25T07:00:00+00:00",
+    "published_display": "Jul 25, 2026",
+    "query": "Vance Republican",
+    "image": "",
+    "real_url": "https://gvwire.com/2026/07/25/why-vance-still-trumps-rubio-in-28/",
     "bias": "?",
     "topic": "General",
     "region": "US"
@@ -78139,6 +78395,22 @@
     "query": "JD Vance speech",
     "image": "https://ximage.c-spanvideo.org/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJoZWlnaHQiOjYzMCwid2lkdGgiOjEyMDB9fSwiYnVja2V0IjoicGljdHVyZXMuYy1zcGFudmlkZW8ub3JnIiwia2V5IjoiRmlsZXMvOTYzLzAyMC8xNzgzMTc4OTk5XzAyMC5qcGcifQ==",
     "real_url": "https://www.c-span.org/clip/america-250/user-clip-america-250-vp-jd-vance-speech-july-4-2026/5202266",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "60f11ddbc88c",
+    "title": "International Naval Review",
+    "source": "C-span.org",
+    "source_url": "https://www.c-span.org",
+    "source_domain": "www.c-span.org",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX2pnWDNJMXBrcmY4VXRqd2Q1Vmc0dFhaRWZVTTZfaWpqNlhEUUxKNjFpMmkwX3o4amhhVEF3dUQ0LWRZUVRydWhWNUZDWFhrMHB0b0ptR29GNGFqR1l6WDR5c3gxeXE1MHZKdzgxTzkyUW5TSFdWbjRoMTFYcGphWkh3?oc=5",
+    "published": "2026-07-04T07:00:00+00:00",
+    "published_display": "Jul 04, 2026",
+    "query": "JD Vance speech",
+    "image": "https://ximage.c-spanvideo.org/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJoZWlnaHQiOjYzMCwid2lkdGgiOjEyMDB9fSwiYnVja2V0IjoicGljdHVyZXMuYy1zcGFudmlkZW8ub3JnIiwia2V5IjoiRmlsZXMvNWU2LzAyMC8xNzgzMTc0Mjk1XzAyMC5qcGcifQ==",
+    "real_url": "https://www.c-span.org/program/america-250/international-naval-review/681132",
     "bias": "C",
     "topic": "General",
     "region": "US"
@@ -168192,6 +168464,22 @@
     "region": "US"
   },
   {
+    "id": "900bb593dfb2",
+    "title": "Vice President JD Vance touted the Trump Administration&#x27;s efforts to grow manufacturing in a speech on Monday in Kansas City, Missouri.",
+    "source": "KSHB 41 Kansas City",
+    "source_url": "https://www.kshb.com",
+    "source_domain": "www.kshb.com",
+    "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPZ2NScjNMdjJvS3A2RzlNZ2gxR0JZZm92bkwwbHZIellhaTd5SmlPR3BXbTMyOXpVSElMU2ZrRVVCMm9odUNVOFE0bE5RSDM5R2F0ZklLcmxHR0R1a09QM2Vma19tN2NrOG9fV2tOMHpCWHhOaTdNX0hnSkN5Qm5PdnZwOXJpNWNKQkV2ek8tVkk3YmpqOTd5RWI1dmR6U2hzYmkzTGFKSjFvR3lFUHhCTDdQbERrSHZySFVoMjBnRGt2cTJzcm1IX0lTVXhFVVhQU3VvRFZYWlE2cl95X3h2d2x4bWF2Z2lVSFZ6YUFfbVh5am9TRHZ2T01zeEtnejRaYlVReEpZNGZrVW5MYzZxY24yTDE0R3pXVkRDZE5scFZOMGc?oc=5",
+    "published": "2026-05-18T07:00:00+00:00",
+    "published_display": "May 18, 2026",
+    "query": "JD Vance speech",
+    "image": "https://ewscripps.brightspotcdn.com/dims4/default/76055e5/2147483647/strip/true/crop/1280x672+0+24/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcf.cdn.uplynk.com%2Fause1%2Fslices%2Fbd9%2Fe14174ecfc5d469285bc97a89e713431%2Fbd93a56fc4e44749bac0237f4f586c23%2Fposter_6f356316f7c5416ab580abc67faea92b.jpg",
+    "real_url": "https://www.kshb.com/videos/news/local-news/missouri/kansas-city/vice-president-jd-vance-touted-the-trump-administrations-efforts-to-grow-manufacturing-in-a-speech-on-monday-in-kansas-city-missouri",
+    "bias": "?",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "13ccd5300ef8",
     "title": "JD Vance warns blue state officials could face prison time over sweeping fraud crackdown",
     "source": "Sky News Australia",
@@ -244528,6 +244816,22 @@
     "region": "US"
   },
   {
+    "id": "f26f221b1e3d",
+    "title": "E&amp;E News: Why Hungary\u2019s energy policy is less MAGA than JD Vance might think",
+    "source": "POLITICO Pro",
+    "source_url": "https://subscriber.politicopro.com",
+    "source_domain": "subscriber.politicopro.com",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWlVOMzVIdm5DcGxLZElzVHdlWWw1cUZTaTc1b1N0NGJSSFNfXy13V1BoRGNGZnJEODdEb0RGUVIyUkNWSk8wTDV6elZhZXhhWTdHeEZVcFV4dTM3NlEtTVJaeEtLVHBoNFRPc2F1QmpTU3RtU1pwQWRZaFV6MHVBWnAyTlRrYmVwQjZnZ2hPZkI3aFY5TTNJeGFEYVVQZG0xTTkzY3NCdklFOHpOcFJySUJHNTNRZHpjdGZSVWxoelVkVE1vdXhaUVdZUncxd0tn?oc=5",
+    "published": "2026-04-08T07:00:00+00:00",
+    "published_display": "Apr 08, 2026",
+    "query": "Vance policy",
+    "image": "https://static.politico.com/c2/82/885917344ac7abf4060111a1ad48/https-delivery-gettyimages.com/downloads/2269617088",
+    "real_url": "https://subscriber.politicopro.com/article/eenews/2026/04/08/why-hungarys-energy-policy-is-less-maga-than-jd-vance-might-think-00861537",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "1aca9727309e",
     "title": "JD Vance faces awkward moment after calling Donald Trump at Hungarian rally",
     "source": "Yahoo News New Zealand",
@@ -318399,6 +318703,22 @@
     "region": "Europe"
   },
   {
+    "id": "bbc3edf62eb4",
+    "title": "JD Vance says US &#x27;headed to a shutdown&#x27; after meeting with Democrats",
+    "source": "RNZ",
+    "source_url": "https://www.rnz.co.nz",
+    "source_domain": "www.rnz.co.nz",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObktlMjVidHBVOE00V1pERTFqdmNqdWtsWWtWY3Raekg4T3J3ZFFtZWpsbF96RFFIOEZnd1F5T05qWGh2c1VrdDBPbDBpcmFfdTRERVMwdGltN09GejVrZE1hSFB3WW9DQlNYbjhmVDhuMDE4MnJHTU9lWmZwRVhILWJLMVV2YTgyeS1jYlc0cFJqZ1AyNDJpeU1TRTQxbElfcUJhSHdyRHlhQQ?oc=5",
+    "published": "2025-09-30T07:00:00+00:00",
+    "published_display": "Sep 30, 2025",
+    "query": "Vance Congress",
+    "image": "https://media.rnztools.nz/rnz/image/upload/s--5meawnH8--/t_tohu-badge-facebook/f_auto/q_auto/4K09FP5_AFP__20250929__77787HN__v1__HighRes__DeadlineForCongressToAdoptBudgetAndAvoidShutdow_jpg",
+    "real_url": "https://www.rnz.co.nz/news/world/574601/jd-vance-says-us-headed-to-a-shutdown-after-meeting-with-democrats",
+    "bias": "?",
+    "topic": "General",
+    "region": "Asia"
+  },
+  {
     "id": "24ef5de69bcb",
     "title": "Vice President Vance and Republican Leaders Brief Reporters After White House Meeting - C-SPAN",
     "source": "C-SPAN",
@@ -328633,6 +328953,22 @@
     "bias": "?",
     "topic": "Domestic",
     "region": "US"
+  },
+  {
+    "id": "7257b2c16ff7",
+    "title": "JD Vance&#x27;s remarks about &#x27;unhappy&#x27; wife Usha at Trump Congress address exposed by lip reader",
+    "source": "Irish Star",
+    "source_url": "https://www.irishstar.com",
+    "source_domain": "www.irishstar.com",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX2hFNGMtM3dJZ2Y5X0QwN2hnTTNnSnhsMTJGVW9yTEdaWWUxdEo4RTY2UkZHQ21KWURTZzVQZjNMOXdhY2FrNnRQMXd2eUw1WkY4UWhTNVpXLWVKSk9iNF8zdmNzaFVTc3dpZkczS2dDaEVhSHZpN0tZTzdkYnRob2hLUWt3U0Z4TEp2QkFWcnJFd9IBlwFBVV95cUxPVmkzRWtaSnI4LUtqZWF4SG9hQkZTWmQxLW92cll4Nkl6QmZSUFdiNG9qX1h1bjkzb3ZQLXVQMGd6UWo3QkF3bEZBcnQ4MHNNWTF5TDYyZTBJaFVoLWx5QzRSY3Y3ZVZBRkZyeTZhVzFBWE1HaEJnRm1uRXZjQlhGalhxa3RqT20zVFFtbTFCSTRyM1ZIaklz?oc=5",
+    "published": "2025-03-04T08:00:00+00:00",
+    "published_display": "Mar 04, 2025",
+    "query": "Vance Congress",
+    "image": "https://i2-prod.irishstar.com/article34797278.ece/ALTERNATES/s1200d/0_Star_EXC_Main-1.jpg",
+    "real_url": "https://www.irishstar.com/culture/entertainment/jd-vances-comments-unhappy-wife-34797220",
+    "bias": "?",
+    "topic": "Domestic",
+    "region": "Europe"
   },
   {
     "id": "400edfd07e57",
