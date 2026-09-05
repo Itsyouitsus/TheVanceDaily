@@ -1,5 +1,37 @@
 [
   {
+    "id": "822ae5511757",
+    "title": "Vance-Backed Rule Would Open Child Care Aid to Stay-at-Home Moms",
+    "source": "Yahoo",
+    "source_url": "https://www.yahoo.com",
+    "source_domain": "www.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOck0zX1gxOG5xaXJkaThUZWg5SmxaeXIzb2pwRlZIa1N4UHN2OHFqSVZLazV2c2w1bjZDTDZpdGZRM3dlaDFlUmVPelIyZDVzbHJwOFZicXptWF81dms0T3g0UXdoa1lnWlI3cFprbllJVGZ5N0NNTUpHNFlqTEVfOXY3VTl1V0E2dVBiS013RnR3dw?oc=5",
+    "published": "2026-09-05T22:37:52+00:00",
+    "published_display": "Sep 05, 2026",
+    "query": "JD Vance",
+    "image": "https://s.yimg.com/lo/mysterio/api/5ba86e2685582c93d353ae7bd73c28d4e90762c9926c62d5820db1163cdcc80f/lightyear_networkapi/resizefill_w600_h500%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnewsmax_809%2F8967a1785d7e7bb75d1aa5914b32993e.jpg",
+    "real_url": "https://www.yahoo.com/news/politics/articles/vance-backed-rule-open-child-223752379.html",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "8cc7058f95c3",
+    "title": "Scoop: Republican midterms convention speakers revealed",
+    "source": "Axios",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.axios.com/2026/09/05/republican-convention-dallas-trump-midterms",
+    "published": "2026-09-05T22:28:12+00:00",
+    "published_display": "Sep 05, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://www.axios.com/2026/09/05/republican-convention-dallas-trump-midterms",
+    "bias": "C",
+    "topic": "General",
+    "region": "US"
+  },
+  {
     "id": "2659e649cfb7",
     "title": "Sunday shows preview: Trump travels to Texas for RNC midterm convention; Administration downplays Iran war consequences",
     "source": "The Hill",
@@ -60,6 +92,22 @@
     "image": "https://static01.nyt.com/images/2026/09/04/05dc-childcare-10308/05dc-childcare-10308-facebookJumbo.jpg",
     "real_url": "https://www.nytimes.com/2026/09/05/us/politics/stay-at-home-parents-subsidies.html",
     "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "ce73b40090a3",
+    "title": "GOP sends tough message to lawmakers considering ditching Trump ahead of midterms",
+    "source": "New York Post",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://nypost.com/2026/09/05/us-news/gop-warns-rank-and-file-members-they-risk-alientating-their-base-if-they-campaign-without-president-trump/",
+    "published": "2026-09-05T17:05:09-04:00",
+    "published_display": "Sep 05, 2026",
+    "query": "direct_feed",
+    "image": "",
+    "real_url": "https://nypost.com/2026/09/05/us-news/gop-warns-rank-and-file-members-they-risk-alientating-their-base-if-they-campaign-without-president-trump/",
+    "bias": "LR",
     "topic": "General",
     "region": "US"
   },
@@ -301,6 +349,22 @@
     "real_url": "https://www.theblaze.com/columns/opinion/the-continuing-diversity-obsession",
     "bias": "R",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "40e4cf18a7b0",
+    "title": "Vance says US won\u2019t talk to Iran until shipping attacks stop",
+    "source": "Eciks.org",
+    "source_url": "https://eciks.org",
+    "source_domain": "eciks.org",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XUTczWDYzZ0pyZnBMWktCV3J2bktSMFBfVHc3M1VMSDU3ZUNZcmJQUWRDSkVGLWhNSURQVDRDVTFkb1JBQXk5aUxRb3I4RHBlcFZZWkZsRUtKanVILVNmQVdfYjR2clVB?oc=5",
+    "published": "2026-09-05T13:15:42+00:00",
+    "published_display": "Sep 05, 2026",
+    "query": "Vance economy",
+    "image": "https://eciks.org/wp-content/uploads/2026/09/vance-iran-talks-shipping-attacks-scaled.webp",
+    "real_url": "https://eciks.org/25217-vance-iran-talks-shipping-attacks",
+    "bias": "?",
+    "topic": "Iran",
     "region": "US"
   },
   {
