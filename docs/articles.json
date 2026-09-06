@@ -1,5 +1,37 @@
 [
   {
+    "id": "a962065b80ab",
+    "title": "Trump, Vance to speak at RNC Midterm Convention in Dallas",
+    "source": "CBS News",
+    "source_url": "https://www.cbsnews.com",
+    "source_domain": "www.cbsnews.com",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTlhvRWQzc0VhaGctazR1ZUt4T3A3emE2NVVrYzFqZWlqQTlsMnFsZndaVUh4Q1p3ZXdOYTVoamZPYTNyaXFjT1o1REh3M2JiRy1kYTVDSEZXUUtpdnk4eHJMcTgxRUZQMnhqcHJ4cUtNcU91NHNoWHJaMV81c3hRbmRjLTlEVDQ?oc=5",
+    "published": "2026-09-05T23:57:00+00:00",
+    "published_display": "Sep 05, 2026",
+    "query": "JD Vance",
+    "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/05/21c889e1-b6ff-4a9b-9974-4dcd83076912/thumbnail/1200x630/9b7133950088c2cfc93304293d6609d6/gettyimages-2288038531.jpg",
+    "real_url": "https://www.cbsnews.com/news/trump-vance-to-speak-rnc-midterm-convention-dallas/",
+    "bias": "LL",
+    "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "9330f8909562",
+    "title": "JD Vance says to not expect gas prices to drop soon",
+    "source": "CBS News",
+    "source_url": "https://www.cbsnews.com",
+    "source_domain": "www.cbsnews.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONTA1ZU9POGswWkw4cTVFRTNmOUFWT3czZnZUc0hsYTBFSlEyamg2ekFBN3lCNWZGRUdCUEJTSHpReEtmcUcxb0JrbG1LY2syLXdYR0tRQVJkZ3ZJc2lKcERibmRXSUw5T2x0VHVoaVNXczFTRjlGUGp4UktjUnpBTE5CYWg5U2FIYXAwNkJnVDQ3TzVxOTRoTUVUbw?oc=5",
+    "published": "2026-09-05T23:51:00+00:00",
+    "published_display": "Sep 05, 2026",
+    "query": "JD Vance",
+    "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/05/060f0854-c4fd-4060-96d6-4b305713b563/thumbnail/1200x630/90e233b86bc1b81c07394c4c1deb437e/00370c836a1368ea8c3f0404bceef080.jpg",
+    "real_url": "https://www.cbsnews.com/philadelphia/video/jd-vance-says-to-not-expect-gas-prices-to-drop-soon/",
+    "bias": "LL",
+    "topic": "Immigration",
+    "region": "US"
+  },
+  {
     "id": "822ae5511757",
     "title": "Vance-Backed Rule Would Open Child Care Aid to Stay-at-Home Moms",
     "source": "Yahoo",
@@ -29,6 +61,22 @@
     "real_url": "https://www.axios.com/2026/09/05/republican-convention-dallas-trump-midterms",
     "bias": "C",
     "topic": "General",
+    "region": "US"
+  },
+  {
+    "id": "00f274b03126",
+    "title": "Dem House Nominee Koh: &#x27;A Lot of People&#x27; &#x27;Miss&#x27; Biden&#x27;s Policies &#x27;Lowering Costs&#x27;",
+    "source": "Breitbart News",
+    "source_url": "",
+    "source_domain": "",
+    "link": "https://www.breitbart.com/clips/2026/09/05/dem-house-nominee-koh-a-lot-of-people-miss-bidens-policies-lowering-costs/",
+    "published": "2026-09-05T22:02:23+00:00",
+    "published_display": "Sep 05, 2026",
+    "query": "direct_feed",
+    "image": "https://media.breitbart.com/media/2024/07/bidenomics-joe-biden-wh-flickr-640x480-1-640x335.png",
+    "real_url": "https://www.breitbart.com/clips/2026/09/05/dem-house-nominee-koh-a-lot-of-people-miss-bidens-policies-lowering-costs/",
+    "bias": "R",
+    "topic": "Domestic",
     "region": "US"
   },
   {
