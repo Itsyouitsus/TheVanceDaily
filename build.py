@@ -2145,7 +2145,17 @@ def main():
     top_headlines = [a for a in all_articles if not a["source"].startswith("Vance on ")][:15]
     headline_list = "\n".join(f"- {a['title']} ({a['source']}, {BIAS_LABELS.get(a['bias'],'Unrated')})" for a in top_headlines)
 
+    # Generate the AI briefing only once per day; later builds reuse the cached text
+    briefing_cache = os.path.join(daily_dir, f".briefing_{today}.txt")
+    if os.path.exists(briefing_cache):
+        with open(briefing_cache, encoding="utf-8") as f:
+            briefing_text = f.read().strip()
+        if briefing_text:
+            print(f"  Reusing cached AI briefing for {today}")
+
     try:
+        if briefing_text:
+            raise RuntimeError("cached")
         import urllib.request, json as j2
         api_body = j2.dumps({
             "model": "claude-sonnet-4-20250514",
@@ -2176,7 +2186,11 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         resp = urllib.request.urlopen(req, timeout=30)
         result = j2.loads(resp.read())
         briefing_text = result["content"][0]["text"]
+        with open(briefing_cache, "w", encoding="utf-8") as f:
+            f.write(briefing_text)
         print("  Generated AI briefing")
+    except RuntimeError:
+        pass
     except Exception as e:
         print(f"  AI briefing failed ({e}), using template")
 
