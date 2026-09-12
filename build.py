@@ -1302,8 +1302,6 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
             </div>
             <div class="hdr-right">
                 <div class="cta-row">
-                    <input type="email" class="cta-email" placeholder="Get the daily Vance briefing" id="emailIn">
-                    <button class="cta-btn" id="emailBtn">Subscribe</button>
                     <a href="/daily/''' + (today or '') + '''.html" class="briefing-btn">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
                         Read today's briefing
@@ -1411,19 +1409,6 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     </div>
 </footer>
 
-<div class="modal-overlay" id="modal">
-    <div class="modal">
-        <button class="modal-close" id="modalClose">&times;</button>
-        <div class="modal-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
-        </div>
-        <h2>You're In.</h2>
-        <p>The daily Vance briefing is on its way.</p>
-        <p style="margin-top:0">Every morning, the top stories about JD Vance,<br>delivered straight to your inbox.</p>
-        <div class="email-show" id="modalEmail"></div>
-        <p class="modal-sub">Unsubscribe anytime. No spam, ever.</p>
-    </div>
-</div>
 
 <div class="smodal-overlay" id="suggestModal">
     <div class="smodal">
@@ -1520,30 +1505,6 @@ def generate_html(articles, build_time, social_posts=None, today=None, daily_dat
     </div>
 </div>
 
-<div class="smodal-overlay" id="subModal">
-    <div class="smodal">
-        <button class="smodal-close" id="subClose">&times;</button>
-        <div class="smodal-icon" style="background:linear-gradient(135deg,#E81B23,#ff3340)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:26px;height:26px;color:#fff"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
-        </div>
-        <h2>Get The Vance Daily</h2>
-        <p class="smodal-sub">Every morning, the top JD Vance stories delivered to your inbox. No spam.</p>
-        <div id="subForm" class="smodal-form">
-            <div class="smodal-field">
-                <label>Your Email</label>
-                <input type="email" id="subEmail" placeholder="your@email.com">
-            </div>
-            <button class="smodal-submit" id="subSubmit">Subscribe</button>
-        </div>
-        <div id="subThanks" class="smodal-thanks">
-            <div style="width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#2a9d5c,#34c06e);display:flex;align-items:center;justify-content:center;margin:1rem auto">
-                <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" style="width:28px;height:28px"><path d="M20 6L9 17l-5-5"/></svg>
-            </div>
-            <h2 style="margin-top:.5rem">You're In!</h2>
-            <p style="font-size:.85rem;color:#6b6560;margin-top:.4rem">The Vance Daily is on its way to your inbox.</p>
-        </div>
-    </div>
-</div>
 
 <div class="smodal-overlay" id="contactModal">
     <div class="smodal">
@@ -1712,63 +1673,6 @@ function imgFail(img){
     let selectedRegion='';
     regionDDList.addEventListener('click',(e)=>{const item=e.target.closest('.custom-dd-item');if(!item)return;const val=item.dataset.val;selectedRegion=val;activeRegion=val||'all';regionDDBtn.textContent=val||'All Source Areas';regionDDList.querySelectorAll('.custom-dd-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');closeAllDD();filter()});
 
-    // Newsletter modal
-    const modal=document.getElementById('modal');
-    const modalEmail=document.getElementById('modalEmail');
-    document.getElementById('modalClose').addEventListener('click',()=>modal.classList.remove('show'));
-    modal.addEventListener('click',(e)=>{if(e.target===modal)modal.classList.remove('show')});
-
-    document.getElementById('emailBtn').addEventListener('click',()=>{
-        const emailIn=document.getElementById('emailIn');
-        // On mobile the email input is hidden, show subscribe modal instead
-        if(window.getComputedStyle(emailIn).display==='none'){
-            document.getElementById('subModal').classList.add('show');
-            return;
-        }
-        const e=emailIn.value.trim();
-        if(e&&e.includes('@')&&e.includes('.')){
-            const form=new FormData();
-            form.append('email',e);
-            fetch('https://buttondown.com/api/emails/embed-subscribe/thevancedaily',{
-                method:'POST',
-                body:form
-            }).then(r=>{
-                modalEmail.textContent=e;
-                modal.classList.add('show');
-                emailIn.value='';
-                gtag('event','newsletter_subscribe',{method:'header'});
-            }).catch(()=>{
-                modalEmail.textContent=e;
-                modal.classList.add('show');
-                emailIn.value='';
-            });
-        }
-    });
-
-    // Mobile subscribe modal
-    const subModal=document.getElementById('subModal');
-    document.getElementById('subClose').addEventListener('click',()=>subModal.classList.remove('show'));
-    subModal.addEventListener('click',(e)=>{if(e.target===subModal)subModal.classList.remove('show')});
-    document.getElementById('subSubmit').addEventListener('click',()=>{
-        const email=document.getElementById('subEmail').value.trim();
-        if(!email||!email.includes('@')){document.getElementById('subEmail').focus();return}
-        const form=new FormData();
-        form.append('email',email);
-        fetch('https://buttondown.com/api/emails/embed-subscribe/thevancedaily',{
-            method:'POST',body:form
-        }).then(()=>{}).catch(()=>{});
-        document.getElementById('subForm').classList.add('hide');
-        document.getElementById('subThanks').classList.add('show');
-        gtag('event','newsletter_subscribe',{method:'mobile_modal'});
-        setTimeout(()=>{
-            subModal.classList.remove('show');
-            setTimeout(()=>{
-                document.getElementById('subForm').classList.remove('hide');
-                document.getElementById('subThanks').classList.remove('show');
-                document.getElementById('subEmail').value='';
-            },300);
-        },2500);
-    });
 
     // Contact modal
     const contactModal=document.getElementById('contactModal');
@@ -2379,15 +2283,6 @@ Keep it under 250 words. Write in a clean, professional tone. Do not use em dash
         {briefing_html_body}
     </div>
 
-    <div class="subscribe-box">
-        <h3>Get The Vance Daily in your inbox</h3>
-        <p>Every morning. The stories that matter. No spam.</p>
-        <div class="cta-row">
-            <input type="email" placeholder="your@email.com" id="dailyEmail">
-            <button onclick="var e=document.getElementById('dailyEmail').value;if(e&&e.includes('@')){{var f=new FormData();f.append('email',e);fetch('https://buttondown.com/api/emails/embed-subscribe/thevancedaily',{{method:'POST',body:f}}).then(function(){{alert('Subscribed! The Vance Daily is on its way.');document.getElementById('dailyEmail').value=''}}).catch(function(){{alert('Subscribed! The Vance Daily is on its way.');document.getElementById('dailyEmail').value=''}})}}">Subscribe</button>
-        </div>
-    </div>
-
     <div class="stories-section">
         <h2>Today's Headlines</h2>
         {top_story_links}
@@ -2512,7 +2407,7 @@ Sitemap: https://thevancedaily.com/sitemap.xml
 
     # 14. Send daily briefing email via Buttondown (only once per day, at ~12:00 UTC)
     current_hour = datetime.now(timezone.utc).hour
-    buttondown_key = os.environ.get("BUTTONDOWN_API_KEY", "")
+    buttondown_key = ""  # Newsletter disabled (Sept 2026): no daily emails are sent
     sent_flag = os.path.join(OUTPUT_DIR, f".sent_{today}")
     if buttondown_key and briefing_text and current_hour >= 12 and not os.path.exists(sent_flag):
         try:
